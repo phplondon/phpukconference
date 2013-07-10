@@ -16,8 +16,7 @@ $(document).ready(function(){
 
 //Countdown settings
 $(function () {
-	var confDay = new Date();
-	confDay = new Date(confDay.getFullYear(), 2 - 1, 22, 9);
+	var confDay = new Date("February 21 2014 09:00:00");
 	$('#year').text(confDay.getFullYear());
 	$('#noSeconds').countdown({until: confDay, format: 'dHM' });
 });
