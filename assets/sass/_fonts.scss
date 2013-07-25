@@ -33,20 +33,31 @@
 
 
 h1{
-    font-family:"SteelfishRgItalic";
-    font-size:3em;
+    font-family:"SteelfishRgRegular";
+    font-size:3.8em;
+    line-height:1.4em;
     color: #da9e26;
     }
 
 h2{
-    font-family:"SteelfishRgItalic";
-    color:#da9e26;
+    font-family:"SteelfishRgRegular";
+    font-size:2.6em;
+    line-height:1.4em;
+    color:#4A91A3;
     }
 
 p{
     color:#373737;
     font:300 1.5em/1.625 "Helvetica Neue",Helvetica,Arial,sans-serif;
     padding-bottom:20px;
+
+    a{
+        border-bottom:1px dotted;
+    }
+}
+
+a{
+    text-decoration:none;
 }
 
 #main{
@@ -60,7 +71,6 @@ p{
 
     a{
         color:#60B5C9;
-        text-decoration:none;
 
         &:hover{
             color:#2492a2;

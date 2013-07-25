@@ -40,38 +40,42 @@ layout: default
 </div>
 
 <div id="main">
+    <div class="row">
+        <div class="twelvecol">
+            <h1>THE PHP UK CONFERENCE</h1>
+            <p>PHP London are pleased to announce our 9th Annual PHP UK
+            conference. It will be two days crammed with great talks and amazing
+            socials.</p>
+        </div>
+    </div>
 
-<div class="row">
-<div class="twelvecol">
-<h1>THE PHP UK CONFERENCE</h1>
-<p>PHP London are pleased to announce our 9th Annual PHP UK
-conference. It will be two days crammed with great talks and amazing
-socials. </p>
-</div>
-</div>
-<div class="row">
-    <div class="fourcol">
-        <h1>CONFERENCE</h1>
-        <p>This year's conference is the most exciting PHP UK ever! With a fantastic schedule with great speakers from all around the world, you won't want to miss it!</p>
+    <div class="row">
+        <div class="fourcol">
+            <h2>CONFERENCE</h2>
+            <p>This year's conference is the most exciting PHP UK ever! With a fantastic schedule with great speakers from all around the world, you won't want to miss it!</p>
+        </div>
+        <div class="fourcol">
+            <h2>CALL FOR PAPERS</h2>
+            <p>We want to hear from you! All our talks are selected from papers submitted by community speakers. Let us know what's the latest and greatest happenings in the PHP world. <a href="/speakers">More info</a></p>
+        </div>
+        <div class="fourcol last">
+            <h2>REGISTRATION</h2>
+            <p>Blind Bird: Sept 2nd-Nov 7th at £190 + VAT<br>
+            Early Bird: Nov 7th-Jan 10th at £250 + VAT<br>
+            Standard: Jan 10th onwards at £300 + VAT</p>
+        </div>
     </div>
-    <div class="fourcol">
-        <h1>CALL FOR PAPERS</h1>
-        <p>We want to hear from you! All our talks are selected from papers submitted by community speakers. Let us know what's the latest and greatest happenings in the PHP world. <a href="/speakers">More info</a></p>
+
+    <div class="row">
+        <div class="twelvecol">
+        <h2>2013 CONFERENCE</h2>
+        <p>PHP UK Conference 2013 was a great success! With over 700 attendees across 2 days, its been our biggest event yet. A huge thanks to all our delegates for attending and leaving feedback, thanks to all our speakers for delivering non-stop fantastic talks, and thanks to all our sponsors who made the event possible.</p>
+        <p><a href="/2013">View Last Year's Site</a></p>
+        <p><a href="http://youtube.com/phpukconference">View Videos From Previous Conferences</a></p>
+        {% for sponsor in page.sponsors %}
+            {% include sponsors.html %}
+        {% endfor %}
     </div>
-    <div class="fourcol last">
-        <h1>REGISTRATION</h1>
-        <p>Blind Bird: Sept 2nd-Nov 7th at £190 + VAT<br>
-        Early Bird: Nov 7th-Jan 10th at £250 + VAT<br>
-        Standard: Jan 10th onwards at £300 + VAT</p>
-    </div>
-</div>
-<div id="sponsor-logos-bar"></div>
-<h1>2013 CONFERENCE</h1>
-<p>PHP UK Conference 2013 was a great success! With over 700 attendees across 2 days, its been our biggest event yet. A huge thanks to all our delegates for attending and leaving feedback, thanks to all our speakers for delivering non-stop fantastic talks, and thanks to all our sponsors who made the event possible.</p>
-<p><a href="/2013">View Last Year's Site</a></p>
-<p><a href="http://youtube.com/phpukconference">View Videos From Previous Conferences</a></p>
-{% for sponsor in page.sponsors %}
-    {% include sponsors.html %}
-{% endfor %}
 </div><!-- main-->
-<div class="push"></div>
+
+<div id="sponsor-logos-bar"></div>
