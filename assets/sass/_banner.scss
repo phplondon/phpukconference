@@ -1,0 +1,54 @@
+#header-text {
+	text-align: center;
+	position:relative;
+	padding-top: 5.5%;
+}
+.big-title-text {	
+	font-family: "SteelfishRgRegular";
+	font-size: 600%;
+	color: #fff;
+}
+.small-title-text {	
+	font-family: "SteelfishRgRegular";
+	font-size: 250%;
+	color: #fff;
+}
+#header-sub-text{
+	padding-top: 0.5%;
+	text-align: center;
+	position:relative;
+	}
+.sub-title-text{
+	font-family: "SteelfishRgRegular";
+	font-size: 250%;
+	color: #da9e26;
+	padding-right: 3px;
+	}
+#header-circle-wrapper {
+	}
+#header-circles {
+	position:relative;
+	z-index: 103;
+	text-align: center;
+	width: 100%;
+	}
+img.circle {
+	padding: 7% 3%;
+	width: 14%;
+	}
+
+#bar-below-header {
+	height: 60px;
+	background-color:black;
+	margin-top: -60px;
+	max-width: 1920px;
+}
+#content-bar-below-header {
+	font-family: "SteelfishRgRegular";
+	height: 60px;
+	margin-top: -60px;
+	position:relative;
+	width: 60%;
+	overflow:visible;
+	max-width: 920px;
+}
