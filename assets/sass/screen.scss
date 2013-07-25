@@ -1,0 +1,26 @@
+@import "compass/reset";
+@import "compass/css3";
+@import "variables";
+@import "fonts";
+@import "header";
+
+* {
+    @include box-sizing(border-box);
+}
+
+body{
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size:10px;
+}
+
+.wrapper{
+    position:relative;
+    margin:0 auto;
+    padding:0 20px;
+    max-width:1140px;
+}
+
+#homeBanner{
+    height:709px;
+    background:#000 url('assets/images/HeaderBackground.jpg') center top no-repeat;
+}

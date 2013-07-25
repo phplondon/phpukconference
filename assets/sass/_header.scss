@@ -1,0 +1,50 @@
+nav{
+    height:$nav-height;
+    background:#25272C;
+}
+
+.menu{
+    display:inline-block;
+    width:50%;
+    margin:0 -2px 0 0;
+    padding:0 100px 0 0;
+    list-style:none;
+
+    li{
+        padding:0 60px 0 0;
+        display:inline-block;
+
+        a{
+            font-size:3em;
+            font-family:"SteelfishRgRegular";
+            line-height:$nav-height;
+            color:#fff;
+            text-decoration:none;
+            @include transition(text-shadow 0.9s 0 ease-in-out);
+
+            &:hover{
+                @include text-shadow(0 0 6px rgba(245,205,134,1));
+            }
+        }
+    }
+}
+
+.menuLeft{
+
+}
+
+.menuRight{
+    padding:0 0 0 100px;
+    text-align:right;
+
+    li{
+        padding:0 0 0 60px;
+    }
+}
+
+#logo{
+    position:absolute;
+    top:0;
+    left:50%;
+    margin:0 0 0 -80px;
+}
