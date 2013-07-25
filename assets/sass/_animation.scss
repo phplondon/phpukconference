@@ -1,0 +1,30 @@
+@-webkit-keyframes wiggle{
+  0%   { -webkit-transform: rotate(-10deg); }
+  10%  { -webkit-transform: rotate(0deg); }
+  20%  { -webkit-transform: rotate(-10deg); }
+  30%  { -webkit-transform: rotate(0deg); }
+  40%  { -webkit-transform: rotate(-10deg); }
+  50%  { -webkit-transform: rotate(0deg); }
+  60%  { -webkit-transform: rotate(-10deg); }
+  70%  { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(0deg); }
+}
+@-moz-keyframes wiggle{
+  0%   { -moz-transform: rotate(-10deg); }
+  100% { -moz-transform: rotate(-10deg); }
+}
+@-o-keyframes wiggle{
+  0%   { -o-transform: rotate(-10deg); }
+  100% { -o-transform: rotate(-10deg); }
+}
+@keyframes wiggle{
+  0%   { transform: rotate(-10deg); }
+  1%  { transform: rotate(2deg); }
+  2%  { transform: rotate(-10deg); }
+  3%  { transform: rotate(2deg); }
+  4%  { transform: rotate(-10deg); }
+  5%  { transform: rotate(2deg); }
+  6%  { transform: rotate(-10deg); }
+  7%  { transform: rotate(0deg); }
+  100% { transform: rotate(0deg); }
+}
