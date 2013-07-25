@@ -8,6 +8,7 @@
 @import "schedule";
 @import "speakers";
 @import "profiles";
+@import "animation";
 
 * {
     @include box-sizing(border-box);
@@ -18,23 +19,17 @@ body{
 	font-size:10px;
 }
 
-.wrapper{
+.row{
     position:relative;
-    margin:0 auto;
     padding:0 20px;
-    max-width:1140px;
-}
-
-#homeBanner{
-    height:709px;
-    background:#000 url('assets/images/HeaderBackground.jpg') center top no-repeat;
+    overflow:visible;
 }
 
 #main{
 	padding:60px 0 0 0;
 
 	.row{
-		padding:0 0 30px 0;
+		padding:0 20px 30px 20px;
 	}
 }
 
@@ -43,4 +38,16 @@ body{
 	margin: auto;
 	text-align: center;	
 	padding-bottom: 20px;
+}
+
+.row:before,
+.row:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+.row:after {
+    clear: both;
+}
+.row {
+    *zoom: 1;
 }
