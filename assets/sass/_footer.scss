@@ -1,15 +1,26 @@
 #footer{
 	min-height:171px;
+	padding:20px 0;
 	background:#25272c;
 	border-top:20px solid #000;
+
+	h3{
+		margin:0 0 10px 0; 
 	}
 
-#footer-content a {
-	color: #fff;
+	p{
+		color:#ddd;
 	}
-#footer-content	a:hover {
-	color:  #2492a2;
+
+	a{
+		color: #fff;
+
+		&:hover{
+			color:#2492a2;
+		}
 	}
+}
+
 
 #contact-info{
 	font-style: "BebasNeueRegular";
@@ -36,18 +47,6 @@ img.octocat {
 	width:15%;
 }
 
-#brewery-image {
-	width:90%;
-	margin: auto;
-}
-img.brewery-image {
-	width:100%;
-}
-#brewery-map {
-	width:50%;
-	margin:auto;
-	padding-top: 50px;
-}
 #FourOhFour {
 	font-family: "SteelfishRgRegular";
 	font-size: 200%;
