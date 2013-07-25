@@ -58,16 +58,32 @@ layout: default
         </div>
     </div>
 
+    <div class="row hr">&nbsp;</div>
+
     <div class="row">
-        <div class="twelvecol">
         <h2>2013 CONFERENCE</h2>
         <p>PHP UK Conference 2013 was a great success! With over 700 attendees across 2 days, its been our biggest event yet. A huge thanks to all our delegates for attending and leaving feedback, thanks to all our speakers for delivering non-stop fantastic talks, and thanks to all our sponsors who made the event possible.</p>
         <p><a href="/2013">View Last Year's Site</a></p>
         <p><a href="http://youtube.com/phpukconference">View Videos From Previous Conferences</a></p>
-        {% for sponsor in page.sponsors %}
-            {% include sponsors.html %}
-        {% endfor %}
+    </div>
+    <div class="row">
+        <div class="threecol">
+            <iframe width="100%" height="" src="http://www.youtube.com/embed/OMw1-dHxsTE?feature=player_profilepage" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="threecol">
+            <iframe width="100%" height="" src="http://www.youtube.com/embed/yuqp5lNPG8w?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="threecol">
+            <iframe width="100%" height="" src="http://www.youtube.com/embed/hHwNEuTu6rQ?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="threecol last">
+            <iframe width="100%" height="" src="http://www.youtube.com/embed/wn-Rq9srawA?feature=player_detailpage" frameborder="0" allowfullscreen></iframe>
+        </div>
     </div>
 </div><!-- main-->
 
-<div id="sponsor-logos-bar"></div>
+<div id="sponsor-logos-bar">
+    {% for sponsor in page.sponsors %}
+        {% include sponsors.html %}
+    {% endfor %}
+</div>

@@ -27,6 +27,7 @@ body{
 
 #main{
 	padding:60px 0 0 0;
+	min-height:400px;
 
 	.row{
 		padding:0 20px 30px 20px;
@@ -34,10 +35,33 @@ body{
 }
 
 #submit-abstract {
-	font-size: 140%;
-	margin: auto;
-	text-align: center;	
-	padding-bottom: 20px;
+	display:none;
+	font-size:140%;
+	margin:auto;
+	text-align:center;	
+	padding-bottom:20px;
+}
+
+.hr{
+	clear:both;
+	margin:20px auto 40px auto;
+	height:1px;
+	line-height:1px;
+	font-size:1px;
+	padding:0 !important;
+	@include background-image(linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 15%, rgba(0,0,0,0.1) 85%, rgba(0,0,0,0) 100%));
+
+	&:after{
+		display:block;
+		position:absolute;
+		left:50%;
+		top:-10px;
+		margin:0 0 0 -20px;
+		width:40px;
+		height:28px;
+		content:" ";
+		background-image:url(/assets/images/icon-elephant.png);
+	}
 }
 
 .row:before,
