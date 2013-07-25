@@ -9,10 +9,9 @@
         <meta charset="utf-8">
         <meta name="viewport"
         content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/assets/css/resets.css">
-        <link rel="stylesheet" href="/assets/css/1140.css">
-        <link rel="stylesheet" href="/assets/css/style.css?version=18">
-        <link rel="stylesheet" href="/assets/css/media-styles.css?version=11">
+        <link rel="stylesheet" href="/assets/stylesheets/1140.css">
+        <link rel="stylesheet" href="/assets/stylesheets/screen.css?version=19">
+        <!-- <link rel="stylesheet" href="/assets/css/media-styles.css?version=11"> -->
         <script src="/assets/js/jquery-1.8.0.min.js"></script>
         <script src="/assets/js/css3-mediaqueries.js"></script>
         <script src="/assets/js/php-conference-functions.js?version=2"></script>
@@ -31,100 +30,54 @@
         </script>
     </head>
     <body>
-
-        <!--[if lt IE 8]>
-        <p class="chromeframe">You are using an outdated browser. <a href="http://browsehappy.com/">Upgrade your browser today</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to better experience this site.</p>
-        <![endif]-->
-
-
-        <div id="page">
-            <div id="header">
-                <img class="header-image" src="/assets/images/HeaderBackground.jpg" alt="" />
-                <div id="access" class="row">
-                    <div id="left-menu">
-                        <ul>
-                            <li><a href="/about">ABOUT</a></li>
-                            <li><a href="/speakers">SPEAKERS</a></li>
-                            <li><a href="/schedule">SCHEDULE</a></li>
-                        </ul>
-                    </div>
-                    <div id="right-menu">
-                        <ul>
-                            <li><a href="/sponsors">SPONSORS</a></li>
-                            <li><a href="/socials">SOCIALS</a></li>
-                            <li><a href="/venue">VENUE</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div id="header-logo">
+        <nav id="access">
+            <div class="wrapper">
+                <ul class="menu menuLeft">
+                    <li><a href="/about">ABOUT</a></li>
+                    <li><a href="/speakers">SPEAKERS</a></li>
+                    <li><a href="/schedule">SCHEDULE</a></li>
+                </ul>
+                <ul class="menu menuRight">
+                    <li><a href="/sponsors">SPONSORS</a></li>
+                    <li><a href="/socials">SOCIALS</a></li>
+                    <li><a href="/venue">VENUE</a></li>
+                </ul>
+                <div id="logo">
                     <a href="/"><img class="header-logo" src="/assets/images/HeaderHead.png" alt="" /></a>
                 </div>
-                <div id="header-text">
-                    <span class="small-title-text">F&nbsp;E&nbsp;B&nbsp;R&nbsp;U&nbsp;A&nbsp;R&nbsp;Y&nbsp;&nbsp;&nbsp;21&nbsp;-&nbsp;22&nbsp;&nbsp;&nbsp;2014&nbsp;&nbsp;&nbsp;&#8212;&nbsp;&nbsp;&nbsp;</span>
-                    <a  href="/"><span class="big-title-text">PHP UK</span></a> 
-                    <span class="small-title-text">&nbsp;&#8212;&nbsp;&nbsp;T&nbsp;H&nbsp;E&nbsp;&nbsp;B&nbsp;R&nbsp;E&nbsp;W&nbsp;E&nbsp;R&nbsp;Y,&nbsp;&nbsp;L&nbsp;O&nbsp;N&nbsp;D&nbsp;O&nbsp;N</span>
-                </div>
-                <div id="header-sub-text">
-                    <span class="sub-title-text">CONFERENCE 2014 </span>
-                </div>
-                <div id="header-circle-wrapper" class="row">
-                    <div id="header-circles" class="twelvecol">
-                        <img class="circle" src="/assets/images/Round1.png" alt="" /> 
-                        <img class="circle" src="/assets/images/Round2.png" alt="" /> 
-                        <img class="circle" src="/assets/images/Round3.png" alt="" /> 
-                        <img class="circle" src="/assets/images/Round4.png" alt="" />
-                    </div>
-                </div>
             </div>
-            <div id="bar-below-header" class="transparent"></div>
-            <div id="content-bar-below-header" class="row">
+        </nav>
+        {{content}}
+        <div id="footer" class="footer">
+            <div id= footer-content class= row>
                 <div class="eightcol">
-                    <div class="row">
-                        <div id="noSeconds" class="sixcol"></div>
-                        <div id="countdown_descr"  class="sixcol last">
-                            UNTIL THE PHP UK CONFERENCE
+                    <div id="social-media"> 
+                        <h3> We'd love to hear from you </h3>
+                        <div class="row">
+                            <div class="fourcol">
+                                <p>Follow us on twitter</p>
+                                <p><a href="https://twitter.com/PHPUKConference" target="_blank">@PHPUKConference</a></p>
+                                <p>Like us on Facebook</p>
+                                <p><a href="https://www.facebook.com/ukconference" target="_blank">facebook.com/ukconference</a></p>
+                            </div>
+                            <div class="fourcol">
+                                <p>Email us</p>
+                                <p><a href="mailto:contact@phpconference.co.uk" target="_blank">contact@phpconference.co.uk</a> </p>
+                            </div>
+                            <div class="fourcol last">
+                                <p>Help us make this site better</p>
+                                <p><a href="https://github.com/PHPLondon/PHP-UK-Conference/issues" target="_blank">Raise an issue at Github</a></p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="fourcol last">
-                    <a href="http://phpukconference.eventbrite.com/"><img class="ticket-image alignright" src="/assets/images/Ticket.png" alt="Buy Tickets Now" /></a>
-                </div>
-            </div>
-            <div id="mobile-content-bar-below-header" class="row">
-                <a href="http://phpukconference.eventbrite.com/"><img class="ticket-image" src="/assets/images/Ticket.png" alt="Buy Tickets Now" /></a>
-            </div>
-            {{content}}
-            <div id="footer" class="footer">
-                <div id= footer-content class= row>
-                    <div class="eightcol">
-                        <div id="social-media"> 
-                            <h3> We'd love to hear from you </h3>
-                            <div class="row">
-                                <div class="fourcol">
-                                    <p>Follow us on twitter</p>
-                                    <p><a href="https://twitter.com/PHPUKConference" target="_blank">@PHPUKConference</a></p>
-                                    <p>Like us on Facebook</p>
-                                    <p><a href="https://www.facebook.com/ukconference" target="_blank">facebook.com/ukconference</a></p>
-                                </div>
-                                <div class="fourcol">
-                                    <p>Email us</p>
-                                    <p><a href="mailto:contact@phpconference.co.uk" target="_blank">contact@phpconference.co.uk</a> </p>
-                                </div>
-                                <div class="fourcol last">
-                                    <p>Help us make this site better</p>
-                                    <p><a href="https://github.com/PHPLondon/PHP-UK-Conference/issues" target="_blank">Raise an issue at Github</a></p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="fourcol last">
-                        <div id="contact-info">
-                            <p>Powered by <a href="http://phplondon.org" target="_blank">PHP LONDON</a></p>
-                            <p>PHP London Limited</p>
-                            <p>324/326 Regent Street</p>
-                            <p>London. W1B3HH</p>
-                            <p>Company number: 06770521</p>
-                        </div>
+                    <div id="contact-info">
+                        <p>Powered by <a href="http://phplondon.org" target="_blank">PHP LONDON</a></p>
+                        <p>PHP London Limited</p>
+                        <p>324/326 Regent Street</p>
+                        <p>London. W1B3HH</p>
+                        <p>Company number: 06770521</p>
                     </div>
                 </div>
             </div>
