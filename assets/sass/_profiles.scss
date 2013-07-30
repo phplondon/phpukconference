@@ -1,8 +1,21 @@
 #profiles{
 	margin:15px 0 0 0;
 
+	.profile{
+		@include respond(small){
+			clear:left !important;
+			width:100%;
+			border-bottom:2px solid #60B5C9;
+			padding-top:10px;
+		}
+	}
+
 	img{
 		float:left;
 		margin:7px 15px 8px 0;
 	}
+}
+
+#profiles .profile:first-child{
+	border-top:2px solid #60B5C9;
 }

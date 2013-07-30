@@ -1,6 +1,7 @@
 @import "compass/reset";
 @import "compass/css3";
 @import "variables";
+@import "respond";
 @import "fonts";
 @import "header";
 @import "banner";
@@ -31,6 +32,13 @@ body{
 
 	.row{
 		padding:0 20px 30px 20px;
+
+		.threecol{
+			@include respond(small){
+				clear:left !important;
+				width:auto;
+			}
+		}
 	}
 }
 
@@ -63,6 +71,26 @@ body{
 		background-image:url(/assets/images/icon-elephant.png);
 	}
 }
+
+.googleMap,
+small{
+	@include respond(small){
+		display:none;
+	}
+}
+
+.fourcol{
+	@include respond(small){
+		clear:left !important;
+		width:100% !important; 
+	}
+}
+
+.row .eightcol{
+	width:100% !important;
+	margin:0;
+}
+
 
 .row:before,
 .row:after {

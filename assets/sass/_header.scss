@@ -13,6 +13,9 @@ nav{
     li{
         padding:0 60px 0 0;
         display:inline-block;
+        @include respond(medium){
+            padding-right:20px;
+        }
 
         a{
             font-size:3em;
@@ -21,6 +24,9 @@ nav{
             color:#fff;
             text-decoration:none;
             @include transition(text-shadow 0.9s 0 ease-in-out);
+            @include respond(medium){
+                font-size:2em;
+            }
 
             &:hover{
                 @include text-shadow(0 0 6px rgba(245,205,134,1));
@@ -39,13 +45,56 @@ nav{
 
     li{
         padding:0 0 0 60px;
+        @include respond(medium){
+            padding-left:20px;
+        }
     }
 }
 
 #logo{
     position:absolute;
-    top:0;
+    top:60px;
     left:50%;
     margin:0 0 0 -80px;
-    z-index:100;
+    z-index:101;
+}
+
+.mobMenu{
+    display:none;
+    @include respond(medium){
+        display:block;
+        z-index:100;
+        background-color:#25272C;
+
+        .mobile{
+            display:block;
+            cursor:pointer;
+
+            a{
+                height:60px;
+                line-height:60px;
+                font-size:1.4em;
+                color:#4A91A3;
+            }
+
+            ul{
+                display:none;
+                z-index:103;
+            }
+        }
+    }
+}
+
+.mobMenu .mobile:hover > ul{
+    display:block;
+    z-index:1000;
+    position:relative;
+}
+
+
+.noMobile{
+    display:inline-block;
+    @include respond(medium){
+        display:none;
+    }
 }
