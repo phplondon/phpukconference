@@ -36,7 +36,7 @@ body{
 		.threecol{
 			@include respond(small){
 				clear:left !important;
-				width:auto;
+				width:100%;
 			}
 		}
 	}
@@ -87,8 +87,10 @@ small{
 }
 
 .row .eightcol{
-	width:100% !important;
-	margin:0;
+	@include respond(small){
+		width:100% !important;
+		margin:0;
+	}
 }
 
 

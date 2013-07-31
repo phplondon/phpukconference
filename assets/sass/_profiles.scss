@@ -17,5 +17,7 @@
 }
 
 #profiles .profile:first-child{
-	border-top:2px solid #60B5C9;
+	@include respond(medium){
+		border-top:2px solid #60B5C9;
+	}
 }
