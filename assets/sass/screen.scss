@@ -1,7 +1,9 @@
 @import "compass/reset";
 @import "compass/css3";
 @import "variables";
+@import "respond";
 @import "fonts";
+@import "entypo";
 @import "header";
 @import "banner";
 @import "footer";
@@ -31,7 +33,23 @@ body{
 
 	.row{
 		padding:0 20px 30px 20px;
+
+		.threecol{
+			@include respond(small){
+				clear:left !important;
+				width:100%;
+
+				iframe{
+					margin-bottom:20px;
+				}
+			}
+		}
 	}
+}
+
+iframe{
+	max-width:100%;
+	height:auto;
 }
 
 #submit-abstract {
@@ -63,6 +81,32 @@ body{
 		background-image:url(/assets/images/icon-elephant.png);
 	}
 }
+
+small a{
+	color:#60B5C9;
+	border-bottom:1px dotted #60B5C9;
+	font-size:1.2em;
+
+	&:hover{
+		border-bottom:1px dotted #2492A2;
+		color:#2492A2;
+	}
+}
+
+.fourcol{
+	@include respond(small){
+		clear:left !important;
+		width:100% !important; 
+	}
+}
+
+.row .eightcol{
+	@include respond(small){
+		width:100% !important;
+		margin:0;
+	}
+}
+
 
 .row:before,
 .row:after {
