@@ -5,6 +5,9 @@
   @else if $point == small {
     @media (max-width: 700px) { @content; }
   }
+  @else if $point == mobile {
+    @media (max-device-width: 480px) { @content; }
+  }
 }
 
 /* General Mobile Touch ----------- */

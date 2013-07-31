@@ -3,6 +3,7 @@
 @import "variables";
 @import "respond";
 @import "fonts";
+@import "entypo";
 @import "header";
 @import "banner";
 @import "footer";
@@ -37,6 +38,10 @@ body{
 			@include respond(small){
 				clear:left !important;
 				width:100%;
+
+				iframe{
+					margin-bottom:20px;
+				}
 			}
 		}
 	}

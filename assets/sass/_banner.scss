@@ -7,9 +7,9 @@
     	background-position:center -160px;
     }
     @include respond(small){
-    	height:330px;
-    	background-position: center -240px;
+    	background-position: -360px -250px;
     	z-index:90;
+    	height:330px;
     }
 
 	.circle{
@@ -84,13 +84,7 @@
 #header-text {
 	text-align: center;
 	position:relative;
-	padding-top: 5.5%;
-	@include respond(medium){
-		padding-top:8%;
-	}
-	@include respond(small){
-		padding-top:17%;
-	}
+	padding-top:60px;
 }
 .big-title-text {	
 	font-family: "SteelfishRgRegular";
@@ -100,7 +94,10 @@
 		font-size:6em;
 	}
 	@include respond(small){
-		font-size:2.4em;
+		font-size:3em;
+		clear:left;
+		display:block;
+		margin:10px 0;
 	}
 }
 .small-title-text {	
@@ -110,33 +107,35 @@
 	@include respond(medium){
 		font-size:2.2em;
 	}
-	@include respond(small){
-		font-size:1.6em
-	}
 
 }
 #header-sub-text{
-	padding-top: 0.5%;
+	padding:10px 0;
 	text-align: center;
 	position:relative;
-	}
+}
 .sub-title-text{
 	font-family: "SteelfishRgRegular";
 	font-size:4.1em;
 	color: #da9e26;
 	padding-right:10px;
 	@include respond(medium){
-		font-size:2.4em;
+		font-size:2.2em;
 	}
 }
-#header-circle-wrapper {
+#header-circle-wrapper .threecol{
+	@include respond(small){
+		margin:0;
+		width:24.9%;
 	}
+}
+
 #header-circles {
 	position:relative;
-	z-index: 103;
-	text-align: center;
-	width: 100%;
-	}
+	z-index:103;
+	text-align:center;
+	max-width:100%;
+}
 
 #bar{
 	position:absolute;

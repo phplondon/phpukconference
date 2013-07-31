@@ -35,10 +35,6 @@ nav{
     }
 }
 
-.menuLeft{
-
-}
-
 .menuRight{
     padding:0 0 0 100px;
     text-align:right;
@@ -53,7 +49,7 @@ nav{
 
 #logo{
     position:absolute;
-    top:60px;
+    top:50px;
     left:50%;
     margin:0 0 0 -80px;
     z-index:101;
@@ -64,20 +60,19 @@ nav{
     @include respond(small){
         display:block;
         z-index:100;
-        background-color:#25272C;
+        background-color:#3B3D41;
 
         .mobile{
             display:block;
             cursor:pointer;
             text-align:center;
 
+
             a{
-                height:60px;
-                line-height:60px;
-                font-size:2.3em;
+                font-size:2.2em;
                 line-height:2em;
                 color:#4A91A3;
-                font-family:"SteelfishRgRegular";
+                font-family:'BebasNeueRegular';
                 margin:0 10px;
                 @include transition-property(color);
                 @include transition-duration(1s);
@@ -97,12 +92,19 @@ nav{
     }
 }
 
+.mobMenu .mobile > a:before{
+    @include respond(small){
+        content:"\2630";
+        padding-right:5px;
+    }
+}
+
 .mobMenu .mobile:hover > ul{
     @include respond(small){
         display:block;
         z-index:1000;
         position:relative;
-        background-color:#25272C;
+        background-color:#3B3D41;
     }
 }
 
