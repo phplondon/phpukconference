@@ -1,17 +1,21 @@
 nav{
     height:$nav-height;
     background:#25272C;
+    @include respond(small){
+        height:$nav-height * 2;
+    }
 }
 
 .menu{
     display:inline-block;
     width:50%;
     margin:0 -2px 0 0;
-    padding:0 100px 0 0;
+    padding:0 10% 0 0;
     list-style:none;
 
     li{
-        padding:0 60px 0 0;
+        width:30%;
+        padding:0;
         display:inline-block;
 
         a{
@@ -21,6 +25,9 @@ nav{
             color:#fff;
             text-decoration:none;
             @include transition(text-shadow 0.9s 0 ease-in-out);
+            @include respond(medium){
+                font-size:2.4em;
+            }
 
             &:hover{
                 @include text-shadow(0 0 6px rgba(245,205,134,1));
@@ -29,17 +36,9 @@ nav{
     }
 }
 
-.menuLeft{
-
-}
-
 .menuRight{
-    padding:0 0 0 100px;
+    padding:0 0 0 10%;
     text-align:right;
-
-    li{
-        padding:0 0 0 60px;
-    }
 }
 
 #logo{
@@ -47,5 +46,69 @@ nav{
     top:0;
     left:50%;
     margin:0 0 0 -80px;
-    z-index:100;
+    z-index:101;
+     @include respond(small){
+        top:50px;
+     }
+}
+
+.mobMenu{
+    display:none;
+    @include respond(small){
+        display:block;
+        z-index:100;
+        background-color:#3B3D41;
+
+        .mobile{
+            display:block;
+            cursor:pointer;
+            text-align:center;
+
+
+            a{
+                font-size:2.2em;
+                line-height:2em;
+                color:#4A91A3;
+                font-family:'BebasNeueRegular';
+                margin:0 10px;
+                @include transition-property(color);
+                @include transition-duration(1s);
+                @include transition-delay(0);
+                @include transition-timing-function(linear);
+
+
+                &:hover{
+                    color:#DA9E26;
+                }
+            }
+
+            ul{
+                display:none;
+            }
+        }
+    }
+}
+
+.mobMenu .mobile > a:before{
+    @include respond(small){
+        content:"\2630";
+        padding-right:5px;
+    }
+}
+
+.mobMenu .mobile:hover > ul{
+    @include respond(small){
+        display:block;
+        z-index:1000;
+        position:relative;
+        background-color:#3B3D41;
+    }
+}
+
+
+.noMobile{
+    display:inline-block;
+    @include respond(small){
+        display:none;
+    }
 }
