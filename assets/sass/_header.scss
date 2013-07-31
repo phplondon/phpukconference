@@ -1,6 +1,9 @@
 nav{
     height:$nav-height;
     background:#25272C;
+    @include respond(small){
+        height:$nav-height * 2;
+    }
 }
 
 .menu{
@@ -25,7 +28,7 @@ nav{
             text-decoration:none;
             @include transition(text-shadow 0.9s 0 ease-in-out);
             @include respond(medium){
-                font-size:2em;
+                font-size:2.4em;
             }
 
             &:hover{
@@ -49,10 +52,13 @@ nav{
 
 #logo{
     position:absolute;
-    top:50px;
+    top:0;
     left:50%;
     margin:0 0 0 -80px;
     z-index:101;
+     @include respond(small){
+        top:50px;
+     }
 }
 
 .mobMenu{
