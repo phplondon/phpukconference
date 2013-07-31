@@ -1,7 +1,7 @@
 #homeBanner{
 	position:relative;
     height:540px;
-    background:#000 url('../images/HeaderBackground.jpg') center top no-repeat;
+    background:#000 url('../images/HeaderBackground.png') center top no-repeat;
     @include respond(medium){
     	height:420px;
     	background-position:center -160px;
