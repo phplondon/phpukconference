@@ -77,10 +77,14 @@ body{
 	}
 }
 
-.googleMap,
-small{
-	@include respond(small){
-		display:none;
+small a{
+	color:#60B5C9;
+	border-bottom:1px dotted #60B5C9;
+	font-size:1.2em;
+
+	&:hover{
+		border-bottom:1px dotted #2492A2;
+		color:#2492A2;
 	}
 }
 
