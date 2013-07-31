@@ -10,15 +10,13 @@ nav{
     display:inline-block;
     width:50%;
     margin:0 -2px 0 0;
-    padding:0 100px 0 0;
+    padding:0 10% 0 0;
     list-style:none;
 
     li{
-        padding:0 60px 0 0;
+        width:30%;
+        padding:0;
         display:inline-block;
-        @include respond(medium){
-            padding-right:20px;
-        }
 
         a{
             font-size:3em;
@@ -39,15 +37,8 @@ nav{
 }
 
 .menuRight{
-    padding:0 0 0 100px;
+    padding:0 0 0 10%;
     text-align:right;
-
-    li{
-        padding:0 0 0 60px;
-        @include respond(medium){
-            padding-left:20px;
-        }
-    }
 }
 
 #logo{
