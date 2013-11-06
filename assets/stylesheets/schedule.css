@@ -88,9 +88,9 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     background-color: #efefef;
     }
 
-#schedule-container h1.schedule {
+#schedule-container h2.schedule {
     font-family: "SteelfishRgRegular";
-    font-size: 200%;
+    font-size: 300%;
     color: #60b5c9;
     text-align: left;
     padding-top: 40px;
@@ -99,6 +99,7 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     background-color: #DEDEDE;
     border-bottom: 1px solid #c5c5c5;
 }
+
 #schedule-container h1.uncon{
     font-family: "SteelfishRgRegular";
     font-size: 200%;
@@ -220,16 +221,6 @@ html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abb
     
 }
 
-h1.thursday-schedule {
-    font-family: "SteelfishRgRegular";
-    font-size: 200%;
-    color: #60b5c9;
-    text-align: left;
-    padding-top: 40px;
-    padding-bottom: 30px;
-    padding-left: 34%;
-    background-color: #DEDEDE;
-}
 .thursday-text {
     padding-top:40px;
     padding-left:5%;

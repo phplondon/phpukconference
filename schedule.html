@@ -2,6 +2,16 @@
 layout: "default"
 schedule:
   - 
+    day: Thursday
+    schedule:
+      -
+        start: "1900"
+        end: "0000"
+        columns:
+          - 
+            type: 3col
+            title: Pre-Conference Social <br><a href="/socials">More Details</a>
+  - 
     day: Friday
     schedule:
       -
@@ -194,7 +204,7 @@ schedule:
           - 
             type: 3col
             session: break
-            title: Mid-Conference Social
+            title: Mid-Conference Social <br><a href="/socials">More Details</a>
             
   -
     day: Saturday
@@ -399,7 +409,7 @@ schedule:
         columns:
           -
             type: 3col
-            title: After Conference Social
+            title: After Conference Social<br><a href="/socials">More Details</a>
 ---
 <div id="main">
     <h1>SCHEDULE</h1>
@@ -412,18 +422,8 @@ schedule:
       </div>
     </div> -->
     <div id="schedule-container">
-        <div class="row thursday">
-           <div class="twocol">   
-               <h1 class="thursday-schedule">THURSDAY</h1>
-           </div>
-           <div class="tencol last">
-           <div class="thursday-text">
-                 Start the conference in style! Join us at an exciting new venue for food, drink and a great talk!               <a href="/socials">More Details</a>
-          </div>
-          </div>
-        </div>
         {% for day in page.schedule %}
-        <h1 class="schedule">{{day.day|upcase}}</h1>
+        <h2 class="schedule">{{day.day|upcase}}</h2>
         <div class="header-row row">
             <div class="time-slot">
                 <div class="start-time">&nbsp;</div>
@@ -431,9 +431,9 @@ schedule:
             </div>
             <div class="schedule-room-bg">
                 <div class= "row">
-                    <div class="fourcol schedule-room-side">Side Track</div>
-                    <div class="fourcol schedule-room-main">Main track</div>
-                    <div class="fourcol last schedule-room-side">Side Track</div>
+                    <div class="fourcol schedule-room-side"><h3>Side Track</h3></div>
+                    <div class="fourcol schedule-room-main"><h3>Main track</h3></div>
+                    <div class="fourcol last schedule-room-side"><h3>Side Track</h3></div>
                 </div> 
             </div>
         </div>
