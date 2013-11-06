@@ -1,22 +1,497 @@
 ---
-layout: default
+layout: "default"
+schedule:
+  - 
+    day: Friday
+    schedule:
+      -
+        start: "0800"
+        end: "0900"
+        columns:
+          - 
+            type: 3col
+            title: Registration and Refreshments
+      -
+        start: "0900"
+        end: "0915"
+        columns: 
+          -
+            type: 3col
+            title: Opening Address
+      -
+        start: "0915"
+        end: "1015"
+        columns:
+          -
+            type: 3col
+            session: key
+            title: | KEYNOTE<br><strong>TBA</strong>
+            speaker: 
+            slug: 
+            abstract: 
+      -
+        start: "1015"
+        end: "1045"
+        columns:
+          - 
+            type: 3col
+            session: break
+            title: Morning Refreshment Break
+      -
+        start: "1045"
+        end: "1145"
+        columns: 
+          -
+            session: one
+            title: The Seven Deadly Sins of Dependency Injection
+            speaker: Stephan Hochdörfer
+            slug: stephanhochdoerfer
+            abstract: |
+              There exist quite a few misconceptions when it comes to the Dependency Injection (DI) pattern. While the principal pattern is easy to understand, it can be difficult to succeed with DI. In this session I will share some of my real world experience with DI. I will guide you to use DI in "The Right Way™" to get the most out of it and to increase the maintainability of your application.
+          -
+            session: main
+            title:  PHP At The Firehose Scale
+            speaker: Stuart Herbert
+            slug: stuartherbert
+            abstract: |
+              Here's one to give the PHP bashers a well-deserved black eye! Twitter is one of the world's best know social media sites, handling over 500 million public tweets a day (that's around 6,000 tweets a second).  Together, they're delivered to select partners as a 'firehose' of data, who in turn deliver it on to their customers. DataSift is one of Twitter's firehose partners, and when someone presses 'Send' in their Twitter client, we aim to get that tweet into the hands of our customers in about 1 second. And PHP plays several key roles in making that possible.  Come along and hear Stuart explain just how.
+          -
+            session: two last
+            title: Service Orientated Architecture for Robust and Scalable Systems
+            speaker: Ole Michaelis
+            slug: olemichaelis
+            abstract: |
+              Software Architecture is hard. And when your business grows, its getting even harder because scaling doesn’t come out the box and it’s not only the software which grows it’s also the team. So you have to find a way how to scale your software in a way that it stays easy maintainable for growing teams and scalable. I’d like to talk about Service Orientated Architecture in general and also share some experience and give some examples where SOA would save you in a tough spot and maybe places where SOA isn’t the best idea to implement.
+      -
+        start: "1200"
+        end: "1300"
+        columns: 
+          -
+            session: one
+            title: TBA
+            speaker: TBA
+            slug: TBA
+            abstract: |
+          -
+            session: main
+            title:  "PHP 5.NEXT: The New Bits"
+            speaker: Davey Shafik
+            slug: daveyshafik
+            abstract: |
+              PHP 5.5 is has been unleashed into the world; bringing some great new features including generators and coroutines, a finally construct, simple password hashing and other small changes. Now PHP 5.6 on the horizon bringing even more changes, including variadic functions and the splat operator. This talk is aimed at developers who use PHP every day and are looking to start new projects with the latest and greatest, or want to future-proof legacy code.
+          -
+            session: two last
+            title: Wield AngularJS like a Pro
+            speaker: Nate Abele
+            slug: nateabele
+            abstract: |
+              Are you getting your feet wet with AngularJS, but looking to boost your skill level? Do you understand the basics, but get lost in the sea of available tools and resources? As a member of the AngularUI team, Nate has his finger on the pulse of the AngularJS community, and the state-of-the-art in tools and app-building practices. Be ready to take notes and ask questions in this resource-heavy talk.
+      -
+        start: "1300"
+        end: "1400"
+        columns:
+          -
+            type: 3col
+            session: break
+            title: Lunch
+      -
+        start: "1400"
+        end: "1500"
+        columns: 
+          - 
+            session: one
+            title: "Normalisation: Friend or Foe"
+            speaker: Beth Tucker Long
+            slug: bethtuckerlong
+            abstract: |
+              Everyone wants a more organized database with less repetition, right? Quick answer: normalise! Great, but what does this actually mean for the structure of your tables? Which normal form should you use, and what is a normal form? Learn the pros and cons of normalisation techniques and find the right balance for your next project.
+          -
+            session: main
+            title: Caching Best Practices
+            speaker: Eli White
+            slug: eliwhite
+            abstract: |
+              Whether you use Memcached or another caching technology, such as APC or Zend Server Cache, having an application level cache is important for performance & scalability. Learn some best practices for making this cache layer the most efficient & easy to use. Techniques such as 'biggest smallest reusable item' & automatic write-through caching will be covered.
+          -
+            session: two last
+            title: TBA
+            speaker: TBA
+            slug: 
+            abstract: |
+              
+      -
+        start: "1510"
+        end: "1610"
+        columns: 
+          -
+            session: one
+            title: Facebook's Approach to Common Web Vulnerabilities
+            speaker: Ben Mathews
+            slug: benmathews
+            abstract: |
+              The web is a security minefield, with many hazards like cross-site scripting, cross-site request forgery, and SQL injection.  In this talk, I will explain how Facebook handles these common problems with good security libraries, automated detection, and lint rules.  I'll describe some of the attacks that we have seen, and I will talk about some of the lessons that we have learned.
+          -
+            session: main
+            title: Gathering Metrics with Statsd and Graphite
+            speaker: Jeremy Quinton
+            slug: jeremyquinton
+            abstract: |
+              Application metrics are extremely important but are often hard to gather as our PHP Applications differ significantly.  Using StatsD and Graphite we can gather metrics from our applications no matter what their shape or form. In this talk I will discuss how you can use Statsd to send various metrics of your PHP applications to Graphite. StatsD is a simple NodeJS daemon for easy stats aggregation and makes it simple to plot application metrics on a graph in Graphite. Using the metrics that are gathered its possible to get an overview of what is happening with our applications in near realtime which is extremely useful. Graphite additionally allows us to produce easy understandable graphs and dashboards which once analysed can be used to improve our PHP applications. My talk will cover everything from setting up Statsd and Graphite to how you gather the metrics from within your PHP applications. After the talk developers should be confident enough to go away and implement these technologies in their applications. 
+          -
+            session: two last
+            title: Scaling with Symfony2
+            speaker: Ricard Clau 
+            slug: ricardclau
+            abstract: |
+              Lots of people think that using Symfony2 is an overkill for small websites and also that it is too slow for big projects. I will try to demonstrate that it is just not true. The talk will cover all those tips and tricks which are necessary to maximize performance and achieve scalability in big traffic applications using Symfony2. From system configurations (both in PHP/Opcode caches and Symfony2), autoload optimization, some easy quick wins, how to profile properly with xDebug/XHProf, SQL vs NoSQL to even some war stories (and solutions) from Hailo, Privalia, Ulabox, Emagister and SocialPoint which are high traffic environments I've worked for.
+      -
+        start: "1610"
+        end: "1630"
+        columns: 
+          - 
+            type: 3col
+            session: break
+            title: Afternoon Refreshment Break
+      -
+        start: "1630"
+        end: "1730"
+        columns: 
+          - 
+            session: one
+            title: Locking and Concurrency Control
+            speaker: Morgan Tocker
+            slug: morgantocker
+            abstract: | 
+                When you use a RDBMS, it offers a number of features to protect data integrity and protect against concurrent modification of data. Concepts covered in this session include table/row locks, MVCC, deadlocks & lock waits, transactions and isolation levels.
+
+                Attendees will also get a better understanding of various database errors, and know how they are expected to be handled by applications. Examples will use MySQL 5.6, but cover theory that is 90% applicable to all databases.
+          -
+            session: main
+            title: "(Re)discovering the SPL"
+            speaker: Joshua Thijssen
+            slug: joshuathijssen
+            abstract: |
+              The Standard PHP Library (SPL) might be one of the most powerful, yet the most unused part of PHP, but you are one of those lucky developers who have discovered it! But now what? The lack of documentation about SPL makes it that a lot users don't really harvest the power that SPL brings. During this presentation I will dive into the numerous iterators, data-structures and interfaces that SPL defines and when & how to implement them in your own projects, but we will talk about the edge-cases as well, as in SPL land things don't always are what they seem..
+          -
+            session: two last
+            title: "'ProTalking' your way into Open Source"
+            speaker: Michelle Sanver
+            slug: michellesanver
+            abstract: |
+                If you want to get involved in open source but keep talking yourself out of it, let me show you how to take that first step. I'll cover the mechanics of contributing, from saying hello and installing the project to selecting a bug, your first pull request and code review. If you're already a contributor, contribute to my talk and share your valuable ideas.
+      -
+        start: "1730"
+        end: "1800"
+        columns:
+          - 
+            type: 3col
+            session: break
+            title: Closing Address and Prize Raffle
+      -
+        start: "1800"
+        end: "0000"
+        columns: 
+          - 
+            type: 3col
+            session: break
+            title: Mid-Conference Social
+            
+  -
+    day: Saturday
+    schedule:
+      -
+        start: "0830"
+        end: "0900"
+        columns:
+          -
+            type: 3col
+            title: Registration and Refreshments
+      -
+        start: "0900"
+        end: "0915"
+        columns: 
+          -
+            type: 3col
+            title: Opening Address
+      -
+        start: "0915"
+        end: "1015"
+        columns:
+          -
+            type: 3col
+            session: key
+            title: KEYNOTE
+            speaker: TBA
+            slug: 
+            abstract:
+      -
+        start: "1015"
+        end: "1045"
+        columns:
+          -
+            type: 3col
+            session: break
+            title: Morning Break and Refreshments
+      -
+        start: "1045"
+        end: "1145"
+        columns:
+          -
+            session: one
+            title: "PHP Performance: Under The Hood"
+            speaker: Davey Shafik
+            slug: daveyshafik
+            abstract: |
+              We’ve all experienced performance issues and we would typically turn to a profiler. Whether that’s something in userland, or a tool like xdebug or xhprof, the reason is the same: to figure out why our code is slow. This talk will take that inspection a step further and look under the hood of PHP, at the C internals, for common performance problems. If you’ve ever wanted to know exactly what your code is doing, and why ++$i is faster than $i++, this talk is for you. Note: This is an advanced talk, you should be extremely familiar with PHP and have some experience with profiling if you are to get the most from this talk.
+          -
+            session: main
+            title: Debugging HTTP
+            speaker: Lorna Mitchell
+            slug: lornamitchell
+            abstract: |
+              In this world where we have moved beyond web pages and build ever-more asynchronous applications, often things that go wrong result in errors we can't see.  This session will give a very technical overview of HTTP and how to inspect your application's communications, whether on the web or on a mobile device.  Using Curl, Wireshark and Charles, we can quickly and painlessly identify where the problem exists, without spending a lot of time making changes to our application to identify a problem.  Whether you're debugging a backend API, an ajax request or an unexpected timeout, these are the tools you will want to have at hand.
+          -
+            session: two last
+            title: TBA
+            speaker: TBA
+            slug: 
+            abstract: |
+              
+      -
+        start: "1200"
+        end: "1300"
+        columns:
+          - 
+            session: one
+            title: intl me this, intl me that
+            speaker: Andrei Zmievski
+            slug: andreizmievski
+            abstract: |
+              Quick, what's the proper way to show a number as currency for India? 1.2 billion people would like to know. No pressure. These common localization issues come up more and more frequently. Learn to use the improved intl extension to order lists, format numbers, split text into pieces and show calendars just like a local would. It even helps with character sets and time zones - 2 out of 3 things that commonly break the Internet. ¡Muy bueno!
+              
+          -
+            session: main
+            title: "RPM'ing your apps and tools"
+            speaker: Joshua Thijssen
+            slug: joshuathijssen
+            abstract: |
+              Linux distributions are using very powerful package systems for deployment of software for many years now and it's time that developers start using those systems as well. We talk about how to setup up a private repository, how to create RPM files and how incorporate this in your version control system so everything will work automatically. We also will talk about the pro's and cons of the system, how to work with different package flavors and how we can use the system for other purposes.  Both you and your system administrator will become best friends again!
+          -
+            session: two last
+            title: Algorithm, Review, Sorting
+            speaker: Rowan Merewood
+            slug: rowanmerewood
+            abstract: |
+              High-level languages and platforms abstract away basic computer science problems so we can code quicker and not re-invent the wheel. That said, algorithms are too much fun to just leave as a black box. We'll learn how to analyse and compare sorting algorithms with live demos and visualisations. With an algorithm from the 1800s, it could even be a history lesson too.
+      -
+        start: "1300"
+        end: "1400"
+        columns:
+          - 
+            type: 3col
+            session: break
+            title: Lunch
+      -
+        start: "1400"
+        end: "1500"
+        columns: 
+          -
+            session: one
+            title: Web Security and You
+            speaker: Eli White
+            slug: eliwhite
+            abstract: |
+              This talk will focus on XSS, CSRF, Session Hijacking, SQL Injection, and other security vulnerabilities that need addressed in Website Development.  This talk will cover a gambit of these issues, giving specific code examples showing what the vulnerabilities look like and how to identify them.  It will then present solutions to close them down and protect yourself.
+          -
+            session: main
+            title: OPCache!
+            speaker: Julien Pauli
+            slug: julienpauli
+            abstract: |
+              OPCache is PHP's default OPCode cache mechanism, which has been introduced with PHP5.5. You can use it for 5.3, 5.4 or 5.5. This talk will detail how OPCache works, what it does to PHP and how to set it up so that you can deal with maximum performance and stability. We'll recall how PHP works, how its engine works, and how OPCache interacts with this complex machine to effectively accelerate it. You'll know everything about OPCache at the end of this talk.
+          -
+            session: two last 
+            title: PHP in Space
+            speaker: Derick Rethans
+            slug: derickrethans
+            abstract: |
+              In this talk we are going to see how PHP can be used for all kinds of terrestrial and non-terrestrial purposes. That doesn't mean that we will be looking at sending PHP up with the next Mars rover but instead we will (try to) figure out how calculate the positions of bodies in the solar system. This is for example useful for calculating the moon phase, or sunrise/sunset. We will also look at coordinate systems on solar system bodies and do calculations with that. I have a couple of other things up my sleeve too. Expect trigonometry and other maths, and rocket science/explosions.
+      -
+        start: "1510"
+        end: "1610"
+        columns:
+          -
+            session: one
+            title: Profiling PHP Applications
+            speaker: Bastian Hofmann
+            slug: bastianhofmann
+            abstract: |
+              It's nothing new that speed is important for the success of any web application. Only a few hundred milliseconds may lie between a user leaving your site or staying. Unfortunately performance problems are oftentimes hard to fix and even harder to pinpoint. In this talk I will show you how we at ResearchGate measure web application performance, which means not only timing how long the PHP backend took to deliver a page, but also tracking the speed the users actually perceives in the browser. After that you will see how you can track down and analyze any problems you found through measuring with the help of tools like Xdebug, XHProf and the Symfony Debug Toolbar. And if you still need to get faster after optimizing and fixing all these issues, I'll introduce you to some tricks, techniques and patterns to even further decrease load times.
+          -
+            session: main
+            title: "Test, Transform, Refactor"
+            speaker: Marcello Duarte
+            slug: marcelloduarte
+            abstract: |
+              "Let's have a close look into the Red-Green-Refactor cycle and understand the subtleties of each step. When we go down the rabbit hole of Test Driven Design we sometimes take too big steps leading us to many failed tests we just can bring back to green without writing a lot of code. We need to take a step back and take the shrinking potion of baby steps again. This very illustrative talk, full of test and code examples, will dig into each of the steps of TDD to help you understand how to keep a sustainable pace that will lead you in the right track."
+          -
+            session: two last
+            title: Vagrant Provisioners in a Nutshell
+            speaker: Erika Heidi
+            slug: erikaheidi
+            abstract: |
+              Vagrant is one of the most mainstream tools on the devops world nowadays, specially between Open Source developers - now we can finally forget about the environment and focus on the code, without worrying about the “works on my machine” problem. This talk will review Vagrant basics and focus on its main provisioners - Puppet, Chef and Ansible - giving an overview of each one and how we can use them to provision a PHP development server. The talk will include a set of protips to create better and optimized vagrant development boxes for different kinds of projects.
+      -
+        start: "1610"
+        end: "1630"
+        columns:
+          -
+            type: 3col
+            session: break
+            title: Afternoon Break
+      -
+        start: "1630"
+        end: "1730"
+        columns:
+          -
+            session: one
+            title: Unbreakable Domain Models
+            speaker: Mathias Verraes
+            slug: mathiasverraes
+            abstract: |
+              Data Mappers (like Doctrine2) help us a lot to persist data. Yet many projects are still struggling with tough questions:
+              <ul><li>Where to put business logic?</li>
+              <li>How to protect our code from abuse?</li>
+              <li>Where to put queries, and how test them?</li></ul>
+
+              <p>Let’s look beyond the old Gang of Four design patterns, and take some clues from tactical Domain Driven Design. At the heart of our models, we can use Value Objects and Entities, with tightly defined consistency boundaries. Repositories abstract away the persistence.  Encapsulated Operations helps us to protect invariants. And if we need to manage a lot of complexity, the Specification pattern helps us express business rules in the language of the business. These patterns help us evolve from structural data models, to rich behavioral models. They capture not just state and relationships, but true meaning. The presentation is a fast paced introduction to some patterns and ideas that will make your Domain Model expressive, unbreakable, and beautiful.</p>
+          -
+            session: main
+            title: "Building scalable PHP applications using Google’s App Engine"
+            speaker: Ian Barber and Mandy Waite
+            slug: ianbarber
+            abstract: |
+              At Google I/O 2013 back in June, we announced the addition of a new PHP language runtime for App Engine. Google App Engine allows you to build web applications on the same scalable systems that power Google applications.
+
+              In this talk we’ll take a look at building and running highly scalable PHP applications on the App Engine platform. Here’s some of the topics that we’ll cover:
+                <ul><li>Deploying and running popular PHP applications and frameworks on App Engine</li>
+                <li>Differences between applications running on App Engine and a typical LAMP stack</li>
+                <li>Using asynchronous calls for I/O requests</li>
+                <li>Utilising App Engine services such as task queues, memcache, mail and servers.</li>
+                <li>Composing applications with Google Cloud Storage and Google Cloud SQL</li></ul>
+          -
+            session: two last
+            title: I've Been Hacked, Now What?
+            speaker: Beth Tucker Long
+            slug: bethtuckerlong
+            abstract: |
+              Put on your trench coat and grab your magnifying glass as we walk through investigating a real-life hacked WordPress website. You'll experience first-hand what tools can help you find the vulnerability and the point of entrance. Learn what the hacker might have left behind, how to seal up the most common problem areas, and how to set up notifications to help you spot a hack more quickly in the future. Even though we will be going through a WordPress website, most of the tools discussed are applicable to any website.
+      -
+        start: "1730"
+        end: "1800"
+        columns:
+          -
+            type: 3col
+            title: Closing Address
+      -
+        start: "1800"
+        end: "0000"
+        columns:
+          -
+            type: 3col
+            title: After Conference Social
 ---
 <div id="main">
-    <div class="row">
-        <h1>CALL FOR PAPERS</h1>
-        <h2>Opens September 2<sup>nd</sup> 2013 9AM GMT - Closes October 4<sup>th</sup> 2013 Midnight GMT</h2>
-
-        <p>The main attraction of any conference is the talks that are given and we aim to attract the best PHP speakers from around the world. We solicit talks through a call for papers so you, the community, can tell us what kinds of things everyone should be hearing about.</p>
-        
-        <p>We are looking for talks relating to any non-basic aspect of the PHP programming language, be it mainstream, advanced, niche or non-technical. We are looking for real 'wow' talks that are fresh and inspiring about cutting edge topics or new perspectives on common problems. The audience will be from all backgrounds varying in skill level from beginner to intermediate to advanced, so talks varying widely in topic and skill levels are required. Most of all we want speakers who have a deep knowledge about the topics they are proposing and can't wait to share that knowledge with a whole group of of eager listeners. Tell us what you're most passionate about and why we should be passionate about it as well.</p>
-        
-        <p>What's in it for me? Fame and fortune! Well, maybe not just yet, but, speaking at a conference is a great way to give back to the amazing PHP community that has given so much to you. In addition to giving back to the community, we are very pleased to be able to offer the following benefits package to all our speakers:</p> 
-        <ul>
-            <li>Entry to the conference (both days) and all the social events</li>
-            <li>Travel expenses paid in full</li>
-            <li>Three nights accommodation so you can attend the whole conference</li>
-            <li>Invitation to the complimentary speaker's dinner (Thursday night)</li>
-        </ul>
-        <p>The call for papers is now closed. Thanks to all who submitted! The schedule will be released on November 7th.</p>
-    </div>
-</div><!-- main -->
+    <h1>SCHEDULE</h1>
+    <!-- <div id="otherthings" class="row">
+      <div class="sixcol last">
+        <div id="hackathon">
+        <h2>Feeling creative?</h2>
+          We have a brand new <a href="https://www.hackerleague.org/hackathons/php-uk-conference-hackathon/" target="_blank">Hackathon</a> this year!
+        </div>  
+      </div>
+    </div> -->
+    <div id="schedule-container">
+        <div class="row thursday">
+           <div class="twocol">   
+               <h1 class="thursday-schedule">THURSDAY</h1>
+           </div>
+           <div class="tencol last">
+           <div class="thursday-text">
+                 Start the conference in style! Join us at an exciting new venue for food, drink and a great talk!               <a href="/socials">More Details</a>
+          </div>
+          </div>
+        </div>
+        {% for day in page.schedule %}
+        <h1 class="schedule">{{day.day|upcase}}</h1>
+        <div class="header-row row">
+            <div class="time-slot">
+                <div class="start-time">&nbsp;</div>
+                <div class="end-time ">&nbsp;</div>
+            </div>
+            <div class="schedule-room-bg">
+                <div class= "row">
+                    <div class="fourcol schedule-room-side">Side Track</div>
+                    <div class="fourcol schedule-room-main">Main track</div>
+                    <div class="fourcol last schedule-room-side">Side Track</div>
+                </div> 
+            </div>
+        </div>
+        <div class="row-divider row"></div>
+        {% for row in day.schedule %}
+        <div class="schedule-row row">
+            <div class="time-slot">
+                <div class="start-time">{{row.start}}</div>
+                <div class="end-time">{{row.end}}</div>
+            </div>
+            <div class="sessions">
+                <div class="row">
+                  {% for column in row.columns %}
+                  {% if column.type == '3col' %}
+                      <div class="twelvecol session-{{column.session}}">
+                          <div class="mobile-track">Track {{column.session}}</div>
+                          <div class="session-title">{{column.title}}</div>
+                          <div class="session-presenter"><a href="/speakers#{{column.slug}}">{{column.speaker}}</a></div>
+                          <div class="session-abstract">{{column.abstract}}</div>
+                      </div>
+                  {% else %}
+                      <div class="fourcol session-{{column.session}}">
+                          <div class="mobile-track">Track {{column.session}}</div>
+                          <div class="session-title">{{column.title}}</div>
+                          <div class="session-presenter"><a href="/speakers#{{column.slug}}">{{column.speaker}}</a></div>
+                          <div class="session-abstract">
+                            <a href="" onclick="popUpAbstract('{{column.slug}}' , event)">Abstract</a>
+                          </div>
+                          <div id="{{column.slug}}overlay" class="web_dialog_overlay"></div>
+                          <div id="{{column.slug}}dialog" class="web_dialog abstract">
+                              <div class="btnClose"><a href="#" onclick="HideAbstract('{{column.slug}}', event)">Close</a></div>
+                              <div class="web_dialog_container">
+                                  <div class="row">
+                                      <div class="twelvecol">
+                                          <div class="web_dialog_title">Abstract</div>
+                                      </div>
+                                  </div>
+                                 <div class="row">
+                                     <div class="twelvecol">
+                                         <div class="web_dialog_blurb">
+                                             <p>{{column.abstract}}</p>
+                                         </div>
+                                     </div>
+                                 </div>
+                              </div>
+                          </div>
+                    </div>
+                  {% endif %}
+                  {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="row-divider row"></div>
+        {% endfor %}
+        {% endfor %}
+    </div><!-- schedule-container -->
+<p>*Schedule is subject to change without notice</p>
+</div><!-- main-->
+<div class="push"></div>
+</div><!-- page -->
+    
