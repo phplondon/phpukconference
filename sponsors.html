@@ -1,5 +1,16 @@
 ---
 layout: default
+tracksponsors:
+  - 
+    name: Codebase & Deploy
+    slug: codebase-deploy
+    bio: |
+      Andrei has a long history in the PHP community, where, as a core developer and a member of the PHP Group, he helped curate development of the world’s most popular web development language. Along the way, he started PHP-GTK, helped create Smarty, co-wrote PHP Developer’s Cookbook, and architected Unicode support that would have been in PHP 6. Having worked as a platform engineer at Yahoo and the Open Source Fellow at Digg, he is presently a software architect at AppDynamics, where he is working on the next generation of application monitoring and troubleshooting tools.
+  - 
+    name: Affiliate Window
+    slug: affiliate-window
+    bio: |
+      Bastian works works as a Software Engineer at ResearchGate, the social network for researchers and scientists. There he is mainly responsible for designing the web frontend's software architecture and developing APIs. Before that he created the games and application platform and the APIs of the VZ-networks. When he is not developing stuff, he frequently speaks at international conferences on software architecture, scaling web applications and open standards and protocols.
 ---
 <div id="main">
     <div class="row">
@@ -9,23 +20,25 @@ layout: default
         <h2>Track Sponsors</h2>
         <ul class="sponsors">
             <li class="sponsor track">
-                <img src="assets/images/sponsors/codebase-deploy.png">
+                <img src="/assets/images/sponsors/codebase-deploy.png">
                 <h3>Codebase &amp; Deploy</h3>
                 <p>Codebase is a software project management tool with fast, reliable &amp; secure Git, Mercurial &amp; Subversion hosting baked right in. With every feature you could possibly need to manage your software projects, Codebase is an ideal tool for any software development team.</p>
                 <p>Deploy is an easy to use &amp; fast code deployment platform. You can deploy your application from Git, Mercurial &amp; Subversion repositories to any combination of FTP servers, SSH &amp; SFTP servers, Amazon S3, and Rackspace Cloud Files. You can even exclude certain files or directories, create special configuration files and automatically run SSH commands.</p>
                 <p>Every paid Codebase subscription comes with a free Deploy account, so sign for Codebase today and use coupon code "PHP14CB" to get a 30 day FREE trial plus 20% off for the first 3 months.</p>
             </li>
             <li class="sponsor track">
-                <img src="assets/images/sponsors/affiliate-window.png">
+                <img src="/assets/images/sponsors/affiliate-window.png">
                 <h3>Affiliate Window</h3>
                 <p>Affiliate Window exists to provide its clients with the best service and technology available in performance marketing.  With offices in the UK and US and over 240 employees, our aim is to exceed expectations in everything we do.
                 <p>Our technology is developed in-house using the latest methodologies, offering custom proprietary solutions for our partners.  Our service has led to us receiving numerous awards including the UK's coveted Publishers' Choice of Network award six times. Our platform features comprehensive dashboards and a partner directory allowing users to discover and connect with a range of high quality advertisers and publishers.</p>
                 <p>We recognise the importance of generating incremental revenue for our clients and pride ourselves on our suite of compliance and protection tools which monitor all search engines, remove surreptitious adware and spyware, and protect against fraud. For an innovative and ethical approach to performance marketing, Affiliate Window has all the right ingredients.</p>
             </li>
         </ul>
+
+<!--        
         <div id="sponsor-container">
-            <div id="{{category.color}}-partners" class="sponsor-type">{{category.name|upcase}}</div>
-            {% for sponsor in category.sponsors %}
+            <div id="{{category.color}}-track" class="sponsor-type">{{category.name|upcase}}</div>
+            {% for sponsor in page.tracksponsors %}
                 <div class="row">
                     <div class="twelvecol">
                         <div id="{{sponsor.name}}" class="sponsor-heading">
@@ -39,7 +52,8 @@ layout: default
                     </div>
                 </div>
             {% endfor %}
-        </div><!-- sponsor-container -->
+        </div>
+-->        
     </div>
 </div><!-- main -->
 
