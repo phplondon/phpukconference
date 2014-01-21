@@ -5,11 +5,25 @@ layout: default
     <div class="row">
         <h1>SPONSORS</h1>
         <p>The PHP UK Conference is a not-for-profit event and relies heavily on sponsorship to run the event at rates affordable to the whole community. If you're interested in sponsoring our event, please <a href="mailto:contact@phpconference.co.uk">contact us</a>.</p>
-        <ul class="sponsors">
 
+        <h2>Track Sponsors</h2>
+        <ul class="sponsors">
+            <li class="sponsor track">
+                <img src="assets/images/sponsors/codebase-deploy.png">
+                <h3>Codebase &amp; Deploy</h3>
+                <p>Codebase is a software project management tool with fast, reliable &amp; secure Git, Mercurial &amp; Subversion hosting baked right in. With every feature you could possibly need to manage your software projects, Codebase is an ideal tool for any software development team.</p>
+                <p>Deploy is an easy to use &amp; fast code deployment platform. You can deploy your application from Git, Mercurial &amp; Subversion repositories to any combination of FTP servers, SSH &amp; SFTP servers, Amazon S3, and Rackspace Cloud Files. You can even exclude certain files or directories, create special configuration files and automatically run SSH commands.</p>
+                <p>Every paid Codebase subscription comes with a free Deploy account, so sign for Codebase today and use coupon code "PHP14CB" to get a 30 day FREE trial plus 20% off for the first 3 months.</p>
+            </li>
+            <li class="sponsor track">
+                <img src="assets/images/sponsors/affiliate-window.png">
+                <h3>Affiliate Window</h3>
+                <p>Affiliate Window exists to provide its clients with the best service and technology available in performance marketing.  With offices in the UK and US and over 240 employees, our aim is to exceed expectations in everything we do.
+                <p>Our technology is developed in-house using the latest methodologies, offering custom proprietary solutions for our partners.  Our service has led to us receiving numerous awards including the UK's coveted Publishers' Choice of Network award six times. Our platform features comprehensive dashboards and a partner directory allowing users to discover and connect with a range of high quality advertisers and publishers.</p>
+                <p>We recognise the importance of generating incremental revenue for our clients and pride ourselves on our suite of compliance and protection tools which monitor all search engines, remove surreptitious adware and spyware, and protect against fraud. For an innovative and ethical approach to performance marketing, Affiliate Window has all the right ingredients.</p>
+            </li>
         </ul>
         <div id="sponsor-container">
-        {% for category in page.sponsors %}
             <div id="{{category.color}}-partners" class="sponsor-type">{{category.name|upcase}}</div>
             {% for sponsor in category.sponsors %}
                 <div class="row">
@@ -25,7 +39,9 @@ layout: default
                     </div>
                 </div>
             {% endfor %}
-        {% endfor %}
         </div><!-- sponsor-container -->
     </div>
 </div><!-- main -->
+
+
+
