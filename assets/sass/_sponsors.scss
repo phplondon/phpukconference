@@ -8,5 +8,8 @@
 		width:49%;
 		font-size:1em;
 		vertical-align:top;
+		@include respond(medium){
+			width:100%;
+		}
 	}
 }
