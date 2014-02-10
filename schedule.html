@@ -102,7 +102,7 @@ layout: "default"
                       <div class="twelvecol session-">
                           <div class="mobile-track">Track </div>
                           <div class="session-title">Opening Address</div>
-                          <div class="session-presenter"><a href="/speakers#"></a></div>
+                          <div class="session-presenter"></div>
                           <div class="session-abstract"></div>
                       </div>
                   
@@ -123,12 +123,30 @@ layout: "default"
                   
                       <div class="twelvecol session-key">
                           <div class="mobile-track">Track key</div>
-                          <div class="session-title">KEYNOTE<br><strong>TBA</strong></div>
-                          <div class="session-presenter"><a href="/speakers#"></a></div>
-                          <div class="session-abstract"></div>
+                          <div class="session-title">KEYNOTE</div>
+                          <div class="session-presenter"><a href="/speakers#joekaziukenas">Juozas 'Joe' Kaziukenas</a></div>
+                          <div class="session-abstract">
+                            <a href="" onclick="popUpAbstract('joe', event)">What Makes Technology Work</a>
+                          </div>
+                          <div id="joeoverlay" class="web_dialog_overlay"></div>
+                          <div id="joedialog" class="web_dialog abstract">
+                              <div class="btnClose"><a href="#" onclick="HideAbstract('joe', event)">Close</a></div>
+                              <div class="web_dialog_container">
+                                  <div class="row">
+                                      <div class="twelvecol">
+                                          <div class="web_dialog_title">Abstract</div>
+                                      </div>
+                                  </div>
+                                 <div class="row">
+                                     <div class="twelvecol">
+                                         <div class="web_dialog_blurb">
+                                             <p>There are now more people building apps, or any piece of technology, in their free time, than wooden chairs some hundred years ago. It’s not that we no longer need great chairs, but making one is bloody difficult, and not that easy to get into, but coding something can lead to the world-fame of a new billion dollar startup. Yet more chairs have literally withstood their customers than the current flood of apps manage to even get any attention. And these guys have tried every wood, style and form combination, even so far as telling me that they could solve all of my problems if only I sat on their chair. I mean app. Let’s talk about that.</p>
+                                         </div>
+                                     </div>
+                                 </div>
+                              </div>
+                          </div>
                       </div>
-                  
-                  
                 </div>
             </div>
         </div>
