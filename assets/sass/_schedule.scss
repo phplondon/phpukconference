@@ -15,6 +15,15 @@
 	
 }
 
+.schedule-room-main,
+.schedule-room-side{
+	h2,
+	h3{
+		font-size:2em;
+		line-height:1.2em;
+	}
+}
+
 .time-slot {
 }
 .start-time {
@@ -150,4 +159,4 @@ h1.uncon{
 .web_dialog_blurb {
 	margin-top: 10px;
 	margin-bottom: 30px;
-	}
+}

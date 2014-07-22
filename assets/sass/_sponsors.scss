@@ -13,3 +13,52 @@
 		}
 	}
 }
+
+.sponsors{
+
+	ul{
+		display:table;
+		width:100%;
+		padding:20px 0;
+	}
+
+	li{
+		display:table-cell;
+		text-align:center;
+		vertical-align:middle;
+
+		img{
+			max-height:37px;
+			max-width:170px;
+			width:auto !important;
+
+			&.smaller{
+				max-height:22px;
+			}
+		}
+	}
+}
+
+@include respond(medium){
+	.sponsors-footer li{
+		display:inline-block;
+		width:32%;
+		height:40px;
+		line-height:40px;
+		padding:5px 0;
+		margin:0 4px 8px 0;
+		background-color:#eee;
+	}
+}
+
+@include respond(small){
+	.sponsors li{
+		width:100%;
+	}
+}
+
+@include respond(mobile){
+	.sponsors li{
+		width:98%;
+	}
+}
