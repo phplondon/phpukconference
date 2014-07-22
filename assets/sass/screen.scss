@@ -22,101 +22,19 @@ body{
 	font-size:10px;
 }
 
-.row{
+.wrapper{
     position:relative;
-    padding:0 20px;
-    overflow:visible;
+    padding:0 2em;
 }
 
-#main{
-	padding:60px 0 0 0;
-	min-height:400px;
-
-	.row{
-		padding:0 20px 30px 20px;
-
-		.threecol{
-			@include respond(small){
-				clear:left !important;
-				width:100%;
-
-				iframe{
-					margin-bottom:20px;
-				}
-			}
-		}
-	}
+.cf:before,
+.cf:after{
+    content:" ";
+    display:table;
 }
-
-iframe{
-	max-width:100%;
-	height:auto;
-}
-
-#submit-abstract {
-	display:none;
-	font-size:140%;
-	margin:auto;
-	text-align:center;	
-	padding-bottom:20px;
-}
-
-.hr{
-	clear:both;
-	margin:20px auto 40px auto;
-	height:1px;
-	line-height:1px;
-	font-size:1px;
-	padding:0 !important;
-	@include background-image(linear-gradient(left, rgba(0,0,0,0) 0%, rgba(0,0,0,0.1) 15%, rgba(0,0,0,0.1) 85%, rgba(0,0,0,0) 100%));
-
-	&:after{
-		display:block;
-		position:absolute;
-		left:50%;
-		top:-10px;
-		margin:0 0 0 -20px;
-		width:40px;
-		height:28px;
-		content:" ";
-		background-image:url(/assets/images/icon-elephant.png);
-	}
-}
-
-small a{
-	color:#60B5C9;
-	border-bottom:1px dotted #60B5C9;
-	font-size:1.2em;
-
-	&:hover{
-		border-bottom:1px dotted #2492A2;
-		color:#2492A2;
-	}
-}
-
-.fourcol{
-	@include respond(small){
-		clear:left !important;
-		width:100% !important; 
-	}
-}
-
-.row .eightcol{
-	@include respond(small){
-		width:100% !important;
-		margin:0;
-	}
-}
-
-
-.row:before,
-.row:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-.row:after {
+.cf:after{
     clear: both;
 }
-.row {
+.cf{
     *zoom: 1;
 }
