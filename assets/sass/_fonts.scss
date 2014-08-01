@@ -53,21 +53,10 @@ h3{
 }
 
 p,
-#main li{
-    padding-bottom:5px;
+li{
     color:#373737;
-    font:300 1.5em/1.625 "Helvetica Neue",Helvetica,Arial,sans-serif;
-    @include respond(mobile){
-        font-size:1em;
-    }
+    font:300 1.5em/1.625 "Open Sans",Helvetica,Arial,sans-serif;
 
-    a{
-        border-bottom:1px dotted;
-    }
-
-    li{
-        font-size:1em;
-    }
 }
 
 p{
@@ -75,23 +64,5 @@ p{
 }
 
 a{
-    text-decoration:none;
-}
-
-#main{
-
-    ul, ol{
-    }
-
-    a{
-        color:#60B5C9;
-
-        &:hover{
-            color:#2492a2;
-        }
-    }
-}
-
-ul h2{
-    margin-bottom:20px;
+    border-bottom:1px dotted;
 }

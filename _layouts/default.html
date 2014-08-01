@@ -8,17 +8,13 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, maximum-scale=1.0">
-        <link rel="stylesheet" href="/assets/stylesheets/1140.css">
-        {% if page.url == "/schedule/" %}
-        <link rel="stylesheet" href="/assets/stylesheets/schedule.css">
-        {% else %}
-        <link rel="stylesheet" href="/assets/stylesheets/screen.css?version=19">
-        {% endif %}
+        <link rel="stylesheet" href="/assets/css/screen.css?version=1">
         <script src="/assets/js/jquery-1.8.0.min.js"></script>
         <script src="/assets/js/css3-mediaqueries.js"></script>
         <script src="/assets/js/php-conference-functions.js?version=2"></script>
+        <script src="/assets/js/schedule.js"></script>
         <script src="/assets/js/jquery.countdown.js"></script>
-        <title>PHP UK Conference 2014 - The Brewery, London - February 21-22 2014</title>
+        <title>PHP UK Conference 2014 - The Brewery, London - February 21-22 2015</title>
         <script type="text/javascript">
           var _gaq = _gaq || [];
           _gaq.push(['_setAccount', 'UA-35868980-1']);
@@ -32,38 +28,24 @@
         </script>
     </head>
     <body>
-        <nav id="access">
-            <div class="row">
-                <ul class="menu menuLeft noMobile">
-                    <li><a href="/about">ABOUT</a></li>
-                    <li><a href="/speakers">SPEAKERS</a></li>
-                    <li><a href="/schedule">SCHEDULE</a></li>
-                </ul>
-                <ul class="menu menuRight noMobile">
-                    <li><a href="/sponsors">SPONSORS</a></li>
-                    <li><a href="/socials">SOCIALS</a></li>
-                    <li><a href="/venue">VENUE</a></li>
-                </ul>
-                <ul class="mobMenu">
-                    <li class="mobile"><a href="#">MENU</a>
-                        <ul>
-                            <li><a href="/about">ABOUT</a></li>
-                            <li><a href="/speakers">SPEAKERS</a></li>
-                            <li><a href="/schedule">SCHEDULE</a></li>
-                            <li><a href="/sponsors">SPONSORS</a></li>
-                            <li><a href="/socials">SOCIALS</a></li>
-                            <li><a href="/venue">VENUE</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <div id="logo">
-                    <a href="/"><img class="header-logo" src="/assets/images/HeaderHead.png" alt="" /></a>
-                </div>
-            </div>
+        <a href="#access">Menu</a>
+        <div class="logo">
+            <a href="/"><img class="header-logo" src="/assets/images/HeaderHead.png" alt="" /></a>
+        </div>
+        <nav id="access" class="navbar">
+            <ul class="nav wrapper">
+                <li><a href="/about">ABOUT</a></li>
+                <li><a href="/speakers">SPEAKERS</a></li>
+                <li><a href="/schedule">SCHEDULE</a></li>
+                <li><a href="/sponsors">SPONSORS</a></li>
+                <li><a href="/socials">SOCIALS</a></li>
+                <li><a href="/venue">VENUE</a></li>
+            </ul>
         </nav>
-        {{content}}
-        <div class="row hr"></div>
-        <div class="sponsors row sponsors-footer">
+        <div class="contentArea wrapper">
+            {{content}}
+        </div>
+        <div class="wrapper sponsors sponsors-footer">
             <h3>Our sponsors:</h3>
             <ul>
                 <li>
