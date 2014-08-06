@@ -17,9 +17,13 @@
     @include box-sizing(border-box);
 }
 
+html{
+    font-size:10px;
+}
+
 body{
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size:10px;
+    font-size:10px;
 }
 
 .wrapper{

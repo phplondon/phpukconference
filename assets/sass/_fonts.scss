@@ -31,6 +31,16 @@
 
 }
 
+body{
+    color:#333333;
+    font-family:"Proxima Nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:10px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight:700;
+}
+
 h1{
     font-family:"Proxima Nova";
     font-size:3.8em;
@@ -48,15 +58,15 @@ h2{
 h3{
     font-family:"Proxima Nova";
     font-size:2.2em;
-    line-height:1.4em;
+    line-height:1.2em;
     color:#4A91A3;
 }
 
 p,
 li{
-    color:#373737;
-    font:300 1.5em/1.625 "Open Sans",Helvetica,Arial,sans-serif;
-
+    font-family:"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:1.6rem;
+    line-height:1.5;
 }
 
 p{
