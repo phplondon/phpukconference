@@ -7,16 +7,22 @@ speakers:
   - 
     name: Andrei Zmievski
     slug: andreizmievski
+    company: App Dynamics
+    handle: andreiz
     bio: |
       Andrei has a long history in the PHP community, where, as a core developer and a member of the PHP Group, he helped curate development of the world’s most popular web development language. Along the way, he started PHP-GTK, helped create Smarty, co-wrote PHP Developer’s Cookbook, and architected Unicode support that would have been in PHP 6. Having worked as a platform engineer at Yahoo and the Open Source Fellow at Digg, he is presently a software architect at AppDynamics, where he is working on the next generation of application monitoring and troubleshooting tools.
   - 
     name: Bastian Hofmann
     slug: bastianhofmann
+    company: ResearchGate
+    handle: bastian
     bio: |
       Bastian works works as a Software Engineer at ResearchGate, the social network for researchers and scientists. There he is mainly responsible for designing the web frontend's software architecture and developing APIs. Before that he created the games and application platform and the APIs of the VZ-networks. When he is not developing stuff, he frequently speaks at international conferences on software architecture, scaling web applications and open standards and protocols.
   - 
     name: Ben Mathews
     slug: benmathews
+    company: Facebook
+    handle: ben_mathews
     bio: |
       Ben Mathews is an engineer in Facebook's London office.  His main focus at Facebook is security in the PHP codebase — he builds tools to detect security problems, and tries to make Facebook's codebase safe by default.  He also developed the framework that Facebook uses to reliably delete user accounts and all of their data.
   - 
@@ -146,20 +152,21 @@ speakers:
     bio: |
       Stuart Herbert is a software engineer and operational manager, with nearly 20 years of experience in software design, implementation, support, and in technical leadership, operational and senior management. His career to date includes projects and/or roles with household names including Eurostar, Hewlett-Packard, Orange, Vodafone, and the Ordnance Survey. He has written for php|architect magazine, and has spoken at PHP conferences on both sides of the Atlantic. He is a co-author of the official Study Guide for the Zend PHP Certification Exam. He is also a qualified and practicing teacher of adults for lifelong learning.
 ---
-<div id="main">
-    <div class="row">
-      <h1>SPEAKERS</h1>
-      <br>
-        {% for speaker in page.speakers %}
-        <div id="{{speaker.slug}}" class="speaker row">
-            <div class="twocol">
-                <img class="speaker-photo" src="/assets/images/speakers/{{speaker.slug}}.jpg">
-            </div>
-            <div class="ninecol last">
-                <h2>{{speaker.name}}</h2>
-                <p class="speaker-bio">{{speaker.bio}}</p>
-            </div>
+<div class="section wrapper">
+  <h1>SPEAKERS</h1>
+  <ul class="speakers">
+    {% for speaker in page.speakers %}
+    <li id="{{speaker.slug}}" class="speaker">
+        <div class="speaker-meta">
+          <h3 class="speaker-name">{{speaker.name}}</h3>
+          <span class="speaker-company">{{speaker.company}}</span>
+          <a class="speaker-handle" href="https://twitter.com/{{speaker.handle}}">@{{speaker.handle}}</a>
         </div>
-        {% endfor %}
-    </div>
+        <img class="speaker-photo" src="/assets/images/speakers/{{speaker.slug}}.jpg">
+        <div class="speaker-bio">
+          {{speaker.bio}}
+        </div>
+    </li>
+    {% endfor %}
+  </ul>
 </div>
