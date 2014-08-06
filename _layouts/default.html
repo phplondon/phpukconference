@@ -28,20 +28,17 @@
         </script>
     </head>
     <body>
-        <a href="#access">Menu</a>
+        <nav id="access" class="navbar">
+            <ul class="nav wrapper">
+              {% assign pages_list = site.pages %}
+              {% assign group = 'navigation' %}
+              {% include pages_list %}
+            </ul>
+        </nav>
         <div class="logo">
             <a href="/"><img class="header-logo" src="/assets/images/HeaderHead.png" alt="" /></a>
         </div>
-        <nav id="access" class="navbar">
-            <ul class="nav wrapper">
-                <li><a href="/about">ABOUT</a></li>
-                <li><a href="/speakers">SPEAKERS</a></li>
-                <li><a href="/schedule">SCHEDULE</a></li>
-                <li><a href="/sponsors">SPONSORS</a></li>
-                <li><a href="/socials">SOCIALS</a></li>
-                <li><a href="/venue">VENUE</a></li>
-            </ul>
-        </nav>
+
         <div class="contentArea wrapper">
             {{content}}
         </div>
