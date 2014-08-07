@@ -38,19 +38,20 @@ body{
 }
 
 h1,h2,h3,h4,h5,h6{
-    font-weight:700;
+    font-weight:400;
 }
 
 h1{
     font-family:"Proxima Nova";
-    font-size:3.8em;
+    font-size:6rem;
     line-height:1.4em;
-    color: #da9e26;
+    color:$conference-yellow;
     }
 
 h2{
+    margin:20px 0 10px 0;
     font-family:"Proxima Nova";
-    font-size:2.8em;
+    font-size:3.2em;
     line-height:1.4em;
     color:#4A91A3;
     }
@@ -70,9 +71,11 @@ li{
 }
 
 p{
-    padding-bottom:20px;
+    padding-bottom:10px;
 }
 
 a{
+    color:$conference-yellow;
+    text-decoration:none;
     border-bottom:1px dotted;
 }

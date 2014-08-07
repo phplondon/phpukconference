@@ -22,20 +22,29 @@ html{
 }
 
 body{
-	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-family:"Proxima Nova","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size:10px;
+    padding-top:$nav-height;
 }
 
 .wrapper{
     position:relative;
-    padding:0 2em;
+    padding:0 $gutter;
     margin:0 auto;
     max-width:1100px;
+}
+
+.content-area{
+    padding-top:6rem;
 }
 
 img{
 	max-width:100%;
 	height:auto;
+}
+
+.centre{
+    text-align:center;
 }
 
 .cf:before,

@@ -20,11 +20,121 @@
         a{
             display:block;
             padding:0 20px;
-            height:$nav-height;
+            height:50px;
             line-height:50px;
             color:#fff;
             text-transform:uppercase;
             text-decoration:none;
+            border:none;
+        }
+
+        &.active a{
+            background:rgba(0,0,0,0.5);
+        }
+    }
+}
+
+.header{
+    position:relative;
+    height:$header-height;
+    background:#ccc;
+    text-align:center;
+    background:#f2f8fc image-url('bg-header.png') center bottom repeat-x;
+
+    .bunting{
+        position:absolute;
+        top:0;
+        left:0;
+        right:0;
+        height:84px;
+        background:image-url('bunting.png') center top repeat-x;
+    }
+
+    .wrapper{
+        height:$header-height;
+    }
+
+    .logo{
+        position:relative;
+        display:inline-block;
+        margin:110px auto 0 auto;
+
+        a{
+            border:none;
+        }
+
+        .hat{
+            position:absolute;
+            top:-88px;
+            right:35px;
+            display:block;
+        }
+        .horn{
+            position:absolute;
+            top:140px;
+            left:50px;
+            display:block;
+        }
+    }
+
+    .text{
+        position:absolute;
+        color:#fff;
+        font-size:2.6em;
+        font-weight:600;
+        bottom:10px;
+        z-index:11;
+        @include text-shadow(1px 1px 0 rgba(0,0,0,0.3));
+    }
+
+    .text-left{
+        left:$gutter;
+        &:after{
+            content:" of...";
+        }
+    }
+
+    .text-right{
+        right:$gutter;
+        &:before{
+            content:"...the ";
+        }
+    }
+
+    .balloons{
+        z-index:101;
+        display:block;
+        position:absolute;
+    }
+
+    .balloons-left{
+        left:50%;
+        top:-20px;
+        margin-left:-500px;
+    }
+
+    .balloon-right{
+        right:0;
+        top:130px;
+    }
+}
+
+.home .header{
+    height:500px;
+
+    .text-left{
+        position:relative;
+        left:auto;
+        &:after{
+            content:"";
+        }
+    }
+
+    .text-right{
+        position:relative;
+        right:auto;
+        &:before{
+            content:"";
         }
     }
 }
