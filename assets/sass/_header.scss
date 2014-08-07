@@ -118,6 +118,10 @@
         right:0;
         top:130px;
     }
+
+    .date{
+        display:none;
+    }
 }
 
 .home .header{
@@ -147,5 +151,9 @@
         &:before{
             content:"";
         }
+    }
+
+    .date{
+        display:block;
     }
 }
