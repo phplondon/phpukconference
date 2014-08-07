@@ -39,10 +39,10 @@ body{
 
 h1,h2,h3,h4,h5,h6{
     font-weight:400;
+    font-family:"proxima-nova";
 }
 
 h1{
-    font-family:"proxima-nova";
     font-size:6rem;
     line-height:1.4em;
     color:$conference-yellow;
@@ -50,14 +50,12 @@ h1{
 
 h2{
     margin:20px 0 10px 0;
-    font-family:"Proxima Nova";
     font-size:3.2em;
     line-height:1.4em;
     color:#4A91A3;
     }
 
 h3{
-    font-family:"Proxima Nova";
     font-size:2.2em;
     line-height:1.2em;
     color:#4A91A3;
