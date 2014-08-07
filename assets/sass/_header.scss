@@ -78,6 +78,7 @@
     }
 
     .text{
+        display:block;
         position:absolute;
         color:#fff;
         font-size:2.6em;
@@ -122,17 +123,27 @@
 .home .header{
     height:500px;
 
-    .text-left{
+    .text{
+        clear:both;
         position:relative;
         left:auto;
+        right:auto;
+    }
+
+    .text-left{
+        margin:30px 0 10px 0;
+        font-size:4.4em;
+        @include text-shadow(0 0 4px rgba(0,0,0,0.3),1px 1px 0 rgba(0,0,0,0.3));
         &:after{
             content:"";
         }
     }
 
     .text-right{
-        position:relative;
-        right:auto;
+        color:#1A5364;
+        font-size:7em;
+        @include text-shadow(none);
+
         &:before{
             content:"";
         }
