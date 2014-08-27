@@ -28,7 +28,8 @@
             border:none;
         }
 
-        &.active a{
+        &.active a,
+        &:hover a{
             background:rgba(0,0,0,0.5);
         }
     }
@@ -125,7 +126,7 @@
 }
 
 .home .header{
-    height:500px;
+    height:540px;
 
     .text{
         clear:both;
@@ -137,7 +138,7 @@
     .text-left{
         margin:30px 0 10px 0;
         font-size:4.4em;
-        @include text-shadow(0 0 4px rgba(0,0,0,0.3),1px 1px 0 rgba(0,0,0,0.3));
+        @include text-shadow(0 0 6px rgba(0,0,0,0.2),1px 1px 0 rgba(0,0,0,0.2));
         &:after{
             content:"";
         }

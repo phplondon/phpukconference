@@ -160,19 +160,22 @@ speakers:
     bio: |
       Stuart Herbert is a software engineer and operational manager, with nearly 20 years of experience in software design, implementation, support, and in technical leadership, operational and senior management. His career to date includes projects and/or roles with household names including Eurostar, Hewlett-Packard, Orange, Vodafone, and the Ordnance Survey. He has written for php|architect magazine, and has spoken at PHP conferences on both sides of the Atlantic. He is a co-author of the official Study Guide for the Zend PHP Certification Exam. He is also a qualified and practicing teacher of adults for lifelong learning.
 ---
-<h1>SPEAKERS</h1>
-<ul class="speakers">
-  {% for speaker in page.speakers %}
-  <li id="{{speaker.slug}}" class="speaker">
-      <div class="speaker-meta">
-        <h3 class="speaker-name">{{speaker.name}}</h3>
-        <span class="speaker-company">{{speaker.company}}</span>
-        <a class="speaker-handle" href="https://twitter.com/{{speaker.handle}}">@{{speaker.handle}}</a>
-      </div>
-      <img class="speaker-photo" src="/assets/images/speakers/{{speaker.slug}}.jpg">
-      <div class="speaker-bio">
-        {{speaker.bio}}
-      </div>
-  </li>
-  {% endfor %}
-</ul>
+<div class="wrapper">
+  <h1>SPEAKERS</h1>
+  <p>The PHP UK Conference welcomes speakers from all over the world.</p>
+  <ul class="speakers">
+    {% for speaker in page.speakers %}
+    <li id="{{speaker.slug}}" class="speaker">
+        <div class="speaker-meta">
+          <h3 class="speaker-name">{{speaker.name}}</h3>
+          <span class="speaker-company">{{speaker.company}}</span>
+          <a class="speaker-handle" href="https://twitter.com/{{speaker.handle}}">@{{speaker.handle}}</a>
+        </div>
+        <img class="speaker-photo" src="/assets/images/speakers/{{speaker.slug}}.jpg">
+        <div class="speaker-bio">
+          {{speaker.bio}}
+        </div>
+    </li>
+    {% endfor %}
+  </ul>
+</div>

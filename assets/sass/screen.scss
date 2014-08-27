@@ -4,6 +4,7 @@
 @import "respond";
 @import "fonts";
 @import "entypo";
+@import "footer";
 @import "header";
 @import "banner";
 @import "footer";
@@ -36,6 +37,10 @@ body{
 
 .content-area{
     padding-top:6rem;
+}
+
+.home .content-area{
+    padding-top:0;
 }
 
 img{

@@ -340,62 +340,63 @@ schedule-friday:
             description: |
               Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
 ---
-<h1>SCHEDULE</h1>
-<p>The PHP UK Conference 2015 is two days packed with interesting talks from some of the most well known speakers in the world. Each day will include three simultaneous tracks of talks so that you are certain to find something of interest at every point throughout the conference.</p>
-<div id="schedule-container">
-<!--  <ul class="schedule-picker">
-    <li><a href="#thursday">Thursday</a></li>
-    <li><a href="#friday">Friday</a></li>
-  </ul>
--->
-  <h2 class="centre">Thursday</h2>
-  <ul class="schedule schedule-thursday">
-    {% for slot in page.schedule-thursday %}
-    <li class="slot {{slot.slottype}}">
-      <span class="time">{{slot.time}}</span>
-      <div class="tracks-wrapper">
-        <ul class="tracks tracks-thursday"><!--
-          {% for track in slot.tracks %}
-          --><li class="track">
-            <span class="name">{{track.track.name}}</span>
-            <span class="title">{{track.track.title}}</span>
-            <span class="speaker">{{track.track.speaker}}</span>
-            <p class="description">{{track.track.description}}</p>
-          </li><!--
-          {% endfor %}
-        --></ul>
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
-  <h2 class="centre">Friday</h2>
-  <ul class="schedule schedule-friday">
-    {% for slot in page.schedule-friday %}
-    <li class="slot {{slot.slottype}}">
-      <span class="time">{{slot.time}}</span>
-      <div class="tracks-wrapper">
-        <ul class="tracks tracks-thursday">
-          {% for track in slot.tracks %}
-          <li class="track">
-            <span class="name">{{track.track.name}}</span>
-            <span class="title">{{track.track.title}}</span>
-            <span class="speaker">{{track.track.speaker}}</span>
-            <p class="description">{{track.track.description}}</p>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </li>
-    {% endfor %}
-  </ul>
-
-</div><!-- schedule-container -->
-<p>*Schedule is subject to change without notice</p>
-<script type="text/javascript">
-$(document).ready(function(){
-  foo = function ()
-  {
-    alert('Bar');
-  }
-});
-</script>
+<div class="wrapper">
+  <h1>SCHEDULE</h1>
+  <p>The PHP UK Conference 2015 is two days packed with interesting talks from some of the most well known speakers in the world. Each day will include three simultaneous tracks of talks so that you are certain to find something of interest at every point throughout the conference.</p>
+  <div id="schedule-container">
+  <!--  <ul class="schedule-picker">
+      <li><a href="#thursday">Thursday</a></li>
+      <li><a href="#friday">Friday</a></li>
+    </ul>
+  -->
+    <h2 class="centre">Thursday</h2>
+    <ul class="schedule schedule-thursday">
+      {% for slot in page.schedule-thursday %}
+      <li class="slot {{slot.slottype}}">
+        <span class="time">{{slot.time}}</span>
+        <div class="tracks-wrapper">
+          <ul class="tracks tracks-thursday"><!--
+            {% for track in slot.tracks %}
+            --><li class="track">
+              <span class="name">{{track.track.name}}</span>
+              <span class="title">{{track.track.title}}</span>
+              <span class="speaker">{{track.track.speaker}}</span>
+              <p class="description">{{track.track.description}}</p>
+            </li><!--
+            {% endfor %}
+          --></ul>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+    <h2 class="centre">Friday</h2>
+    <ul class="schedule schedule-friday">
+      {% for slot in page.schedule-friday %}
+      <li class="slot {{slot.slottype}}">
+        <span class="time">{{slot.time}}</span>
+        <div class="tracks-wrapper">
+          <ul class="tracks tracks-thursday">
+            {% for track in slot.tracks %}
+            <li class="track">
+              <span class="name">{{track.track.name}}</span>
+              <span class="title">{{track.track.title}}</span>
+              <span class="speaker">{{track.track.speaker}}</span>
+              <p class="description">{{track.track.description}}</p>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </div><!-- schedule-container -->
+  <p>*Schedule is subject to change without notice</p>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    foo = function ()
+    {
+      alert('Bar');
+    }
+  });
+  </script>
+</div>
