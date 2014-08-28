@@ -1,0 +1,43 @@
+.about{
+	background:#eee;
+}
+
+.testimonials{
+	background:#fff;	
+}
+
+.history{
+	background:darken(#5490DA, 5%);
+
+	h2{
+		color:#fff;
+	}
+	p{
+		color:lighten(#5490DA, 30%);
+	}
+	a{
+		color:lighten($conference-yellow, 20%);
+	}
+
+	.videos{
+		padding:10px 0;
+	}
+}
+
+.list{
+	margin-bottom:16px;
+	list-style-type: disc;
+	padding-left:30px;
+}
+
+.map{
+	float:right;
+	margin:0 0 0 20px;
+	width:400px;
+	height:300px;
+}
+
+.image-full{
+	margin:20px 0;
+	width:100%;
+}
