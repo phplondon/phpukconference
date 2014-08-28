@@ -1,39 +1,56 @@
 ---
 layout: "default"
+title: Speakers
+group: "navigation"
+weight: 2
 speakers:
   - 
     name: Andrei Zmievski
     slug: andreizmievski
+    company: App Dynamics
+    handle: andreiz
     bio: |
       Andrei has a long history in the PHP community, where, as a core developer and a member of the PHP Group, he helped curate development of the world’s most popular web development language. Along the way, he started PHP-GTK, helped create Smarty, co-wrote PHP Developer’s Cookbook, and architected Unicode support that would have been in PHP 6. Having worked as a platform engineer at Yahoo and the Open Source Fellow at Digg, he is presently a software architect at AppDynamics, where he is working on the next generation of application monitoring and troubleshooting tools.
   - 
     name: Bastian Hofmann
     slug: bastianhofmann
+    company: ResearchGate
+    handle: bastian
     bio: |
       Bastian works works as a Software Engineer at ResearchGate, the social network for researchers and scientists. There he is mainly responsible for designing the web frontend's software architecture and developing APIs. Before that he created the games and application platform and the APIs of the VZ-networks. When he is not developing stuff, he frequently speaks at international conferences on software architecture, scaling web applications and open standards and protocols.
   - 
     name: Ben Mathews
     slug: benmathews
+    company: Facebook
+    handle: ben_mathews
     bio: |
       Ben Mathews is an engineer in Facebook's London office.  His main focus at Facebook is security in the PHP codebase — he builds tools to detect security problems, and tries to make Facebook's codebase safe by default.  He also developed the framework that Facebook uses to reliably delete user accounts and all of their data.
   - 
     name: Beth Tucker Long
     slug: bethtuckerlong
+    company: php[architect]
+    handle: bethtl
     bio: |
       Beth Tucker Long is the Editor-In-Chief of <a href="http://www.phparch.com">php[architect] magazine</a>, co-organizer of <a href="http://www.madisonphp.com">Madison PHP</a>, and she also teaches PHP courses and freelances. You can find her on Twitter (@<a href="http://twitter.com/e3betht">e3betht</a>) or on her <a href="http://www.alittleofboth.com">blog</a>. She runs <a href="http://www.treelinedesign.com">Treeline Design</a>, a web development company, and <a href="http://www.playlisteventmusic.com">Playlist Event Music</a>, a DJ company, along with her husband, Chris.
   - 
     name: Davey Shafik
     slug: daveyshafik
+    company: Engine Yard
+    handle: daveyshafik
     bio: |
       Davey Shafik is a full time PHP Developer with 12 years experience in PHP and related technologies. A Community Engineer for Engine Yard, he has written three books (so far!), numerous articles and spoken at conferences the globe over. He lives in Central Florida with his wife, son and two cats. Davey is best known for his books, the Zend PHP 5 Certification Study Guide and PHP Master: Write Cutting Edge Code, and as the originator of PHP Archive (PHAR) for PHP 5.3.
   - 
     name: Derick Rethans
     slug: derickrethans
+    company: MongoDB
+    handle: derickr
     bio: |
       Derick Rethans is a PHP internals expert, author of <a href='http://xdebug.org'>Xdebug</a> and an <a href="http://openstreetmap.org">OpenStreetMap</a> and mapping enthusiast.</p><p>He has contributed in a number of ways to the PHP project, including the <a href='http://xdebug.org'>Xdebug</a> debugging tool, and various extensions and additions. He's a frequent lecturer at <a href="httpd://derickrethans.nl/talks.html">conferences</a>, the author of <a href="http://phpdatebook.com">php|architect's Guide to Date and Time Programming</a>, and the co-author of <a href="http://www.amazon.co.uk/exec/obidos/ASIN/013147149X/derickrethans-21">PHP 5 Power Programming</a>. He is now working at <a href='http://mongodb.com'>MongoDB</a> to work on the <a href='http://pecl.php.net/mongo'>PHP driver</a> for <a href='http://mongodb.org'>MongoDB</a>.
   - 
     name: Eli White
     slug: eliwhite
+    company: musketeers.me
+    handle: eli_white
     bio: |
       Eli has been building Web Applications for over 19 years and fell in love with PHP the day that PHP 4 was released. Since then he's been a strong advocate for PHP and used it in every project he's work on.  He is currently the Managing Editor and Conference Chair for php[architect] and Founding Partner & CTO of <a href="http://musketeers.me">musketeers.me</a>. He is also an avid writer (blogs, articles and books), and has spoken at numerous conferences.
   - 
@@ -143,20 +160,26 @@ speakers:
     bio: |
       Stuart Herbert is a software engineer and operational manager, with nearly 20 years of experience in software design, implementation, support, and in technical leadership, operational and senior management. His career to date includes projects and/or roles with household names including Eurostar, Hewlett-Packard, Orange, Vodafone, and the Ordnance Survey. He has written for php|architect magazine, and has spoken at PHP conferences on both sides of the Atlantic. He is a co-author of the official Study Guide for the Zend PHP Certification Exam. He is also a qualified and practicing teacher of adults for lifelong learning.
 ---
-<div id="main">
-    <div class="row">
-      <h1>SPEAKERS</h1>
-      <br>
-        {% for speaker in page.speakers %}
-        <div id="{{speaker.slug}}" class="speaker row">
-            <div class="twocol">
-                <img class="speaker-photo" src="/assets/images/speakers/{{speaker.slug}}.jpg">
-            </div>
-            <div class="ninecol last">
-                <h2>{{speaker.name}}</h2>
-                <p class="speaker-bio">{{speaker.bio}}</p>
-            </div>
+<div class="wrapper">
+  <h1>SPEAKERS</h1>
+  <p>The PHP UK Conference welcomes speakers from all over the world.</p>
+
+  <p>Our <strong>Call for Papers</strong> will open on September 1st 2014.</p>
+<!--
+  <ul class="speakers">
+    {% for speaker in page.speakers %}
+    <li id="{{speaker.slug}}" class="speaker">
+        <div class="speaker-meta">
+          <h3 class="speaker-name">{{speaker.name}}</h3>
+          <span class="speaker-company">{{speaker.company}}</span>
+          <a class="speaker-handle" href="https://twitter.com/{{speaker.handle}}">@{{speaker.handle}}</a>
         </div>
-        {% endfor %}
-    </div>
+        <img class="speaker-photo" src="/assets/images/speakers/{{speaker.slug}}.jpg">
+        <div class="speaker-bio">
+          {{speaker.bio}}
+        </div>
+    </li>
+    {% endfor %}
+  </ul>
+-->
 </div>

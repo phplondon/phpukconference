@@ -1,0 +1,74 @@
+#footer{
+	min-height:171px;
+	padding:20px 0;
+	background:#25272c;
+	border-top:20px solid #000;
+
+	h3{
+		margin:0 0 10px 0; 
+	}
+
+	p{
+		color:#ddd;
+	}
+
+	a{
+		color: #fff;
+
+		&:hover{
+			color:#2492a2;
+		}
+	}
+
+	@include respond(medium){
+		.eightcol > .fourcol{
+			margin:0 94px 0 0;
+		}
+	}
+}
+
+
+#contact-info{
+	font-style: "BebasNeueRegular";
+	font-size: 80%;
+	color: #60b5c9;
+	text-align: right;
+	@include respond(small){
+		text-align:left;
+	}
+}
+	#social-media{
+	font-style: "BebasNeueRegular";
+	font-size: 80%;
+	color: #60b5c9;
+	}
+	#php-london{
+	font-style: "BebasNeueRegular";
+	font-size: 80%;
+	color: #60b5c9;
+	}
+img.email-image {
+	padding-top: 1%;
+	width:12%;
+}
+img.octocat {
+	padding-top: 1%;
+	width:15%;
+}
+
+#FourOhFour {
+	font-family: "SteelfishRgRegular";
+	font-size: 200%;
+	color: #60b5c9; 
+	text-align: center;
+	padding-bottom:10px;
+}
+#elephant-image {
+	margin-left: auto;
+	margin-right: auto;	
+	text-align: center;
+	}
+img.sadele {
+	width: 20%;
+	padding-top: 30px;
+}
