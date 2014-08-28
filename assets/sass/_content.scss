@@ -41,3 +41,15 @@
 	margin:20px 0;
 	width:100%;
 }
+
+.button{
+	display:inline-block;
+	padding:14px 22px;
+	font-size:1.5rem;
+	font-weight:bold;
+	color:#fff;
+	background:$conference-yellow;
+	border:none;
+	@include border-radius(3px);
+	@include box-shadow(0 3px 0 darken($conference-yellow, 10%));
+}
