@@ -1,0 +1,300 @@
+/* medium screens */
+@media only screen
+and (min-width : 1281px)
+and (max-width: 1590px) {
+	#access {
+	font-size: 120%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+	.big-title-text {		
+	font-size: 500%;
+	}
+	.small-title-text {	
+	font-size: 200%;
+	}
+	.sub-title-text{
+	font-size: 210%;
+	}
+	img.circle {
+	padding: 3% 2%;
+	width: 14%;
+	}
+	#content-bar-below-header {
+	font-family: "SteelfishRgRegular";
+	height: 60px;
+	margin-top: -60px;
+	position:relative;
+	width: 80%;
+	overflow:visible;
+	max-width: 920px;
+    }
+    #mobile-content-bar-below-header {
+	display:none;
+    }
+    #countdown_descr {
+	padding-top: 3.0%
+	}
+    
+}
+@media only screen
+and (min-width : 1025px)
+and (max-width: 1280px) {
+	#access {
+	font-size: 110%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	}
+	#header-text {
+	padding-top: 5%;
+	}
+	.big-title-text {		
+	font-size: 450%;
+	}
+	.small-title-text {	
+	font-size: 170%;
+	}
+	.sub-title-text{
+	font-size: 190%;
+	}
+	img.circle {
+	padding: 2% 1%;
+	width: 11%;
+	}
+	#header-logo {
+	display: block;	
+	margin-top: -4%;
+	width: 10%;
+	}
+	#countdown_descr {
+	padding-top: 4.0%
+	}
+	
+}
+/* tablets (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) {
+    body {
+	font-size: 90%;	
+	}
+	#access {
+	font-size: 120%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	}
+	#header-text {
+	padding-top: 4.5%;
+	}
+	.big-title-text {		
+	font-size: 400%;
+	}
+	.small-title-text {	
+	font-size: 150%;
+	}
+	.sub-title-text{
+	font-size: 160%;
+	}
+	
+	img.circle {
+	padding: 3% 2%;
+	width: 8%;	
+	}
+	#bar-below-header {
+	height: 45px;
+	margin-top: -45px;
+	}
+	#content-bar-below-header {
+	height: 45px;
+	margin-top: -45px;
+	}
+	.countdown_section {
+	font-size: 90%;
+	}
+	.countdown_amount {	
+	font-size: 120%;
+	}
+	img.circle {
+	width: 10%;
+	}
+	#header-logo {
+	display: block;	
+	margin-top: -3%;
+	width: 10%;
+	
+	}
+	#countdown_descr {
+	padding-top: 3.5%
+	}
+	
+}
+
+
+@media only screen
+and (max-width: 767px) {
+
+	body {
+	font-size: 80%;
+	-webkit-text-size-adjust: none;
+	}
+	
+	.row, body, .container {
+	width: 100%;
+	min-width: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	
+	.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
+	width: auto;
+	float: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+	#access {
+	font-size: 100%;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+	}
+	#header-text {
+	padding-top: 7%;
+	}
+	 .short-image-header-text {
+	padding-top: 5% !important;
+	}
+	.big-title-text {		
+	font-size: 400%;
+	}
+	.small-title-text {	
+	font-size: 150%;
+	}
+	.sub-title-text{
+	font-size: 150%;
+	}
+	#header-circles {
+	display: none;
+	}
+	#bar-below-header {
+	height: 40px;
+	margin-top: -40px;
+	}
+	#content-bar-below-header {
+	display: none;
+	}
+	#mobile-content-bar-below-header {
+	display: block;
+	position:relative;
+	height: 40px;
+	margin-top: -40px;
+	}
+	#left-menu {
+	font-size: 90%;
+	width: 40%;
+	}
+	#right-menu {
+	font-size: 90%;
+	width: 40%;
+	}
+	#header-logo {
+	display: block;	
+	margin-top: -4%;
+	width: 10%;	
+	}
+	.short-image-sub-text {
+	display: none;
+	}
+	.footer {
+		height: 251px;
+	}
+	.push {
+		height: 271px;
+	}
+	#page{
+	margin: 0 auto -271px;	
+	}
+	h1.thursday-schedule{
+	padding-left: 5%;
+	}
+	.thursday-text {
+	padding-top: 20px;
+	}
+	.schedule-room-main {	
+	border-bottom: 1px solid #cdcdcd;
+	}
+	.schedule-room-side {	
+	border-bottom: 1px solid #cdcdcd;
+	}
+	.mobile-track {
+		display: inline-block;
+	}
+	.header-row {
+	display: none;
+	}
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (min-width : 320px) 
+and (max-width : 480px) {
+	body {
+	font-size: 70%;
+	}
+	#main{
+	    line-height: 130%;
+		font-size: 130%;
+	}
+	.sub-title-text {
+	display: none;
+	}
+	.small-title-text {
+		font-size: 95%;
+		color: #da9e26;
+	}
+	#left-menu {
+	font-size: 80%;
+	}
+	#right-menu {
+	font-size: 80%;
+	}
+	#bar-below-header {
+	height: 30px;
+	margin-top: -30px;
+	}
+	#mobile-content-bar-below-header {
+	height: 30px;
+	margin-top: -30px;
+	}
+	#header-logo {
+	display: block;	
+	margin-top: -4%;
+	width: 10%;
+	}
+    .short-image-header-text {
+	padding-top: 5% !important;
+	}
+	.footer {
+		height: 251px;
+	}
+	.push {
+		height: 271px;
+	}
+	#page{
+	margin: 0 auto -271px;	
+	}
+	#footer-content {
+		width: 90%;
+	}
+	.start-time {
+	font-size: 65%;
+	}
+    .end-time {
+	font-size: 65%;
+	}
+	
+}
+
