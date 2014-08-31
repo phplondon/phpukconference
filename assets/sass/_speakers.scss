@@ -1,182 +1,43 @@
-.speaker {
-    padding:20px 0px 20px 0px !important; 
+.speaker{
+    clear:both;
+    margin:0 0 30px 0;
+    overflow:auto;
+
+    .speaker-meta{
+        width:190px;
+        float:left;
+    }
+    .speaker-photo{
+        float:left;
+    }
+    .speaker-name{
+        font-size:3rem;
+        font-weight:300;
+        color:#000;
+    }
+    .speaker-company{
+        display:block;
+        clear:both;
+        color:#999;
+    }
+    .speaker-handle{
+        display:inline-block;
+        clear:both;
+        color:$twitter-blue;
+        font-weight:900;
+        text-decoration:none;
+    }
+    .speaker-photo{
+        width:150px;
+        height:auto;
+    }
+    .speaker-bio{
+        margin:0 0 0 380px;
+    }
 }
 
-.speaker h2{
-	margin-top:4px;
+@include respond(desktop){
+    .speakers{
+        margin:40px 0;
+    }
 }
-
-.speaker-photo {
-    border: solid 1px #DA9E26;
-    margin-top: 10px;
-}
-
-.speaker-name {
-	padding-top: 20px;
-    font-family: "SteelfishRgItalic";
-	font-size: 135%;
-	color: #da9e26;
-	line-height: 1.2em;
-}
-.sponsor-text {
-	padding-top: 20px;
-	padding-bottom: 30px;
-}
-.sponsor-heading {
-	font-family: "SteelfishRgRegular";
-	font-size: 300%;
-	color: #60B5C9;
-	}
-.sponsor-logo-container {
-	height: 100px;
-	width: 100px;
-	display: inline-block;
-	border: solid 1px #da9e26;
-	border-radius: 100%;
-	padding: 10px;
-}
-.separator {
-	font-weight: bold;
-	color: #da9e26;
-}
-#sponsor-logos-bar {
-	padding-top: 20px;
-	height:10px;
-	border-top: solid 2px #da9e26;
-	margin-top:20px;
-}
-.sponsor-logo-home {
-	border: solid 1px #da9e26;
-	width: 150px;
-}
-.sponsor-type {
-	font-family: "SteelfishRgRegular";
-	font-size: 300%;
-	color: #da9e26;
-	line-height: 300%;
-	text-align: center;
-}
-.sponsor-home {
-	margin: 10px;
-	float: left;
-}
-.sponsor-logo-heading {
-	
-	font-family: "SteelfishRgItalic";
-	font-size: 100%;
-	padding-bottom:10px;
-	text-align: center;
-	
-}
-.backlink {
-	padding-top:15px;
-	padding-left: 15px;
-	float:right;
-}
-#unconlink {
-	display:inline-block;
-	padding-top:10px;
-	padding-bottom: 10px;
-	text-align:center;
-	width:100%;
-}
-#otherthings {
-	background-color: #dedede;
-	margin-bottom: 20px;
-}
-#hackathon{
-	display:inline-block;
-	padding-top:10px;
-	padding-bottom: 10px;
-	text-align:center;
-	width:100%;
-	
-}
-#leftstar {
-	float:left;
-}
-#rightstar {
-	float:left;
-}
-/*
-.keynote-presenter a {
-	color:#2561DA;
-}
-.keynote-presenter a:hover {
-	color:#4325DA;
-}
-*/
-.session-key-container {
-	border-top: 2px solid #da9e26;
-	border-bottom: 2px solid #da9e26;
-}
-.thursday {
-	background-color: #dedede;
-	margin-bottom: 20px;
-	margin-top: 20px;
-}
-.schedule-room-bg {
-	width:82%;
-	float: left;
-	text-align: center;
-	background-color: #daebef;
-	}
-.schedule-room-side {
-
-	font-family: "SteelfishRgRegular";
-	font-size: 120%;
-	color: #454545;
-	
-}
-.schedule-room-main {	
-	padding-top:10px;
-	font-family: "SteelfishRgRegular";
-	font-size: 150%;
-	color: #454545;
-	padding-bottom:10px;
-	
-}
-
-h1.thursday-schedule {
-	font-family: "SteelfishRgRegular";
-	font-size: 200%;
-	color: #60b5c9;
-	text-align: left;
-	padding-top: 40px;
-	padding-bottom: 30px;
-	padding-left: 34%;
-	background-color: #DEDEDE;
-}
-.thursday-text {
-	padding-top:40px;
-	padding-left:5%;
-	padding-right: 5%;
-	padding-bottom:30px;
-}
-.mobile-track {
-	display: none;
-    padding-top: 20px;
-	font-style: italic;
-	font-size: 80%;
-	color: #da9e26;
-}
-.header-row {
-    background-color: #DEDEDE;
-}
-
-.vname{
-	float:left;
-}
-.vnames {
-	padding-bottom:60px;
-}
-
-img.starleft {
-	width: 15px;
-	padding-left: 15px;
-}
-img.starright {
-	width: 15px;
-	padding-right: 15px;
-}
-	

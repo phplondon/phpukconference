@@ -1,4 +1,7 @@
 @mixin respond($point) {
+  @if $point == desktop {
+    @media (min-width: 1024px) { @content; }
+  }
   @if $point == medium {
     @media (max-width: 1030px) { @content; }
   }
