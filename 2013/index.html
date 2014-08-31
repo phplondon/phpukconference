@@ -112,7 +112,16 @@ at the <a href="http://phpconference.co.uk/socials" target="_blank"> socials </a
 <div id="sponsor-logos-bar">
 </div>
 {% for sponsor in page.sponsors %}
-    {% include sponsors.html %}
+    <div class="sponsor-home">
+        <h3 class="sponsor-logo-heading {{sponsor.color}}">
+            <img class="left-ribbon-small" src="/2013/assets/images/TitleRibbonLeft.png" />
+            {{sponsor.category}}
+            <img class="right-ribbon-small" src="/2013/assets/images/TitleRibbonRight.png"/>
+        </h3>
+        <a href="{{sponsor.url}}" target="_blank">
+            <img class="sponsor-logo-home" src="/2013/assets/images/sponsors/{{sponsor.image}}_logo.png"/>
+        </a>
+    </div>
 {% endfor %}
 </div><!-- main-->
 <div class="push"></div>
