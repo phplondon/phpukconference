@@ -1,0 +1,26 @@
+---
+layout: "default"
+speakers:
+  - 
+    name: Stephan Priebsch
+    slug: stephanpriebsch
+    bio: |
+      <a href="http://priebsch.de">Stefan</a> is a Co-Founder and Principal Consultant with <a href="http://thephp.cc">thePHP.cc</a>. He holds a degree in computer science and is author of various books and technical articles. As a consultant, he helps customers make better use of PHP, with a focus on software architecture, design patterns, and tools and methods.
+---
+<div id="main">
+    <div class="row">
+      <h1>SPEAKERS</h1>
+      <br>
+        {% for speaker in page.speakers %}
+        <div id="{{speaker.slug}}" class="speaker row">
+            <div class="twocol">
+                <img class="speaker-photo" src="/2010/assets/images/speakers/{{speaker.slug}}.jpg">
+            </div>
+            <div class="ninecol last">
+                <h2>{{speaker.name}}</h2>
+                <p class="speaker-bio">{{speaker.bio}}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
