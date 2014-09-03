@@ -53,3 +53,30 @@
 		vertical-align:top;
 	}
 }
+
+@include respond(mobile){
+
+	.banner{
+		height:180px;
+	}
+
+	.facts{
+		padding:14px 10px !important;
+
+		.figure{
+			display:block;
+			width:100%;
+			font-size:5.6rem;
+			font-weight:100;
+			line-height:5.6rem;
+		}
+		.label{
+			font-size:0.8em;
+			font-weight:500;
+			line-height:1em;
+		}
+		sup{
+			font-size:0.2em;
+		}
+	}
+}

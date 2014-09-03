@@ -110,3 +110,13 @@ img{
 .cf{
     *zoom: 1;
 }
+
+@include respond(mobile){
+    .col-half,
+    .col-third,
+    .col-quarter{
+        margin:0 0 10px 0 !important;
+        width:auto;
+        clear:left;
+    }
+}

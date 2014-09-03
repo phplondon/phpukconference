@@ -158,3 +158,94 @@
         display:block;
     }
 }
+
+@include respond(medium){
+    .nav li{
+        font-size:1.8em;
+    }
+}
+
+@include respond(mobile){
+    .nav{
+        height:$nav-height;
+        overflow:hidden;
+        background:#2c2e35;
+
+        &:before{
+            content:"Menu";
+            display:inline-block;
+            text-align:center;
+            font-size:2em;
+            display:block;
+            padding:0 20px;
+            height:50px;
+            line-height:50px;
+            color:#fff;
+            text-transform:uppercase;
+        }
+
+        &:after{
+          content:"";
+          position:absolute;
+          top:16px;
+          left:15px;
+          
+          width:22px;
+          height:3px;
+          border-top:9px double rgba(255,255,255,0.8);
+          border-bottom:3px solid rgba(255,255,255,0.8);
+        }
+
+        &:hover{
+            height:auto;
+            overflow:auto;
+        }
+
+        li{
+            width:100%;
+            clear:left;
+            font-size:1.8em;
+        }
+    }
+    .header{
+        height:160px;
+
+        .text{
+            display:none;
+            font-size:2em;
+        }
+ 
+        .logo{
+            width:200px;
+            margin:80px auto 0 auto;
+
+            img{
+                max-width:100%;
+                height:auto;
+            }
+
+            .hat{
+                top:-89px;
+                right:13px;
+            }
+            .horn{
+                top:100px;
+                left:20px;
+            }
+        }
+    }
+    .home .header{
+        height:420px;
+
+        .text{
+            display:block;
+        }
+
+        .text-left{
+            font-size:2.8em;
+        }
+        .text-right{
+            font-size:3.4em;
+        }
+    }
+}

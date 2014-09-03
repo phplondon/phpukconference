@@ -41,3 +41,18 @@
 		line-height:16px;
 	}
 }
+
+@include respond(mobile){
+	.footer{
+		.col{
+			float:none;
+	        margin:0 0 0 0 !important;
+	        width:auto;
+	        clear:left;
+
+	        &:first-child{
+	        	display:none;
+	        }
+		}
+	}
+}

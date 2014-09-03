@@ -3,12 +3,12 @@
     @media (min-width: 1024px) { @content; }
   }
   @if $point == medium {
-    @media (max-width: 1030px) { @content; }
-  }
-  @else if $point == small {
-    @media (max-width: 700px) { @content; }
+    @media (max-width: 840px) { @content; }
   }
   @else if $point == mobile {
+    @media (max-width: 799px) { @content; }
+  }
+  @else if $point == small {
     @media (max-width: 480px) { @content; }
   }
 }
@@ -27,6 +27,3 @@
     /* some level of transform keeps elements from blinking out of visibility on iOS */
     -webkit-transform: rotateY(0);
 }
-
-
-
