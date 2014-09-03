@@ -78,3 +78,12 @@ a{
     text-decoration:none;
     border-bottom:1px dotted;
 }
+
+@include respond(mobile){
+    h1{
+        font-size:3.6rem;
+    }
+    h2{
+        font-size:2.6rem;
+    }
+}

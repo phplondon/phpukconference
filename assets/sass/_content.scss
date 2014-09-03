@@ -53,3 +53,12 @@
 	@include border-radius(3px);
 	@include box-shadow(0 3px 0 darken($conference-yellow, 10%));
 }
+
+@include respond(mobile){
+	.map{
+		float:none;
+		margin:0 0 10px 0;
+		width:100%;
+		height:100px;
+	}
+}
