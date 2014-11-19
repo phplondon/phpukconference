@@ -115,11 +115,15 @@
 		.tracks-wrapper{
 			padding:10px 0;
 		}
+		.tracks{
+ 			min-width:10%;
+		}
 		.track{
 			display:inline-block;
 			width:31%;
 			margin-right:2%;
 			white-space:normal;
+			vertical-align:top;
 		}
 		.special .track{
 			width:100%;
