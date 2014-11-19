@@ -3,6 +3,14 @@ layout: "default"
 title: Schedule
 group: "navigation"
 weight: 3
+schedule-wednesday:
+  - time: "18.00"
+    slottype: break
+    tracks:
+      - track:
+            name: Pre-Conference Social
+            description: |
+              The pre-conference social is a traditional PHP London style pubcon open to anyone where conference attendees and locals can meet up before the conference to network and socialise. There will also be a technical talk. More details to be announced soon...
 schedule-thursday:
   - time: "08.00"
     slottype: special
@@ -10,167 +18,206 @@ schedule-thursday:
       - track:
             name: Registration
             description: |
-              Registration will be open from 8am. Refreshments will be served until shortly before 9am.
+              Registration will be open from 8am. A light breakfast with coffee/tea/juice will be served until shortly before 9am.
   - time: "09.00"
     slottype: special
     tracks:
       - track:
             name: Opening address
-            title: Welcome to PHP UK 2015
+            title: Welcome to PHP UK Conferece
             speaker: Johanna Cherry & Sam Bell
+            slug: about
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis. Maecenas faucibus mollis interdum.
-  - time: "09.15"
+              Johanna and Sam welcome all our delegates, speakers, and sponsors to the conference and provide an overview of the days events to come. 
+  - time: "09.20"
     slottype: special
     tracks:
       - track:
             name: Keynote
-            title: Title of the keynote speech
-            speaker: Speaker Name
-            description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-  - time: "10.15"
+            title: To Be Confirmed
+            speaker: 
+            description:
+  - time: "09.50"
     slottype: break
     tracks:
       - track:
             name: Morning Refreshment Break
             description: |
               Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
-  - time: "10.45"
+  - time: "10.20"
     slottype: talks
     tracks:
       - track:
-            name: Main track
-            title: Title of the talk
-            speaker: Speaker Name
-            description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-      - track:
             name: Sidetrack 1
-            title: Title of the second talk
-            speaker: Speaker Name
+            title: "Reverse caching proxies: Varnish or Nginx?"
+            speaker: Thijs Feryn
+            slug: thijsferyn
             description: |
-               Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
+              In a world full of scalability challenges, a reverse caching proxy has become an essential tool to protect your backend servers. This talk is dedicated to that and compares Varnish to Nginx as the two tools for the job. We'll be talking about setup, configuration, default behaviour, invalidation, monitoring and some advanced tricks such as ESI.
+      - track:
+            name: Main Track
+            title: "What's new in PHP"
+            speaker: Lorna Mitchell
+            slug: lornamitchell
+            description: |
+              With new PHP versions being released more often, and projects increasing their minimum requirements for PHP versions, it's clear that things are changing rapidly.  This session is all about the changes introduced in recent versions of PHP, and what that means for PHP projects everywhere.  There will be practical examples of the shiny new features, advice on finding hosting and safely upgrading existing projects, and news about the performance improvements you can expect as you move between the versions.  The way PHP is evolving is truly exciting so come and find out what it's all about!
       - track:
             name: Sidetrack 2
-            title: Title of the third talk
-            speaker: Speaker Name
+            title: "Adding 1.21 Gigawatts to Applications with RabbitMQ"
+            speaker: James Titcumb
+            slug: jamestitcumb
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-  - time: "12.00"
+              As your application grows, you soon realise you need to break up your application into smaller chunks that talk to each other. You could just use web services to interact, or you could take a more robust approach and use the message broker RabbitMQ. In this talk, we will take a look at the techniques you can use to vastly enhance inter-application communication, learn about the core concepts of RabbitMQ, cover how you can scale different parts of your application separately, and modernise your development using a message-oriented architecture.
+  - time: "11.20"
+    slottype: special
+    tracks:
+      - track:
+            name: Room change
+  - time: "11.30"
     slottype: talks
     tracks:
       - track:
-            name: Main track
-            title: Title of the talk
-            speaker: Speaker Name
-            description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-      - track:
             name: Sidetrack 1
-            title: Title of the second talk
-            speaker: Speaker Name
+            title: "Devops for PHP Developers"
+            speaker: Jeremy Quinton
+            slug: jeremyquinton
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
+              2014 is the 5 year anniversary after the idea of Devops was born. To paraphrase a quote from <a href="http://devopsdays.org/">http://devopsdays.org/</a> "Back then we didn't know we were going to change the IT industry. Devops has gone from an underground, to a wide mainstream industry adopted idea." Incredibly even after 5 years we still don’t have all the answers and in an industry that changes so rapidly it's important to grasp and understand the core concepts of what devops is about so that you can take your organisation or development team forward. My talk will dispel some myths, cover fundamental ideas and tools you can embrace, mainly from a developers perspective. Ideally I hope to inspire developers to implement devops practices correctly within their teams. Whether you are seasoned professional, or amateur, my talk should have something for everyone. 
+      - track:
+            name: Main track
+            title: "Composer Best Practices"
+            speaker: Jordi Boggiano
+            slug: jordiboggiano
+            description: |
+              Composer has grown into the de-facto standard PHP dependency manager. While we struggle to make it easy to use, mastering dependency management and packaging in general remains tricky. In this session you will learn how to leverage Composer version constraints, grasp stabilities and semantic versioning along with a few more tips on being a good OSS citizen. You should already be comfortable with Composer basics and eager to learn about it some more.
       - track:
             name: Sidetrack 2
-            title: Title of the third talk
-            speaker: Speaker Name
+            title: "Modernizing The WordPress Toolbox"
+            speaker: Aaron Jorbin
+            slug: aaronjorbin
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-  - time: "13.00"
+              WordPress powers over 20% of the web, yet until recently it’s toolbox and build process would be considered antique at best. A little over one year ago we began the process of reevaluating our choices.  This lead us to updating our tooling and testing; making them first class citizens. Many of the pieces were taken off the shelf, a few where custom built, and some required large coordinated efforts to be successfully implemented. We’ve learned some valuable lessons along the way that may help other projects modernize their toolbox and discovered some excellent benefits that reinforce our decision to take on this challenge.
+  - time: "12.30"
     slottype: break
     tracks:
       - track:
             name: Lunch
             description: |
               A fork buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
-  - time: "14.00"
+  - time: "13.30"
     slottype: talks
     tracks:
       - track:
-            name: Main track
-            title: Title of the talk
-            speaker: Speaker Name
-            description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-      - track:
             name: Sidetrack 1
-            title: Title of the second talk
-            speaker: Speaker Name
+            title: "Application Logging & Logstash"
+            speaker: Ben Waine
+            slug: benwaine
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
+              Modern web applications are complex, have many layers and usually integrate many technologies. A well structured application log is invaluable for debugging your application in development and monitoring it in production. All this being said it’s amazing how many applications don't have an application log or have a poor, inconsistent one which is little use to anyone! This session takes a brief look at the basics of logging (libraries and tools) and moves on to look at how to plan an effective logging strategy for your application. Questions like: What to log, logging levels, how much to log and how long to keep historical logs are all addressed. In the second half of the session we consider logs as a stream of events and how we can use Logstash and Kibana to surface a wealth of interesting information about our applications.
+      - track:
+            name: Main track
+            title: "Building RESTful APIs with Laravel 5's Doc Block-based Controller Annotations"
+            speaker: Christopher Pecoraro
+            slug: christopherpecoraro
+            description: |
+              Handling RESTful API requests with Laravel PHP Framework resource controllers is already a cinch. With the arrival of Laravel 5, handling request routing has been made even easier by using a configuration-as-annotation approach. Controller annotations may take advantage of doc block-style syntax and then be compiled using Laravel's artisan command-line tool. I'll present this approach by providing a few examples and discussing some of the pros and cons.
       - track:
             name: Sidetrack 2
-            title: Title of the third talk
-            speaker: Speaker Name
+            title: "Accessibility done right"
+            speaker: Michelle Sanver
+            slug: michellesanver
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-  - time: "15.10"
+              Unfortunately accessibility is often an afterthought. Some users can’t use a mouse, others are visually impaired. In this talk I will show you how to test accessibility and how to browse your site blindfolded or with only a keyboard and still get around using things like headers and aria labels. 
+  - time: "14.30"
+    slottype: special
+    tracks:
+      - track:
+            name: Room change
+  - time: "14.40"
     slottype: talks
     tracks:
       - track:
-            name: Main track
-            title: Title of the talk
-            speaker: Speaker Name
-            description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-      - track:
             name: Sidetrack 1
-            title: Title of the second talk
-            speaker: Speaker Name
+            title: "Modern Software Architectures"
+            speaker: Ricard Clau
+            slug: ricardclau
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
+              The web has changed. Users demand responsive, real-time interactive applications and companies need to store and analyze tons of data. Some years ago, monolithic code bases with a basic LAMP stack, some caching and perhaps a search engine were enough. These days everybody is talking about micro-services architectures, SOA, Erlang, Golang, message passing, queue systems and many more. PHP seems to not be cool anymore but... is this true? Should we all forget everything we know and just learn these new technologies? Do we really need all these things?
+      - track:
+            name: Main track
+            title: "Barely Enough Design"
+            speaker: Marcello Duarte
+            slug: marcelloduarte
+            description: |
+              Test Driven Design really helps us learn about the design of our code and how to improve on it. It is also true that the more we know about design, the more our code can actually benefit from TDD. This talk will cover just enough to give you the design inspiration you need to appreciate TDD. We will see responsibility driven design, "Tell don't ask", the law of Demeter, Dependency Inversion and other very key design principles and how they change the way we look into coding and testing.
       - track:
             name: Sidetrack 2
-            title: Title of the third talk
-            speaker: Speaker Name
+            title: "PHP's biggest bottleneck - MySQL"
+            speaker: Liam Wiltshire
+            slug: liamwiltshire
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-  - time: "16.10"
+              Every day, PHP devs around the world are approached by stakeholders or managers and asked the same question..."Can't we make our application faster?" Forget adding more RAM, OpCode caching or load balancing - often the problem is much more obvious - mySQL. Every PHP developer knows how to query a table, join tables and many even do funky sub selects and unions, but not everyone knows how mySQL handles all this 'under the hood'. Some developers might be lucky enough to have a DBA to worry about all that - but most of us don't. Covering 8 of the most common issues and tools related to mySQL performance, any PHP developer will be able to soup up their mySQL install like a DBA ninja.
+  - time: "15.40"
     slottype: break
     tracks:
       - track:
             name: Afternoon Refreshment Break
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-  - time: "16.30"
+              Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+  - time: "16.00"
     slottype: talks
     tracks:
       - track:
-            name: Main track
-            title: Title of the talk
-            speaker: Speaker Name
-            description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-      - track:
             name: Sidetrack 1
-            title: Title of the second talk
-            speaker: Speaker Name
+            title: "Bring your PHP application to the next level with React.JS"
+            speaker: Bastian Hofmann
+            slug: bastianhofmann
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
+              React.JS is a very powerful library for building user interfaces and the new, cool kid in the JavaScript world. But it is also very interesting for creating a fast, maintainable and interactive PHP application. In this talk I'll show what React is all about and how you can combine it’s power with your PHP application, even if you have to render out HTML on the server side. The result will be a flexible, component based architecture that enables developers to take page elements, like a single "follow" button, and place it everywhere on the site without having to duplicate any PHP, JS, HTML, CSS or AJAX endpoints in the process.
+      - track:
+            name: Main track
+            title: "Continuously delivering PHP projects"
+            speaker: Javier Lopez
+            slug: javierlopez
+            description: |
+              For the last few months we've been implementing a Continuous Delivery pipeline for the redesign of Time Out. In this talk I will demonstrate a real life example of what our pipeline looks like, the different tools we've used to get it done (phing, github, jenkins, ansible, AWS S3, ...), and peculiarities for PHP and Symfony2 projects. Most importantly, I'll be looking at things we've struggled with along the way and the lessons we've learnt.
       - track:
             name: Sidetrack 2
-            title: Title of the third talk
-            speaker: Speaker Name
+            title: "Database Wizardry for Legacy Applications"
+            speaker: Gabriela D'Ávila
+            slug: gabrieladavila
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-  - time: "17.30"
+              In my experience, one of the major bottlenecks in building an Application lies in the database. This crucial piece of your app is also the most difficult to alter. If you have high availability software, how do you improve from spaghetti code without being able to do major changes to its database? You may refactor your spaghetti into beautiful, hexagonally layered lasagne, but if your database sucks, your data sucks. In this talk you will learn how to improve your legacy application by discovering the benefits of NoSQL to consolidate your data, and how tools like MapReduce can increase your project performance.
+  - time: "17.00"
     slottype: special
     tracks:
       - track:
-            name: Closing Address and Prize Raffle
+            name: Room change
+            title: All move to Porter Tun for keynotes
+  - time: "17.10"
+    slottype: special
+    tracks:
+      - track:
+            name: Keynote
+            title: To Be Confirmed
+            description: |
+              
+  - time: "17.40"
+    slottype: special
+    tracks:
+      - track:
+            name: Keynote
+            title: Prize Raffle and Closing Address
             speaker: Johanna Cherry & Sam Bell
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
+              
   - time: "18.00"
     slottype: break
     tracks:
       - track:
-            name: Mid Conference Social
-            title: at The Fox, Smith Street
+            name: Mid-Conference Social
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
+              The mid-conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. There will be lots of fun activities planned for the evening. More details to be announced soon...
 schedule-friday:
   - time: "08.00"
     slottype: special
@@ -178,7 +225,7 @@ schedule-friday:
       - track:
             name: Registration
             description: |
-              Registration will be open from 8am. Refreshments will be served until 9am.
+              Registration will be open from 8am. A light breakfast with coffee/tea/juice will be served until shortly before 9am.
   - time: "09.00"
     slottype: special
     tracks:
@@ -187,169 +234,230 @@ schedule-friday:
             title: Welcome to PHP UK 2015
             speaker: Johanna Cherry & Sam Bell
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-  - time: "09.15"
+              Johanna and Sam welcome all our delegates, speakers, and sponsors to the conference and provide an overview of the days events to come. 
+  - time: "09.20"
     slottype: special
     tracks:
       - track:
             name: Keynote
-            title: Title of the keynote speech
-            speaker: Speaker Name
+            title: To Be Confirmed
+            speaker: 
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-  - time: "10.15"
+              
+  - time: "09.50"
     slottype: break
     tracks:
       - track:
             name: Morning Refreshment Break
             description: |
               Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
-  - time: "10.45"
+  - time: "10.20"
     slottype: talks
     tracks:
       - track:
-            name: Main track
-            title: Title of the talk
-            speaker: Speaker Name
-            description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-      - track:
             name: Sidetrack 1
-            title: Title of the second talk
-            speaker: Speaker Name
+            title: "Are you out of memory, or have plenty to spare?"
+            speaker: Joshua Thijssen
+            slug: joshuathijssen
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
+              One of the hardest question to ask on a linux platform: how much memory does my application use. This is mostly because Linux is amazingly efficient when it comes to memory usage and management. But it comes with a price - readability on how much memory your application really uses.
+      - track:
+            name: Main track
+            title: "Building an API with Apigility"
+            speaker: Rob Allen
+            slug: roballen
+            description: |
+              Apigility is a project that allows you to easily create a web service without having to worry about the nitty-gritty details. Which details? Well, Apigility will handle content negotiation, error handling, versioning and authentication for you, allowing you to concentrate on your application. In this introductory talk we look at what Apigility is and how to create a simple REST API application, showing how to start using Apigility and how to build a good API using this tool.
       - track:
             name: Sidetrack 2
-            title: Title of the third talk
-            speaker: Speaker Name
+            title: "The NoSQL Store everyone ignores: PostgreSQL"
+            speaker: Stephan Hochdörfer
+            slug: stephanhochdoerfer
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-  - time: "12.00"
+              PostgreSQL is well known being an object-relational database management system. In it`s core PostgreSQL is schema-aware dealing with fixed database tables and column types. However, recent versions of PostgreSQL made it possible to deal with schema-free data. Learn which new features PostgreSQL supports and how to use those features in your PHP application.
+  - time: "11.20"
+    slottype: special
+    tracks:
+      - track:
+            name: Room change
+  - time: "11.30"
     slottype: talks
     tracks:
       - track:
-            name: Main track
-            title: Title of the talk
-            speaker: Speaker Name
-            description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-      - track:
             name: Sidetrack 1
-            title: Title of the second talk
-            speaker: Speaker Name
+            title: "MVVM and Silex - It's the future"
+            speaker: Billie Thompson
+            slug: billiethompson
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
+              There's two things that every cool new start-up wants to provide. A rich application like website, and an API. I'll be talking about how to use Silex and an AngularJS to create one. With lots of demos to go wrong, this talk is aimed at PHP developers that work closely with the frontend, some some knowledge of JavaScript is assumed. We'll touch on the cool things happening in the frontend space like Bower, Grunt, MVVM Frameworks, and how that might change how you write PHP.
+      - track:
+            name: Main track
+            title: "HHVM at Etsy: Harder, Better, Faster, Stronger"
+            speaker: Dan Miller
+            slug: danmiller
+            description: |
+              In 2014 Etsy’s infrastructure group was handed a challenge: scale Etsy’s API cluster 20x.  Many efforts were simultaneously undertaken to meet this challenge, including a migration to HHVM after it showed a promising 5x increase in throughput. While getting our code to run on HHVM was easy, working through the deployment and operationalization proved to be a more difficult challenge.
       - track:
             name: Sidetrack 2
-            title: Title of the third talk
-            speaker: Speaker Name
+            title: "Hexagonal Architecture in DDD"
+            speaker: Gordon Skinner
+            slug: gordonskinner
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-  - time: "13.00"
+              In this talk I will explore Domain Driven Development, and particularly how using the practice of Hexagonal Architecture can keep your codebase clean and scalable. I will define Ports, Adapters, Domains, and how to keep all your concerns separate.
+  - time: "12.30"
     slottype: break
     tracks:
       - track:
             name: Lunch
             description: |
               A fork buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
-  - time: "14.00"
+  - time: "13.30"
     slottype: talks
     tracks:
       - track:
-            name: Main track
-            title: Title of the talk
-            speaker: Speaker Name
-            description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-      - track:
             name: Sidetrack 1
-            title: Title of the second talk
-            speaker: Speaker Name
+            title: "Be a Bold Coder"
+            speaker: Beth Tucker Long
+            slug: bethtuckerlong
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
+              Do you cringe when you have to show someone else your code? Have you ever complained about terribly written code only to discover it was yours from six months ago? Coding is a constantly evolving field. How can you keep up? Learn what standards are out there to help you keep your code clean, what tools can help you proof your code, and where to find information on best practices so you can stay current and boldly share your code with others.
+      - track:
+            name: Main track
+            title: "Build RESTful APIs easily with Symfony"
+            speaker: Sarah Khalil
+            slug: sarahkhalil
+            description: |
+              Let's build a nice REST API with all the recent helper we can find. First of all, we will take some time to see, in theory, what's asked to build a "good" Restful API.
+              Then we'll see some code with the usage of :
+              - FOSRestBundle to save time, a lot;
+              - JMS serializer and its awesome features;
+              - the HATEOAS project, very nice to unlock the third level of the Richardson maturity model;
+              - And finally, a little bit of Guzzle to ease communication between applications (going further with the SOA architecture).
+              The goal of that talk is to demystify all technologies in the "REST" galaxy.
       - track:
             name: Sidetrack 2
-            title: Title of the third talk
-            speaker: Speaker Name
+            title: "The Power of Modern Version Control"
+            speaker: Chris Levy
+            slug: chrislevy
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-  - time: "15.10"
+              Version Control Systems have been around for a long time, however in the last decade advancements in VCS and other powerful tools have drastically increased the size of any community that can collaborate with ease. In this talk I will focus on the combination of Git and GitHub, demo some advanced tools available in Git, and clarify some details on contributing to Open Source using GitHub.
+  - time: "14.30"
+    slottype: special
+    tracks:
+      - track:
+            name: Room change
+  - time: "14.40"
     slottype: talks
     tracks:
       - track:
-            name: Main track
-            title: Title of the talk
-            speaker: Speaker Name
-            description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-      - track:
             name: Sidetrack 1
-            title: Title of the second talk
-            speaker: Speaker Name
+            title: "Debugging: past, present and future"
+            speaker: Derick Rethans
+            slug: derickrethans
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
+              In this talk I will go over all the past, present and future debugging techniques. The talk start by giving an overview on PHP's (ancient) standard features for debugging, additional (userland) libraries and functionality in frameworks. After the introductions we move on to the meatier stuff and I will talk about live-action debuggers, such as Xdebug and Zend's debugger. They both provide information while a script is being executed, in combination with IDEs. In the future, there is PHP 5.6's phpdbg which allows for some debugging and other analysis. I am also unveiling a project that allows you to ""step back"" while debugging as well; introspect what your script's or application's exact execution paths was; and trace variable modifications.
+      - track:
+            name: Main track
+            title: "Understanding the OWASP Top 10"
+            speaker: Gary Hockin
+            slug: garyhockin
+            description: |
+              Every year the OWASP community releases a Top 10 List of what it considers are the most critical web application security flaws. Join us as we step through the current OWASP Top 10 vulnerabilities, explaining what they are and how they can affect your PHP application. We'll take a quickfire look at all 10 security concerns complete with examples and best practices. You'll leave the talk with a basic understanding of each flaw giving you a great grounding to audit your own applications and an impetus to learn more about website security.
       - track:
             name: Sidetrack 2
-            title: Title of the third talk
-            speaker: Speaker Name
+            title: "Naming things"
+            speaker: Anne-Julia Scheuermann
+            slug: anne-juliascheuermann
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-  - time: "16.10"
+              For us developers it is a constant struggle to find the right words to describe things. Naming classes, functions and variables correctly and giving them context helps to create a meaning, and to convey that meaning to other developers. In this talk we will discuss guidelines to find good names for the building blocks we use, to aid in our daily challenge to transport our knowledge by leveraging well worded sourcecode.
+  - time: "15.40"
     slottype: break
     tracks:
       - track:
             name: Afternoon Refreshment Break
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-  - time: "16.30"
+              Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+  - time: "16.00"
     slottype: talks
     tracks:
       - track:
-            name: Main track
-            title: Title of the talk
-            speaker: Speaker Name
-            description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-      - track:
             name: Sidetrack 1
-            title: Title of the second talk
-            speaker: Speaker Name
+            title: "Your API is a UI"
+            speaker: Christopher Hoult
+            slug: christopherhoult
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
+              Whether you're creating a complex web application or a simple library, everything you create has a user. Why, then, do we concentrate on our users when developing a user interface, but so often forget them when developing APIs? In this talk, Christopher presents a whirlwind overview of a variety of different User Experience considerations when designing your APIs.
+      - track:
+            name: Main track
+            title: "Why Your Test Suite Sucks"
+            speaker: Ciaran McNulty
+            slug: ciaranmcnulty
+            description: |
+              Many teams adopt TDD attracted by the promise of a more productive workflow, fewer regressions and higher code quality. Sometimes this goes wrong and these benefits do not materialise, despite a healthy-seeming test suite. In this talk we will look at what the common pitfalls of testing are, why teams fall into these traps, and they can dig themselves out.
       - track:
             name: Sidetrack 2
-            title: Title of the third talk
-            speaker: Speaker Name
+            title: TBC
+            speaker: 
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
-  - time: "17.30"
+              
+  - time: "17.00"
     slottype: special
     tracks:
       - track:
-            name: Closing Address and Prize Raffle
+            name: Room change
+            title: All move to Porter Tun for keynotes
+  - time: "17.10"
+    slottype: special
+    tracks:
+      - track:
+            name: Keynote
+            title: To Be Confirmed
+            description: |
+              
+  - time: "17.40"
+    slottype: special
+    tracks:
+      - track:
+            name: Keynote
+            title: Prize Raffle and Closing Address
             speaker: Johanna Cherry & Sam Bell
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
+              
   - time: "18.00"
     slottype: break
     tracks:
       - track:
-            name: Conference Afterparty
-            title: at Somewhere Cool
+            name: Post-Conference Social
             description: |
-              Sed posuere consectetur est at lobortis. Aenean lacinia bibendum nulla sed consectetur. Maecenas sed diam eget risus varius blandit sit amet non magna. Maecenas sed diam eget risus varius blandit sit amet non magna. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Maecenas faucibus mollis interdum.
+              The post-conference social is open to all conference attendees and offers a chance to relax and catch up with other delegates and speakers as the conference winds down to a close. More details to be announced soon...
 ---
 <div class="wrapper">
   <h1>SCHEDULE</h1>
   <p>The PHP UK Conference 2015 is two days packed with interesting talks from some of the most well known speakers in the world. Each day will include three simultaneous tracks of talks so that you are certain to find something of interest at every point throughout the conference.</p>
-  <p>The schedule will be announced in late 2014. Until then you can take advantage of our early bird ticket prices by <a href="http://phpukconference.eventbrite.co.uk/">buying a ticket here</a> or you can submit to our <a href="/speakers">Call for Papers here</a>.</p>
-
-  <!--
   <div id="schedule-container">
     <ul class="schedule-picker">
       <li><a href="#thursday">Thursday</a></li>
       <li><a href="#friday">Friday</a></li>
+    </ul>
+    <h2 class="centre">Wednesday</h2>
+    <ul class="schedule schedule-wednesday">
+      {% for slot in page.schedule-wednesday %}
+      <li class="slot {{slot.slottype}}">
+        <span class="time">{{slot.time}}</span>
+        <div class="tracks-wrapper">
+          <ul class="tracks tracks-wednesday">
+            {% for track in slot.tracks %}
+            <li class="track">
+              <span class="name">{{track.track.name}}</span>
+              <span class="title">{{track.track.title}}</span>
+              <span class="speaker"><a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a></span>
+              <p class="description">{{track.track.description}}</p>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </li>
+      {% endfor %}
     </ul>
     <h2 class="centre">Thursday</h2>
     <ul class="schedule schedule-thursday">
@@ -362,7 +470,7 @@ schedule-friday:
             <li class="track">
               <span class="name">{{track.track.name}}</span>
               <span class="title">{{track.track.title}}</span>
-              <span class="speaker">{{track.track.speaker}}</span>
+              <span class="speaker"><a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a></span>
               <p class="description">{{track.track.description}}</p>
             </li>
             {% endfor %}
@@ -382,7 +490,7 @@ schedule-friday:
             <li class="track">
               <span class="name">{{track.track.name}}</span>
               <span class="title">{{track.track.title}}</span>
-              <span class="speaker">{{track.track.speaker}}</span>
+              <span class="speaker"><a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a></span>
               <p class="description">{{track.track.description}}</p>
             </li>
             {% endfor %}
@@ -393,5 +501,4 @@ schedule-friday:
     </ul>
   </div>
   <p>*Schedule is subject to change without notice</p>
- -->
 </div>
