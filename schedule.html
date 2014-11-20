@@ -511,7 +511,10 @@ $(function(){
     $(".schedule .slot").show();
     $(".schedule .slot").click(function(){
         $(this).toggleClass("active");
-        $(this).siblings(".slot").removeClass("active");
+//        $(this).siblings(".slot").removeClass("active");
+        $('html, body').animate({
+          scrollTop: $(this).offset().top-80
+        }, 900);
     });
 });
 </script>
