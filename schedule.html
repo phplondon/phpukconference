@@ -505,3 +505,16 @@ schedule-friday:
   </div>
   <p>*Schedule is subject to change without notice</p>
 </div>
+
+<script>
+$(function(){
+    $(".schedule .slot").show();
+    $(".schedule .slot").click(function(){
+        $(this).toggleClass("active");
+//        $(this).siblings(".slot").removeClass("active");
+        $('html, body').animate({
+          scrollTop: $(this).offset().top-80
+        }, 900);
+    });
+});
+</script>
