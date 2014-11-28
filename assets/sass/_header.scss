@@ -7,6 +7,7 @@
     z-index:100;
     background:#2c2e35;
     color:#fff;
+    cursor:pointer;
 
     .nav{
         text-align:center;
@@ -190,14 +191,14 @@
           position:absolute;
           top:16px;
           left:15px;
-          
+
           width:22px;
           height:3px;
           border-top:9px double rgba(255,255,255,0.8);
           border-bottom:3px solid rgba(255,255,255,0.8);
         }
 
-        &:hover{
+        &.open{
             height:auto;
             overflow:auto;
         }
@@ -215,7 +216,7 @@
             display:none;
             font-size:2em;
         }
- 
+
         .logo{
             width:200px;
             margin:80px auto 0 auto;

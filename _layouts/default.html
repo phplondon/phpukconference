@@ -30,6 +30,12 @@
             },
             h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
           })(document);
+
+          $(function() {                       //run when the DOM is ready
+            $(".navbar").click(function() {  //use a class, since your ID gets mangled
+                $(".nav").toggleClass("open");      //add the class to the clicked element
+            });
+          });
         </script>
     </head>
     <body class="{{page.slug}}">
@@ -89,7 +95,7 @@
             <div class="legal">
                 <div class="wrapper">
                     <p>Powered by <a href="http://phplondon.org" target="_blank">PHP LONDON</a>. PHP London Limited, 207 Regent Street, London, W1B3HH.</p>
-                    <p>Registered in England and Wales company number 06770521.</p>                    
+                    <p>Registered in England and Wales company number 06770521.</p>
                 </div>
             </div>
         </div>
