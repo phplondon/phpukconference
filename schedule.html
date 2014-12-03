@@ -411,9 +411,12 @@ schedule-friday:
     tracks:
       - track:
             name: Keynote
-            title: To Be Confirmed
+            title: Open Source, Love, and Social Responsibility
+            speaker: Davey Shafik
+            slug: daveyshafik
+            id: keynote-davey-shafik
             description: |
-              
+              This talk looks at the responsibility, we, the Open Source community, have to make things better. How we can use our skills to make fundamental, meaningful change to the world around us.
   - time: "17.40"
     slottype: special
     tracks:
@@ -490,7 +493,7 @@ schedule-friday:
         <div class="tracks-wrapper">
           <ul class="tracks tracks-thursday">
             {% for track in slot.tracks %}
-            <li class="track">
+            <li class="track" id="{{track.track.id}}">
               <span class="name">{{track.track.name}}</span>
               <span class="title">{{track.track.title}}</span>
               <span class="speaker"><a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a></span>
