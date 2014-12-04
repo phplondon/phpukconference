@@ -1,0 +1,28 @@
+.sponsors-container{
+	h2{
+		clear:both;
+	}
+}
+
+.sponsor{
+	margin-bottom:30px;
+
+	.logo{
+		display:block;
+		margin:0 auto 10px auto;
+		text-decoration:none;
+		border-bottom:none;
+		text-align:center;
+	}
+}
+
+.sponsor-track{
+	float:left;
+	padding-right:2%;
+	max-width:50%;
+
+	+ .sponsor-track{
+		padding-right:0;
+		padding-left:2%;
+	}
+}

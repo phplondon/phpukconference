@@ -3,19 +3,64 @@ layout: default
 title: Sponsors
 group: "navigation"
 weight: 4
-tracksponsors:
-  - 
-    name: Codebase & Deploy
-    slug: codebase-deploy
-    bio: |
-      Andrei has a long history in the PHP community, where, as a core developer and a member of the PHP Group, he helped curate development of the world’s most popular web development language. Along the way, he started PHP-GTK, helped create Smarty, co-wrote PHP Developer’s Cookbook, and architected Unicode support that would have been in PHP 6. Having worked as a platform engineer at Yahoo and the Open Source Fellow at Digg, he is presently a software architect at AppDynamics, where he is working on the next generation of application monitoring and troubleshooting tools.
+sponsors-track:
   - 
     name: Affiliate Window
     slug: affiliate-window
-    bio: |
-      Bastian works works as a Software Engineer at ResearchGate, the social network for researchers and scientists. There he is mainly responsible for designing the web frontend's software architecture and developing APIs. Before that he created the games and application platform and the APIs of the VZ-networks. When he is not developing stuff, he frequently speaks at international conferences on software architecture, scaling web applications and open standards and protocols.
+    url: http://www.affiliatewindow.com
+    description: |
+      Affiliate Window exists to provide its clients with the best service and technology available in performance marketing. With offices in the UK and US and over 240 employees, our aim is to exceed expectations in everything we do.
+
+      Our technology is developed in-house using the latest methodologies, offering custom proprietary solutions for our partners. Our service has led to us receiving numerous awards including the UK's coveted Publishers' Choice of Network award six times. Our platform features comprehensive dashboards and a partner directory allowing users to discover and connect with a range of high quality advertisers and publishers.
+  - 
+    name: SilverStripe
+    slug: silverstripe
+    url: http://www.silverstripe.org
+    description: |
+      SilverStripe is the intuitive content management system and flexible PHP framework loved by editors and developers alike. SilverStripe is headquartered in Wellington, New Zealand and has offices in Auckland and Australia. The easily extendible open source framework has a loyal developer community across the globe. With a UK office opening soon the PHP UK event will serve as the company's European launch.
+sponsors-apibar:
+  - 
+    name: DreamFactory
+    slug: dreamfactory
+    url: http://www.dreamfactory.com
+    description: |
+      DreamFactory is a PHP-powered open source backend for developing enterprise mobile apps. DreamFactory connects any data source to any mobile device and removes the pain of building your own mobile middleware. 
+
+      How does it work? DreamFactory is a run-time software platform that automatically generates a REST API for SQL databases, NoSQL databases, and file storage systems like S3. You install the DreamFactory open source package on a cloud server, Linux, Windows, or Mac. Then you simply call the REST API from the app you're building, using DreamFactory's client SDKs for Javascript, AngularJS, iOS, Android, Titanium, and Windows Mobile. DreamFactory provides a robust security layer for user, credential, and role management and simplifies server-side scripting for customisation and workflow. 
+
+      The end result: a pre-built, highly customisable backend that reduces development time and enables developers to focus on building great mobile applications that connect to enterprise data.
 ---
 <div class="wrapper">
     <h1>Sponsors</h1>
     <p>The PHP UK Conference is a not-for-profit event and relies heavily on sponsorship to run the event at rates affordable to the whole community. If you're interested in sponsoring our event, please <a href="mailto:contact@phpconference.co.uk">contact us</a>.</p>
+  <div class="sponsors-container cf">
+    <h2 class="centre">Track Sponsors</h2>
+    <ul class="sponsors sponsors-track">
+      {% for sponsor in page.sponsors-track %}
+      <li class="sponsor sponsor-track {{sponsor.slug}}" id="{{sponsor.slug}}">
+        <a href="{{sponsor.url}}" target="_blank" class="logo">
+          <img class="sponsor-logo" src="/assets/images/sponsors/{{sponsor.slug}}.png" alt="{{sponsor.name}}" />
+        </a>
+        <p class="description">{{sponsor.description}}</p>
+        <a href="{{sponsor.url}}" target="_blank">
+          > Visit the {{sponsor.name}} website
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    <h2 class="centre">API Bar Sponsor</h2>
+    <ul class="sponsors sponsors-apibar">
+      {% for sponsor in page.sponsors-apibar %}
+      <li class="sponsor sponsor-apibar {{sponsor.slug}}" id="{{sponsor.slug}}">
+        <a href="{{sponsor.url}}" target="_blank" class="logo">
+          <img class="sponsor-logo" src="/assets/images/sponsors/{{sponsor.slug}}.png" alt="{{sponsor.name}}" />
+        </a>
+        <p class="description">{{sponsor.description}}</p>
+        <a href="{{sponsor.url}}" target="_blank">
+          > Visit the {{sponsor.name}} website
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
 </div>
