@@ -4,8 +4,16 @@
 	}
 }
 
+.sponsors{
+	clear:both;
+}
+
 .sponsor{
 	margin-bottom:30px;
+
+	h2{
+		font-size:2em;
+	}
 
 	.logo{
 		display:block;
@@ -16,13 +24,20 @@
 	}
 }
 
-.sponsor-track{
+.sponsor-half{
 	float:left;
 	padding-right:2%;
+	width:50%;
 	max-width:50%;
 
-	+ .sponsor-track{
+	+ .sponsor{
 		padding-right:0;
 		padding-left:2%;
 	}
+}
+
+.sponsor-room,
+.sponsor-track,
+.sponsor-social{
+	@extend .sponsor-half;
 }

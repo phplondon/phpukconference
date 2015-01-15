@@ -7,6 +7,7 @@ sponsors-track:
   - 
     name: Affiliate Window
     slug: affiliate-window
+    type: Track
     url: http://www.affiliatewindow.com
     description: |
       Affiliate Window exists to provide its clients with the best service and technology available in performance marketing. With offices in the UK and US and over 240 employees, our aim is to exceed expectations in everything we do.
@@ -15,13 +16,47 @@ sponsors-track:
   - 
     name: SilverStripe
     slug: silverstripe
+    type: Track
     url: http://www.silverstripe.org
     description: |
       SilverStripe is the intuitive content management system and flexible PHP framework loved by editors and developers alike. SilverStripe is headquartered in Wellington, New Zealand and has offices in Auckland and Australia. The easily extendible open source framework has a loyal developer community across the globe. With a UK office opening soon the PHP UK event will serve as the company's European launch.
-sponsors-apibar:
+sponsors-room:
+  - 
+    name: Engine Yard
+    slug: engine-yard
+    type: Cloud Bar
+    url: http://www.engineyard.com
+    description: |
+      Engine Yard is the leading Platform as a Service (PaaS) empowering developers to plan, build, deploy and manage applications in the cloud.
+
+      Providing unmatched control and choice, Engine Yard delivers a trusted, complete application cloud and expert developer support that enables organizations to focus on creating great applications, instead of managing their platform.
+
+      Thousands of customers in 58 countries, from explosive-growth Web startups to Fortune 500 enterprises, run on Engine Yard. Headquartered in San Francisco, Calif., Engine Yard is backed by Benchmark Capital, New Enterprise Associates, Oracle and Amazon.
+  - 
+    name: JetBrains
+    slug: jetbrains
+    type: Hackathon
+    url: http://www.jetbrains.com
+    description: |
+      JetBrains has a passion for making developers more productive. We design intelligent development tools to simplify your challenging tasks, automate the easy ones, and help you develop with pleasure.
+
+      PhpStorm is a PHP IDE that actually 'gets' your code, supports PHP 5.3/5.4/5.5 and features on the fly error prevention, best autocompletion & code refactoring, zero configuration debugging, the best HTML, CSS, and JavaScript editor.
+
+      We also offer top-notch IDEs for Java, JavaScript, Ruby, Python, and Objective-C, as well as a pack of tools for .NET developers and team productivity tools for continuous integration and issue tracking.
+
+      With headquarters in Prague, Czech Republic, we also have R&D labs in Russia, USA and Germany.
+sponsors-social:
+  - 
+    name: New Relic
+    slug: new-relic
+    type: Social
+    url: http://www.newrelic.com
+    description: |
+      New Relic is a software analytics company that makes sense of billions of data points about millions of applications in real time. Our comprehensive SaaS-based solution provides one powerful interface for web and native mobile applications and consolidates the performance monitoring data for any chosen technology in your environment. We have over 250,000 users that utilize our cloud solution to analyze more than 690 billion data points per day across more than 4 million application instances. When your brand and customer experience depend on the performance of modern software, New Relic provides insight into your overall environment.
   - 
     name: DreamFactory
     slug: dreamfactory
+    type: Beer Factory
     url: http://www.dreamfactory.com
     description: |
       DreamFactory is a PHP-powered open source backend for developing enterprise mobile apps. DreamFactory connects any data source to any mobile device and removes the pain of building your own mobile middleware. 
@@ -48,10 +83,24 @@ sponsors-apibar:
       </li>
       {% endfor %}
     </ul>
-    <h2 class="centre">API Bar Sponsor</h2>
-    <ul class="sponsors sponsors-apibar">
-      {% for sponsor in page.sponsors-apibar %}
-      <li class="sponsor sponsor-apibar {{sponsor.slug}}" id="{{sponsor.slug}}">
+    <ul class="sponsors sponsors-room">
+      {% for sponsor in page.sponsors-room %}
+      <li class="sponsor sponsor-room {{sponsor.slug}}" id="{{sponsor.slug}}">
+        <h2 class="centre">{{sponsor.type}} Sponsor</h2>
+        <a href="{{sponsor.url}}" target="_blank" class="logo">
+          <img class="sponsor-logo" src="/assets/images/sponsors/{{sponsor.slug}}.png" alt="{{sponsor.name}}" />
+        </a>
+        <p class="description">{{sponsor.description}}</p>
+        <a href="{{sponsor.url}}" target="_blank">
+          > Visit the {{sponsor.name}} website
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    <ul class="sponsors sponsors-social">
+      {% for sponsor in page.sponsors-social %}
+      <li class="sponsor sponsor-social {{sponsor.slug}}" id="{{sponsor.slug}}">
+        <h2 class="centre">{{sponsor.type}} Sponsor</h2>
         <a href="{{sponsor.url}}" target="_blank" class="logo">
           <img class="sponsor-logo" src="/assets/images/sponsors/{{sponsor.slug}}.png" alt="{{sponsor.name}}" />
         </a>
