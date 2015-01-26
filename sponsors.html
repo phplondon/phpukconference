@@ -64,6 +64,27 @@ sponsors-social:
       How does it work? DreamFactory is a run-time software platform that automatically generates a REST API for SQL databases, NoSQL databases, and file storage systems like S3. You install the DreamFactory open source package on a cloud server, Linux, Windows, or Mac. Then you simply call the REST API from the app you're building, using DreamFactory's client SDKs for Javascript, AngularJS, iOS, Android, Titanium, and Windows Mobile. DreamFactory provides a robust security layer for user, credential, and role management and simplifies server-side scripting for customisation and workflow. 
 
       The end result: a pre-built, highly customisable backend that reduces development time and enables developers to focus on building great mobile applications that connect to enterprise data.
+sponsors-local:
+  - 
+    name: The Client Relationship Consultancy
+    slug: the-crc
+    type: Local
+    url: http://www.clientrelationship.com
+    description: |
+      The experts in agency client relationships. We work with the world’s leading agencies, including every major agency group, to help them monitor and strengthen their client relationships in order to make their business more secure.
+
+      Ours is a discreet service. Any agency that works with us knows it will be in complete confidence.
+  - 
+    name: Inviqa
+    slug: inviqa
+    type: Local
+    url: http://www.inviqa.com
+    description: |
+      The Inviqa team are the UK’s leading PHP experts providing consultancy, development, training and support to the most ambitious of businesses. As a company with deep roots in quality software engineering, we put great emphasis on the agility and value of our delivery, and we’re proud to count some of the world’s leading organisations as clients, including the BBC, Vodafone, Virgin, and Nokia. 
+
+      Our team are the best at what they do, and that’s no understatement. Across our seven UK offices and one Munich-based team, our engineers, analysts, project managers, consultants and trainers deliver the most complex and creative of projects. When it comes to quality, we set our standards high because we believe it’s what our clients measure us on, and it’s what great reputations are built upon. 
+
+      Want to join the team or know more about what Inviqa can do for your business? 
 ---
 <div class="wrapper">
     <h1>Sponsors</h1>
@@ -101,6 +122,20 @@ sponsors-social:
       {% for sponsor in page.sponsors-social %}
       <li class="sponsor sponsor-social {{sponsor.slug}}" id="{{sponsor.slug}}">
         <h2 class="centre">{{sponsor.type}} Sponsor</h2>
+        <a href="{{sponsor.url}}" target="_blank" class="logo">
+          <img class="sponsor-logo" src="/assets/images/sponsors/{{sponsor.slug}}.png" alt="{{sponsor.name}}" />
+        </a>
+        <p class="description">{{sponsor.description}}</p>
+        <a href="{{sponsor.url}}" target="_blank">
+          > Visit the {{sponsor.name}} website
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    <h2 class="centre">Local Sponsors</h2>
+    <ul class="sponsors sponsors-local">
+      {% for sponsor in page.sponsors-local %}
+      <li class="sponsor sponsor-local {{sponsor.slug}}" id="{{sponsor.slug}}">
         <a href="{{sponsor.url}}" target="_blank" class="logo">
           <img class="sponsor-logo" src="/assets/images/sponsors/{{sponsor.slug}}.png" alt="{{sponsor.name}}" />
         </a>
