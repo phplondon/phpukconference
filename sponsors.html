@@ -84,7 +84,24 @@ sponsors-local:
 
       Our team are the best at what they do, and that’s no understatement. Across our seven UK offices and one Munich-based team, our engineers, analysts, project managers, consultants and trainers deliver the most complex and creative of projects. When it comes to quality, we set our standards high because we believe it’s what our clients measure us on, and it’s what great reputations are built upon. 
 
-      Want to join the team or know more about what Inviqa can do for your business? 
+      Want to join the team or know more about what Inviqa can do for your business?
+sponsors-special:
+  - 
+    name: Shopware AG
+    slug: shopware
+    type: Coffee
+    url: http://www.shopware.com
+    description: |
+      Shopware AG is one of the leading manufacturers of online shop systems in Germany. As an independent, equity-financed company, we develop high quality software on-site and work closely with our customers and partners in order to optimize our product. We evolve transparently and always remain flexible and open to requests from our growing community. These qualities produce high annual growth rates in addition to premium levels of service, which distinguish us from the rest.
+  - 
+    name: Digital Ocean
+    slug: digital-ocean
+    type: Cupcake
+    url: http://www.digitalocean.com
+    description: |
+      DigitalOcean is a web hosting platform created for developers at any scale. Users can spin up a “Droplet” in 55 seconds to access DigitalOcean’s secure, fast, reliable Solid-State Drive (SSD) servers on which applications and websites can be built.
+
+      DigitalOcean uses KVM (kernel-based Virtual Machine) to virtualize its servers, and provides more than 380,000 users with a simple, easy to use interface. DigitalOcean’s API allows users to manage Droplets and resources on a larger scale within the DigitalOcean cloud in a straightforward, programmatic way, using conventional HTTP requests.
 ---
 <div class="wrapper">
     <h1>Sponsors</h1>
@@ -136,6 +153,20 @@ sponsors-local:
     <ul class="sponsors sponsors-local">
       {% for sponsor in page.sponsors-local %}
       <li class="sponsor sponsor-local {{sponsor.slug}}" id="{{sponsor.slug}}">
+        <a href="{{sponsor.url}}" target="_blank" class="logo">
+          <img class="sponsor-logo" src="/assets/images/sponsors/{{sponsor.slug}}.png" alt="{{sponsor.name}}" />
+        </a>
+        <p class="description">{{sponsor.description}}</p>
+        <a href="{{sponsor.url}}" target="_blank">
+          > Visit the {{sponsor.name}} website
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
+    <ul class="sponsors sponsors-special">
+      {% for sponsor in page.sponsors-special %}
+      <li class="sponsor sponsor-special {{sponsor.slug}}" id="{{sponsor.slug}}">
+        <h2 class="centre">{{sponsor.type}} Sponsor</h2>
         <a href="{{sponsor.url}}" target="_blank" class="logo">
           <img class="sponsor-logo" src="/assets/images/sponsors/{{sponsor.slug}}.png" alt="{{sponsor.name}}" />
         </a>
