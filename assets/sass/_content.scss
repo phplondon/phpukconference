@@ -24,6 +24,25 @@
 	}
 }
 
+.beer{
+	min-height:432px;
+	padding-top:260px !important;
+	background:url(../images/beer-factory.jpg) center 0 repeat-x;
+
+	h2{
+		color:#fff;
+	}
+
+	p{
+		color:#fff;
+	}
+}
+
+.apple-watch{
+	float:right;
+	margin:-90px 0 0 30px;
+}
+
 .list{
 	margin-bottom:16px;
 	list-style-type: disc;
@@ -35,6 +54,11 @@
 	margin:0 0 0 20px;
 	width:400px;
 	height:300px;
+}
+
+.padded{
+	padding-top:90px !important;
+	margin-bottom:-50px;
 }
 
 .image-full{
