@@ -65,6 +65,43 @@
             {{content}}
         </div>
         <div id="footer" class="footer">
+            {% if page.url != '/sponsors/' %}
+            <div class="sponsor-bar">
+                <div class="wrapper">
+                    <h4>The PHP UK Conference is proudly sponsored by:</h4>
+                    <a href="http://www.affiliatewindow.com" target="_blank" class="logo">
+                      <img class="sponsor-logo" src="/assets/images/sponsors/affiliate-window.png" alt="Affiliate Window" />
+                    </a>
+                    <a href="http://www.silverstripe.com" target="_blank" class="logo">
+                      <img class="sponsor-logo" src="/assets/images/sponsors/silverstripe.png" alt="SilverStripe" />
+                    </a>
+                    <a href="http://www.engineyard.com" target="_blank" class="logo">
+                      <img class="sponsor-logo" src="/assets/images/sponsors/engine-yard.png" alt="Engine Yard" />
+                    </a>
+                    <a href="http://www.jetbrains.com" target="_blank" class="logo">
+                      <img class="sponsor-logo" src="/assets/images/sponsors/jetbrains.png" alt="JetBrains" />
+                    </a>
+                    <a href="http://www.newrelic.com" target="_blank" class="logo">
+                      <img class="sponsor-logo" src="/assets/images/sponsors/new-relic.png" alt="New Relic" />
+                    </a>
+                    <a href="http://www.dreamfactory.com" target="_blank" class="logo">
+                      <img class="sponsor-logo" src="/assets/images/sponsors/dreamfactory.png" alt="DreamFactory" />
+                    </a>
+                    <a href="http://www.clientrelationship.com" target="_blank" class="logo">
+                      <img class="sponsor-logo" src="/assets/images/sponsors/the-crc.png" alt="The Client Relationship Consultancy" />
+                    </a>
+                    <a href="http://www.inviqa.com" target="_blank" class="logo">
+                      <img class="sponsor-logo" src="/assets/images/sponsors/inviqa.png" alt="Inviqa" />
+                    </a>
+                    <a href="http://www.shopware.com" target="_blank" class="logo">
+                      <img class="sponsor-logo" src="/assets/images/sponsors/Shopware.png" alt="Shopware" />
+                    </a>
+                    <a href="http://www.digitalocean.com" target="_blank" class="logo">
+                      <img class="sponsor-logo" src="/assets/images/sponsors/digital-ocean.png" alt="Digital Ocean" />
+                    </a>
+                </div>
+            </div>
+            {% endif %}
             <div id="footer-content" class="wrapper">
                 <div class="row">
                     <div class="col">

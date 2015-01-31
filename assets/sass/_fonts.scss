@@ -34,7 +34,6 @@
 body{
     color:#333333;
     font-family:"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
-    font-size:10px;
 }
 
 h1,h2,h3,h4,h5,h6{
@@ -62,6 +61,14 @@ h3{
     color:#4A91A3;
 }
 
+
+h4{
+    margin:0 0 6px 0;
+    font-size:1.5em;
+    line-height:1.2em;
+    color:#000;
+}
+
 p,
 li{
     font-family:"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -78,6 +85,7 @@ a{
     text-decoration:none;
     border-bottom:1px dotted;
 }
+
 
 @include respond(mobile){
     h1{

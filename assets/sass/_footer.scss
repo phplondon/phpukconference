@@ -42,6 +42,23 @@
 	}
 }
 
+.sponsor-bar{
+	width:auto;
+	min-height:100px;
+	padding:20px 0;
+	background-color:#efefef;
+	text-align:center;
+
+	.logo,
+	.logo img{
+		display:inline-block;
+		margin:5px 5px;
+		max-height:36px;
+		width:auto;
+		border:none;
+	}
+}
+
 @include respond(mobile){
 	.footer{
 		.col{
