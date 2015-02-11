@@ -3,6 +3,22 @@ layout: default
 title: Sponsors
 group: "navigation"
 weight: 4
+sponsors-platinum:
+  - 
+    name: Sainsbury's
+    slug: sainsburys
+    type: Platinum
+    url: http://www.sainsburys.jobs
+    description: |
+      Change the world at Sainsbury’s. Write the next generation of beautiful code to solve the most complex of puzzles and problems. Create innovations that inspire and excite. Be influenced by the best, but set your sights even higher.
+ 
+      At the core of our 140-year history is the drive to give our millions of customers the standard of service they deserve. And, as more and more of them turn to technology – for everyday shopping, information about our stores and products and for lifestyle ideas – we’ve been inspired to invest heavily in Digital and Technology.
+ 
+      We’ve re-organised it, re-invigorated it, to meet evolving customer and colleague needs. We’re dedicated to delivering the very best digital experience across every format. Developing teams that will put us clicks ahead of the competition.
+ 
+      Ours is one of the fastest-moving sectors around. So we’re looking for the most savvy development professionals out there. Who can spot opportunities and trends before they happen, identify areas for improvement and see every problem as an opportunity to do something amazing.
+ 
+      So if you want to go further, faster, take a look at our current vacancies and don’t just imagine the impact you could make. Tell us. 
 sponsors-track:
   - 
     name: Affiliate Window
@@ -107,6 +123,20 @@ sponsors-special:
     <h1>Sponsors</h1>
     <p>The PHP UK Conference is a not-for-profit event and relies heavily on sponsorship to run the event at rates affordable to the whole community. If you're interested in sponsoring our event, please <a href="mailto:contact@phpconference.co.uk">contact us</a>.</p>
   <div class="sponsors-container cf">
+    <h2 class="centre">Platinum Partner</h2>
+    <ul class="sponsors sponsors-platinum">
+      {% for sponsor in page.sponsors-platinum %}
+      <li class="sponsor sponsor-platinum {{sponsor.slug}}" id="{{sponsor.slug}}">
+        <a href="{{sponsor.url}}" target="_blank" class="logo">
+          <img class="sponsor-logo" src="/assets/images/sponsors/{{sponsor.slug}}.png" alt="{{sponsor.name}}" />
+        </a>
+        <p class="description">{{sponsor.description}}</p>
+        <a href="{{sponsor.url}}" target="_blank">
+          > Visit the {{sponsor.name}} jobs website
+        </a>
+      </li>
+      {% endfor %}
+    </ul>
     <h2 class="centre">Track Sponsors</h2>
     <ul class="sponsors sponsors-track">
       {% for sponsor in page.sponsors-track %}
