@@ -113,10 +113,12 @@ img{
 @include respond(mobile){
     .col-half,
     .col-third,
-    .col-quarter{
+    .col-quarter,
+    .sponsors-container .sponsor{
         margin:0 0 10px 0 !important;
         padding:0 !important;
         width:auto;
+        max-width:100%;
         clear:left;
     }
 }
