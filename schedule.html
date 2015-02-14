@@ -10,13 +10,14 @@ schedule-wednesday:
       - track:
             name: Pre-Conference Social
             description: |
-              The pre-conference social is a traditional PHP London style pubcon open to anyone where conference attendees and locals can meet up before the conference to network and socialise. There will also be a technical talk. More details to be announced soon...
+              The pre-conference social is a traditional PHP London style pubcon open to anyone where conference attendees and locals can meet up before the conference to network and socialise. <a href="/socials">More details</a>
 schedule-thursday:
   - time: "08.00"
     slottype: special
     tracks:
       - track:
-            name: Registration
+            name: Registration &amp; Breakfast
+            menulink: thursday-breakfast
             description: |
               Registration will be open from 8am. A light breakfast with coffee/tea/juice will be served until shortly before 9am.
   - time: "09.00"
@@ -45,6 +46,7 @@ schedule-thursday:
     tracks:
       - track:
             name: Morning Refreshment Break
+            menulink: thursday-morning-break
             description: |
               Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
   - time: "10.20"
@@ -111,6 +113,7 @@ schedule-thursday:
     tracks:
       - track:
             name: Lunch
+            menulink: thursday-lunch
             description: |
               A fork buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
   - time: "13.30"
@@ -177,6 +180,7 @@ schedule-thursday:
     tracks:
       - track:
             name: Afternoon Refreshment Break
+            menulink: thursday-afternoon-break
             description: |
               Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
   - time: "16.00"
@@ -238,14 +242,16 @@ schedule-thursday:
     tracks:
       - track:
             name: Mid-Conference Social
+            menulink: thursday-social
             description: |
-              The mid-conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. There will be lots of fun activities planned for the evening. More details to be announced soon...
+              The mid-conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. There will be lots of fun activities planned for the evening. <a href="/birthday-bash">More details &raquo;</a>
 schedule-friday:
   - time: "08.00"
     slottype: special
     tracks:
       - track:
-            name: Registration
+            name: Registration &amp; Breakfast
+            menulink: friday-breakfast
             description: |
               Registration will be open from 8am. A light breakfast with coffee/tea/juice will be served until shortly before 9am.
   - time: "09.00"
@@ -274,6 +280,7 @@ schedule-friday:
     tracks:
       - track:
             name: Morning Refreshment Break
+            menulink: friday-morning-break
             description: |
               Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
   - time: "10.20"
@@ -340,6 +347,7 @@ schedule-friday:
     tracks:
       - track:
             name: Lunch
+            menulink: friday-lunch
             description: |
               A fork buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
   - time: "13.30"
@@ -412,6 +420,7 @@ schedule-friday:
     tracks:
       - track:
             name: Afternoon Refreshment Break
+            menulink: friday-afternoon-break
             description: |
               Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
   - time: "16.00"
@@ -518,6 +527,9 @@ schedule-friday:
               <span class="title">{{track.track.title}}</span>
               <span class="speaker"><a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a></span>
               <p class="description">{{track.track.description}}</p>
+              {% if track.track.menulink %}
+                  <p><a href="/menu/#{{track.track.menulink}}">Tasty food menu &raquo;</a></p>
+              {% endif %}
             </li>
             {% endfor %}
           </ul>
@@ -539,6 +551,9 @@ schedule-friday:
               <span class="title">{{track.track.title}}</span>
               <span class="speaker"><a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a></span>
               <p class="description">{{track.track.description}}</p>
+              {% if track.track.menulink %}
+                  <p><a href="/menu/#{{track.track.menulink}}">Tasty food menu &raquo;</a></p>
+              {% endif %}
             </li>
             {% endfor %}
           </ul>
