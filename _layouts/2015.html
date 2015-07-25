@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0">
+        <link rel="stylesheet" href="/2015/assets/css/screen.css?version=1.0">
+        <script src="/2015/assets/js/jquery-1.8.0.min.js"></script>
+        <title>PHP UK Conference 2015 - February 19-20 2015</title>
+        <script type="text/javascript">
+          var _gaq = _gaq || [];
+          _gaq.push(['_setAccount', 'UA-35868980-1']);
+          _gaq.push(['_trackPageview']);
+
+          (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+          })();
+        </script>
+        <script type="text/javascript">
+          (function(d) {
+            var config = {
+              kitId: 'gaj7ffh',
+              scriptTimeout: 3000
+            },
+            h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+          })(document);
+
+          $(function() {                       //run when the DOM is ready
+            $(".navbar").click(function() {  //use a class, since your ID gets mangled
+                $(".nav").toggleClass("open");      //add the class to the clicked element
+            });
+          });
+        </script>
+    </head>
+    <body class="{{page.slug}}">
+        <nav id="access" class="navbar">
+            <ul class="nav wrapper">
+                <li><a href="/2015/about/">About</a></li>
+                <li><a href="/2015/speakers/">Speakers</a></li>
+                <li><a href="/2015/schedule/" class="active">Schedule</a></li>
+                <li><a href="/2015/sponsors/">Sponsors</a></li>
+                <li><a href="/2015/socials/">Socials</a></li>
+                <li><a href="/2015/venue/">Venue</a></li>
+                <li><a href="/2015/diversity/">Diversity</a></li>
+            </ul>
+        </nav>
+        <header class="header">
+            <div class="bunting"></div>
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="/"><img class="header-logo elephant" src="/assets/images/php-uk.png" alt="Elephpant" /></a>
+                    <img class="hat" src="/assets/images/hat.png" alt="Hat"/>
+                    <img class="horn" src="/assets/images/horn.png" alt="Horn" />
+                </div>
+                <span class="text text-left">Celebrating 10 years</span>
+                <span class="text text-right">PHP UK Conference</span>
+                <h3 class="date">February 19-20 2015, The Brewery, London</h3>
+            </div>
+            <img src="/assets/images/balloons-left.png" class="balloons balloons-left">
+            <img src="/assets/images/balloon-right.png" class="balloons balloon-right">
+        </header>
+        <div class="content-area">
+            {{content}}
+        </div>
+        <div id="footer" class="footer">
+            {% if page.url != '/sponsors/' %}
+            <div class="sponsor-bar">
+                <div class="wrapper">
+                    <h4>The PHP UK Conference is proudly sponsored by:</h4>
+                    <a href="http://www.sainsburys.jobs" target="_blank" class="logo">
+                      <img class="sponsor-logo" src="/assets/images/sponsors/sainsburys.png" alt="Sainsbury's" />
+                    </a>
+                    <a href="http://www.affiliatewindow.com" target="_blank" class="logo">
+                      <img class="sponsor-logo" src="/assets/images/sponsors/affiliate-window.png" alt="Affiliate Window" />
+                    </a>
+                    <a href="http://www.silverstripe.com" target="_blank" class="logo">
+                      <img class="sponsor-logo" src="/assets/images/sponsors/silverstripe.png" alt="SilverStripe" />
+                    </a>
+                    <a href="http://www.engineyard.com" target="_blank" class="logo">
+                      <img class="sponsor-logo" src="/assets/images/sponsors/engine-yard.png" alt="Engine Yard" />
+                    </a>
+                    <a href="http://www.jetbrains.com" target="_blank" class="logo">
+                      <img class="sponsor-logo" src="/assets/images/sponsors/jetbrains.png" alt="JetBrains" />
+                    </a>
+                    <a href="http://www.newrelic.com" target="_blank" class="logo">
+                      <img class="sponsor-logo" src="/assets/images/sponsors/new-relic.png" alt="New Relic" />
+                    </a>
+                    <a href="http://www.dreamfactory.com" target="_blank" class="logo">
+                      <img class="sponsor-logo" src="/assets/images/sponsors/dreamfactory.png" alt="DreamFactory" />
+                    </a>
+                    <a href="http://www.clientrelationship.com" target="_blank" class="logo">
+                      <img class="sponsor-logo" src="/assets/images/sponsors/the-crc.png" alt="The Client Relationship Consultancy" />
+                    </a>
+                    <a href="http://www.inviqa.com" target="_blank" class="logo">
+                      <img class="sponsor-logo" src="/assets/images/sponsors/inviqa.png" alt="Inviqa" />
+                    </a>
+                    <a href="http://www.shopware.com" target="_blank" class="logo">
+                      <img class="sponsor-logo" src="/assets/images/sponsors/shopware.png" alt="Shopware" />
+                    </a>
+                    <a href="http://www.digitalocean.com" target="_blank" class="logo">
+                      <img class="sponsor-logo" src="/assets/images/sponsors/digital-ocean.png" alt="Digital Ocean" />
+                    </a>
+                    <a href="http://www.campaignamp.com" target="_blank" class="logo">
+                      <img class="sponsor-logo" src="/assets/images/sponsors/campaign-amp.png" alt="CampaignAmp" />
+                    </a>
+                </div>
+            </div>
+            {% endif %}
+            <div id="footer-content" class="wrapper">
+                <div class="row">
+                    <div class="col">
+                        <h3>@phpukconference Tweets</h3>
+                        <a class="twitter-timeline"  href="https://twitter.com/PHPUKConference"  data-widget-id="504582501310808064" data-chrome="nofooter noheader transparent" data-tweet-limit="2">Tweets by @PHPUKConference</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    </div>
+                    <div class="col contact">
+                        <h3>Contact Information</h3>
+                        <p>If you would like further information about the PHP UK Conference please get in touch.</p>
+                        <p>Email us:<br />
+                        <a href="mailto:contact@phpconference.co.uk" target="_blank">contact@phpconference.co.uk</a> </p>
+                        <p>Help us make this site better.<br />
+                        <a href="https://github.com/phplondon/phpukconference/issues" target="_blank">Raise an issue at Github</a></p>
+                        <p>Follow us on twitter:<br />
+                        <a href="https://twitter.com/PHPUKConference" target="_blank">@PHPUKConference</a></p>
+                        <p>Like us on Facebook:<br />
+                        <a href="https://www.facebook.com/ukconference" target="_blank">facebook.com/ukconference</a></p>
+                    </div>
+                    <div class="col">
+                        <h3>Code of Conduct</h3>
+                        <p>The PHP UK Conference operates a code of conduct to ensure that all attendees are able to enjoy the conference. We encourage all delegates to read the <a href="/conduct/">Code of Conduct</a> before the start of the conference.<p>
+                        <p>Want to attend PHP UK?</p>
+                        <a class="button" href="http://phpukconference.eventbrite.co.uk/">Buy Tickets</a>
+                    </div>
+                </div>
+            </div>
+            <div class="legal">
+                <div class="wrapper">
+                    <p>Powered by <a href="http://phplondon.org" target="_blank">PHP LONDON</a>. PHP London Limited, 207 Regent Street, London, W1B3HH.</p>
+                    <p>Registered in England and Wales company number 06770521.</p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

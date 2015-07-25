@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'SteelfishRgRegular';
+    src: url('../fonts/steelfish_regular_macroman/steelfish_rg-webfont.eot');
+    src: url('../fonts/steelfish_regular_macroman/steelfish_rg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/steelfish_regular_macroman/steelfish_rg-webfont.woff') format('woff'),
+         url('../fonts/steelfish_regular_macroman/steelfish_rg-webfont.ttf') format('truetype'),
+         url('../fonts/steelfish_regular_macroman/steelfish_rg-webfont.svg#SteelfishRgRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'SteelfishRgItalic';
+    src: url('../fonts/steelfish_italic_macroman/steelfish_rg_it-webfont.eot');
+    src: url('../fonts/steelfish_italic_macroman/steelfish_rg_it-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/steelfish_italic_macroman/steelfish_rg_it-webfont.woff') format('woff'),
+         url('../fonts/steelfish_italic_macroman/steelfish_rg_it-webfont.ttf') format('truetype'),
+         url('../fonts/steelfish_italic_macroman/steelfish_rg_it-webfont.svg#SteelfishRgItalic') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'BebasNeueRegular';
+    src: url('../fonts/bebas_neue/BebasNeue-webfont.eot');
+    src: url('../fonts/bebas_neue/BebasNeue-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/bebas_neue/BebasNeue-webfont.woff') format('woff'),
+         url('../fonts/bebas_neue/BebasNeue-webfont.ttf') format('truetype'),
+         url('../fonts/bebas_neue/BebasNeue-webfont.svg#BebasNeueRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    color:#333333;
+    font-family:"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-weight:400;
+    font-family:"proxima-nova";
+}
+
+h1{
+    font-size:6rem;
+    line-height:1.4em;
+    text-transform:uppercase;
+    color:$conference-yellow;
+    }
+
+h2{
+    margin:20px 0 10px 0;
+    font-size:3.2em;
+    line-height:1.4em;
+    color:#4A91A3;
+    }
+
+h3{
+    font-size:2.2em;
+    line-height:1.2em;
+    color:#4A91A3;
+}
+
+
+h4{
+    margin:0 0 6px 0;
+    font-size:1.5em;
+    line-height:1.2em;
+    color:#000;
+}
+
+p,
+li{
+    font-family:"proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size:1.6rem;
+    line-height:1.5;
+}
+
+p{
+    padding-bottom:10px;
+}
+
+a{
+    color:$conference-yellow;
+    text-decoration:none;
+    border-bottom:1px dotted;
+}
+
+
+@include respond(mobile){
+    h1{
+        font-size:3.6rem;
+    }
+    h2{
+        font-size:2.6rem;
+    }
+}

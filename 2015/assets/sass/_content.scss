@@ -1,0 +1,104 @@
+.about{
+	background:#eee;
+}
+
+.testimonials{
+	background:#fff;	
+}
+
+.history{
+	background:darken(#5490DA, 5%);
+
+	h2{
+		color:#fff;
+	}
+	p{
+		color:lighten(#5490DA, 30%);
+	}
+	a{
+		color:lighten($conference-yellow, 20%);
+	}
+
+	.videos{
+		padding:10px 0;
+	}
+}
+
+.beer{
+	min-height:432px;
+	padding-top:260px !important;
+	background:url(../images/beer-factory.jpg) center 0 repeat-x;
+
+	h2{
+		color:#fff;
+	}
+
+	p{
+		color:#fff;
+	}
+}
+
+.apple-watch{
+	float:right;
+	margin:-90px 0 0 30px;
+}
+
+.list{
+	margin-bottom:16px;
+	list-style-type: disc;
+	padding-left:30px;
+}
+
+.map{
+	float:right;
+	margin:0 0 0 20px;
+	width:400px;
+	height:300px;
+}
+
+.aside{
+	float:right;
+	margin:0 0 0 20px;
+	width:400px;
+	height:auto;
+}
+
+.padded{
+	padding-top:90px !important;
+	margin-bottom:-50px;
+}
+
+.image-full{
+	margin:20px 0;
+	width:100%;
+}
+
+.button{
+	display:inline-block;
+	padding:14px 22px;
+	font-size:1.5rem;
+	font-weight:bold;
+	color:#fff;
+	background:$conference-yellow;
+	border:none;
+	@include border-radius(3px);
+	@include box-shadow(0 3px 0 darken($conference-yellow, 10%));
+}
+
+@include respond(mobile){
+	.map{
+		float:none;
+		margin:0 0 10px 0;
+		width:100%;
+		height:100px;
+	}
+	.padded{
+		padding-top:0px !important;
+		margin-bottom:0px;
+	}
+	.beer{
+		min-height:auto;
+		padding-top:20px !important;
+		background-position:200px 0;
+	}
+}

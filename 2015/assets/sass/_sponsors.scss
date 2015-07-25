@@ -1,0 +1,45 @@
+.sponsors-container{
+	h2{
+		clear:both;
+	}
+}
+
+.sponsors{
+	clear:both;
+}
+
+.sponsor{
+	margin-bottom:30px;
+
+	h2{
+		font-size:2em;
+	}
+
+	.logo{
+		display:block;
+		margin:0 auto 10px auto;
+		text-decoration:none;
+		border-bottom:none;
+		text-align:center;
+	}
+}
+
+.sponsor-half{
+	float:left;
+	padding-right:2%;
+	width:50%;
+	max-width:50%;
+
+	+ .sponsor{
+		padding-right:0;
+		padding-left:2%;
+	}
+}
+
+.sponsor-room,
+.sponsor-track,
+.sponsor-social,
+.sponsor-local,
+.sponsor-special{
+	@extend .sponsor-half;
+}
