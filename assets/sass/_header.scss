@@ -60,7 +60,7 @@
     .logo{
         position:relative;
         display:inline-block;
-        margin:110px auto 0 auto;
+        margin:70px auto 0 auto;
 
         a{
             border:none;
@@ -81,14 +81,20 @@
     }
 
     .text{
-        display:block;
         position:absolute;
-        color:#fff;
-        font-size:2.6em;
-        font-weight:600;
+        display:block;
         bottom:10px;
+        margin-top:10px;
+        color:#fff;
+        font-size:3em;
+        font-weight:600;
         z-index:11;
-        @include text-shadow(1px 1px 0 rgba(0,0,0,0.3));
+        @include text-shadow(1px 1px 0 rgba(0,0,0,0.3), 0px 0px 8px rgba(0, 0, 0, 0.1));
+
+        sup{
+            font-size:0.5em;
+            vertical-align:top;
+        }
     }
 
     .text-left{
@@ -100,9 +106,6 @@
 
     .text-right{
         right:$gutter;
-        &:before{
-            content:"...the ";
-        }
     }
 
     .balloons{
@@ -135,6 +138,8 @@
         position:relative;
         left:auto;
         right:auto;
+        bottom:auto;
+        font-size:6.2em;
     }
 
     .text-left{
@@ -147,6 +152,7 @@
     }
 
     .text-right{
+        display:none;
         color:#1A5364;
         font-size:7em;
         @include text-shadow(none);
@@ -158,6 +164,7 @@
 
     .date{
         display:block;
+        font-size:2.6em;
     }
 }
 
