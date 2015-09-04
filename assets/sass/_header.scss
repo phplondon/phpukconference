@@ -248,13 +248,14 @@
 
         .text{
             display:block;
-	    font-size:2em;
+	    font-size:3em;
         }
 
         .text-left{
             font-size:2.8em;
         }
         .text-right{
+		display:none;
             font-size:3.4em;
         }
     }
