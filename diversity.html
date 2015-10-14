@@ -18,12 +18,11 @@ weight: 7
 	
 		<p>PHP UK's scholarship program provides aide to members of underrepresented groups who may not otherwise be able to attend our conference for financial reasons.</p>
 	
-    <div class="thermometer">
-    <h3>Fundraising Progress</h3>
-    <p>Our goal is to raise £50,000 for this year's conference.</p>
-	<div class="thermometer thermometer-noconfig" id="thermometer-b" data-percent="10" data-animate="false"></div>
-    </div>
+	<h3>Fundraising Progress</h3>
+	<p>Our target for PHP UK 2016 is to provide access to 50 or more scholarship awardees. This requires £50,000 in funds to be raised to support the scholarships.</p>
 	
+	Current funds raised: £537.15 / £50,000
+	<div class="thermometer thermometer-noconfig" id="thermometer-b" data-percent="1" data-animate="true"></div>
 	
 	<p><a class="button" href="https://www.eventbrite.co.uk/e/php-uk-conference-2016-tickets-15843479273">Donate here</a></p>
 
@@ -112,23 +111,6 @@ weight: 7
   <script src="/assets/js/jquery.thermometer.js"></script>
   <script>
     (function($) {
-      $(function() {
-        $('.thermometer-demo').each(function() {
-          /* build table of contents for each section */
-          var demoName = $(this).find('h2').html(), 
-          demoAnchor = demoName.replace(/ /g, '-').toLowerCase();
-          $(this).prepend('<a name="' + demoAnchor + '"></a>');
-          $('#toc').append('<li><a href="#' + demoAnchor + '">' + demoName + '</a></li>');
-        });
-        
-        /* thermometers with no config */
         $('.thermometer-noconfig').thermometer();
-        
-        /* thermometers with config */
-        $('.thermometer-config').thermometer({
-          percent: 75, 
-          speed: 'slow'
-        })
-      });
     })(jQuery);
   </script>
