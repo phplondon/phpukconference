@@ -3,12 +3,20 @@ layout: default
 title: Sponsors
 group: "navigation"
 weight: 4
+sponsors-scholarship:
+  - 
+    name: Purple Booth Ltd.
+    slug: purpleboothltd
+    type: Valorous
+    url: https://purplebooth.co.uk/
+sponsors-track:
+  -
 ---
 <div class="wrapper">
     <h1>Sponsors</h1>
     <p>The PHP UK Conference relies heavily on sponsorship to run the event at rates affordable to the whole community. If you're interested in sponsoring our event, please <a href="mailto:contact@phpconference.co.uk">contact us</a>.</p>
-<!--   <div class="sponsors-container cf">
-    <h2 class="centre">Platinum Partner</h2>
+   <div class="sponsors-container cf">
+<!--    <h2 class="centre">Platinum Partner</h2>
     <ul class="sponsors sponsors-platinum">
       {% for sponsor in page.sponsors-platinum %}
       <li class="sponsor sponsor-platinum {{sponsor.slug}}" id="{{sponsor.slug}}">
@@ -95,5 +103,17 @@ weight: 4
       </li>
       {% endfor %}
     </ul> -->
+    <h2 class="centre">Scholarship Sponsors</h2>
+    <ul class="sponsors sponsors-scholarship">
+      {% for sponsor in page.sponsors-scholarship %}
+      <li class="sponsor sponsor-scholarship {{sponsor.slug}}" id="{{sponsor.slug}}">
+        <h2 class="centre">{{sponsor.type}} Sponsor</h2>
+        <a href="{{sponsor.url}}" target="_blank" class="logo">
+          <img class="sponsor-logo" src="/assets/images/sponsors/{{sponsor.slug}}.png" alt="{{sponsor.name}}" />
+        </a>
+        <p class="description">{{sponsor.description}}</p>
+      </li>
+      {% endfor %}
+    </ul>
   </div>
 </div>
