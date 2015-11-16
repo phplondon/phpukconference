@@ -9,14 +9,33 @@ sponsors-scholarship:
     slug: purpleboothltd
     type: Valorous
     url: https://purplebooth.co.uk/
-sponsors-track:
+sponsors-special:
   -
+    name: SilverStripe
+    slug: silverstripe
+    type: Hackathon
+    url: http://www.silverstripe.org
+    description: |
+      SilverStripe is the intuitive content management system and flexible PHP framework loved by editors and developers alike. SilverStripe is headquartered in Wellington, New Zealand and has offices in Auckland and Australia. The easily extendible open source framework has a loyal developer community across the globe.
+sponsors-track:
+  - 
+    name: DreamFactory
+    slug: dreamfactory
+    type: Track Sponsor
+    url: http://www.dreamfactory.com
+    description: |
+      DreamFactory is a PHP-powered open source backend for developing enterprise mobile apps. DreamFactory connects any data source to any mobile device and removes the pain of building your own mobile middleware. 
+
+      How does it work? DreamFactory is a run-time software platform that automatically generates a REST API for SQL databases, NoSQL databases, and file storage systems like S3. You install the DreamFactory open source package on a cloud server, Linux, Windows, or Mac. Then you simply call the REST API from the app you're building, using DreamFactory's client SDKs for Javascript, AngularJS, iOS, Android, Titanium, and Windows Mobile. DreamFactory provides a robust security layer for user, credential, and role management and simplifies server-side scripting for customisation and workflow. 
+
+      The end result: a pre-built, highly customisable backend that reduces development time and enables developers to focus on building great mobile applications that connect to enterprise data.
 ---
+
 <div class="wrapper">
     <h1>Sponsors</h1>
     <p>The PHP UK Conference relies heavily on sponsorship to run the event at rates affordable to the whole community. If you're interested in sponsoring our event, please <a href="mailto:contact@phpconference.co.uk">contact us</a>.</p>
    <div class="sponsors-container cf">
-<!--    <h2 class="centre">Platinum Partner</h2>
+<!--     <h2 class="centre">Platinum Partner</h2>
     <ul class="sponsors sponsors-platinum">
       {% for sponsor in page.sponsors-platinum %}
       <li class="sponsor sponsor-platinum {{sponsor.slug}}" id="{{sponsor.slug}}">
@@ -33,7 +52,7 @@ sponsors-track:
       </li>
       {% endfor %}
     </ul>
-    <h2 class="centre">Track Sponsors</h2>
+   <h2 class="centre">Track Sponsors</h2>
     <ul class="sponsors sponsors-track">
       {% for sponsor in page.sponsors-track %}
       <li class="sponsor sponsor-track {{sponsor.slug}}" id="{{sponsor.slug}}">
@@ -88,7 +107,7 @@ sponsors-track:
         </a>
       </li>
       {% endfor %}
-    </ul>
+    </ul> -->
     <ul class="sponsors sponsors-special">
       {% for sponsor in page.sponsors-special %}
       <li class="sponsor sponsor-special {{sponsor.slug}}" id="{{sponsor.slug}}">
@@ -102,8 +121,8 @@ sponsors-track:
         </a>
       </li>
       {% endfor %}
-    </ul> -->
-    <h2 class="centre">Scholarship Sponsors</h2>
+    </ul>
+    <h2 class="centre"><a href="/diversity">Diversity</a> Scholarship Sponsors</h2>
     <ul class="sponsors sponsors-scholarship">
       {% for sponsor in page.sponsors-scholarship %}
       <li class="sponsor sponsor-scholarship {{sponsor.slug}}" id="{{sponsor.slug}}">
