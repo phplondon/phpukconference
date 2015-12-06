@@ -29,6 +29,35 @@ sponsors-track:
       How does it work? DreamFactory is a run-time software platform that automatically generates a REST API for SQL databases, NoSQL databases, and file storage systems like S3. You install the DreamFactory open source package on a cloud server, Linux, Windows, or Mac. Then you simply call the REST API from the app you're building, using DreamFactory's client SDKs for Javascript, AngularJS, iOS, Android, Titanium, and Windows Mobile. DreamFactory provides a robust security layer for user, credential, and role management and simplifies server-side scripting for customisation and workflow. 
 
       The end result: a pre-built, highly customisable backend that reduces development time and enables developers to focus on building great mobile applications that connect to enterprise data.
+sponsors-gold:
+  - 
+    name: Deeson
+    slug: deeson
+    url: http://www.deeson.co.uk
+    description: |
+      We are Deeson - an open source agency since 2007 - and we’re hiring.
+
+      We work with our clients to grow their businesses. We appreciate the pressure on our clients to understand not only what their customers require, but how to deliver it in a digital environment.
+
+      We use open source technologies, including Drupal, to connect their customers with the information they need. 
+
+      Our permanent team of 35 design, UX and development experts have delivered over 200 projects in the past 8 years. We know the importance of letting every member of our team communicate directly with our clients to solve their business problems.
+
+      We believe strongly in the benefits that come from actively participating in technology communities, whether that’s sponsoring, contributing code or speaking at events.
+
+      If you live in Europe and have a passion for using open source technology to deliver great web experiences, we’re very interested in hearing from you.
+  - 
+    name: JetBrains
+    slug: jetbrains
+    url: http://www.jetbrains.com
+    description: |
+      JetBrains has a passion for making developers more productive. We design intelligent development tools to simplify your challenging tasks, automate the easy ones, and help you develop with pleasure.
+
+      PhpStorm is a PHP IDE that actually 'gets' your code, supports PHP 5.3/5.4/5.5 and features on the fly error prevention, best autocompletion & code refactoring, zero configuration debugging, the best HTML, CSS, and JavaScript editor.
+
+      We also offer top-notch IDEs for Java, JavaScript, Ruby, Python, and Objective-C, as well as a pack of tools for .NET developers and team productivity tools for continuous integration and issue tracking.
+
+      With headquarters in Prague, Czech Republic, we also have R&D labs in Russia, USA and Germany.
 ---
 
 <div class="wrapper">
@@ -96,9 +125,10 @@ sponsors-track:
       </li>
       {% endfor %}
     </ul>
-    <h2 class="centre">Local Sponsors</h2>
+    -->
+    <h2 class="centre">Gold Sponsors</h2>
     <ul class="sponsors sponsors-local">
-      {% for sponsor in page.sponsors-local %}
+      {% for sponsor in page.sponsors-gold %}
       <li class="sponsor sponsor-local {{sponsor.slug}}" id="{{sponsor.slug}}">
         <a href="{{sponsor.url}}" target="_blank" class="logo">
           <img class="sponsor-logo" src="/assets/images/sponsors/{{sponsor.slug}}.png" alt="{{sponsor.name}}" />
@@ -109,7 +139,7 @@ sponsors-track:
         </a>
       </li>
       {% endfor %}
-    </ul> -->
+    </ul>
     <ul class="sponsors sponsors-special">
       {% for sponsor in page.sponsors-special %}
       <li class="sponsor sponsor-special {{sponsor.slug}}" id="{{sponsor.slug}}">
