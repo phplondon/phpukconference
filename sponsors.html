@@ -3,160 +3,88 @@ layout: default
 title: Sponsors
 group: "navigation"
 weight: 4
-sponsors-scholarship:
-  - 
-    name: Purple Booth Ltd.
-    slug: purpleboothltd
-    type: Valorous
-    url: https://purplebooth.co.uk/
-sponsors-track:
-  - 
-    name: DreamFactory
-    slug: dreamfactory
-    type: Track Sponsor
-    url: http://www.dreamfactory.com
-    description: |
-      DreamFactory is a PHP-powered open source backend for developing enterprise mobile apps. DreamFactory connects any data source to any mobile device and removes the pain of building your own mobile middleware. 
+sponsors:
+  - name: track
+    sponsorlist:
+    - name: DreamFactory
+      slug: dreamfactory
+      url: http://www.dreamfactory.com
+      description: |
+        DreamFactory is a PHP-powered open source backend for developing enterprise mobile apps. DreamFactory connects any data source to any mobile device and removes the pain of building your own mobile middleware.
+  - name: gold
+    sponsorlist:
+    - name: Deeson
+      slug: deeson
+      url: http://www.deeson.co.uk
+      description: |
+        We are Deeson - an open source agency since 2007 - and we’re hiring.
 
-      How does it work? DreamFactory is a run-time software platform that automatically generates a REST API for SQL databases, NoSQL databases, and file storage systems like S3. You install the DreamFactory open source package on a cloud server, Linux, Windows, or Mac. Then you simply call the REST API from the app you're building, using DreamFactory's client SDKs for Javascript, AngularJS, iOS, Android, Titanium, and Windows Mobile. DreamFactory provides a robust security layer for user, credential, and role management and simplifies server-side scripting for customisation and workflow. 
+        We work with our clients to grow their businesses. We appreciate the pressure on our clients to understand not only what their customers require, but how to deliver it in a digital environment.
 
-      The end result: a pre-built, highly customisable backend that reduces development time and enables developers to focus on building great mobile applications that connect to enterprise data.
-sponsors-gold:
-  - 
-    name: Deeson
-    slug: deeson
-    url: http://www.deeson.co.uk
-    description: |
-      We are Deeson - an open source agency since 2007 - and we’re hiring.
+        We use open source technologies, including Drupal, to connect their customers with the information they need. 
 
-      We work with our clients to grow their businesses. We appreciate the pressure on our clients to understand not only what their customers require, but how to deliver it in a digital environment.
+        Our permanent team of 35 design, UX and development experts have delivered over 200 projects in the past 8 years. We know the importance of letting every member of our team communicate directly with our clients to solve their business problems.
 
-      We use open source technologies, including Drupal, to connect their customers with the information they need. 
+        We believe strongly in the benefits that come from actively participating in technology communities, whether that’s sponsoring, contributing code or speaking at events.
 
-      Our permanent team of 35 design, UX and development experts have delivered over 200 projects in the past 8 years. We know the importance of letting every member of our team communicate directly with our clients to solve their business problems.
+        If you live in Europe and have a passion for using open source technology to deliver great web experiences, we’re very interested in hearing from you.
+    - name: JetBrains
+      slug: jetbrains
+      url: http://www.jetbrains.com
+      description: |
+        JetBrains has a passion for making developers more productive. We design intelligent development tools to simplify your challenging tasks, automate the easy ones, and help you develop with pleasure.
 
-      We believe strongly in the benefits that come from actively participating in technology communities, whether that’s sponsoring, contributing code or speaking at events.
+        PhpStorm is a PHP IDE that actually 'gets' your code, supports PHP 5.3/5.4/5.5 and features on the fly error prevention, best autocompletion & code refactoring, zero configuration debugging, the best HTML, CSS, and JavaScript editor.
 
-      If you live in Europe and have a passion for using open source technology to deliver great web experiences, we’re very interested in hearing from you.
-  - 
-    name: JetBrains
-    slug: jetbrains
-    url: http://www.jetbrains.com
-    description: |
-      JetBrains has a passion for making developers more productive. We design intelligent development tools to simplify your challenging tasks, automate the easy ones, and help you develop with pleasure.
+        We also offer top-notch IDEs for Java, JavaScript, Ruby, Python, and Objective-C, as well as a pack of tools for .NET developers and team productivity tools for continuous integration and issue tracking.
 
-      PhpStorm is a PHP IDE that actually 'gets' your code, supports PHP 5.3/5.4/5.5 and features on the fly error prevention, best autocompletion & code refactoring, zero configuration debugging, the best HTML, CSS, and JavaScript editor.
+        With headquarters in Prague, Czech Republic, we also have R&D labs in Russia, USA and Germany.
 
-      We also offer top-notch IDEs for Java, JavaScript, Ruby, Python, and Objective-C, as well as a pack of tools for .NET developers and team productivity tools for continuous integration and issue tracking.
+  - name: diversity
+    subtype: 
+      - name: valorous
+        sponsorlist:
+          - name: Purple Booth Ltd.
+            slug: purpleboothltd
+            url: https://purplebooth.co.uk/
 
-      With headquarters in Prague, Czech Republic, we also have R&D labs in Russia, USA and Germany.
 ---
 
 <div class="wrapper">
     <h1>Sponsors</h1>
     <p>The PHP UK Conference relies heavily on sponsorship to run the event at rates affordable to the whole community. If you're interested in sponsoring our event, please <a href="mailto:contact@phpconference.co.uk">contact us</a>.</p>
    <div class="sponsors-container cf">
-<!--     <h2 class="centre">Platinum Partner</h2>
-    <ul class="sponsors sponsors-platinum">
-      {% for sponsor in page.sponsors-platinum %}
-      <li class="sponsor sponsor-platinum {{sponsor.slug}}" id="{{sponsor.slug}}">
-        <a href="{{sponsor.url}}" target="_blank" class="logo">
-          <img class="sponsor-logo" src="/assets/images/sponsors/{{sponsor.slug}}.png" alt="{{sponsor.name}}" />
-        </a>
-        <p class="description">{{sponsor.description}}</p>
-        <a href="{{sponsor.url}}" target="_blank">
-          > Visit the {{sponsor.name}} jobs website
-        </a>
-        <a href="http://isw.changeworknow.co.uk/sainsburys/vms/e/store_support_centre/positions/a00FHd2Zfc-RdHWSaMQVKz" target="_blank">
-          > {{sponsor.name}} PHP jobs
-        </a>
-      </li>
+
+       
+      {% for category in page.sponsors %}
+        <h2 class="centre">{{category.name | capitalize}} Sponsors</h2>
+        <ul class="sponsors sponsors-{{category.name}}">
+        {% if category.subtype %}
+            {% for subtype in category.subtype %}
+                <h3 class="centre">{{subtype.name | capitalize}} Sponsor</h3>
+                {% for sponsor in subtype.sponsorlist %}
+                    <li class="sponsor sponsor-{{category.name}} {{sponsor.slug}}" id="{{sponsor.slug}}">
+                    <a href="{{sponsor.url}}" target="_blank" class="logo">
+                        <img class="sponsor-logo" src="/assets/images/sponsors/{{sponsor.slug}}.png" alt="{{sponsor.name}}" />
+                    </a>
+                    <p class="description">{{sponsor.description}}</p>
+                    <a href="{{sponsor.url}}" target="_blank">Visit the {{sponsor.name}} website &raquo;</a>
+                    </li>
+                {% endfor %}
+            {% endfor %}
+        {% else %}
+            {% for sponsor in category.sponsorlist %}
+                <li class="sponsor sponsor-{{category.name}} {{sponsor.slug}}" id="{{sponsor.slug}}">
+                <a href="{{sponsor.url}}" target="_blank" class="logo">
+                    <img class="sponsor-logo" src="/assets/images/sponsors/{{sponsor.slug}}.png" alt="{{sponsor.name}}" />
+                </a>
+                <p class="description">{{sponsor.description}}</p>
+                <a href="{{sponsor.url}}" target="_blank">Visit the {{sponsor.name}} website &raquo;</a>
+                </li>
+            {% endfor %}
+        {% endif %}
+        </ul>
       {% endfor %}
-    </ul>
--->
-   <h2 class="centre">Track Sponsors</h2>
-    <ul class="sponsors sponsors-track">
-      {% for sponsor in page.sponsors-track %}
-      <li class="sponsor sponsor-track {{sponsor.slug}}" id="{{sponsor.slug}}">
-        <a href="{{sponsor.url}}" target="_blank" class="logo">
-          <img class="sponsor-logo" src="/assets/images/sponsors/{{sponsor.slug}}.png" alt="{{sponsor.name}}" />
-        </a>
-        <p class="description">{{sponsor.description}}</p>
-        <a href="{{sponsor.url}}" target="_blank">
-          > Visit the {{sponsor.name}} website
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-<!--
-    <ul class="sponsors sponsors-room">
-      {% for sponsor in page.sponsors-room %}
-      <li class="sponsor sponsor-room {{sponsor.slug}}" id="{{sponsor.slug}}">
-        <h2 class="centre">{{sponsor.type}} Sponsor</h2>
-        <a href="{{sponsor.url}}" target="_blank" class="logo">
-          <img class="sponsor-logo" src="/assets/images/sponsors/{{sponsor.slug}}.png" alt="{{sponsor.name}}" />
-        </a>
-        <p class="description">{{sponsor.description}}</p>
-        <a href="{{sponsor.url}}" target="_blank">
-          > Visit the {{sponsor.name}} website
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-    <ul class="sponsors sponsors-social">
-      {% for sponsor in page.sponsors-social %}
-      <li class="sponsor sponsor-social {{sponsor.slug}}" id="{{sponsor.slug}}">
-        <h2 class="centre">{{sponsor.type}} Sponsor</h2>
-        <a href="{{sponsor.url}}" target="_blank" class="logo">
-          <img class="sponsor-logo" src="/assets/images/sponsors/{{sponsor.slug}}.png" alt="{{sponsor.name}}" />
-        </a>
-        <p class="description">{{sponsor.description}}</p>
-        <a href="{{sponsor.url}}" target="_blank">
-          > Visit the {{sponsor.name}} website
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-    -->
-    <h2 class="centre">Gold Sponsors</h2>
-    <ul class="sponsors sponsors-local">
-      {% for sponsor in page.sponsors-gold %}
-      <li class="sponsor sponsor-local {{sponsor.slug}}" id="{{sponsor.slug}}">
-        <a href="{{sponsor.url}}" target="_blank" class="logo">
-          <img class="sponsor-logo" src="/assets/images/sponsors/{{sponsor.slug}}.png" alt="{{sponsor.name}}" />
-        </a>
-        <p class="description">{{sponsor.description}}</p>
-        <a href="{{sponsor.url}}" target="_blank">
-          > Visit the {{sponsor.name}} website
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-    <ul class="sponsors sponsors-special">
-      {% for sponsor in page.sponsors-special %}
-      <li class="sponsor sponsor-special {{sponsor.slug}}" id="{{sponsor.slug}}">
-        <h2 class="centre">{{sponsor.type}} Sponsor</h2>
-        <a href="{{sponsor.url}}" target="_blank" class="logo">
-          <img class="sponsor-logo" src="/assets/images/sponsors/{{sponsor.slug}}.png" alt="{{sponsor.name}}" />
-        </a>
-        <p class="description">{{sponsor.description}}</p>
-        <a href="{{sponsor.url}}" target="_blank">
-          > Visit the {{sponsor.name}} website
-        </a>
-      </li>
-      {% endfor %}
-    </ul>
-    <h2 class="centre"><a href="/diversity">Diversity</a> Scholarship Sponsors</h2>
-    <ul class="sponsors sponsors-scholarship">
-      {% for sponsor in page.sponsors-scholarship %}
-      <li class="sponsor sponsor-scholarship {{sponsor.slug}}" id="{{sponsor.slug}}">
-        <h2 class="centre">{{sponsor.type}} Sponsor</h2>
-        <a href="{{sponsor.url}}" target="_blank" class="logo">
-          <img class="sponsor-logo" src="/assets/images/sponsors/{{sponsor.slug}}.png" alt="{{sponsor.name}}" />
-        </a>
-        <p class="description">{{sponsor.description}}</p>
-      </li>
-      {% endfor %}
-    </ul>
+
   </div>
 </div>
