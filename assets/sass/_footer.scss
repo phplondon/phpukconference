@@ -52,10 +52,12 @@
 	.logo,
 	.logo img{
 		display:inline-block;
+		vertical-align:middle;
 		margin:5px 5px;
 		max-height:36px;
 		width:auto;
 		border:none;
+		max-width:230px;
 	}
 }
 
