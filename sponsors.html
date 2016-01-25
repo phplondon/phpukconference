@@ -4,6 +4,13 @@ title: Sponsors
 group: "navigation"
 weight: 4
 sponsors:
+  - name: platinum
+    sponsorlist:
+    - name: New Relic
+      slug: new-relic
+      url: http://www.newrelic.com
+      description: |
+        New Relic is a software analytics company that makes sense of billions of data points about millions of applications in real time. Our comprehensive SaaS-based solution provides one powerful interface for web and native mobile applications and consolidates the performance monitoring data for any chosen technology in your environment. We have over 250,000 users that utilize our cloud solution to analyze more than 690 billion data points per day across more than 4 million application instances. When your brand and customer experience depend on the performance of modern software, New Relic provides insight into your overall environment.
   - name: track
     sponsorlist:
     - name: DreamFactory
@@ -77,9 +84,12 @@ sponsors:
     <p>The PHP UK Conference relies heavily on sponsorship to run the event at rates affordable to the whole community. If you're interested in sponsoring our event, please <a href="mailto:contact@phpconference.co.uk">contact us</a>.</p>
    <div class="sponsors-container cf">
 
-       
       {% for category in page.sponsors %}
+        {% if category.name == "platinum" %}
+        <h2 class="centre">{{category.name | capitalize}} Sponsor</h2>
+        {% else %}
         <h2 class="centre">{{category.name | capitalize}} Sponsors</h2>
+        {% endif %}
         <ul class="sponsors sponsors-{{category.name}}">
         {% if category.subtype %}
             {% for subtype in category.subtype %}
