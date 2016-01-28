@@ -76,7 +76,9 @@ sponsors:
           - name: Purple Booth Ltd.
             slug: purpleboothltd
             url: https://purplebooth.co.uk/
-
+          - name: Nineteen Feet Limited
+            slug: nineteenfeetlimited
+            url: https://19ft.com
 ---
 
 <div class="wrapper">
@@ -100,7 +102,8 @@ sponsors:
                         <img class="sponsor-logo" src="/assets/images/sponsors/{{sponsor.slug}}.png" alt="{{sponsor.name}}" />
                     </a>
                     <p class="description">{{sponsor.description}}</p>
-                    <a href="{{sponsor.url}}" target="_blank">Visit the {{sponsor.name}} website &raquo;</a>
+                    <div class="centre">
+                    <a href="{{sponsor.url}}" target="_blank">Visit the {{sponsor.name}} website &raquo;</a></div>
                     </li>
                 {% endfor %}
             {% endfor %}
