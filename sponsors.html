@@ -29,6 +29,15 @@ sponsors:
         Fasthosts collaborates directly with partners such as Microsoft, Cisco and Dell on brand new technologies, and we work ‘Agile’, using a Scrum methodology with teams containing QA experts, business analysts, programme managers and product owners.
 
         All Fasthosts services can be self-managed, via our industry leading control panel. These services include domains, web hosting, business-class email, dedicated and cloud servers, secure online storage and online backup. We also maintain a highly successful reseller channel.
+  - name: "cloud bar"
+    sponsorlist:
+    - name: RITTech
+      slug: rittech
+      url: http://bcs.org/rittech
+      description: |
+        RITTech is a brand new standard for IT Technicians, provided by BCS, the Chartered Institute for IT. As an IT Technician you design, build and maintain the IT world around us but there has previously been no accreditation or standard that allows you to be easily identifiable for the work you do. 
+
+        RITTech is recognised by employers and recruiters and instantly indicates your level of skills and professionalism, enabling you to really stand out from the crowd. RITTech provides a recognised benchmark of standing across digital and tech industries.
   - name: gold
     sponsorlist:
     - name: Deeson
@@ -99,6 +108,8 @@ sponsors:
 
       {% for category in page.sponsors %}
         {% if category.name == "platinum" %}
+        <h2 class="centre">{{category.name | capitalize}} Sponsor</h2>
+        {% else if category.name == "cloud bar" %}
         <h2 class="centre">{{category.name | capitalize}} Sponsor</h2>
         {% else %}
         <h2 class="centre">{{category.name | capitalize}} Sponsors</h2>
