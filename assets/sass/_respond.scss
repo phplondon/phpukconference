@@ -3,7 +3,10 @@
     @media (min-width: 1024px) { @content; }
   }
   @if $point == medium {
-    @media (max-width: 840px) { @content; }
+    @media (max-width: 960px) { @content; }
+  }
+  @if $point == medium-small {
+    @media (max-width: 880px) { @content; }
   }
   @else if $point == mobile {
     @media (max-width: 799px) { @content; }
