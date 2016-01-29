@@ -170,7 +170,13 @@
 
 @include respond(medium){
     .nav li{
-        font-size:1.8em;
+        font-size:1.7em;
+    }
+}
+
+@include respond(medium-small){
+    .nav li{
+        font-size:1.5em;
     }
 }
 
