@@ -71,11 +71,6 @@ sponsors:
       url: http://inviqa.com/
       description: |
         The Inviqa team are the UK’s leading open source experts providing consultancy, development, training and support to the most ambitious of businesses. As a company with deep roots in quality software engineering, we put great emphasis on the agility and value of our delivery, and we’re proud to count some of the world’s leading organisations as clients, including the BBC, Vodafone, Virgin, and Nokia. Our team are the best at what they do, and that’s no understatement. Across our seven UK offices and one Munich-based team, our engineers, analysts, project managers, consultants and trainers deliver the most complex and creative of projects. When it comes to quality, we set our standards high because we believe it’s what our clients measure us on, and it’s what great reputations are built upon.
-    - name: Pusher
-      slug: pusher
-      url: https://pusher.com/
-      description: |
-        Create interactive, realtime apps in minutes with your technology stack of choice by using Pusher's hosted API. Pusher is perfect for realtime notifications, activity streams, data visualizations, collaborative apps and much more. It’s secure, it scales from one to millions of connections instantly and you won’t need to set up or maintain your own realtime infrastructure.
     - name: Sainsbury's
       slug: sainsburys
       url: http://www.sainsburys.jobs
@@ -88,7 +83,19 @@ sponsors:
    
         Ours is one of the fastest-moving sectors around. So we’re looking for the most savvy development professionals out there. Who can spot opportunities and trends before they happen, identify areas for improvement and see every problem as an opportunity to do something amazing.
    
-        So if you want to go further, faster, take a look at our current vacancies and don’t just imagine the impact you could make. Tell us.         
+        So if you want to go further, faster, take a look at our current vacancies and don’t just imagine the impact you could make. Tell us.
+    - name: Pusher
+      slug: pusher
+      url: https://pusher.com/
+      description: |
+        Create interactive, realtime apps in minutes with your technology stack of choice by using Pusher's hosted API. Pusher is perfect for realtime notifications, activity streams, data visualizations, collaborative apps and much more. It’s secure, it scales from one to millions of connections instantly and you won’t need to set up or maintain your own realtime infrastructure.
+  - name: refreshments
+    sponsorlist:
+    - name: Shopware
+      slug: shopware
+      url: https://en.shopware.com/
+      description: |
+        Shopware AG is one of the leading manufacturers of online shop systems in Germany. As an independent, equity-financed company, we develop high quality software on-site and work closely with our customers and partners in order to optimize our product. We evolve transparently and always remain flexible and open to requests from our growing community. These qualities produce high annual growth rates in addition to premium levels of service, which distinguish us from the rest.
   - name: diversity
     subtype: 
       - name: valorous
@@ -110,9 +117,7 @@ sponsors:
    <div class="sponsors-container cf">
 
       {% for category in page.sponsors %}
-        {% if category.name == "platinum" %}
-        <h2 class="centre">{{category.name | capitalize}} Sponsor</h2>
-        {% else if category.name == "cloud bar" %}
+        {% if category.name == 'platinum' or category.name == 'cloud bar' or category.name == 'refreshments' %}
         <h2 class="centre">{{category.name | capitalize}} Sponsor</h2>
         {% else %}
         <h2 class="centre">{{category.name | capitalize}} Sponsors</h2>
@@ -126,9 +131,9 @@ sponsors:
                     <a href="{{sponsor.url}}" target="_blank" class="logo">
                         <img class="sponsor-logo" src="/assets/images/sponsors/{{sponsor.slug}}.png" alt="{{sponsor.name}}" />
                     </a>
-                    <p class="description">{{sponsor.description}}</p>
+                    <p class="description">{{sponsor.name}}</p>
                     <div class="centre">
-                    <a href="{{sponsor.url}}" target="_blank">Visit the {{sponsor.name}} website &raquo;</a></div>
+                    <a href="{{sponsor.url}}" target="_blank">Visit website &raquo;</a></div>
                     </li>
                 {% endfor %}
             {% endfor %}
@@ -139,7 +144,7 @@ sponsors:
                     <img class="sponsor-logo" src="/assets/images/sponsors/{{sponsor.slug}}.png" alt="{{sponsor.name}}" />
                 </a>
                 <p class="description">{{sponsor.description}}</p>
-                <a href="{{sponsor.url}}" target="_blank">Visit the {{sponsor.name}} website &raquo;</a>
+                <a href="{{sponsor.url}}" target="_blank">Visit website &raquo;</a>
                 </li>
             {% endfor %}
         {% endif %}

@@ -34,12 +34,29 @@
 		padding-right:0;
 		padding-left:2%;
 	}
+
+	&:nth-child(2n+1){
+		clear:both;
+	}
 }
 
 .sponsor-room,
 .sponsor-track,
 .sponsor-social,
-.sponsor-local,
+.sponsor-gold,
 .sponsor-special{
 	@extend .sponsor-half;
+}
+
+.sponsors-diversity{
+	text-align:center;
+
+	.sponsor-diversity{
+		display:inline-block;
+		margin:0 10px;
+	}
+
+	img{
+	    max-height:110px;
+	}
 }
