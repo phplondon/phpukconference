@@ -1,0 +1,32 @@
+{
+    "name": "thermometer",
+    "title": "jQuery Thermometer",
+    "description": "jQuery plugin for creating thermometers and progress meters.",
+    "keywords": [
+        "thermometer"
+    ],
+    "version": "1.0.0",
+    "author": {
+        "name": "Noah Cooper",
+        "url": "https://github.com/noahcooper"
+    },
+    "maintainers": [
+        {
+            "name": "Noah Cooper",
+            "email": "noah.cooper@hotmail.com",
+            "url": "https://github.com/noahcooper"
+        }
+    ],
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/noahcooper/jQuery.thermometer/blob/master/MIT-LICENSE.txt"
+        }
+    ],
+    "bugs": "https://github.com/noahcooper/jQuery.thermometer/issues",
+    "homepage": "https://github.com/noahcooper/jQuery.thermometer",
+    "docs": "https://github.com/noahcooper/jQuery.thermometer",
+    "dependencies": {
+        "jquery": ">=1.6.4"
+    }
+}
