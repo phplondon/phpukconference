@@ -1,0 +1,82 @@
+.banner{
+	position:relative;
+	height:220px;
+	padding:30px 0 0 0;
+	text-align:center;
+    background:#095b9a image-url('banner.png') center bottom repeat-x;
+}
+
+.tickets{
+	position:absolute;
+	display:block;
+	z-index:20;
+	top:-3rem;
+	left:50%;
+	margin-left:-11rem;
+	width:22rem;
+	height:6rem;
+	color:#fff;
+	font-size:2.2rem;
+	font-weight:600;
+	background:$red;
+	line-height:60px;
+	border:none;
+	@include transition(0.3s 0 background ease);
+	@include border-radius(30px);
+
+	&:hover{
+		background:darken($red,10%);
+	}
+}
+
+.facts{
+	padding:24px 50px !important;
+	text-align:center;
+	color:#fff;
+	.fact{
+		display:inline-block;
+		width:25%;
+	}
+	.figure{
+		display:block;
+		width:100%;
+		font-size:9rem;
+		font-weight:100;
+		line-height:90px;
+	}
+	.label{
+		font-size:1.3em;
+		font-weight:500;
+	}
+	sup{
+		font-size:0.2em;
+		vertical-align:top;
+	}
+}
+
+@include respond(mobile){
+
+	.banner{
+		height:180px;
+	}
+
+	.facts{
+		padding:14px 10px !important;
+
+		.figure{
+			display:block;
+			width:100%;
+			font-size:5.6rem;
+			font-weight:100;
+			line-height:5.6rem;
+		}
+		.label{
+			font-size:0.8em;
+			font-weight:500;
+			line-height:1em;
+		}
+		sup{
+			font-size:0.2em;
+		}
+	}
+}

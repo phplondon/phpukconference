@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, maximum-scale=1.0">
+        <link rel="stylesheet" href="/assets/css/screen.css?version=1.3">
+        <script src="/assets/js/jquery-1.8.0.min.js"></script>
+        <title>PHP UK Conference 2016 - February 18-19 2016</title>
+        <script type="text/javascript">
+          (function(d) {
+            var config = {
+              kitId: 'gaj7ffh',
+              scriptTimeout: 3000
+            },
+            h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+          })(document);
+
+          $(function() {                       //run when the DOM is ready
+            $(".navbar").click(function() {  //use a class, since your ID gets mangled
+                $(".nav").toggleClass("open");      //add the class to the clicked element
+            });
+          });
+        </script>
+    </head>
+    <body class="{{page.slug}}">
+        <nav id="access" class="navbar">
+            <ul class="nav wrapper">
+              {% assign pages_list = site.pages %}
+              {% assign group = 'navigation2016' %}
+              {% include pages_list %}
+            </ul>
+        </nav>
+        <header class="header">
+            <div class="wrapper">
+                <div class="logo">
+                    <a href="/"><img class="header-logo elephant" src="/assets/images/php-uk.png" alt="Elephpant" /></a>
+                </div>
+                <span class="text">The PHP UK Conference</span>
+                <span class="text text-right">February 18<sup>th</sup> &amp; 19<sup>th</sup> 2016</span>
+                <h3 class="date">February 18-19 2016, The Brewery, London</h3>
+            </div>
+        </header>
+        <div class="content-area">
+            {{content}}
+        </div>
+        <div id="footer" class="footer">
+            {% if page.url != '/sponsors/' %}
+            <div class="sponsor-bar">
+                <div class="wrapper">
+                    
+                    <h5>Want to sponsor the PHP UK Conference? <a href="/sponsors">Click here.</a></h5>
+                </div>
+            </div>
+            {% endif %}
+            <div id="footer-content" class="wrapper">
+                <div class="row">
+                    <div class="col">
+                        <h3>@phpukconference Tweets</h3>
+                        <a class="twitter-timeline"  href="https://twitter.com/PHPUKConference"  data-widget-id="504582501310808064" data-chrome="nofooter noheader transparent" data-tweet-limit="2">Tweets by @PHPUKConference</a>
+                        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                    </div>
+                    <div class="col contact">
+                        <h3>Contact Information</h3>
+                        <p>If you would like further information about the PHP UK Conference please get in touch.</p>
+                        <p>Email us:<br />
+                        <a href="mailto:contact@phpconference.co.uk" target="_blank">contact@phpconference.co.uk</a> </p>
+                        <p>Help us make this site better.<br />
+                        <a href="https://github.com/phplondon/phpukconference/issues" target="_blank">Raise an issue at Github</a></p>
+                        <p>Follow us on twitter:<br />
+                        <a href="https://twitter.com/PHPUKConference" target="_blank">@PHPUKConference</a></p>
+                        <p>Like us on Facebook:<br />
+                        <a href="https://www.facebook.com/ukconference" target="_blank">facebook.com/ukconference</a></p>
+                    </div>
+                    <div class="col">
+                        <h3>Code of Conduct</h3>
+                        <p>The PHP UK Conference operates a code of conduct to ensure that all attendees are able to enjoy the conference. We encourage all delegates to read the <a href="/conduct">Code of Conduct</a> before the start of the conference.<p>
+                        <p>Want to attend PHP UK?</p>
+                        <a class="button" href="http://www.eventbrite.co.uk/e/php-uk-conference-2016-tickets-15843479273">Buy Tickets</a>
+                    </div>
+                </div>
+            </div>
+            <div class="legal">
+                <div class="wrapper">
+                    <p>Powered by <a href="http://phplondon.org" target="_blank">PHP LONDON</a>. PHP London Limited, 207 Regent Street, London, W1B3HH.</p>
+                    <p>Registered in England and Wales company number 06770521.</p>
+                </div>
+            </div>
+        </div>
+        {% include analytics %}
+    </body>
+</html>
