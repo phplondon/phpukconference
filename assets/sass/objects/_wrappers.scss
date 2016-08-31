@@ -1,0 +1,16 @@
+.wrapper{
+    @include clearfix();
+    max-width:$site-width-small;
+    padding-right:$spacing-unit;
+    padding-left:$spacing-unit;
+    margin-right:auto;
+    margin-left:auto;
+
+    @include respond(medium){
+    	max-width:$site-width-medium;
+    }
+
+    @include respond(large){
+    	max-width:$site-width;
+    }
+}

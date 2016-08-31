@@ -1,0 +1,34 @@
+$width-large: 1080px;
+$width-medium:  720px;
+$width-mobile:  719px;
+
+// Sass Breakpoint Mixin
+@mixin respond($point) {
+    @if $point == mobile-only {
+        @media (min-width: 0) and (max-width: $width-medium) { @content; }
+    }
+    @else if $point == medium {
+        @media (min-width: $width-medium)  { @content; }
+    }
+    @if $point == medium-only {
+        @media (min-width: $width-medium) and (max-width: $width-large) { @content; }
+    }
+    @else if $point == responsive-only {
+        @media (min-width: 0) and (max-width: $width-large) { @content; }
+    }
+    @if $point == large {
+        @media (min-width: $width-large) { @content; }
+    }
+    @else if $point == large-only {
+        @media (min-width: $width-large) and (max-width: 1280px) { @content; }
+    }
+    @if $point { // allows custom breakpoints
+        @media (min-width: $point) { @content; }
+    }
+}
+
+.mobile-touch-overflow,
+.mobile-touch-overflow * {
+    /* some level of transform keeps elements from blinking out of visibility on iOS */
+    -webkit-transform: rotateY(0);
+}

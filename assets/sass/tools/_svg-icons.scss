@@ -1,0 +1,35 @@
+$svg-container-namespace: '.svg-container';
+
+//Give 'em' 1:1 responsive container by default
+#{$svg-container-namespace}{
+    display:inline-block;
+    position:relative;
+    height:0;
+    width:100%;
+    padding:0;
+    //Default for 1:1 aspect ratio
+    padding-bottom:100%;
+    vertical-align:middle;
+    overflow:hidden;
+}
+
+//Pass in width / height without any length unit specifier (so we don't have to do sill strip unit wackiness!), and
+//this will determine appropraite ratio for padding hack and deliver the conainter code.
+//Ex. if you had W100 and H200 you'll get a `padding-bottom:200%`
+//Preferably, put something like `viewBox="0 0 N N" preserveAspectRatio="xMinYMin meet"` on your SVG root element
+@mixin svg-responsive ($width: 1, $height: 1, $suffix:""){
+    $padding-bottom:percentage($height/$width);
+    #{$svg-container-namespace}-#{$suffix}{
+        padding-bottom:$padding-bottom;
+    }
+}
+
+@include svg-responsive (1, 2, "2x-height");
+
+//You have to write this once in your code...just apply this class on all your SVGs and absolutely position them top left inline block:
+.svg {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  left: 0;
+}

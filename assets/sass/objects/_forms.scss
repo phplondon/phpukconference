@@ -1,0 +1,31 @@
+form{
+
+    input[type="text"],
+    input[type="password"]{
+        outline:0;
+        padding:10px;
+        border:1px solid $color-grey;
+        -webkit-appearance:none;
+        @include transition(all, .3s, ease);
+
+        &:focus{ border-color:$color-input-focus; }
+    }
+
+    .errors{
+        list-style:none;
+
+        li{
+            color:$color-error;
+        }
+    }
+
+    fieldset{
+        border:none;
+    }
+}
+
+.success p,
+p.success{
+    color:$color-success;
+    font-weight:bold;
+}

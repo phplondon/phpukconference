@@ -1,0 +1,25 @@
+.icon{
+    @include transition(opacity, .3s, ease);
+
+    &--small{
+
+        svg{
+        	height:19px;
+        	width:auto;
+        }
+    }
+
+    &--large{
+
+        svg{
+            height:32px;
+            width:auto;
+        }
+    }
+
+    svg{
+        fill:$color-icon;
+    }
+
+    &:hover{ opacity:0.5; }
+}

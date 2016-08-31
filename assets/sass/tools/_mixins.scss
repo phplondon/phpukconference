@@ -1,0 +1,179 @@
+///*------------------------------------*\
+//    #MIXINS
+//\*------------------------------------*/
+
+// Global mixins available to the entire project. Define file-specific
+// mixins inside the file to which they relate.
+
+
+
+
+
+// Mixin to create a declaration whose value is a rem unit. Also provide pixel fallback.
+//
+// .simple-usage {
+//   @include rem(padding, 10px);
+// }
+
+@mixin rem($property, $value){
+    #{$property}:$value;
+    #{$property}:rem($value);
+}
+
+
+
+
+
+@mixin display-flex{
+    display:-webkit-flex;
+    display:-ms-flexbox;
+    display:flex;
+}
+
+@mixin flex-direction($property){
+    -webkit-flex-direction:$property;
+    -ms-flex-direction:$property;
+    flex-direction:$property;
+}
+
+@mixin flex-wrap{
+    -webkit-flex-wrap:wrap;
+    -ms-flex-wrap:wrap;
+    flex-wrap:wrap;
+}
+
+
+
+
+
+/// Mixin to customize scrollbars
+/// Beware, this does not work in all browsers
+/// @author Hugo Giraudel
+/// @param {Length} $size - Horizontal scrollbar's height and vertical scrollbar's width
+/// @param {Color} $foreground-color - Scrollbar's color
+/// @param {Color} $background-color [mix($foreground-color, white, 50%)] - Scrollbar's color
+/// @example scss - Scrollbar styling
+///   @include scrollbars(.5em, slategray);
+@mixin scrollbars($size, $foreground-color, $background-color: mix($foreground-color, white,  50%)) {
+    // For Google Chrome
+    ::-webkit-scrollbar {
+        width:  $size;
+        height: $size;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: $foreground-color;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: $background-color;
+    }
+
+    // For Internet Explorer
+    body {
+        scrollbar-face-color: $foreground-color;
+        scrollbar-track-color: $background-color;
+    }
+}
+
+
+
+
+
+/// Mixin to prefix several properties at once
+/// @author Hugo Giraudel
+/// @param {Map} $declarations - Declarations to prefix
+/// @param {List} $prefixes (()) - List of prefixes to print
+@mixin prefix($declarations, $prefixes: ()) {
+  @each $property, $value in $declarations {
+    @each $prefix in $prefixes {
+      #{'-' + $prefix + '-' + $property}: $value;
+    }
+
+    // Output standard non-prefixed declaration
+    #{$property}: $value;
+  }
+}
+
+
+
+
+
+// Mixin to drop micro clearfix into a selector.
+//
+// .simple-usage {
+//   @include clearfix();
+// }
+//
+// .detailed-usage {
+//   @include clearfix(important);
+// }
+
+@mixin clearfix($important: false){
+
+    // Determine whether or not to make declarations important.
+    @if ($important == false){
+        $important:null;
+    } @else {
+        $important:!important;
+    }
+
+    &:after{
+        content:"" $important;
+        display:table $important;
+        clear:both $important;
+    }
+
+}
+
+
+
+
+
+// Generate `:hover` and `:focus` styles in one go.
+@mixin hocus{
+    &:hover,
+    &:focus{
+        @content;
+    }
+}
+
+
+
+
+// Vertical align text
+@mixin vertical-align-center{
+    position:absolute;
+    top:50%;
+    left:0;
+    right:0;
+    @include transform(translateY(-50%));
+}
+
+
+
+
+// Simple when for aspect ratio
+@mixin aspect-ratio($width, $height) {
+    padding-bottom:$height / $width * 100%;
+}
+
+
+
+
+// Simple when inside mixin
+@mixin when-inside($context){
+    #{$context} &{
+        @content;
+    }
+}
+
+
+
+
+// Mixin for styling ie
+@mixin ie {
+    @media screen and (min-width: 0\0) {
+        @content;
+    }
+}

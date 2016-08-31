@@ -1,0 +1,9 @@
+a{
+    color:$color-brand-primary;
+    text-decoration:none;
+    @include transition(color .3s ease);
+
+    @include hocus() {
+        color:$color-brand-secondary;
+    }
+}

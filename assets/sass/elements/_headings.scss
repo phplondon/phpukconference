@@ -1,0 +1,41 @@
+$font-size-h1:  ($base-font-size * 3);
+$font-size-h2:  ($base-font-size * 2);
+$font-size-h3:  ($base-font-size * 1.8);
+$font-size-h4:  ($base-font-size * 1.5);
+$font-size-h5:  ($base-font-size * 1.2);
+$font-size-h6:  $base-font-size;
+
+$font-sizes: $font-size-h1, $font-size-h2, $font-size-h3, $font-size-h4, $font-size-h5, $font-size-h6;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    @include font-weight(bold);
+    @include font-family(secondary);
+    margin:0 0 0.3em;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6{
+	margin:0.5 0 0.3em;
+}
+
+@for $i from 1 through length($font-sizes){
+
+	h#{$i}{
+		@include font-size( (nth($font-sizes, $i) / 1.4 ) );
+		
+	}
+
+	@include respond(medium){
+		h#{$i}{
+			@include font-size(nth($font-sizes, $i));
+		}
+	}
+}
