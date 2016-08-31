@@ -1,0 +1,15 @@
+.grid{
+    @include clearfix();
+    list-style:none;
+    margin:0;
+    margin-left:-$base-spacing-unit !important;
+    padding:0;
+}
+
+    .grid__item{
+        float:left;
+        vertical-align:top;
+        width:100%;
+        overflow:hidden;
+        padding-left:$base-spacing-unit;
+    }

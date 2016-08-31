@@ -25,6 +25,14 @@
 		padding:20px;
 		overflow:hidden;
 		@include border-radius(10px 10px 0 0);
+
+		.grid__item .demo-block{
+			padding:20px;
+			background-color:$color-brand-primary;
+			text-align:center;
+			color:$color-white;
+			margin:0 0 $base-spacing-unit 0;
+		}
 	}
 
 	&__colors{

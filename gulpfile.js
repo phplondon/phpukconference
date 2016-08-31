@@ -95,7 +95,7 @@ gulp.task('watch', function() {
   // Watch image files
   gulp.watch(['assets/images/**/*.png', 'assets/images/**/*.jpg', 'assets/images/**/*.gif', 'assets/images/**/*.jpeg'], ['images']);
   // Watch .html files and posts
-  gulp.watch(['index.html', '_includes/*.html', '_layouts/*.html', '*.md', '_posts/*'], ['jekyll-rebuild']);
+  gulp.watch(['index.html', '*/*.html', '*.md', '_posts/*'], ['jekyll-rebuild']);
 });
 
 // run 'scripts' task first, then watch for future changes
