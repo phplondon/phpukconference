@@ -1,4 +1,4 @@
-$font-size-h1:  ($base-font-size * 3);
+$font-size-h1:  22px;
 $font-size-h2:  ($base-font-size * 2);
 $font-size-h3:  ($base-font-size * 1.8);
 $font-size-h4:  ($base-font-size * 1.5);
@@ -13,9 +13,10 @@ h3,
 h4,
 h5,
 h6{
+	color:$color-page-heading;
+	margin:0 0 0.3em;
     @include font-weight(bold);
     @include font-family(secondary);
-    margin:0 0 0.3em;
 }
 
 h2,

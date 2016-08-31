@@ -1,7 +1,16 @@
 .page-head{
-	position:relative;
-	border-bottom:1px solid $color-header-border;
+	position:absolute;
+    left:0;
+    right:0;
+
+    &__inner{
+        max-width:$site-width;
+        margin:0 auto;
+        border-bottom:1px solid $color-header-border;
+        @include clearfix;
+    }
 }
+
     .site-nav{
         line-height:0;
     }

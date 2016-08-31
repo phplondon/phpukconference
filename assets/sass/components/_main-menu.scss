@@ -1,0 +1,16 @@
+.main-menu{
+	list-style:none;
+	float:right;
+	margin:0;
+	padding:0;
+	
+	&__item{
+		display:inline-block;
+	}
+
+		&__link{
+			display:block;
+			color:$color-white;
+			padding:30px 22px;
+		}
+}

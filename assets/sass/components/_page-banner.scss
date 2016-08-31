@@ -1,0 +1,31 @@
+.banner{
+	min-height:500px;
+	padding:60px 20px;
+	padding-top:80px;
+	text-align:center;
+	background-color:$color-brand-primary;
+
+	&__content{
+		@include vertical-align-center;
+		margin-top:80px;
+	}
+
+		span{
+			display:block;
+			color:$color-white;
+		}
+
+		&__title,
+		&__sub-title{
+			@include font-weight(bold);
+			text-transform:uppercase;
+		}
+
+		&__title{
+			@include font-size(47px);
+		}
+
+		&__sub-title{
+			@include font-size(30px);
+		}
+}

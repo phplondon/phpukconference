@@ -4,11 +4,7 @@ var watch = require('gulp-watch');
 
 var sass = require('gulp-sass');
 var notify = require('gulp-notify');
-<<<<<<< HEAD
-var minifycss = require('gulp-clean-css');
-=======
 var cleanCSS = require('gulp-clean-css');
->>>>>>> dbac79f5334d02141efc7e21c869a49f6244e7c7
 
 var imageop = require('gulp-image-optimization');
 
