@@ -4,7 +4,7 @@ var watch = require('gulp-watch');
 
 var sass = require('gulp-sass');
 var notify = require('gulp-notify');
-var minifycss = require('gulp-minify-css');
+var minifycss = require('gulp-clean-css');
 
 var imageop = require('gulp-image-optimization');
 
@@ -15,23 +15,23 @@ var cp = require('child_process');
 /**
  * Build the Jekyll Site
  */
-gulp.task('jekyll-build', function (done) {
+ gulp.task('jekyll-build', function (done) {
     browserSync.notify('Building Jekyll');
     return cp.spawn('jekyll', ['build'], {stdio: 'inherit'})
-        .on('close', done);
+    .on('close', done);
 });
 
 /**
  * Rebuild Jekyll & do page reload
  */
-gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
+ gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
     browserSync.reload();
 });
 
 /**
  * Wait for jekyll-build, then launch the Server
  */
-gulp.task('browser-sync', ['jekyll-build'], function() {
+ gulp.task('browser-sync', ['jekyll-build'], function() {
     browserSync({
         server: {
             baseDir: '_site'

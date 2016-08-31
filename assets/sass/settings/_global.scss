@@ -27,16 +27,16 @@ $main-menu-toggle-bar-open-postion:8px;
 // Use maths to get the size of logo and menu toggle
 $main-menu-toggle-height:(
 	($main-menu-toggle-bar-height * 3) + ($main-menu-toggle-bar-spacing * 4)
-);
+	);
 
 $main-menu-toggle-postion:(
 	($logo-height + ($header-padding * 2)) / 2 - ($main-menu-toggle-height / 2)
-);
+	);
 
 
 $respond-settings: 	 true;
 
-$site-width:         1120px;
+$site-width:         1170px;
 $site-width-medium:  1024px;
 $site-width-small:   720px;
 
