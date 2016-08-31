@@ -4,7 +4,7 @@ var watch = require('gulp-watch');
 
 var sass = require('gulp-sass');
 var notify = require('gulp-notify');
-var minifycss = require('gulp-minify-css');
+var cleanCSS = require('gulp-clean-css');
 
 var imageop = require('gulp-image-optimization');
 
@@ -43,10 +43,10 @@ gulp.task('browser-sync', ['jekyll-build'], function() {
 // Sass build
 var sassBuild = function () {
     gulp.src('assets/sass/**/*.scss').pipe(sass({
-        errLogToConsole: false,
-        outputStyle: 'compressed'
+        errLogToConsole: false
     }))
     .on('error', reportError)
+    .pipe(cleanCSS())
     .pipe(gulp.dest('_site/assets/css'))
     .pipe(browserSync.reload( { stream:true } ))
 };
