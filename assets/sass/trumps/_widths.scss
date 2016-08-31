@@ -36,16 +36,16 @@
  * <div class="u-7/12">
  */
 
-@include widths(1 2 3 4 5);
+@include widths(1 2 3 4 5 6 7);
 
 @include respond(medium){
 
-    @include widths(1 2 3 4 5, \@sm);
+    @include widths(1 2 3 4 5 6 7, \@sm);
 
 }
 
 @include respond(large){
 
-    @include widths(1 2 3 4 5, \@md);
+    @include widths(1 2 3 4 5 6 7, \@md);
 
 }

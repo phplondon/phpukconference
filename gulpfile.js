@@ -4,7 +4,11 @@ var watch = require('gulp-watch');
 
 var sass = require('gulp-sass');
 var notify = require('gulp-notify');
+<<<<<<< HEAD
 var minifycss = require('gulp-clean-css');
+=======
+var cleanCSS = require('gulp-clean-css');
+>>>>>>> dbac79f5334d02141efc7e21c869a49f6244e7c7
 
 var imageop = require('gulp-image-optimization');
 
@@ -43,10 +47,10 @@ var cp = require('child_process');
 // Sass build
 var sassBuild = function () {
     gulp.src('assets/sass/**/*.scss').pipe(sass({
-        errLogToConsole: false,
-        outputStyle: 'compressed'
+        errLogToConsole: false
     }))
     .on('error', reportError)
+    .pipe(cleanCSS())
     .pipe(gulp.dest('_site/assets/css'))
     .pipe(browserSync.reload( { stream:true } ))
 };
@@ -95,7 +99,7 @@ gulp.task('watch', function() {
   // Watch image files
   gulp.watch(['assets/images/**/*.png', 'assets/images/**/*.jpg', 'assets/images/**/*.gif', 'assets/images/**/*.jpeg'], ['images']);
   // Watch .html files and posts
-  gulp.watch(['index.html', '_includes/*.html', '_layouts/*.html', '*.md', '_posts/*'], ['jekyll-rebuild']);
+  gulp.watch(['index.html', '*/*.html', '*.md', '_posts/*'], ['jekyll-rebuild']);
 });
 
 // run 'scripts' task first, then watch for future changes

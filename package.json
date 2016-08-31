@@ -4,9 +4,13 @@
     "browserify": "11.2.0",
     "connect-history-api-fallback": "1.1.0",
     "gulp": "^3.8.11",
+    "gulp-clean-css": "^2.0.12",
     "gulp-exec": "^2.1.2",
     "gulp-image-optimization": "^0.1.3",
+<<<<<<< HEAD
     "gulp-clean-css": "^2.0.0",
+=======
+>>>>>>> dbac79f5334d02141efc7e21c869a49f6244e7c7
     "gulp-notify": "^2.2.0",
     "gulp-sass": "^2.2.0",
     "gulp-shell": "^0.5.2",
