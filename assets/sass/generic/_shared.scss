@@ -12,3 +12,8 @@ ul, ol,
 dd{
     margin-left:$base-spacing-unit;
 }
+
+p{
+	font-family:$font-secondary;
+	line-height:1.3em;
+}
