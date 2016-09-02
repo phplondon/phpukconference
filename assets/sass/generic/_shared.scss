@@ -1,3 +1,6 @@
+$font-size-p:  ($base-font-size * 1.1);
+
+
 h1, h2, h3, h4, h5, h6,
 ul, ol, dl,
 blockquote, p, address,
@@ -5,15 +8,16 @@ hr,
 table,
 fieldset, figure,
 pre{
-    margin-bottom:$base-line-height;
+	margin-bottom:$base-line-height;
 }
 
 ul, ol,
 dd{
-    margin-left:$base-spacing-unit;
+	margin-left:$base-spacing-unit;
 }
 
 p{
-	font-family:$font-secondary;
-	line-height:1.3em;
+	font-family:$font-primary;
+	font-size:$font-size-p;
+	line-height:1.5em;
 }

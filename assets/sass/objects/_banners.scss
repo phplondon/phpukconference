@@ -2,11 +2,12 @@
 	position:relative;
 	background-size:cover;
 	background-position:center;
-    margin-bottom:6rem;
+	margin-bottom:6rem;
 
 	@include respond(large){
-        height:322px;
-    }
+		padding:7.5rem;
+		height:322px;
+	}
 
 	&:before{
 		position:absolute;
@@ -17,7 +18,7 @@
 		display:block;
 		content:"";
 		z-index:1;
-		background:rgba($color-grey-dark,0.8);
+		background:rgba($color-grey-dark,0.7);
 	}
 
 	h1, h2{

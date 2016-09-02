@@ -2,12 +2,14 @@
 	position:relative;
     left:0;
     right:0;
-    background-color:$color-grey-medium;
+    background-color:$color-brand-quarternary;
     z-index:20;
+    box-shadow:0 1px 5px rgba(0,0,0,0.4);
 
     &.-inset{
         position:absolute;
         background:none;
+        box-shadow:none;
     }
 
     &__inner{
@@ -21,61 +23,73 @@
     }
 }
 
-    .site-nav{
-        line-height:0;
+.page-head__logo{
+    display:inline-block;
+    margin:20px 0 0 0;
+    height:42px;
+
+    img{
+        display:block;
+        height:100%;
+        width:auto;
     }
+}
 
-    .main-menu__toggle{
-        float:right;
-        margin:$main-menu-toggle-postion 0 0 0;
-        padding:0;
-        cursor:pointer;
-        border:none;
-        background:none;
-        opacity:0.5;
+.site-nav{
+    line-height:0;
+}
 
-        .icon-bar{
-            position:relative;
-            display:block;
-            width:$main-menu-toggle-width;
-            height:$main-menu-toggle-bar-height;
-            margin:$main-menu-toggle-bar-spacing;
-            background:$color-black;
-            @include border-radius($main-menu-toggle-bar-radius);
-            @include transition(opacity, transform, $main-menu-toggle-bar-time);
-            @include prefix((
-                transition-timing-function: cubic-bezier(0.5, -0.5, 0.5, 1.5)
+.main-menu__toggle{
+    float:right;
+    margin:$main-menu-toggle-postion 0 0 0;
+    padding:0;
+    cursor:pointer;
+    border:none;
+    background:none;
+    opacity:0.5;
+
+    .icon-bar{
+        position:relative;
+        display:block;
+        width:$main-menu-toggle-width;
+        height:$main-menu-toggle-bar-height;
+        margin:$main-menu-toggle-bar-spacing;
+        background:$color-black;
+        @include border-radius($main-menu-toggle-bar-radius);
+        @include transition(opacity, transform, $main-menu-toggle-bar-time);
+        @include prefix((
+            transition-timing-function: cubic-bezier(0.5, -0.5, 0.5, 1.5)
             ), webkit moz);
 
-            .page-head.open &:nth-child(1){
-                @include transform(translateY(13px));
-                @include transform(rotate(135deg));
-                top:$main-menu-toggle-bar-open-postion;
-            }
-
-            .page-head.open &:nth-child(2){
-                opacity:0;
-            }
-
-            .page-head.open &:nth-child(3){
-                @include transform(translateY(-13px));
-                @include transform(rotate(-135deg));
-                bottom:$main-menu-toggle-bar-open-postion;
-            }
+        .page-head.open &:nth-child(1){
+            @include transform(translateY(13px));
+            @include transform(rotate(135deg));
+            top:$main-menu-toggle-bar-open-postion;
         }
 
-        @include respond(large){
-            display:none;
+        .page-head.open &:nth-child(2){
+            opacity:0;
+        }
+
+        .page-head.open &:nth-child(3){
+            @include transform(translateY(-13px));
+            @include transform(rotate(-135deg));
+            bottom:$main-menu-toggle-bar-open-postion;
         }
     }
 
-    .main-menu{
+    @include respond(large){
         display:none;
-
-        @include respond(large) {
-            display:inline-block;
-        }
     }
+}
+
+.main-menu{
+    display:none;
+
+    @include respond(large) {
+        display:inline-block;
+    }
+}
 
 .site-nav__home{
 	display:inline-block;
@@ -85,8 +99,8 @@
         float:left;
     }
 
-	img{
-		display:block;
-		max-width:100%;
-	}
+    img{
+      display:block;
+      max-width:100%;
+  }
 }

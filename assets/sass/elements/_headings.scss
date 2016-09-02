@@ -1,5 +1,5 @@
-$font-size-h1:  22px;
-$font-size-h2:  ($base-font-size * 2);
+$font-size-h1:  ($base-font-size * 3.2);
+$font-size-h2:  ($base-font-size * 1.5);
 $font-size-h3:  ($base-font-size * 1.8);
 $font-size-h4:  ($base-font-size * 1.5);
 $font-size-h5:  ($base-font-size * 1.2);
@@ -14,17 +14,28 @@ h4,
 h5,
 h6{
 	color:$color-page-heading;
-	margin:0 0 0.3em;
-    @include font-weight(bold);
-    @include font-family(secondary);
+	@include font-weight(bold);
+	@include font-family(secondary);
 }
 
-h2,
 h3,
 h4,
 h5,
 h6{
 	margin:0.5 0 0.3em;
+}
+
+h1{
+	margin:0;
+	@include font-weight(medium);
+	text-transform:capitalize;
+}
+
+h2{
+	margin:0;
+	@include font-family(primary);
+	@include font-weight(light);
+	line-height:1.2em;
 }
 
 @for $i from 1 through length($font-sizes){

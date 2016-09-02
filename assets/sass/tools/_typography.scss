@@ -44,8 +44,16 @@
 // Map keywords onto our numbered weights for convenience.
 @mixin font-weight($weight) {
 
-    @if ($weight == normal) {
+    @if ($weight == light) {
+        font-weight: 300;
+    }
+
+    @elseif ($weight == normal) {
         font-weight: 400;
+    }
+
+    @elseif ($weight == medium) {
+        font-weight: 500;
     }
 
     @elseif ($weight == bold) {

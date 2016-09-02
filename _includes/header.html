@@ -1,0 +1,12 @@
+<header class="page-head {% if page.slug == 'home' %}-inset{% endif %}">
+	<div class="page-head__inner">
+		<a href="/" class="page-head__logo">
+			<img src="/assets/images/php-uk.svg" alt="PHP UK">
+		</a>
+		<ul class="main-menu">
+			{% assign pages_list = site.pages %}
+			{% assign group = 'navigation' %}
+			{% include pages_list %}
+		</ul>
+	</div>
+</header>

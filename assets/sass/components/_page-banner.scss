@@ -1,32 +1,57 @@
 .banner{
 	position:relative;
-	min-height:685px;
+	min-height:650px;
 	padding:60px 20px;
-	padding-top:80px;
+	padding-top:150px;
 	text-align:center;
+	background-image:url(/assets/images/banners/home.png);
+	background-size:cover;
 	background-color:$color-brand-primary;
 
-	&__content{
-		@include vertical-align-center;
-		margin-top:40px;
+	// &__content{
+	// 	@include vertical-align-center;
+	// }
+
+	&__logo{
+		margin:0 0 10px 0;
+		max-width:220px;
+		height:152px;
 	}
 
-		span{
-			display:block;
-			color:$color-white;
-		}
+	span{
+		display:block;
+	}
 
-		&__title,
-		&__sub-title{
-			@include font-weight(bold);
-			text-transform:uppercase;
-		}
+	&__title,
+	&__sub-title{
+		@include font-family(secondary);
+		text-transform:uppercase;
+		color:$color-white;
+	}
 
-		&__title{
-			@include font-size(47px);
-		}
+	&__title{
+		@include font-weight(bold);
+		@include font-size(47px);
+	}
 
-		&__sub-title{
-			@include font-size(30px);
-		}
+	&__sub-title{
+		@include font-size(30px);
+	}
+
+	sup{
+		font-size:.4em;
+	}
+
+	&__location{
+		margin:10px 0;
+		@include font-size($base-font-size*1.1);
+		color:$color-white;
+	}
+
+	&__notice{
+		margin:30px 0 15px 0;
+		@include font-size($base-font-size*1.4);
+		color:$color-btn-primary;
+		text-transform:uppercase;
+	}
 }
