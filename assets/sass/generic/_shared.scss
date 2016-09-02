@@ -21,3 +21,11 @@ p{
 	font-size:$font-size-p;
 	line-height:1.5em;
 }
+
+h3 + p{
+	margin-left:26px;
+}
+
+.pull-right{
+	float:right;
+}

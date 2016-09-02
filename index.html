@@ -30,11 +30,41 @@ group: "navigation"
 
 <div class="row -about">
     <div class="wrapper">
-        <h2>About the conference</h2>
-        <p>We are pleased to announce the 12th Annual PHP UK Conference.</p>
-        <p>Two days of amazing talks, plentiful networking opportunities and great socials. PHP UK offers the most up-to-date PHP information and training.</p>
+        <h3>About the conference</h3>
+        <p>We are pleased to announce the 12th Annual PHP UK Conference. Two days of amazing talks, plentiful networking opportunities and great socials. PHP UK offers the most up-to-date PHP information and training.</p>
         <a href="/about" class="button--outline pull-right">More about the conference</a>
     </div>
+    <div class="wrapper">
+        <div class="grid">
+            <div class="grid__item u-1/3">
+                <div class="panel speakers">
+                    <div class="gradient -green"></div>
+                    <a href="/speakers">
+                        <span class="panel__title">Call for Papers</span>
+                    </a>
+                </div>
+            </div>
+            <div class="grid__item u-1/3">
+                <div class="panel schedule">
+                    <div class="gradient -red"></div>
+                    <a href="/schedule">
+                        <span class="panel__title">Conference Schedule</span>
+                    </a>
+                </div>
+            </div>
+            <div class="grid__item u-1/3">
+                <div class="panel venue">
+                    <div class="gradient -purple"></div>
+                    <a href="/venue">
+                        <span class="panel__title">The Venue</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row -about">
     <div class="wrapper">
         <div class="grid">
             <div class="grid__item u-1/2">
@@ -108,7 +138,7 @@ group: "navigation"
     </div>
 </div>
 
-<div class="row -primary">
+<div class="row -primary -center">
     <div class="wrapper">
         {% include newsletter.html %}
     </div>

@@ -1,24 +1,73 @@
+$footer-font-size : ($base-font-size*0.9);
+
 .page-footer{
 	background-color:$color-footer-background;
     border-top:8px solid $color-grey-medium;
-    padding:50px 0 10px 0;
 
-    h6{ margin:0 0 6px 0; }
+    &__top{
+        padding:20px 0;
+        border-bottom:1px solid $color-grey-medium;
+    }
 
-    p{ margin-bottom:0; }
+    &__bottom{
+        padding:20px 0;
+    }
+
+    &__logo{
+        display:block;
+        height:30px;
+
+        img{
+            display:block;
+            height:100%;
+            width:auto;
+        }
+    }
+
+    h6{
+        float:left;
+        clear:left;
+        margin:0 0 6px 0;
+        color:$color-white;
+    }
+
+    p{
+        clear:both;
+        margin-bottom:0;
+        color:$color-grey;
+        font-size:$footer-font-size;
+
+        a{
+            text-decoration:underline;
+        }
+    }
+
+    a{
+        color:$color-grey-light;
+    }
 
     ul{
     	list-style:none;
-    	margin:0 0 20px 0;
-    	padding:0;
-    	color:$color-black;
+    	margin:0;
+    	padding:0 0 0 8px;
 
     	li{
             display:inline-block;
-            padding-bottom:2px;
+            padding-bottom:0;
+            border-left:1px solid rgba($color-grey,0.7);
+            color:$color-grey;
+            line-height:1em;
+
+            &:first-child{
+                border:none;
+            }
 
             a{
-                color:$color-grey;
+                display:block;
+                padding:0 7px;
+                color:inherit;
+                font-size:$footer-font-size;
+                line-height:0.8em;
 
                 &:hover{
                     color:inherit;
@@ -27,7 +76,17 @@
         }
     }
 
-    a{
-    	color:inherit;
+    .footnote{
+        font-size:$base-font-size*0.8;
+        color:$color-grey;
+        line-height:2.6em;
     }
+}
+
+.footer-menu{
+    float:left;
+}
+
+.border-left{
+    border-left:1px solid rgba($color-grey,0.2);
 }

@@ -5,7 +5,7 @@ $color-grey-light:						#F4F4F4;
 $color-grey-medium:						#4E4E4E;
 $color-grey-dark:                       #1f1f1f;
 $color-brand-primary:                   #00718A;
-$color-brand-secondary:                 #DA9E26;
+$color-brand-secondary:                 #ff6600;
 $color-brand-tertiary:                  #242424;
 $color-brand-quarternary:               #374871;
 
@@ -18,7 +18,7 @@ $color-page-heading:					#373737;
 $color-page-background:                 $color-white;
 
 $color-ui:								$color-page-text;
-$color-ui-primary:						#ff6600;
+$color-ui-primary:						$color-brand-secondary;
 $color-ui-secondary:					$color-brand-primary;
 
 $color-btn:                             $color-black;

@@ -9,8 +9,8 @@
 *    grow larger as we add borders.
 */
 
-.button,
-input[type="submit"]{
+input[type="submit"],
+.button{
     display:inline-block; /* [1] */
     vertical-align:middle; /* [2] */
     font:inherit; /* [3] */
@@ -18,11 +18,11 @@ input[type="submit"]{
     text-transform:uppercase;
     background:$color-btn-primary;
     color:$color-white;
+    border:none;
     line-height:1;
-    margin:0; /* [4] */
     cursor:pointer; /* [5] */
     border-radius:$base-font-size*3;
-    padding:$base-font-size ($base-font-size * 4);
+    padding:$base-font-size ($base-font-size * 3.5);
     @include font-size($base-font-size*1.2);
     @include font-family(secondary);
     @include transition(all $base-transition ease);
@@ -32,9 +32,14 @@ input[type="submit"]{
         background-color:$color-btn-primary;
     }
 
-    &--outline{
+    &.-outline{
         background:none;
         border:1px solid $color-btn-primary;
+    }
+
+    &.-inverse{
+        background:$color-white;
+        color:$color-btn-primary;
     }
 }
 

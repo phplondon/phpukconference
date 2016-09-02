@@ -2,3 +2,25 @@
 .pagination{
 	color:$color-ui-primary;
 }
+
+.panel{
+	position:relative;
+	height:260px;
+	background-size:cover;
+	background-position:center;
+
+	a{
+		display:block;
+		width:100%;
+		height:100%;
+	}
+
+	&__title{
+		@include font-family(secondary);
+		@include vertical-align-center;
+		text-transform:uppercase;
+		text-align:center;
+		font-size:$base-font-size*1.4;
+		color:$color-white;
+	}
+}

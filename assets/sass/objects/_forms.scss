@@ -29,3 +29,30 @@ p.success{
     color:$color-success;
     font-weight:bold;
 }
+
+
+input[type="text"],
+input[type="email"]{
+    display:inline-block; /* [1] */
+    vertical-align:middle; /* [2] */
+    font:inherit; /* [3] */
+    color:$color-white;
+    background:none;
+    border:2px solid $color-white; 
+    line-height:1;
+    cursor:pointer; /* [5] */
+    border-radius:$base-font-size*3;
+    padding:$base-font-size ($base-font-size * 3);
+    @include font-size($base-font-size*1.2);
+    @include font-family(secondary);
+    @include transition(all $base-transition ease);
+
+    &.wide{
+        width:50%;
+    }
+}
+
+input + input,
+input + button{
+    margin-left:$base-spacing-unit;
+}

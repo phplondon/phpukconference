@@ -1,9 +1,9 @@
 $font-size-h1:  ($base-font-size * 3.2);
 $font-size-h2:  ($base-font-size * 1.5);
-$font-size-h3:  ($base-font-size * 1.8);
+$font-size-h3:  ($base-font-size * 1.4);
 $font-size-h4:  ($base-font-size * 1.5);
 $font-size-h5:  ($base-font-size * 1.2);
-$font-size-h6:  $base-font-size;
+$font-size-h6:  ($base-font-size * 0.9);
 
 $font-sizes: $font-size-h1, $font-size-h2, $font-size-h3, $font-size-h4, $font-size-h5, $font-size-h6;
 
@@ -36,6 +36,19 @@ h2{
 	@include font-family(primary);
 	@include font-weight(light);
 	line-height:1.2em;
+}
+
+h3{
+	padding:0 0 0 21px;
+	line-height:0.6em;
+	text-transform:uppercase;
+	border-left:5px solid $color-ui-primary;
+}
+
+h6{
+	margin:0;
+	@include font-weight(medium);
+	text-transform:uppercase;
 }
 
 @for $i from 1 through length($font-sizes){

@@ -8,9 +8,13 @@
 	&.-dark{
 		background-color:$color-grey-dark;
 	}
+
+	&.-center{
+		text-align:center;
+	}
 }
 
 .content-area{
-    padding-bottom:6rem;
+	padding-bottom:6rem;
     // padding-top:6rem;
 }
