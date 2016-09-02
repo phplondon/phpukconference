@@ -2,6 +2,7 @@
 	position:relative;
 	background-size:cover;
 	background-position:center;
+    margin-bottom:6rem;
 
 	@include respond(large){
         height:322px;

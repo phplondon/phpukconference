@@ -1,5 +1,6 @@
 .banner{
-	min-height:500px;
+	position:relative;
+	min-height:685px;
 	padding:60px 20px;
 	padding-top:80px;
 	text-align:center;
@@ -7,7 +8,7 @@
 
 	&__content{
 		@include vertical-align-center;
-		margin-top:80px;
+		margin-top:40px;
 	}
 
 		span{

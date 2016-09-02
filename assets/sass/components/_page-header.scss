@@ -1,13 +1,23 @@
 .page-head{
-	position:absolute;
+	position:relative;
     left:0;
     right:0;
+    background-color:$color-grey-medium;
+    z-index:20;
+
+    &.-inset{
+        position:absolute;
+        background:none;
+    }
 
     &__inner{
         max-width:$site-width;
         margin:0 auto;
-        border-bottom:1px solid $color-header-border;
         @include clearfix;
+
+        .-inset &{
+            border-bottom:1px solid $color-header-border;
+        }
     }
 }
 
