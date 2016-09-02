@@ -1,15 +1,15 @@
 .icon{
     @include transition(opacity, .3s, ease);
 
-    &--small{
+    &.-small{
 
         svg{
-        	height:19px;
+        	height:13px;
         	width:auto;
         }
     }
 
-    &--large{
+    &.-large{
 
         svg{
             height:32px;
@@ -17,7 +17,8 @@
         }
     }
 
-    svg{
+    svg,
+    svg path{
         fill:$color-icon;
     }
 

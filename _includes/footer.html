@@ -1,13 +1,20 @@
 {% if page.url != '/sponsors/' %}
-<div class="sponsor-bar">
+<div class="row -center sponsor-bar">
     <div class="wrapper">
         <h5>Want to sponsor the PHP UK Conference? <a href="/sponsors">Click here.</a></h5>
     </div>
 </div>
 {% endif %}
-<div class="row -primary -center">
+<div class="row -primary -center newsletter">
     <div class="wrapper">
-        {% include newsletter.html %}
+        <h4>Stay up-to-date with PHP UK</h4>
+        <p class="constrain">Enter your email address to join the PHP UK Conference mailing list and be the first to hear our latest news and announcements.</p>
+        <form action="http://phplondonltd.createsend.com/t/i/s/nsujj/" method="post" id="subForm" class="newsletter-form">
+            <fieldset>
+                <input id="fieldEmail" name="cm-nsujj-nsujj" type="email" required placeholder="Your email address" class="wide" />
+                <button type="submit" class="button -inverse">Subscribe</button>
+            </fieldset>
+        </form>
     </div>
 </div>
 <div id="footer" class="page-footer">

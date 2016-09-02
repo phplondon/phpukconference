@@ -1,3 +1,13 @@
+.header-bar{
+    padding:6px 0;
+    font-size:$base-font-size*0.9;
+    background:$color-grey-dark;
+
+    a{
+        color:rgba($color-white,0.7);
+    }
+}
+
 .page-head{
 	position:relative;
     left:0;

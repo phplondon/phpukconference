@@ -1,12 +1,33 @@
-<header class="page-head {% if page.slug == 'home' %}-inset{% endif %}">
-	<div class="page-head__inner">
-		<a href="/" class="page-head__logo">
-			<img src="/assets/images/php-uk.svg" alt="PHP UK">
+<div class="header-bar">
+	<div class="wrapper">
+		<span class="pull-right">16th &amp; 17th February 2017</span>
+		<a href="mailto:info@phpconference.co.uk">
+			<i class="icon -small">
+				{% assign mail = site.icons | where:"name", mail | first %}
+				{{ mail.content }}
+			</i>
+			info@phpconference.co.uk
 		</a>
-		<ul class="main-menu">
-			{% assign pages_list = site.pages %}
-			{% assign group = 'navigation' %}
-			{% include pages_list %}
-		</ul>
+		<a href="https://twitter.com/phpukconference">
+			<i class="icon -small">
+				{% assign twitter = site.icons | where:"name", twitter | first %}
+				{{ twitter.content }}
+			</i>
+			@phpukconference
+		</a>
+	</div>
+</div>
+<header class="page-head {% if page.slug == 'home' %}-inset{% endif %}">
+	<div class="wrapper">
+		<div class="page-head__inner">
+			<a href="/" class="page-head__logo">
+				<img src="/assets/images/php-uk.svg" alt="PHP UK">
+			</a>
+			<ul class="main-menu">
+				{% assign pages_list = site.pages %}
+				{% assign group = 'navigation' %}
+				{% include pages_list %}
+			</ul>
+		</div>
 	</div>
 </header>

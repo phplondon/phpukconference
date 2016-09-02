@@ -1,16 +1,28 @@
-.main-menu{
-	list-style:none;
-	float:right;
-	margin:0;
-	padding:0;
-	
-	&__item{
-		display:inline-block;
-	}
+.page-head{
+	.main-menu{
+		list-style:none;
+		float:right;
+		margin:0;
+		padding:0;
+		
+		&__item{
+			display:inline-block;
+			padding:23px 8px;
+
+			&:last-child{
+				
+				a{
+					border:1px solid rgba($color-white,0.5);
+					border-radius:20px;
+					padding:7px 20px;
+				}
+			}
+		}
 
 		&__link{
 			display:block;
 			color:$color-white;
-			padding:30px 22px;
+			padding:7px 14px;
 		}
+	}
 }

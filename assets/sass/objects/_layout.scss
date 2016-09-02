@@ -3,6 +3,15 @@
 
 	&.-primary{
 		background-color:$color-brand-secondary;
+
+		h1,h2,h3,h4,h5,h6{
+			color:$color-white;
+		}
+
+		p{
+			color:rgba($color-white,0.9);
+			font-size:$base-font-size;
+		}
 	}
 
 	&.-dark{
@@ -11,10 +20,13 @@
 
 	&.-center{
 		text-align:center;
+
+		*{
+			margin:0 auto;
+		}
 	}
 }
 
 .content-area{
 	padding-bottom:6rem;
-    // padding-top:6rem;
 }

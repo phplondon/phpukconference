@@ -29,3 +29,9 @@ h3 + p{
 .pull-right{
 	float:right;
 }
+
+.constrain{
+	@include respond(large) {
+		max-width:50%;
+	}
+}

@@ -48,11 +48,11 @@ input[type="email"]{
     @include transition(all $base-transition ease);
 
     &.wide{
-        width:50%;
+        width:40%;
     }
 }
 
 input + input,
 input + button{
-    margin-left:$base-spacing-unit;
+    margin-left:$base-spacing-unit !important;
 }
