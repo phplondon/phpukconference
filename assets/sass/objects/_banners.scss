@@ -27,30 +27,11 @@
 	}
 }
 
-.about{
-	background-image:url(/assets/images/banners/about.png);
-}
-.speakers{
-	background-image:url(/assets/images/banners/speakers.png);
-}
-.schedule{
-	background-image:url(/assets/images/banners/schedule.png);
-}
-.sponsors{
-	background-image:url(/assets/images/banners/sponsors.png);
-}
-.socials{
-	background-image:url(/assets/images/banners/socials.png);
-}
-.venue{
-	background-image:url(/assets/images/banners/venue.png);
-}
-.diversity{
-	background-image:url(/assets/images/banners/diversity.png);
-}
-.tickets{
-	background-image:url(/assets/images/banners/tickets.png);
-}
-.speakers{
-	background-image:url(/assets/images/banners/cfp.png);
+// Use for each loop for backgrounds
+// variable located in settings/_global 50
+@each $banner-name in $banner-list {
+
+    .#{$banner-name} {
+    	background-image:url(/assets/images/banners/#{$banner-name}.png);
+    }
 }
