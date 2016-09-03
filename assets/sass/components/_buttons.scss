@@ -27,9 +27,9 @@ input[type="submit"],
     @include font-family(secondary);
     @include transition(all $base-transition ease);
 
-    @include hocus(){
+    @include hocus{
         color:$color-white;
-        background-color:$color-btn-primary;
+        background-color:darken($color-btn-primary, 10%);
     }
 
     &.-outline{
