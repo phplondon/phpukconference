@@ -2,7 +2,6 @@
 	position:relative;
 	background-size:cover;
 	background-position:center;
-	margin-bottom:6rem;
 
 	@include respond(large){
 		padding:7.5rem;
@@ -51,4 +50,7 @@
 }
 .tickets{
 	background-image:url(/assets/images/banners/tickets.png);
+}
+.speakers{
+	background-image:url(/assets/images/banners/cfp.png);
 }

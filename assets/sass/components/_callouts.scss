@@ -19,4 +19,12 @@
 		line-height:1em;
 		opacity:0.8;
 	}
+
+	&.-blue{
+		background:$color-brand-primary;
+	}
+
+	&.-green{
+		background:$color-green;
+	}
 }

@@ -14,15 +14,26 @@ pre{
 ul, ol,
 dd{
 	margin-left:$base-spacing-unit;
+
+	li{
+		font-size:$font-size-p;
+	}
 }
 
 p{
+	margin-bottom:($base-spacing-unit*0.6);
 	font-family:$font-primary;
 	font-size:$font-size-p;
 	line-height:1.5em;
 }
 
-h3 + p{
+p + ul,
+p + ol{
+	margin-left:($base-spacing-unit*2);
+}
+
+h3 + p,
+h3 + p + p{
 	margin-left:26px;
 }
 
