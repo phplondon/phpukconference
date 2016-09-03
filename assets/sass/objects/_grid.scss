@@ -12,4 +12,9 @@
         width:100%;
         overflow:hidden;
         padding-left:$base-spacing-unit;
+        margin:0 0 $base-spacing-unit 0;
+
+        @include respond(large){
+            margin:0;
+        }
     }
