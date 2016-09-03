@@ -1,43 +1,100 @@
-.page-head{
+.main-menu{
+	list-style:none;
+	float:right;
+	margin:0;
+	padding:0;
 
-	.main-menu{
-		list-style:none;
-		float:right;
-		margin:0;
+	// Side in mobile menu
+	position:fixed;
+	top:0;
+	right:0;
+    background:$color-brand-primary;
+    width:80%;
+    height:100%;
+    @include transition(transform, $base-transition, ease);
+    @include transition(opacity, $base-transition, ease);
+
+	.menu-open &{
+		transform:translateX(100%);
+	}
+
+	&.show{
+		display:block !important;
+	}
+
+	&.hide{
+		display:none !important;
+	}
+
+	@include respond(large){
+		position:static;
+		background:none;
+		width:auto;
+		height:auto;
+	}
+	
+	&__item{
+		display:block;
 		padding:0;
-		
-		&__item{
+		border-bottom:1px solid rgba($color-white,0.5);
+
+		@include respond(large){
 			display:inline-block;
+			border-bottom:none;
 			padding:23px 8px;
+		}
 
-			&:last-child{
-				
-				a{
-					border:1px solid rgba($color-white,0.5);
-					border-radius:20px;
-					padding:7px 20px 7px 50px;
-					background:url(../images/ticket.svg) no-repeat left 7px center;
-					background-size:35px 23px;
-					@include transition(background-color, .3s, ease);
-					@include transition(border-color, .3s, ease);
 
-					&:hover{
-						border-color:$color-brand-secondary;
-						background-color:$color-brand-secondary;
-						text-decoration:none;
-					}
+		&:last-child{
+			padding:20px 14px;
+			border-bottom:none;
+
+			@include respond(large){
+				padding:0;
+			}
+			
+			a{
+				border:1px solid rgba($color-white,0.5);
+				border-radius:20px;
+				padding:7px 20px 7px 50px;
+				background:url(../images/ticket.svg) no-repeat left 7px center;
+				background-size:35px 23px;
+				@include transition(background-color, .3s, ease);
+				@include transition(border-color, .3s, ease);
+
+				&:hover{
+					border-color:$color-brand-secondary;
+					background-color:$color-brand-secondary;
+					text-decoration:none;
+				}
+
+				&.-is-active{
+					color:$color-white;
+					background-color:none;
 				}
 			}
 		}
+	}
 
-		&__link{
-			display:block;
-			color:$color-white;
+	&__link{
+		display:block;
+		color:$color-white;
+		padding:10px 14px;
+		@include transition(background-color, .3s, ease);
+
+		@include respond(large){
 			padding:7px 14px;
+		}
 
-			&:hover,
-			&.-is-active{
-				text-decoration:underline;
+		&:hover,
+		&.-is-active{
+			color:$color-brand-primary;
+			text-decoration:underline;
+			background:$color-white;
+
+			@include respond(large){
+				color:$color-white;
+				background:none;
 			}
 		}
 	}

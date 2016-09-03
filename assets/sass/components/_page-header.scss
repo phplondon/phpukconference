@@ -1,4 +1,5 @@
-$header-bar-height: 32px;
+$header-bar-height:     32px;
+$header-height:         81px;
 
 .header-bar{
     height:$header-bar-height;
@@ -40,6 +41,7 @@ $header-bar-height: 32px;
 
 .page-head{
 	position:relative;
+    height:$header-height;
     left:0;
     right:0;
     background-color:$color-brand-quarternary;
@@ -87,7 +89,6 @@ $header-bar-height: 32px;
     cursor:pointer;
     border:none;
     background:none;
-    opacity:0.5;
 
     .icon-bar{
         position:relative;
@@ -95,24 +96,24 @@ $header-bar-height: 32px;
         width:$main-menu-toggle-width;
         height:$main-menu-toggle-bar-height;
         margin:$main-menu-toggle-bar-spacing;
-        background:$color-black;
+        background:$color-white;
         @include border-radius($main-menu-toggle-bar-radius);
         @include transition(opacity, transform, $main-menu-toggle-bar-time);
         @include prefix((
             transition-timing-function: cubic-bezier(0.5, -0.5, 0.5, 1.5)
             ), webkit moz);
 
-        .page-head.open &:nth-child(1){
+        .menu-open &:nth-child(1){
             @include transform(translateY(13px));
             @include transform(rotate(135deg));
             top:$main-menu-toggle-bar-open-postion;
         }
 
-        .page-head.open &:nth-child(2){
+        .menu-open &:nth-child(2){
             opacity:0;
         }
 
-        .page-head.open &:nth-child(3){
+        .menu-open &:nth-child(3){
             @include transform(translateY(-13px));
             @include transform(rotate(-135deg));
             bottom:$main-menu-toggle-bar-open-postion;
