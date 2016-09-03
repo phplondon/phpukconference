@@ -24,12 +24,12 @@ $header-bar-height: 32px;
         margin:0 20px 0 0;
 
         &:hover{
-            color:$color-brand-primary;
+            color:$color-brand-secondary;
         }
 
         &:hover svg,
         &:hover svg path{
-            fill:$color-brand-primary;
+            fill:$color-brand-secondary;
         }
     }
 
