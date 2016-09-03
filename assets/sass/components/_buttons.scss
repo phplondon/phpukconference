@@ -41,6 +41,10 @@ input[type="submit"],
         background:$color-white;
         color:$color-btn-primary;
     }
+
+    &.-inverse{
+        border-radius:5px;
+    }
 }
 
 .button + .button,
