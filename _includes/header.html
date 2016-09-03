@@ -12,7 +12,7 @@
 			</i>
 			info@phpconference.co.uk
 		</a>
-		<a href="https://twitter.com/phpukconference">
+		<a href="https://twitter.com/phpukconference" target="_blank">
 			<i class="icon -small">
 				{% include {{ icon.class | prepend: 'icons/twitter' | append: '.svg' }} %}
 			</i>
@@ -31,6 +31,11 @@
 				{% assign group = 'navigation' %}
 				{% include pages_list %}
 			</ul>
+			<button type="button" class="main-menu__toggle">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
 		</div>
 	</div>
 </header>
