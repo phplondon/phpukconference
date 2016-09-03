@@ -1,7 +1,19 @@
+$header-bar-height: 32px;
+
 .header-bar{
+    height:$header-bar-height;
     padding:6px 0;
     font-size:($base-font-size * 0.9);
     background:$color-grey-dark;
+
+    &.-inset{
+        position:absolute;
+        left:0;
+        right:0;
+        background:none;
+        box-shadow:none;
+        z-index:1;
+    }
 
     a,
     span{
@@ -35,6 +47,7 @@
     box-shadow:0 1px 5px rgba(0,0,0,0.4);
 
     &.-inset{
+        top:$header-bar-height;
         position:absolute;
         background:none;
         box-shadow:none;
