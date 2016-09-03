@@ -8,7 +8,9 @@ form{
         -webkit-appearance:none;
         @include transition(all, .3s, ease);
 
-        &:focus{ border-color:$color-input-focus; }
+        &:focus{
+            border-color:$color-input-focus;
+        }
     }
 
     .errors{
@@ -41,11 +43,19 @@ input[type="email"]{
     border:2px solid $color-white; 
     line-height:1;
     cursor:pointer; /* [5] */
-    border-radius:$base-font-size*3;
-    padding:$base-font-size ($base-font-size * 3);
+    @include border-radius($base-font-size * 3);
+    padding:$base-font-size ($base-font-size * 2.286);
     @include font-size($base-font-size*1.2);
     @include font-family(secondary);
     @include transition(all $base-transition ease);
+
+    @include placeholder{
+        color:rgba($color-white, 0.7);
+    }
+
+    @include hocus{
+        outline:0;
+    }
 
     &.wide{
         width:40%;
