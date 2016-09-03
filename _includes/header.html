@@ -1,17 +1,20 @@
 <div class="header-bar">
 	<div class="wrapper">
-		<span class="pull-right">16th &amp; 17th February 2017</span>
+		<span class="pull-right">
+			<i class="icon -small">
+				{% include {{ icon.class | prepend: 'icons/calendar' | append: '.svg' }} %}
+			</i>
+			16th &amp; 17th February 2017
+		</span>
 		<a href="mailto:info@phpconference.co.uk">
 			<i class="icon -small">
-				{% assign mail = site.icons | where:"name", mail | first %}
-				{{ mail.content }}
+				{% include {{ icon.class | prepend: 'icons/mail' | append: '.svg' }} %}
 			</i>
 			info@phpconference.co.uk
 		</a>
 		<a href="https://twitter.com/phpukconference">
 			<i class="icon -small">
-				{% assign twitter = site.icons | where:"name", twitter | first %}
-				{{ twitter.content }}
+				{% include {{ icon.class | prepend: 'icons/twitter' | append: '.svg' }} %}
 			</i>
 			@phpukconference
 		</a>

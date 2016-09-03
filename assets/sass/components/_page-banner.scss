@@ -46,6 +46,10 @@
 		margin:10px 0;
 		@include font-size($base-font-size*1.1);
 		color:$color-white;
+
+		.icon{
+			margin:0 5px 0 0;
+		}
 	}
 
 	&__notice{

@@ -1,4 +1,5 @@
 .page-head{
+
 	.main-menu{
 		list-style:none;
 		float:right;
@@ -14,7 +15,17 @@
 				a{
 					border:1px solid rgba($color-white,0.5);
 					border-radius:20px;
-					padding:7px 20px;
+					padding:7px 20px 7px 50px;
+					background:url(../images/ticket.svg) no-repeat left 7px center;
+					background-size:35px 23px;
+					@include transition(background-color, .3s, ease);
+					@include transition(border-color, .3s, ease);
+
+					&:hover{
+						border-color:$color-brand-secondary;
+						background-color:$color-brand-secondary;
+						text-decoration:none;
+					}
 				}
 			}
 		}
@@ -23,6 +34,11 @@
 			display:block;
 			color:$color-white;
 			padding:7px 14px;
+
+			&:hover,
+			&.-is-active{
+				text-decoration:underline;
+			}
 		}
 	}
 }

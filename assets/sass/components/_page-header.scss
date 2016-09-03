@@ -1,10 +1,28 @@
 .header-bar{
     padding:6px 0;
-    font-size:$base-font-size*0.9;
+    font-size:($base-font-size * 0.9);
     background:$color-grey-dark;
 
-    a{
+    a,
+    span{
         color:rgba($color-white,0.7);
+    }
+
+    a{
+        margin:0 20px 0 0;
+
+        &:hover{
+            color:$color-brand-primary;
+        }
+
+        &:hover svg,
+        &:hover svg path{
+            fill:$color-brand-primary;
+        }
+    }
+
+    .icon{
+        margin:0 5px 0 0;
     }
 }
 

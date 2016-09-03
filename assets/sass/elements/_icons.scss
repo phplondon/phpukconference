@@ -1,5 +1,6 @@
 .icon{
-    @include transition(opacity, .3s, ease);
+    display:inline-block;
+    vertical-align:middle;
 
     &.-small{
 
@@ -20,7 +21,6 @@
     svg,
     svg path{
         fill:$color-icon;
+        @include transition(fill, .3s, ease);
     }
-
-    &:hover{ opacity:0.5; }
 }
