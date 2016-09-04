@@ -24,3 +24,59 @@
 		color:$color-white;
 	}
 }
+
+.video-list{
+	list-style:none;
+
+	&__video{
+		margin:0 0 ($base-spacing-unit*1.6) 0;
+		overflow:auto;
+
+		h5,h6{
+			margin:0;
+			line-height:1em;
+		}
+	}
+
+	.video__thumb{
+		position:relative;
+		float:left;
+		display:block;
+		max-width:30%;
+		margin:0 ($base-spacing-unit*1.2) 0 0;
+
+		img{
+			display:block;
+		}
+	}
+
+	.video__controls{
+		position:absolute;
+		display:block;
+		height:70%;
+		width:28%;
+		top:0;
+		left:($base-spacing-unit*0.5);
+		padding:($base-spacing-unit*0.7);
+		background:rgba($color-brand-secondary,0.9);
+		text-align:center;
+
+		.icon{
+			width:100%;
+		}
+
+		.length{
+			color:$color-white;
+			font-size:$base-font-size*0.9;
+		}
+	}
+
+	.video__description{
+		margin:($base-spacing-unit*0.5) 0 ($base-spacing-unit*0.5) 0;
+		font-size:$base-font-size;
+	}
+}
+
+.video-player{
+	width:100%;
+}

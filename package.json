@@ -24,6 +24,7 @@
         "inuit-box-sizing": "^0.2.0",
         "inuit-normalize": "^3.0.3",
         "inuit-reset": "^0.1.1",
-        "material-prism-theme": "^0.1.0"
+        "material-prism-theme": "^0.1.0",
+        "videojs-youtube":"^2.1.0"
       }
     }

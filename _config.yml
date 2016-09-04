@@ -2,4 +2,15 @@ permalink: pretty
 exclude: [node_modules]
 keep_files: [assets/css]
 collections:
- - icons
+  videos:
+    output: true
+    permalink: /videos/:path/
+    title: Videos
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "videos"
+    values:
+      layout: "video"

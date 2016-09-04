@@ -25,6 +25,15 @@
 		color:$color-white;
 		z-index:2;
 	}
+
+	&.-collapse{
+		padding:3rem;
+		height:120px;
+
+		h1{
+			font-size:2rem;
+		}
+	}
 }
 
 // Use for each loop for backgrounds

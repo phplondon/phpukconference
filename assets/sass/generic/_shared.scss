@@ -46,3 +46,13 @@ h3 + p + p{
 		max-width:50%;
 	}
 }
+
+.hidden{
+	display:none;
+}
+
+.pad-right{
+	@include respond(large){
+		padding-right:10%;
+	}
+}
