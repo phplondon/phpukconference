@@ -22,6 +22,16 @@
         </div>
         {% include footer.html %}
     </div>
+    <div class="mobile-nav">
+        <ul class="main-menu">
+            <a href="/" class="main-menu__logo">
+                <img src="/assets/images/php-uk.svg" alt="PHP UK">
+            </a>
+            {% assign pages_list = site.pages %}
+            {% assign group = 'navigation' %}
+            {% include pages_list %}
+        </ul>
+    </div>
     {% include analytics %}
 </body>
 </html>

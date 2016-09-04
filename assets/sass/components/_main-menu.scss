@@ -1,34 +1,13 @@
-.page-head .main-menu{
+.page-head .main-menu,
+.mobile-nav .main-menu{
 	list-style:none;
-	float:right;
 	margin:0;
 	padding:0;
-
-	// Side in mobile menu
-	position:fixed;
-	top:0;
-	right:0;
-    background:$color-brand-primary;
-    width:80%;
-    height:100%;
-    @include transition(transform, $base-transition, ease);
-    @include transition(opacity, $base-transition, ease);
-
-	.menu-open &{
-		@include transform(translateX(100%));
-	}
-
-	&.show{
-		display:block !important;
-	}
-
-	&.hide{
-		display:none !important;
-	}
 
 	@include respond(large){
 		position:static;
 		background:none;
+		float:right;
 		width:auto;
 		height:auto;
 	}

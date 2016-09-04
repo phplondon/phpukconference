@@ -6,6 +6,13 @@ html{
     color:$color-page-text;
 }
 
+body{
+
+	&.menu-open{
+		overflow:hidden;
+	}
+}
+
 img{
 	display:block;
 	height:auto;
