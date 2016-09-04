@@ -46,7 +46,7 @@ var sassBuild = function () {
         errLogToConsole: false
     }))
     .on('error', reportError)
-    .pipe(cleanCSS())
+    // .pipe(cleanCSS())
     .pipe(gulp.dest('_site/assets/css'))
     .pipe(browserSync.reload( { stream:true } ))
 };

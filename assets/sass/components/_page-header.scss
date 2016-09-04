@@ -2,6 +2,12 @@ $header-bar-height:     32px;
 $header-height:         81px;
 
 .header-bar{
+    display:none;
+
+    @include respond(medium){
+        display:block;
+    }
+
     height:$header-bar-height;
     padding:6px 0;
     font-size:($base-font-size * 0.9);
@@ -49,13 +55,18 @@ $header-height:         81px;
     box-shadow:0 1px 5px rgba(0,0,0,0.4);
 
     &.-inset{
-        top:$header-bar-height;
+        top:0;
         position:absolute;
         background:none;
         box-shadow:none;
+
+        @include respond(medium){
+            top:$header-bar-height;
+        }
     }
 
     &__inner{
+        height:$header-height;
         max-width:$site-width;
         margin:0 auto;
         @include clearfix;

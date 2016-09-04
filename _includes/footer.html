@@ -20,16 +20,22 @@
 <div id="footer" class="page-footer">
     <div class="page-footer__top">
         <div class="wrapper">
-            <p class="pull-right footnote">&copy; Vitis Events Ltd. Registered company 09693545</p>
-            <a href="/" class="page-footer__logo">
-                <img src="/assets/images/php-uk.svg" alt="PHP UK">
-            </a>
+            <div class="grid">
+                <div class="grid__item u-1/4@sm">
+                    <a href="/" class="page-footer__logo">
+                        <img src="/assets/images/php-uk.svg" alt="PHP UK">
+                    </a>
+                </div>
+                <div class="grid__item u-3/4@sm">
+                    <p class="footnote">&copy; Vitis Events Ltd. Registered company 09693545</p>
+                </div>
+            </div>
         </div>
     </div>
     <div class="page-footer__bottom">
         <div class="wrapper">
             <div class="grid">
-                <div class="grid__item u-3/4">
+                <div class="grid__item u-3/4@md">
                     <h6>About</h6>
                     <ul class="footer-menu">
                         {% assign pages_list = site.pages %}
@@ -51,7 +57,7 @@
                         <li><a href="/newsletter">Newsletter</a></li>
                     </ul>
                 </div>
-                <div class="grid__item u-1/4 border-left">
+                <div class="grid__item u-1/4@md border-left">
                     <h6>Code of Conduct</h6>
                     <p>We operate a <a href="/conduct">code of conduct</a> to ensure all attendees are able to enjoy the conference.</p>
                 </div>

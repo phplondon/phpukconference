@@ -58,11 +58,20 @@ input[type="email"]{
     }
 
     &.wide{
-        width:40%;
+        width:100%;
+
+        @include respond(medium){
+            width:40%;
+        }
     }
 }
 
 input + input,
 input + button{
-    margin-left:$base-spacing-unit !important;
+    margin-top:10px !important;
+
+    @include respond(medium){
+        margin-top:0 !important;
+        margin-left:$base-spacing-unit !important;
+    }
 }

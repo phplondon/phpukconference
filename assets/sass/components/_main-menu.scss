@@ -1,4 +1,4 @@
-.main-menu{
+.page-head .main-menu{
 	list-style:none;
 	float:right;
 	margin:0;
@@ -15,7 +15,7 @@
     @include transition(opacity, $base-transition, ease);
 
 	.menu-open &{
-		transform:translateX(100%);
+		@include transform(translateX(100%));
 	}
 
 	&.show{
@@ -32,6 +32,21 @@
 		width:auto;
 		height:auto;
 	}
+
+	&__logo{
+		display:block;
+		margin:0 auto;
+		padding:20px;
+
+		img{
+			height:auto;
+			width:100px;
+		}
+
+		@include respond(large){
+			display:none;
+		}
+	}
 	
 	&__item{
 		display:block;
@@ -42,6 +57,14 @@
 			display:inline-block;
 			border-bottom:none;
 			padding:23px 8px;
+		}
+
+		&:first-of-type{
+			border-top:1px solid rgba($color-white,0.5);
+
+			@include respond(large){
+				border-top:none;
+			}
 		}
 
 
@@ -63,6 +86,7 @@
 				@include transition(border-color, .3s, ease);
 
 				&:hover{
+					color:$color-white;
 					border-color:$color-brand-secondary;
 					background-color:$color-brand-secondary;
 					text-decoration:none;

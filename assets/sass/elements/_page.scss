@@ -6,10 +6,16 @@ html{
     color:$color-page-text;
 }
 
+img{
+	display:block;
+	height:auto;
+	max-width:100%;
+}
+
 .page-container{
 	@include transition(transform, $base-transition, ease);
 
 	.menu-open &{
-		transform:translateX(-80%);
+		@include transform(translateX(-80%));
 	}
 }

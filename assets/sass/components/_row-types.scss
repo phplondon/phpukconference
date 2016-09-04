@@ -10,11 +10,20 @@
 	
 	h4{
 		font-size:2rem;
-		line-height:1.5em;
+		line-height:1.2em;
+		margin:0 0 0.6em 0 !important;
 	}
 
 	form{
 		padding-top:2rem;
+
+		.button{
+			width:100%;
+
+			@include respond(medium){
+				width:auto;
+			}
+		}
 	}
 }
 

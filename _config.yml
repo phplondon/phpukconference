@@ -1,5 +1,5 @@
 permalink: pretty
-exclude: [node_modules, javascripts]
+exclude: [node_modules]
 keep_files: [assets/css]
 collections:
  - icons
