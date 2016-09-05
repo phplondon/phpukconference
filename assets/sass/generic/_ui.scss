@@ -9,6 +9,10 @@
 	background-size:cover;
 	background-position:center;
 
+	@include respond(mobile-only){
+		height:100px;
+	}
+
 	a{
 		display:block;
 		width:100%;

@@ -7,16 +7,21 @@
 	background-image:url(/assets/images/banners/home.png);
 	background-size:cover;
 	background-color:$color-brand-primary;
+	background-position:center center;
 
-	// &__content{
-	// 	@include vertical-align-center;
-	// }
+	@include respond(mobile-only){
+		padding-top:120px;
+	}
 
 	&__logo{
 		display:inline-block;
 		margin:0 0 10px 0;
 		max-width:220px;
 		height:152px;
+
+		@include respond(mobile-only){
+			height:130px;
+		}
 	}
 
 	span{
@@ -33,10 +38,20 @@
 	&__title{
 		@include font-weight(bold);
 		@include font-size(47px);
+
+		@include respond(mobile-only){
+			@include font-size(40px);
+			line-height:1.1em;
+		}
+
 	}
 
 	&__sub-title{
 		@include font-size(30px);
+
+		@include respond(mobile-only){
+			@include font-size(24px);
+		}
 	}
 
 	sup{

@@ -2,6 +2,8 @@
 	position:relative;
 	background-size:cover;
 	background-position:center;
+	padding-top:2rem;
+	padding-bottom:2rem;
 
 	@include respond(large){
 		padding:7.5rem;
@@ -40,7 +42,7 @@
 // variable located in settings/_global 50
 @each $banner-name in $banner-list {
 
-    .#{$banner-name} {
-    	background-image:url(/assets/images/banners/#{$banner-name}.png);
-    }
+	.#{$banner-name} {
+		background-image:url(/assets/images/banners/#{$banner-name}.png);
+	}
 }
