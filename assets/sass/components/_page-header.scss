@@ -9,7 +9,7 @@ $header-height:         81px;
     }
 
     height:$header-bar-height;
-    padding:6px 0;
+    padding:7px 0 5px 0;
     font-size:($base-font-size * 0.9);
     background:$color-grey-dark;
 
@@ -17,7 +17,7 @@ $header-height:         81px;
         position:absolute;
         left:0;
         right:0;
-        background:none;
+        background:rgba($color-grey-dark,0.3);
         box-shadow:none;
         z-index:1;
     }
