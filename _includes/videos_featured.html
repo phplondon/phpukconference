@@ -1,0 +1,7 @@
+<ul class="video-list -preview grid">
+	{% for video in site.videos limit:4 %}
+	<li class="video-list__video grid__item u-1/4@md u-1/1@sm">
+        {% include video_thumb.html %}
+    </li>
+    {% endfor %}
+</ul>

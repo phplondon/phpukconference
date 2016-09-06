@@ -67,6 +67,12 @@
 		}
 	}
 
+	&.-preview{
+		.video__thumb{
+			max-width:100%;
+		}	
+	}
+
 	.video__controls{
 		position:absolute;
 		display:block;
@@ -108,4 +114,52 @@
 	left:0;
 	width:100% !important;
 	height:100% !important;
+}
+
+.twitter-tweet{
+	margin:($base-spacing-unit*2) 0 !important;
+}
+
+.fact-wrapper{
+	border-bottom:1px solid $color-grey-medium;
+}
+
+.fact{
+	list-style:none;
+	@include font-family(primary);
+
+	&__item{
+		position:relative;
+		padding-bottom:$base-spacing-unit;
+		color:$color-white;
+		text-align:left;
+		overflow:visible;
+
+		&:before{
+			display:block;
+			position:absolute;
+			bottom:-4px;
+			left:$base-spacing-unit;
+			content:"";
+			width:7px;
+			height:7px;
+			border-radius:50%;
+			background:$color-grey-medium;
+		}
+	}
+
+	&__figure{
+		display:block;
+		font-size:3rem;
+		@include font-weight(light);
+
+		sup{
+			font-size:.5em;
+		}
+	}
+
+	&__label{
+		opacity:0.5;
+		@include font-weight(bold);
+	}
 }
