@@ -5,9 +5,9 @@
             <img src="http://img.youtube.com/vi/{{ video.video-id }}/maxresdefault.jpg" alt="{{ video.title }}">
             <div class="video__controls">
                 <i class="icon">
-                {% include {{ icon.class | prepend: 'icons/play-button' | append: '.svg' }} %}
+                    {% include {{ icon.class | prepend: 'icons/play-button' | append: '.svg' }} %}
                 </i>
-                <span class="length">{{ video.year }}</span>
+                <span class="length">{{ video.length }}</span>
             </div>
         </a>
         <h5>{{ video.title }}</h5>
@@ -15,5 +15,5 @@
         <p class="video__description__full hidden">{{ video.content | remove: '<p>' | remove: '</p>' }}</p>
         <a href="{{ video.url }}" class="link">Watch video</a>
     </li>
-{% endfor %}
+    {% endfor %}
 </ul>

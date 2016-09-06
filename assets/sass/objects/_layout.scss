@@ -1,6 +1,10 @@
 .row{
 	padding:75px 0;
 
+	@include respond(mobile-only){
+		padding:40px 0;		
+	}
+
 	&.-primary{
 		background-color:$color-brand-secondary;
 
