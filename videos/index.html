@@ -3,22 +3,4 @@ layout: videos
 title: PHP Tutorial Videos
 weight: 9
 ---
-<ul class="video-list">
-	{% for video in site.videos %}
-	<li class="video-list__video">
-     <a href="{{ video.url }}" class="video__thumb">
-        <img src="http://img.youtube.com/vi/{{ video.video-id }}/maxresdefault.jpg" alt="{{ video.title }}">
-        <div class="video__controls">
-            <i class="icon">
-             {% include {{ icon.class | prepend: 'icons/play-button' | append: '.svg' }} %}
-         </i>
-         <span class="length">{{ video.length }}</span>
-     </div>
- </a>
- <h5>{{ video.title }}</h5>
- <p class="video__description">{{ video.content | truncatewords: 30 | remove: '<p>' | remove: '</p>' }}</p>
- <p class="video__description__full hidden">{{ video.content | remove: '<p>' | remove: '</p>' }}</p>
- <a href="{{ video.url }}" class="video__link">&raquo; Watch video</a>
-</li>
-{% endfor %}
-</ul>
+{% include videos.html year="2015" %}

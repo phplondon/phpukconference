@@ -8,9 +8,16 @@ collections:
     title: Videos
 
 defaults:
-  -
-    scope:
+  - scope:
       path: ""
       type: "videos"
     values:
       layout: "video"
+  - scope:
+      path: _videos/2016
+    values:
+      year: "2016"
+  - scope:
+      path: _videos/2015
+    values:
+      year: "2015"

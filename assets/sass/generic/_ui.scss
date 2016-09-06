@@ -5,6 +5,7 @@
 
 .panel{
 	position:relative;
+	margin-top:$base-spacing-unit;
 	height:260px;
 	background-size:cover;
 	background-position:center;
@@ -19,6 +20,10 @@
 		height:100%;
 	}
 
+	&:hover &__title{
+		font-size:$base-font-size*1.6;
+	}
+
 	&__title{
 		@include font-family(secondary);
 		@include vertical-align-center;
@@ -26,6 +31,7 @@
 		text-align:center;
 		font-size:$base-font-size*1.4;
 		color:$color-white;
+		transition:ease-in-out all 0.2s;
 	}
 }
 

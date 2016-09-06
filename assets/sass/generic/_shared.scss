@@ -1,4 +1,4 @@
-$font-size-p:  ($base-font-size * 1.1);
+$font-size-p: ($base-font-size * 1.1);
 
 
 h1, h2, h3, h4, h5, h6,
@@ -44,6 +44,15 @@ h3 + p + p{
 .constrain{
 	@include respond(large) {
 		max-width:50%;
+	}
+}
+
+.link{
+	color:$color-brand-tertiary;
+
+	&:before{
+		padding-right:4px;
+		content:"\025B8";
 	}
 }
 
