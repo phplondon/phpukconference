@@ -119,6 +119,10 @@
 
 .twitter-tweet{
 	margin:($base-spacing-unit*2) 0 !important;
+
+	@include respond(mobile-only){
+		margin:$base-spacing-unit 0 0 0 !important;		
+	}
 }
 
 .fact-wrapper{
