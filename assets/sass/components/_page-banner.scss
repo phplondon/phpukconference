@@ -6,7 +6,7 @@
 	text-align:center;
 	background-image:url(/assets/images/banners/home.png);
 	background-size:cover;
-	background-color:$color-brand-primary;
+	background-color:rgb(40,55,105);
 	background-position:center center;
 
 	@include respond(mobile-only){
