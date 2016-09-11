@@ -1,0 +1,48 @@
+.page-title{
+	position:relative;
+	background-size:cover;
+	background-position:center;
+	padding-top:2rem;
+	padding-bottom:2rem;
+
+	@include respond(large){
+		padding:7.5rem;
+		height:322px;
+	}
+
+	&:before{
+		position:absolute;
+		left:0;
+		right:0;
+		top:0;
+		bottom:0;
+		display:block;
+		content:"";
+		z-index:1;
+		background:rgba($color-grey-dark,0.7);
+	}
+
+	h1, h2{
+		position:relative;
+		color:$color-white;
+		z-index:2;
+	}
+
+	&.-collapse{
+		padding:3rem 2rem;
+		height:120px;
+
+		h1{
+			font-size:2rem;
+		}
+	}
+}
+
+// Use for each loop for backgrounds
+// variable located in settings/_global 50
+@each $banner-name in $banner-list {
+
+	.#{$banner-name} {
+		background-image:url(/assets/images/banners/#{$banner-name}.png);
+	}
+}

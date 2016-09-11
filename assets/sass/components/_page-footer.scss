@@ -1,0 +1,131 @@
+$footer-font-size : ($base-font-size*0.9);
+
+.page-footer{
+	background-color:$color-footer-background;
+    border-top:8px solid $color-grey-medium;
+
+    &__top{
+        padding:20px 0;
+        border-bottom:1px solid $color-grey-medium;
+
+        .grid__item{
+            margin:0;
+        }
+    }
+
+    &__bottom{
+        padding:20px 0;
+    }
+
+    &__logo{
+        display:block;
+        height:30px;
+        margin-bottom:5px;
+
+        @include respond(large){
+            margin-bottom:0;
+        }
+
+        img{
+            display:block;
+            height:100%;
+            width:auto;
+        }
+    }
+
+    h6{
+        clear:left;
+        margin:0 0 6px 0;
+        color:$color-white;
+
+        @include respond(medium){
+            float:left;
+        }
+    }
+
+    p{
+        clear:both;
+        margin-bottom:0;
+        color:$color-grey;
+        font-size:$footer-font-size;
+
+        &.footnote{
+            display:inline-block;
+
+            @include respond(medium){
+                float:right;
+            }
+        }
+
+        a{
+            text-decoration:underline;
+        }
+    }
+
+    a{
+        color:$color-grey-light;
+    }
+
+    ul{
+    	list-style:none;
+    	margin:0 0 2em 0;
+
+        @include respond(medium){
+    	   padding:0 0 0 8px;
+           margin:0;
+        }
+
+    	li{
+            display:block;
+            padding-bottom:0;
+            color:$color-grey;
+            line-height:1em;
+
+            @include respond(medium){
+                display:inline-block;
+                border-left:1px solid rgba($color-grey,0.7);
+            }
+
+            &:first-child{
+                border:none;
+            }
+
+            a{
+                display:block;
+                padding:4px 0px;
+                color:inherit;
+                font-size:$footer-font-size;
+                line-height:0.8em;
+
+                @include respond(medium){
+                    padding:0 7px;
+                }
+
+                &:hover{
+                    color:inherit;
+                }
+            }
+        }
+    }
+
+    .footnote{
+        font-size:$base-font-size*0.8;
+        color:$color-grey;
+        line-height:2.6em;
+    }
+}
+
+.footer-menu{
+    float:left;
+}
+
+.border-left{
+    border-top:1px solid rgba($color-grey,0.2);
+    padding-top:10px;
+
+    @include respond(large){
+        padding-top:0;
+        border-top:none;
+        border-left:1px solid rgba($color-grey,0.2);
+    }
+}

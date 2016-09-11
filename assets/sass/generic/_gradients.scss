@@ -1,0 +1,38 @@
+.gradient{
+	position:absolute;
+	z-index:1;
+	top:0;
+	right:0;
+	width:100%;
+	height:100%;
+	opacity:0.9;
+
+	&.-green{
+		background-image: linear-gradient(to right, #2ecc71 0%, #1bbc9b 100%);
+	}
+
+	&.-red{
+		background-image: linear-gradient(to right, #c0392b 0%, #d24d57 100%);
+	}
+
+	&.-purple{
+		background-image: linear-gradient(to right, #639 0%, #9b59b6 100%);
+	}
+
+	&.-orange{
+		background-image: linear-gradient(to right, #d35400 0%, #f89406 100%);
+	}
+
+	&.-blue{
+		background-image: linear-gradient(to right, #446cb3 0%, #59abe3 100%);
+	}
+
+	&.-pink{
+		background-image: linear-gradient(to right, #db0a5b 0%, #d2527f 100%);
+	}
+
+	+ *{
+		position:relative;
+		z-index:2;
+	}
+}

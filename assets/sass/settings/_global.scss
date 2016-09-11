@@ -1,0 +1,50 @@
+$base-font-size:     	14px;
+$base-line-height:   	20px;
+
+$base-radius:        	3px;
+
+$base-transition:   	0.333333333s;
+
+$base-spacing-unit:  	20px;
+
+$base-sidebar-width: 	200px;
+$base-sidebar-spacing: 	90px;
+
+$header-padding:	 	20px;
+
+// To be changed once there is a new logo
+$logo-height:		 			44px;
+
+$main-menu-toggle-width:    	25px;
+$main-menu-toggle-bar-height:   3px;
+$main-menu-toggle-bar-spacing:	5px;
+$main-menu-toggle-bar-radius:   0;
+$main-menu-toggle-bar-time:   	0.25s;
+
+$main-menu-toggle-bar-open-postion:8px;
+
+
+// Use maths to get the size of logo and menu toggle
+$main-menu-toggle-height:(
+	($main-menu-toggle-bar-height * 3) + ($main-menu-toggle-bar-spacing * 4)
+	);
+
+$main-menu-toggle-postion:(
+	($logo-height + ($header-padding * 2)) / 2 - ($main-menu-toggle-height / 2)
+	);
+
+
+$respond-settings: 	 true;
+
+$site-width:         1170px;
+$site-width-medium:  1024px;
+$site-width-small:   720px;
+
+
+$font-settings:		false;
+
+$font-primary: 		'Open Sans';
+$font-secondary: 	Montserrat;
+$font-tertiary: 	Bonbon;
+
+$banner-list: about speakers schedule sponsors socials venue diversity tickets speakers videos;

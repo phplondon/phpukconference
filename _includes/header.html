@@ -1,0 +1,40 @@
+<div class="header-bar {% if page.slug == 'home' %}-inset{% endif %}">
+	<div class="wrapper">
+		<span class="pull-right">
+<!-- 			<i class="icon -small">
+				{% include {{ icon.class | prepend: 'icons/calendar' | append: '.svg' }} %}
+			</i>
+ -->			16th &amp; 17th February 2017
+		</span>
+		<a href="mailto:info@phpconference.co.uk">
+			<i class="icon -small">
+				{% include {{ icon.class | prepend: 'icons/mail' | append: '.svg' }} %}
+			</i>
+			info@phpconference.co.uk
+		</a>
+		<a href="https://twitter.com/phpukconference" target="_blank">
+			<i class="icon -small">
+				{% include {{ icon.class | prepend: 'icons/twitter' | append: '.svg' }} %}
+			</i>@phpukconference
+		</a>
+	</div>
+</div>
+<header class="page-head {% if page.slug == 'home' %}-inset{% endif %}">
+	<div class="wrapper">
+		<div class="page-head__inner">
+			<a href="/" class="page-head__logo">
+				<img src="/assets/images/php-uk.svg" alt="PHP UK">
+			</a>
+			<ul class="main-menu">
+				{% assign pages_list = site.pages %}
+				{% assign group = 'navigation' %}
+				{% include pages_list %}
+			</ul>
+			<button type="button" class="main-menu__toggle">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+		</div>
+	</div>
+</header>

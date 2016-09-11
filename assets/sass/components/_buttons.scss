@@ -1,0 +1,53 @@
+/**
+* 1. Allow us to style box model properties.
+* 2. Line different sized buttons up a little nicer.
+* 3. Make buttons inherit font styles (often necessary when styling `inputs` as
+*    buttons).
+* 4. Reset/normalize some styles.
+* 5. Force all button-styled elements to appear clickable.
+* 6. Subtract the border size from the padding value so that buttons do not
+*    grow larger as we add borders.
+*/
+
+input[type="submit"],
+.button{
+    display:inline-block; /* [1] */
+    vertical-align:middle; /* [2] */
+    font:inherit; /* [3] */
+    text-align:center; /* [4] */
+    text-transform:uppercase;
+    background:$color-btn-primary;
+    color:$color-white;
+    border:none;
+    line-height:1;
+    cursor:pointer; /* [5] */
+    border-radius:$base-font-size*3;
+    padding:$base-font-size ($base-font-size * 3.5);
+    @include font-size($base-font-size*1.2);
+    @include font-family(secondary);
+    @include transition(all $base-transition ease);
+
+    @include hocus{
+        color:$color-white;
+        background-color:darken($color-btn-primary, 10%);
+    }
+
+    &.-outline{
+        background:none;
+        border:1px solid $color-btn-primary;
+    }
+
+    &.-inverse{
+        background:$color-white;
+        color:$color-btn-primary;
+    }
+
+    &.-square{
+        border-radius:5px;
+    }
+}
+
+.button + .button,
+input[type="submit"] + input[type="submit"]{
+    margin-left:1em;
+}

@@ -1,0 +1,76 @@
+form{
+
+    input[type="text"],
+    input[type="password"]{
+        outline:0;
+        padding:10px;
+        border:1px solid $color-grey;
+        -webkit-appearance:none;
+        @include transition(all, .3s, ease);
+
+        &:focus{
+            border-color:$color-input-focus;
+        }
+    }
+
+    .errors{
+        list-style:none;
+
+        li{
+            color:$color-error;
+        }
+    }
+
+    fieldset{
+        border:none;
+    }
+}
+
+.success p,
+p.success{
+    color:$color-success;
+    font-weight:bold;
+}
+
+input[type="text"],
+input[type="email"]{
+    display:inline-block; /* [1] */
+    vertical-align:middle; /* [2] */
+    font:inherit; /* [3] */
+    color:$color-white;
+    background:none;
+    border:2px solid $color-white; 
+    line-height:1;
+    cursor:pointer; /* [5] */
+    @include border-radius($base-font-size * 3);
+    padding:$base-font-size ($base-font-size * 2.286);
+    @include font-size($base-font-size*1.2);
+    @include font-family(secondary);
+    @include transition(all $base-transition ease);
+
+    @include placeholder{
+        color:rgba($color-white, 0.7);
+    }
+
+    @include hocus{
+        outline:0;
+    }
+
+    &.wide{
+        width:100%;
+
+        @include respond(medium){
+            width:40%;
+        }
+    }
+}
+
+input + input,
+input + button{
+    margin-top:10px !important;
+
+    @include respond(medium){
+        margin-top:0 !important;
+        margin-left:$base-spacing-unit !important;
+    }
+}

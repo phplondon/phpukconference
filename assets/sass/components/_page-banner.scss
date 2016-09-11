@@ -1,0 +1,77 @@
+.banner{
+	position:relative;
+	min-height:650px;
+	padding:60px 20px;
+	padding-top:150px;
+	text-align:center;
+	background-image:url(/assets/images/banners/home.png);
+	background-size:cover;
+	background-color:rgb(40,55,105);
+	background-position:center center;
+
+	@include respond(mobile-only){
+		padding-top:120px;
+	}
+
+	&__logo{
+		display:inline-block;
+		margin:0 0 10px 0;
+		max-width:220px;
+		height:152px;
+
+		@include respond(mobile-only){
+			height:130px;
+		}
+	}
+
+	span{
+		display:block;
+	}
+
+	&__title,
+	&__sub-title{
+		@include font-family(secondary);
+		text-transform:uppercase;
+		color:$color-white;
+	}
+
+	&__title{
+		@include font-weight(bold);
+		@include font-size(47px);
+
+		@include respond(mobile-only){
+			@include font-size(40px);
+			line-height:1.1em;
+		}
+
+	}
+
+	&__sub-title{
+		@include font-size(30px);
+
+		@include respond(mobile-only){
+			@include font-size(24px);
+		}
+	}
+
+	sup{
+		font-size:.4em;
+	}
+
+	&__location{
+		margin:10px 0;
+		@include font-size($base-font-size*1.1);
+		color:$color-white;
+
+		.icon{
+			margin:0 5px 0 0;
+		}
+	}
+
+	&__notice{
+		margin:30px 0 15px 0;
+		@include font-size($base-font-size*1.4);
+		color:$color-btn-primary;
+		text-transform:uppercase;
+	}
+}

@@ -1,1 +1,23 @@
 permalink: pretty
+exclude: [node_modules]
+keep_files: [assets/css]
+collections:
+  videos:
+    output: true
+    permalink: /videos/:path/
+    title: Videos
+
+defaults:
+  - scope:
+      path: ""
+      type: "videos"
+    values:
+      layout: "video"
+  - scope:
+      path: _videos/2016
+    values:
+      year: "2016"
+  - scope:
+      path: _videos/2015
+    values:
+      year: "2015"

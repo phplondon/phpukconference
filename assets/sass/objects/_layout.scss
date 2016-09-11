@@ -1,0 +1,32 @@
+.row{
+	padding:75px 0;
+
+	@include respond(mobile-only){
+		padding:40px 0;		
+	}
+
+	&.-primary{
+		background-color:$color-brand-secondary;
+
+		h1,h2,h3,h4,h5,h6{
+			color:$color-white;
+		}
+
+		p{
+			color:rgba($color-white,0.9);
+			font-size:$base-font-size;
+		}
+	}
+
+	&.-dark{
+		background-color:$color-grey-dark;
+	}
+
+	&.-center{
+		text-align:center;
+
+		*{
+			margin:0 auto;
+		}
+	}
+}

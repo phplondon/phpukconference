@@ -1,0 +1,26 @@
+.icon{
+    display:inline-block;
+    vertical-align:middle;
+
+    &.-small{
+
+        svg{
+        	height:13px;
+        	width:auto;
+        }
+    }
+
+    &.-large{
+
+        svg{
+            height:32px;
+            width:auto;
+        }
+    }
+
+    svg,
+    svg path{
+        fill:$color-icon;
+        @include transition(fill, .3s, ease);
+    }
+}

@@ -1,0 +1,11 @@
+<ul class="video-list">
+	{% for video in site.videos | where:"year","2015" %}
+	<li class="video-list__video">
+        {% include video_thumb.html %}
+        <h5>{{ video.title }}</h5>
+        <p class="video__description">{{ video.content | truncatewords: 30 | remove: '<p>' | remove: '</p>' }}</p>
+        <p class="video__description__full hidden">{{ video.content | remove: '<p>' | remove: '</p>' }}</p>
+        <a href="{{ video.url }}" class="link">Watch video</a>
+    </li>
+    {% endfor %}
+</ul>

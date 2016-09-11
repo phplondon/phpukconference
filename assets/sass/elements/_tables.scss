@@ -1,0 +1,69 @@
+table{
+    border:1px solid $color-grey;
+    margin-bottom:1em;
+    border-collapse:collapse;
+    width:100%;
+
+    caption{
+        @include font-size(17px);
+        font-weight:bold;
+        background-color:$color-grey;
+        padding:10px;
+    }
+
+    td,
+    th{
+        padding:10px;
+        border:1px solid $color-grey;
+        text-align:left;
+    }
+
+    th{
+        font-weight:bold;
+        background-color:$color-grey-light;
+    }
+
+    .icon{
+        display:block;
+        text-align:center;
+        vertical-align:middle;
+    }
+}
+
+.financials{
+    border:none;
+    width:100%;
+    margin:0 0 3em 0;
+
+    @include respond(large){
+        width:60%;
+    }
+
+    td,
+    th{
+        border-width:1px 0;
+        padding:2px 5px;
+    }
+
+    .title td{
+        background-color:$color-brand-secondary;
+        border:none;
+    }
+
+    tr{
+
+        &:hover{
+            background-color:rgba($color-grey, 0.4);
+        }
+
+        td:not(:nth-child(1)){
+            width:12%;
+            text-align:right;
+        }
+    }
+
+    .total{
+        border-color:$color-black;
+        border-width:2px 0;
+    }
+}

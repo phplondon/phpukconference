@@ -1,0 +1,67 @@
+{% if page.url != '/sponsors/' %}
+<div class="row -center sponsor-bar">
+    <div class="wrapper">
+        <h5>Want to sponsor the PHP UK Conference? <a href="/sponsors">Click here.</a></h5>
+    </div>
+</div>
+{% endif %}
+<div class="row -primary -center newsletter">
+    <div class="wrapper">
+        <h4>Stay up-to-date with PHP UK</h4>
+        <p class="constrain">Enter your email address to join the PHP UK Conference mailing list and be the first to hear our latest news and announcements.</p>
+        <form action="http://phplondonltd.createsend.com/t/i/s/nsujj/" method="post" id="subForm" class="newsletter-form">
+            <fieldset>
+                <input id="fieldEmail" name="cm-nsujj-nsujj" type="email" required placeholder="Your email address" class="wide" />
+                <button type="submit" class="button -inverse">Subscribe</button>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<div id="footer" class="page-footer">
+    <div class="page-footer__top">
+        <div class="wrapper">
+            <div class="grid">
+                <div class="grid__item u-1/4@sm">
+                    <a href="/" class="page-footer__logo">
+                        <img src="/assets/images/php-uk.svg" alt="PHP UK">
+                    </a>
+                </div>
+                <div class="grid__item u-3/4@sm">
+                    <p class="footnote">&copy; Vitis Events Ltd. Registered company 09693545</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="page-footer__bottom">
+        <div class="wrapper">
+            <div class="grid">
+                <div class="grid__item u-3/4@md">
+                    <h6>About</h6>
+                    <ul class="footer-menu">
+                        {% assign pages_list = site.pages %}
+                        {% assign group = 'navigation' %}
+                        {% include pages_list %}
+                    </ul>
+                    <h6>Support and contact</h6>
+                    <ul class="footer-menu">
+                        <li><a href="mailto:contact@phpconference.co.uk" target="_blank">Email us</a></li>
+                        <li><a href="https://twitter.com/PHPUKConference" target="_blank">Tweet us</a></li>
+                        <li><a href="https://github.com/phplondon/phpukconference/issues" target="_blank">Report website issues</a></li>
+                        <li><a href="/sponsors" target="_blank">Become a sponsor</a></li>
+                    </ul>
+                    <h6>Stay informed</h6>
+                    <ul class="footer-menu">
+                        <li><a href="https://twitter.com/PHPUKConference" target="_blank">Twitter</a></li>
+                        <li><a href="https://www.facebook.com/ukconference" target="_blank">Facebook</a></li>
+                        <li><a href="https://www.youtube.com/phpukconference" target="_blank">YouTube</a></li>
+                        <li><a href="/newsletter">Newsletter</a></li>
+                    </ul>
+                </div>
+                <div class="grid__item u-1/4@md border-left">
+                    <h6>Code of Conduct</h6>
+                    <p>We operate a <a href="/conduct">code of conduct</a> to ensure all attendees are able to enjoy the conference.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

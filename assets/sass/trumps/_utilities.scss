@@ -1,0 +1,64 @@
+/*------------------------------------*\
+    #UTILITIES
+\*------------------------------------*/
+
+.cf{
+    @include clearfix;
+}
+
+.vertical-center{
+    @include vertical-align-center;
+}
+
+.text-close{
+    line-height:1;
+}
+
+.video-container{
+    position:relative;
+    @include aspect-ratio(16,9);
+    padding-top:9px;
+    height:0;
+    overflow:hidden;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+
+.clickable{
+    cursor:pointer;
+
+    .not-clickable{
+        cursor:auto;
+    }
+}
+
+.is-hidden    { display:    none     !important; }
+.is-absolute  { position:   absolute !important; }
+.is-invisible { visibility: none     !important; }
+
+.block        { display: block        !important; }
+.inline       { display: inline       !important; }
+.inline-block { display: inline-block !important; }
+
+.left  { float: left  !important; }
+.right { float: right !important; }
+
+.text-left     { text-align: left   !important; }
+.text-center   { text-align: center !important; }
+.text-right    { text-align: right  !important; }
+.text-justify  { text-align: justify  !important; }
+
+.text-uppercase  { text-transform: uppercase !important; }
+
+.mt0 { margin-top:    0   !important; }
+.mt1 { margin-top:    1em !important; }
+.mb0 { margin-bottom: 0   !important; }
+.mb1 { margin-bottom: 1em !important; }

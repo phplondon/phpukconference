@@ -1,0 +1,51 @@
+$callout-padding : ($base-spacing-unit*2);
+
+.callout{
+	position:relative;
+	padding:$callout-padding;
+	background:$color-brand-secondary;
+
+	h1,h2,h3,h4,h5,h6{
+		margin:0 0 ($base-spacing-unit*0.6) 0;
+		color:$color-white;
+		line-height:0.8em;
+	}
+
+	h4{
+		font-size:2.4rem;
+		@include font-weight(medium);
+	}
+
+	p{
+		margin:0;
+		color:$color-white;
+		line-height:1em;
+		opacity:0.8;
+	}
+
+	&.-blue{
+		background:$color-brand-primary;
+	}
+
+	&.-green{
+		background:$color-green;
+	}
+
+	@include respond(mobile-only){
+		padding-bottom:$callout-padding+($base-font-size*5);
+
+		.button{
+			position:absolute;
+			bottom:$callout-padding;
+			float:none !important;
+		}
+
+		h1,h2,h3,h4,h5,h6{
+			line-height:1.1em;
+		}
+
+		p{
+			line-height:1.3em;
+		}
+	}
+}

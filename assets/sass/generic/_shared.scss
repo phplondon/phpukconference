@@ -1,0 +1,75 @@
+$font-size-p: ($base-font-size * 1.1);
+
+
+h1, h2, h3, h4, h5, h6,
+ul, ol, dl,
+blockquote, p, address,
+hr,
+table,
+fieldset, figure,
+pre{
+	margin-bottom:$base-line-height;
+}
+
+ul, ol,
+dd{
+	margin-left:$base-spacing-unit;
+
+	li{
+		font-size:$font-size-p;
+	}
+}
+
+p{
+	margin-bottom:($base-spacing-unit*0.6);
+	font-family:$font-primary;
+	font-size:$font-size-p;
+	line-height:1.5em;
+}
+
+p + ul,
+p + ol{
+	margin-left:($base-spacing-unit*2);
+}
+
+h3 + p,
+h3 + p + p{
+	margin-left:26px;
+}
+
+.pull-right{
+	float:right;
+}
+
+.constrain{
+	@include respond(large) {
+		max-width:50%;
+	}
+}
+
+.link{
+	color:$color-brand-tertiary;
+
+	&:before{
+		padding-right:4px;
+		content:"\025B8";
+	}
+}
+
+.hidden{
+	display:none;
+}
+
+.pad-right{
+	@include respond(large){
+		padding-right:10%;
+	}
+}
+
+.img-left{
+	margin-right:$base-spacing-unit*0.6;
+}
+
+.text-center{
+	text-align:center;
+}

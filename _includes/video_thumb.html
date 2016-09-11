@@ -1,0 +1,9 @@
+<a href="{{ video.url }}" class="video__thumb">
+    <img src="http://img.youtube.com/vi/{{ video.video-id }}/maxresdefault.jpg" alt="{{ video.title }}">
+    <div class="video__controls">
+        <i class="icon">
+            {% include {{ icon.class | prepend: 'icons/play-button' | append: '.svg' }} %}
+        </i>
+        <span class="length">{{ video.length }}</span>
+    </div>
+</a>

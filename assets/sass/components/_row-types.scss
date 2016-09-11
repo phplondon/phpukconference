@@ -1,0 +1,44 @@
+//Row basics
+.row{
+	&.-collapse{
+		padding:0;
+	}
+
+	&.-medium{
+		background:$color-grey-light;
+	}
+}
+
+//Newsletter
+.newsletter{
+	
+	h4{
+		font-size:2rem;
+		line-height:1.2em;
+		margin:0 0 0.6em 0 !important;
+	}
+
+	form{
+		padding-top:2rem;
+
+		.button{
+			width:100%;
+
+			@include respond(medium){
+				width:auto;
+			}
+		}
+	}
+}
+
+//Sponsors
+.sponsor-bar{
+	border-top:1px solid $color-grey;
+}
+
+.sponsor-logos{
+	
+	li{
+		display:inline-block;
+	}
+}
