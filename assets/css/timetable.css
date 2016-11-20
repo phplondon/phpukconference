@@ -1,0 +1,508 @@
+/* Timetable */
+.tiva-timetable {
+	font-family: 'Lato',sans-serif;
+	font-size: 16px;
+    color: #535353;
+    line-height: 24px;
+	-webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+	margin: 20px 0;
+	width: 100%;
+    float: left;
+}
+
+/* Loading */
+.tiva-timetable .loading {
+	text-align: center;
+	padding: 100px 0;
+}
+
+/* Time Navigation */
+.time-navigation {
+	text-align: center;
+	font-size: 18px;
+    text-transform: uppercase;
+	margin-bottom: 30px;
+}
+.time-navigation .navi-time {
+	width: 200px;
+	display: inline-block;
+}
+.time-navigation .navi-icon {
+	font-family: 'Zapf Dingbats';
+	font-size: 18px;
+	cursor: pointer;
+	margin-right: 4px;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none; 
+	-ms-user-select: none;
+}
+
+/* Timetable Week */
+.tiva-timetable .timetable-week {
+	width: 100%;
+	float: left;
+}
+.tiva-timetable .timetable-week .timetable-axis {
+	width: 60px;
+	float: left;
+	padding-top: 36px;
+}
+.tiva-timetable .timetable-week.show-time .timetable-axis {
+	padding-top: 60px; /* Show time on header */
+}
+.tiva-timetable .timetable-week .timetable-axis .axis-item {
+	height: 101px;
+	font-size: 15px;
+	line-height: 15px;
+}
+.tiva-timetable .timetable-week .timetable-columns {
+	margin-left: 60px;
+}
+.tiva-timetable .timetable-week .timetable-columns .timetable-column {
+	float: left;
+/*	width: 14.2857%;*/
+	width: 33.3333%;
+	position: relative;
+}
+.tiva-timetable .timetable-week .timetable-column .timetable-column-header {
+	height: 26px;
+	padding: 10px 0;
+	background-color: #cf3d72;
+	color: #fff;
+	font-weight: 400;
+	text-align: center;
+	border-right: 1px solid #d1d1d1;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.tiva-timetable .timetable-week.show-time .timetable-column .timetable-column-header {
+	height: 50px; /* Show time on header */
+}
+.tiva-timetable .timetable-week .timetable-column .timetable-column-header span {
+	font-size: 14px;	
+}
+.tiva-timetable .timetable-week .timetable-column .timetable-column-header.last-column {
+	border-right: none;
+}
+.tiva-timetable .timetable-week .timetable-column .timetable-column-content {
+	position: absolute;
+    top: 46px;
+    width: 100%;
+}
+.tiva-timetable .timetable-week.show-time .timetable-column .timetable-column-content {
+	top: 70px; /* Show time on header */
+}
+.tiva-timetable .timetable-week .timetable-column .timetable-column-content .timetable-title {
+	color: #fff;
+	display: block;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	height: 100px;
+	text-decoration: none;
+	text-align: center;
+	outline: none;
+	padding: 0;
+	-webkit-box-shadow: 0 0 22px 0 rgba(0,0,0,0.1);
+    box-shadow: 0 0 22px 0 rgba(0,0,0,0.1);
+}
+.tiva-timetable .timetable-week .timetable-column .timetable-column-content .timetable-title:hover {
+	opacity: 0.8;	
+}
+.tiva-timetable .timetable-week .timetable-column .timetable-column-content .timetable-title-wrap {
+	text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    width: 100%;
+    max-width: 90%;
+	overflow: hidden;
+}
+.tiva-timetable .timetable-week .timetable-column .timetable-column-content .timetable-name {
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: bold;
+	white-space: nowrap;
+}
+.tiva-timetable .timetable-week .timetable-column .timetable-column-content .timetable-time {
+	font-size: 13px;
+	line-height: 13px;
+	white-space: nowrap;
+	margin-bottom: 1px;
+}
+.tiva-timetable .timetable-week .timetable-column .timetable-column-grid  .grid-item {
+	border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+	height: 100px;
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	box-sizing: content-box;
+}
+.tiva-timetable .timetable-week .timetable-column .timetable-column-grid  .grid-item.first-column {
+	border-left: 1px solid #e8e8e8;	
+}
+
+/* Timetable List */
+.tiva-timetable .timetable-list {
+	width: 100%;
+	float: left;
+}
+.tiva-timetable .timetable-list .timetable-header {
+	height: 34px;
+	line-height: 32px;
+	background-color: #cf3d72;
+	font-weight: 400;
+	color: #fff;
+	text-align: left;
+	padding: 0 15px;
+}
+.tiva-timetable .timetable-list .timetable-header span {
+	float: right;
+	font-size: 15px;
+}
+.tiva-timetable .timetable-list .timetable-day:last-child {
+	border-bottom: 1px solid #d1d1d1;
+}
+.tiva-timetable .timetable-list .timetable-content {
+	padding: 15px;
+	border-left: 1px solid #d1d1d1;
+    border-right: 1px solid #d1d1d1;
+}
+.tiva-timetable .timetable-list .timetable-item {
+	text-align: left;
+	margin-bottom: 8px;
+	position: relative;
+	padding-left: 15px;
+}
+.tiva-timetable .timetable-list .timetable-item .timetable-color {
+	position: absolute;
+    top: 9px;
+    left: 0;
+	width: 7px;
+    height: 7px;
+    border-radius: 15px;
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+	-webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.tiva-timetable .timetable-list .timetable-item .timetable-title {
+	font-size: 15px;
+	line-height: 20px;
+	text-decoration: none;
+	outline: none;
+}
+.tiva-timetable .timetable-list .timetable-item .timetable-time {
+	font-weight: bold;
+	margin-right: 10px;
+	color: #535353;
+}
+.tiva-timetable .timetable-list .timetable-item .timetable-name {
+	color: #535353;	
+}
+
+
+/* Timetable Month */
+.tiva-timetable table.timetable-month {
+	width: 100%;
+    box-sizing: border-box;
+    border-collapse: collapse;
+    border-spacing: 0;
+	color: #fff;
+	table-layout: fixed;
+}
+.tiva-timetable table.timetable-month, 
+.tiva-timetable table.timetable-month th, 
+.tiva-timetable table.timetable-month td {
+	border: 1px solid #d1d1d1;
+}
+.tiva-timetable table.timetable-month th.timetable-header {
+	height: 26px;
+	padding: 10px 0;
+	background-color: #cf3d72;
+	font-weight: 400;
+	text-align: center;
+}
+
+.tiva-timetable table.timetable-month td.calendar-day {
+	color: #ababab;
+    font-size: 14px;
+	text-align: right;
+	vertical-align: top;
+	padding: 5px 10px;
+	height: 60px;
+	line-height: 20px;
+}
+.tiva-timetable table.timetable-month td.calendar-day.today {
+	padding: 5px 6px 5px 10px;
+}
+.tiva-timetable .timetable-month .calendar-daycounter {
+	margin-bottom: 10px;	
+}
+.tiva-timetable .timetable-month .today .calendar-daycounter {
+	background: #cf3d72;
+	padding: 0 5px;
+	color: #fff;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+	display: inline-block;
+}
+.tiva-timetable .timetable-month .timetable-item {
+	text-align: left;
+	margin-bottom: 5px;
+	position: relative;
+	padding-left: 13px;
+}
+.tiva-timetable .timetable-month .timetable-item .timetable-color {
+	position: absolute;
+    top: 7px;
+    left: 0;
+	width: 7px;
+    height: 7px;
+    border-radius: 15px;
+	-moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+	-webkit-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.tiva-timetable .timetable-month .timetable-item .timetable-color.color-talk,
+.tiva-timetable .timetable-week .timetable-column .timetable-title.color-talk,
+.tiva-timetable .timetable-list .timetable-item .timetable-color.color-talk,
+.timetable-popup .popup-header.color-talk  {
+	background: #567BD2;	
+}
+.tiva-timetable .timetable-month .timetable-item .timetable-color.color-keynote ,
+.tiva-timetable .timetable-week .timetable-column .timetable-title.color-keynote,
+.tiva-timetable .timetable-list .timetable-item .timetable-color.color-keynote,
+.timetable-popup .popup-header.color-keynote {
+	background: #13baff;	
+}
+.tiva-timetable .timetable-month .timetable-item .timetable-color.color-break,
+.tiva-timetable .timetable-week .timetable-column .timetable-title.color-break,
+.tiva-timetable .timetable-list .timetable-item .timetable-color.color-break3,
+.timetable-popup .popup-header.color-break {
+	background: #669933;	
+}
+.tiva-timetable .timetable-month .timetable-item .timetable-color.color-lunch,
+.tiva-timetable .timetable-week .timetable-column .timetable-title.color-lunch,
+.tiva-timetable .timetable-list .timetable-item .timetable-color.color-lunch,
+.timetable-popup .popup-header.color-lunch {
+	background: #ff8a23;	
+}
+.tiva-timetable .timetable-month .timetable-item .timetable-title {
+	font-size: 13px;
+	line-height: 20px;
+	text-decoration: none;
+	outline: none;
+	display: block;
+}
+.tiva-timetable .timetable-month .timetable-item .timetable-time {
+	font-weight: bold;
+	margin-right: 5px;
+	color: #535353;
+}
+.tiva-timetable .timetable-month .timetable-item .timetable-name {
+	color: #535353;	
+}
+
+/* Popup */
+.mfp-bg.my-mfp-zoom-in {
+	background: rgba(66,65,65,0.73);
+}
+.timetable-popup .mfp-close {
+	top: 8px;
+}
+.timetable-popup {
+	position: relative;
+	background: #fff;
+	width: auto;
+	max-width: 500px;
+	margin: 20px auto;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+	box-shadow: 0 0 22px 0 rgba(0,0,0,0.2);
+	-webkit-box-shadow: 0 0 22px 0 rgba(0,0,0,0.2);
+	font-family: 'Lato',sans-serif;
+}
+.timetable-popup .popup-header {
+	padding: 20px;
+	text-align: center;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 400;
+	border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.timetable-popup .popup-body {
+	padding: 30px;
+	color: #535353;
+	text-align: center;
+}
+.timetable-popup .popup-body .timetable-image {
+	float:left;
+	max-width:40%;
+	margin:0 15px 15px 0;
+}
+.timetable-popup .popup-body .timetable-desc {
+	text-align: justify;
+	font-size: 14px;
+}
+.timetable-popup .popup-body h4 {
+	margin-top:0;
+	text-align:left;
+}
+.timetable-popup .popup-body .timetable-time {
+	margin-bottom: 15px;
+	font-size: 16px;
+	color: #f15e6e;
+	text-align:left;
+}
+
+/* Animation Popup */
+.my-mfp-zoom-in .zoom-anim-dialog {
+	opacity: 0;
+	-webkit-transition: all 0.2s ease-in-out; 
+	-moz-transition: all 0.2s ease-in-out; 
+	-o-transition: all 0.2s ease-in-out; 
+	transition: all 0.2s ease-in-out; 
+	-webkit-transform: scale(0.8); 
+	-moz-transform: scale(0.8); 
+	-ms-transform: scale(0.8); 
+	-o-transform: scale(0.8); 
+	transform: scale(0.8); 
+}
+.my-mfp-zoom-in.mfp-ready .zoom-anim-dialog {
+	opacity: 1;
+	-webkit-transform: scale(1); 
+	-moz-transform: scale(1); 
+	-ms-transform: scale(1); 
+	-o-transform: scale(1); 
+	transform: scale(1); 
+}
+.my-mfp-zoom-in.mfp-removing .zoom-anim-dialog {
+	-webkit-transform: scale(0.8); 
+	-moz-transform: scale(0.8); 
+	-ms-transform: scale(0.8); 
+	-o-transform: scale(0.8); 
+	transform: scale(0.8); 
+	opacity: 0;
+}
+.my-mfp-zoom-in.mfp-bg {
+	opacity: 0;
+	-webkit-transition: opacity 0.3s ease-out; 
+	-moz-transition: opacity 0.3s ease-out; 
+	-o-transition: opacity 0.3s ease-out; 
+	transition: opacity 0.3s ease-out;
+}
+.my-mfp-zoom-in.mfp-ready.mfp-bg {
+	opacity: 0.5;
+}
+.my-mfp-zoom-in.mfp-removing.mfp-bg {
+	opacity: 0;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+	/* Timetable Month */
+	.tiva-timetable table.timetable-month .timetable-item .timetable-name {
+		display: none;	
+	}
+	
+	/* Timetable Week */
+	.tiva-timetable .timetable-week .timetable-column .timetable-column-header span {
+		display: none;	
+	}
+	.tiva-timetable .timetable-week .timetable-axis {
+		width: 50px;
+	}
+	.tiva-timetable .timetable-week .timetable-columns {
+		margin-left: 50px;	
+	}
+	.tiva-timetable .timetable-week.show-time .timetable-axis {
+		padding-top: 36px; /* Show time on header */
+	}
+	.tiva-timetable .timetable-week.show-time .timetable-column .timetable-column-header {
+		height: 26px; /* Show time on header */
+	}
+	.tiva-timetable .timetable-week.show-time .timetable-column .timetable-column-content {
+		top: 46px; /* Show time on header */
+	}
+	.tiva-timetable .timetable-week .timetable-column .timetable-column-content .timetable-title-wrap {
+		max-width: 80%;	
+	}
+	.tiva-timetable .timetable-week .timetable-column .timetable-column-content .timetable-name {
+		font-size: 13px;
+	}
+	.tiva-timetable .timetable-week .timetable-column .timetable-column-content .timetable-time {
+		font-size: 12px;
+	}
+}
+@media (max-width: 420px) {
+	.time-navigation {
+		margin-bottom: 15px;	
+	}
+	
+	/* Timetable Month */
+	.tiva-timetable table.timetable-month th.timetable-header {
+		font-size: 14px;	
+	}
+	.tiva-timetable table.timetable-month td.calendar-day,
+	.tiva-timetable table.timetable-month td.calendar-day.today {
+		padding: 1px 5px 0 3px;	
+	}
+	.tiva-timetable .timetable-month .calendar-daycounter {
+		font-size: 12px;	
+	}
+	.tiva-timetable table.timetable-month .timetable-item {
+		padding-left: 7px;	
+	}
+	.tiva-timetable .timetable-month .timetable-item .timetable-color {
+		top: 9px;
+		left: 0;
+		width: 5px;
+		height: 5px;
+	}
+	.tiva-timetable table.timetable-month .timetable-item .timetable-time {
+		font-size: 9px;
+	}
+	.tiva-timetable .timetable-week .timetable-axis .axis-item {
+		font-size: 12px;	
+	}
+	
+	/* Timetable Week */
+	.tiva-timetable .timetable-week .timetable-column .timetable-column-header {
+		font-size: 12px;	
+	}
+	.tiva-timetable .timetable-week .timetable-axis,
+	.tiva-timetable .timetable-week.show-time .timetable-axis {
+		padding-top: 37px; /* Show time on header */
+	}
+	.tiva-timetable .timetable-week .timetable-column .timetable-column-content .timetable-title-wrap {
+		max-width: 70%;	
+	}
+	.tiva-timetable .timetable-week .timetable-column .timetable-column-content .timetable-name {
+		font-size: 11px;
+	}
+	.tiva-timetable .timetable-week .timetable-column .timetable-column-content .timetable-time {
+		font-size: 10px;
+	}
+}
+
+.timetable-title.color-break,
+.timetable-title.color-special,
+.timetable-title.color-keynote{
+	width:300% !important;
+	z-index:1;
+}

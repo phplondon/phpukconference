@@ -1,0 +1,121 @@
+{
+    "items": [
+		{
+			"name": "Roger Hodgson",
+			"image": "roger_hodgson.jpg",
+			"day": "Main Track",
+			"start_time": "09:30",
+			"end_time": "11:00",
+			"color": "4",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros. Ut pharetra ornare lorem, sit amet bibendum quam imperdiet ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros. Ut pharetra ornare lorem, sit amet bibendum quam imperdiet ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros."
+		},
+		{
+			"name": "Musiq SoulChild - Grown & Sexy 16",
+			"image": "musiq_soulchild.jpg",
+			"day": "sunday",
+			"start_time": "15:00",
+			"end_time": "17:30",
+			"color": "1",
+			"description": "Grown & Sexy 16<br>Musiq SoulChild and Avant<br><br>Tickets:<br>$55.00 - Row 1-5<br>$45.00 - Row 6-13<br>$35.00 - Row 14-20<br>$20.00 - Row 21-25"
+		},
+		{
+			"name": "Festival of Praise Tour",
+			"image": "festival_of_praise_tour.jpg",
+			"day": "Sidetrack 1",
+			"start_time": "13:30",
+			"end_time": "16:00",
+			"color": "2",
+			"description": "HEZEKIAH WALKER , ISRAEL HOUGHTON, REGINA BELLE, FRED HAMMOND, CASEY J, KAREN - CLARKE - SHEARD, COMEDIAN EARTHQUAKE<br><br>Tickets:<br>$52.50 Row 1-5<br>$47.50 Row 6-13<br>$37.50 Row 14-20<br>$27.50 Row 21-25"
+		},
+		{
+			"name": "Roger Hodgson",
+			"image": "roger_hodgson.jpg",
+			"day": "Sidetrack 2",
+			"start_time": "15:00",
+			"end_time": "18:00",
+			"color": "4",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros. Ut pharetra ornare lorem, sit amet bibendum quam imperdiet ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros. Ut pharetra ornare lorem, sit amet bibendum quam imperdiet ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros."
+		},
+		{
+			"name": "Lucha Libre",
+			"image": "lucha_libre.jpg",
+			"day": "tuesday",
+			"start_time": "15:00",
+			"end_time": "18:00",
+			"color": "3",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros. Ut pharetra ornare lorem, sit amet bibendum quam imperdiet ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros. Ut pharetra ornare lorem, sit amet bibendum quam imperdiet ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros."
+		},
+		{
+			"name": "Musiq SoulChild - Grown & Sexy 16",
+			"image": "musiq_soulchild.jpg",
+			"day": "tuesday",
+			"start_time": "10:00",
+			"end_time": "11:30",
+			"color": "1",
+			"description": "Grown & Sexy 16<br>Musiq SoulChild and Avant<br><br>Tickets:<br>$55.00 - Row 1-5<br>$45.00 - Row 6-13<br>$35.00 - Row 14-20<br>$20.00 - Row 21-25"
+		},
+		{
+			"name": "Roger Hodgson",
+			"image": "roger_hodgson.jpg",
+			"day": "wednesday",
+			"start_time": "11:00",
+			"end_time": "12:00",
+			"color": "3",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros. Ut pharetra ornare lorem, sit amet bibendum quam imperdiet ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros. Ut pharetra ornare lorem, sit amet bibendum quam imperdiet ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros."
+		},
+		{
+			"name": "Musiq SoulChild - Grown & Sexy 16",
+			"image": "musiq_soulchild.jpg",
+			"day": "wednesday",
+			"start_time": "13:00",
+			"end_time": "15:30",
+			"color": "1",
+			"description": "Grown & Sexy 16<br>Musiq SoulChild and Avant<br><br>Tickets:<br>$55.00 - Row 1-5<br>$45.00 - Row 6-13<br>$35.00 - Row 14-20<br>$20.00 - Row 21-25"
+		},
+		{
+			"name": "Lucha Libre",
+			"image": "lucha_libre.jpg",
+			"day": "thursday",
+			"start_time": "12:00",
+			"end_time": "14:00",
+			"color": "2",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros. Ut pharetra ornare lorem, sit amet bibendum quam imperdiet ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros. Ut pharetra ornare lorem, sit amet bibendum quam imperdiet ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros."
+		},
+		{
+			"name": "Festival of Praise Tour",
+			"image": "festival_of_praise_tour.jpg",
+			"day": "thursday",
+			"start_time": "16:00",
+			"end_time": "19:00",
+			"color": "3",
+			"description": "HEZEKIAH WALKER , ISRAEL HOUGHTON, REGINA BELLE, FRED HAMMOND, CASEY J, KAREN - CLARKE - SHEARD, COMEDIAN EARTHQUAKE<br><br>Tickets:<br>$52.50 Row 1-5<br>$47.50 Row 6-13<br>$37.50 Row 14-20<br>$27.50 Row 21-25"
+		},
+		{
+			"name": "Roger Hodgson",
+			"image": "roger_hodgson.jpg",
+			"day": "friday",
+			"start_time": "10:20",
+			"end_time": "11:30",
+			"color": "2",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros. Ut pharetra ornare lorem, sit amet bibendum quam imperdiet ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros. Ut pharetra ornare lorem, sit amet bibendum quam imperdiet ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros."
+		},
+		{
+			"name": "Roger Hodgson",
+			"image": "roger_hodgson.jpg",
+			"day": "friday",
+			"start_time": "15:00",
+			"end_time": "17:30",
+			"color": "4",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros. Ut pharetra ornare lorem, sit amet bibendum quam imperdiet ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros. Ut pharetra ornare lorem, sit amet bibendum quam imperdiet ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros."
+		},
+		{
+			"name": "Lucha Libre",
+			"image": "lucha_libre.jpg",
+			"day": "saturday",
+			"start_time": "12:00",
+			"end_time": "16:00",
+			"color": "3",
+			"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros. Ut pharetra ornare lorem, sit amet bibendum quam imperdiet ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros. Ut pharetra ornare lorem, sit amet bibendum quam imperdiet ut. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam non ornare eros."
+		}
+	]
+}
