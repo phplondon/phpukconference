@@ -1,21 +1,24 @@
-- name: Lorna Mitchell
-  slug: lornamitchell
-
-- name: Kayla Daniels
-  slug: kayladaniels
-
-- name: Hamish Friedlander
-  slug: hamishfriedlander
-
-- name: Jakub Zalas
-  slug: jakubzalas
-
-- name: Adam Harvey
-  slug: adamharvey
-  twitter: LGnome
-  company: New Relic
+- name: Johanna Cherry
+  slug: johannacherry
+  twitter: johannacherry
+  github: johannac
+  company: Vitis Events
+  type: organiser
   bio: |
-      Adam is a PHP Agenteer (it's totally a word) at New Relic who spends most of his time swearing at C compilers and the PHP API, usually not in that order. In between said bouts of invective, Adam works on various open source projects, including PHP, and continues in his ongoing quest to find the best beer in the world. (Well, OK, it’s Westvleteren 12, but it’s a good excuse to drink more beer.)
+      Johanna Cherry has spent the last 13 years developing systems and applications with PHP, Go, Cassandra, and lots of other cool web technologies. Over the years she has previously held roles at Songkick as Platform Architect, Data Team Lead at Hailo, Development Manager for the affiliate network Webgains and Technical Team Lead for the PHP consultancy Ibuildings. She earned a Bachelor of Science in Technology Management from Herzing University in Madison Wisconsin.
+
+      Jo manages speakers, socials, the venue, marketing, and delegate services for the conference.
+
+- name: Sam Bell
+  slug: sambell
+  twitter: _samdb
+  github: samdb
+  company: Vitis Events
+  type: organiser
+  bio: |
+      Sam Bell is co-founder of charting app ChartBlocks, an online chart building tool. He is also managing director of web agency Copia Digital where he and his team build websites and web applications for hedge funds and asset managers, helping them report on fund performance to their investors.
+
+      Sam manages registration, sponsors, exhibits, and volunteers for the conference.
 
 - name: Bastian Hofmann
   slug: bastianhofmann
