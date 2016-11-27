@@ -282,7 +282,13 @@
 .timetable-popup .popup-header.color-talk  {
 	background: #567BD2;	
 }
-.tiva-timetable .timetable-month .timetable-item .timetable-color.color-keynote ,
+.tiva-timetable .timetable-month .timetable-item .timetable-color.color-special,
+.tiva-timetable .timetable-week .timetable-column .timetable-title.color-special,
+.tiva-timetable .timetable-list .timetable-item .timetable-color.color-special,
+.timetable-popup .popup-header.color-keynote {
+	background: #aeadc5;	
+}
+.tiva-timetable .timetable-month .timetable-item .timetable-color.color-keynote,
 .tiva-timetable .timetable-week .timetable-column .timetable-title.color-keynote,
 .tiva-timetable .timetable-list .timetable-item .timetable-color.color-keynote,
 .timetable-popup .popup-header.color-keynote {
@@ -352,8 +358,8 @@
 }
 .timetable-popup .popup-body .timetable-image {
 	float:left;
-	max-width:40%;
-	margin:0 15px 15px 0;
+	max-width:25%;
+	margin:0 15px 5px 0;
 }
 .timetable-popup .popup-body .timetable-desc {
 	text-align: justify;

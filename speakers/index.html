@@ -7,13 +7,13 @@ weight: 2
 ---
 <div class="page-title speakers">
     <div class="wrapper">
-        <h1>Call for Papers</h1>
-        <h2>Submit your talk and speak at PHP UK 2017</h2>
+        <h1>Speaker</h1>
+        <h2>Read about our conference speakers</h2>
     </div>
 </div>
 <div class="row">
   <div class="wrapper">
-    <h3>About the Call for Papers</h3>
+<!--     <h3>About the Call for Papers</h3>
     <h2>Closes October 17<sup>th</sup> 2016 6pm GMT</h2>
     
     <p>The main attraction of any conference is the talks that are given and we aim to attract the best PHP speakers from around the world. We solicit talks through a call for papers so you, the community, can tell us what kinds of things everyone should be hearing about.</p>
@@ -36,22 +36,19 @@ weight: 2
     <h5>How to Submit</h5>
     <p>Interested in giving a talk? Please complete the submission information laid out in a handy form for you. We'll need to know some bits and bobs about yourself and we'll need a title and abstract (up to 200 words) of the talk you'd like to give. We're also interested to know why you think we should choose your talk. You can submit as many talk proposals as you like!</p>
     <p>PHP UK Conference has a <a href="/conduct">Code of Conduct</a> to ensure that all attendees are able to enjoy the conference. All attendees, talks, content and slides are required to participate.</p>
-    <h2><a class="button" href="https://goo.gl/forms/TN8caOwblcRBe7R53" target="_blank">Submit a Paper</a></h2>
+    <h2><a class="button" href="https://goo.gl/forms/TN8caOwblcRBe7R53" target="_blank">Submit a Paper</a></h2> -->
 
-    <!-- <ul class="speakers">
-      {% for speaker in page.speakers %}
+    <ul class="speakers">
+      {% for speaker in site.data.speakers %}
       <li id="{{speaker.slug}}" class="speaker">
-          <div class="speaker-meta">
-            <h3 class="speaker-name">{{speaker.name}}</h3>
-            <span class="speaker-company">{{speaker.company}}</span>
-            <a class="speaker-handle" href="https://twitter.com/{{speaker.handle}}">@{{speaker.handle}}</a>
-          </div>
           <img class="speaker-photo" src="/assets/images/speakers/{{speaker.slug}}.jpg">
+          <h4 class="speaker-name">{{speaker.name}}</h4> <h6 class="speaker-company">{{speaker.company}}</h6>
+          <a class="speaker-handle" href="https://twitter.com/{{speaker.handle}}">@{{speaker.twitter}}</a>
           <div class="speaker-bio">
             {{speaker.bio}}
           </div>
       </li>
       {% endfor %}
-    </ul> -->
+    </ul>
   </div>
 </div>

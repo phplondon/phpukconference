@@ -395,11 +395,7 @@ jQuery(document).ready(function(){
 		var timetable_contain = jQuery(this);
 		
 		if (source == 'json') { // Get timetables from json file
-			if (mode == 'day') {
-				var timetable_json = 'timetable/timetables_day.json';
-			} else {
-				var timetable_json = 'timetable/timetables_date.json';
-			}
+			var timetable_json = '/json/timetables_' + jQuery(this).attr('data-day') + '.json';
 			
 			jQuery.getJSON(timetable_json, function(data) {
 				// Init timetables variable
