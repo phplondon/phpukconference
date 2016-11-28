@@ -285,7 +285,7 @@
 .tiva-timetable .timetable-month .timetable-item .timetable-color.color-special,
 .tiva-timetable .timetable-week .timetable-column .timetable-title.color-special,
 .tiva-timetable .timetable-list .timetable-item .timetable-color.color-special,
-.timetable-popup .popup-header.color-keynote {
+.timetable-popup .popup-header.color-special {
 	background: #aeadc5;	
 }
 .tiva-timetable .timetable-month .timetable-item .timetable-color.color-keynote,
@@ -361,6 +361,10 @@
 	max-width:25%;
 	margin:0 15px 5px 0;
 }
+.timetable-popup .popup-body .timetable-image.break,
+.timetable-popup .popup-body .timetable-image.special{
+	display:none;
+}
 .timetable-popup .popup-body .timetable-desc {
 	text-align: justify;
 	font-size: 14px;
@@ -374,6 +378,11 @@
 	font-size: 16px;
 	color: #f15e6e;
 	text-align:left;
+}
+
+.timetable-popup .color-special .track-name,
+.timetable-popup .color-break .track-name{
+	display:none;
 }
 
 /* Animation Popup */

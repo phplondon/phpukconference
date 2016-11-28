@@ -313,7 +313,7 @@ function timetableWeek(el, tiva_timetables, firstDayWeek) {
 							if (timetables[t].start_time && timetables[t].end_time) {
 								// Image
 								if (timetables[t].image) {
-									var timetable_image = '<div class="timetable-image"><img src="/assets/images/speakers/' + timetables[t].image + '" alt="' + timetables[t].speaker + '" /></div>';
+									var timetable_image = '<div class="timetable-image ' + timetables[t].type + '"><img src="/assets/images/speakers/' + timetables[t].image + '" alt="' + timetables[t].speaker + '" /></div>';
 								} else {
 									var timetable_image = '';
 								}
@@ -341,8 +341,8 @@ function timetableWeek(el, tiva_timetables, firstDayWeek) {
 															+ '</div>'
 														+ '</a>'
 														+ '<div id="' + el.attr('id') + '-popup-' + timetables[t].id + '" class="timetable-popup zoom-anim-dialog mfp-hide">'
-															+ '<div class="popup-header color-' + timetables[t].type + '">'
-																+ wordDay[m] + ' - ' + timetables[t].start_time
+															+ '<div class="popup-header color-' + timetables[t].type + '"><span class="track-name">'
+																+ wordDay[m] + ' - </span>' + timetables[t].start_time
 															+ '</div>'
 															+ '<div class="popup-body">'
 																+ timetable_image
