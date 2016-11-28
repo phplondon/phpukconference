@@ -7,22 +7,24 @@ weight: 2
 ---
 <div class="page-title speakers">
     <div class="wrapper">
-        <h1>Speaker</h1>
+        <h1>Speakers</h1>
         <h2>Read about our conference speakers</h2>
     </div>
 </div>
 <div class="row">
   <div class="wrapper">    
     <ul class="speakers">
-      {% for speaker in site.data.speakers | where speaker.type != "organiser" %}
+      {% for speaker in site.data.speakers %}
+      {% if speaker.type != "organiser" %}      
       <li id="{{speaker.slug}}" class="speaker">
           <img class="speaker-photo" src="/assets/images/speakers/{{speaker.slug}}.jpg">
           <h4 class="speaker-name">{{speaker.name}}</h4> <h6 class="speaker-company">{{speaker.company}}</h6>
-          <a class="speaker-handle" href="https://twitter.com/{{speaker.handle}}">@{{speaker.twitter}}</a>
+          <a class="speaker-handle" href="https://twitter.com/{{speaker.twitter}}">@{{speaker.twitter}}</a>
           <div class="speaker-bio">
             {{speaker.bio}}
           </div>
       </li>
+      {% endif %}
       {% endfor %}
     </ul>
   </div>
