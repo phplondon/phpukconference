@@ -6,7 +6,7 @@
               "speaker": "{{ speaker.name }}",
               "image": "{{ talk.speaker }}.jpg",
               "talk": "{{ talk.name }}",
-              "date": "{% if talk.track == "main" %}27{% elsif talk.track == "side1" %}28{% else %}29{% endif %}",
+              "date": "{% if talk.track == "main" %}16{% elsif talk.track == "side1" %}17{% else %}18{% endif %}",
               "month": "11",
               "year": "2016",
               "start_time": "{{ talk.starttime }}",
