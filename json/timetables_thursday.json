@@ -2,7 +2,7 @@
 ---
 {
     "items": [
-            {% for talk in site.data.talks %}{% if talk.day == 'thursday' %}{% assign speaker = site.data.speakers | where:"slug", talk.speaker  | first %}{
+            {% for talk in site.data.2017.talks %}{% if talk.day == 'thursday' %}{% assign speaker = site.data.2017.speakers | where:"slug", talk.speaker  | first %}{
               "speaker": "{{ speaker.name }}",
               "image": "{{ talk.speaker }}.jpg",
               "talk": "{{ talk.name }}",

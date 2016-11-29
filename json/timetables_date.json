@@ -2,7 +2,7 @@
 ---
 {
     "items": [
-            {% for item in site.data.talks %}{% if item.day == 'thursday' %}{
+            {% for item in site.data.2017.talks %}{% if item.day == 'thursday' %}{
               "speaker": "{{ item.speaker }}",
               "image": "{{ item.speaker }}.jpg",
               "talk": "{{ item.name }}",
