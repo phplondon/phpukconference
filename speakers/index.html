@@ -17,9 +17,9 @@ weight: 2
       {% for speaker in site.data.2017.speakers %}
       {% if speaker.type != "organiser" %}      
       <li id="{{speaker.slug}}" class="speaker">
-          <img class="speaker-photo" src="/assets/images/speakers/{{speaker.slug}}.jpg">
+          <img class="speaker-photo" src="/2017/assets/images/speakers/{{speaker.slug}}.jpg">
           <h4 class="speaker-name">{{speaker.name}}</h4> <h6 class="speaker-company">{{speaker.company}}</h6>
-          <a class="speaker-handle" href="https://twitter.com/{{speaker.twitter}}">@{{speaker.twitter}}</a>
+          {% if speaker.twitter %}<a class="speaker-handle" href="https://twitter.com/{{speaker.twitter}}">@{{speaker.twitter}}</a>{% endif %}
           <div class="speaker-bio">
             {{speaker.bio}}
           </div>
