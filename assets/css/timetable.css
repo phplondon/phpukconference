@@ -107,7 +107,7 @@
 	text-align: center;
 	outline: none;
 	padding: 5;
-  border-bottom: 1px solid;
+  border-bottom: 1px solid #fff;
 }
 .tiva-timetable .timetable-week .timetable-column .timetable-column-content .timetable-title:hover {
 	opacity: 0.8;	
@@ -285,7 +285,7 @@
 .tiva-timetable .timetable-week .timetable-column .timetable-title.color-talk,
 .tiva-timetable .timetable-list .timetable-item .timetable-color.color-talk,
 .timetable-popup .popup-header.color-talk  {
-	background: #446cb3;	
+	background: #374871;	
 }
 .tiva-timetable .timetable-month .timetable-item .timetable-color.color-special,
 .tiva-timetable .timetable-week .timetable-column .timetable-title.color-special,
@@ -297,19 +297,21 @@
 .tiva-timetable .timetable-week .timetable-column .timetable-title.color-keynote,
 .tiva-timetable .timetable-list .timetable-item .timetable-color.color-keynote,
 .timetable-popup .popup-header.color-keynote {
-	background: #446cb3;
+	background: #374871;
 }
 .tiva-timetable .timetable-month .timetable-item .timetable-color.color-break,
 .tiva-timetable .timetable-week .timetable-column .timetable-title.color-break,
 .tiva-timetable .timetable-list .timetable-item .timetable-color.color-break3,
 .timetable-popup .popup-header.color-break {
-  background: rgba(200, 200, 200, .8)
+  background: rgba(200, 200, 200, .8);
+  color: #6F6F6F;
 }
 .tiva-timetable .timetable-month .timetable-item .timetable-color.color-lunch,
 .tiva-timetable .timetable-week .timetable-column .timetable-title.color-lunch,
 .tiva-timetable .timetable-list .timetable-item .timetable-color.color-lunch,
 .timetable-popup .popup-header.color-lunch {
-  background: rgba(200, 200, 200, .8)
+  background: rgba(200, 200, 200, .8);
+  color: #6F6F6F;
 }
 .tiva-timetable .timetable-month .timetable-item .timetable-title {
 	font-size: 13px;
