@@ -130,7 +130,7 @@
 	font-size: 14px;
 	line-height: 14px;
 	font-weight: bold;
-	white-space: nowrap;
+/*  white-space: nowrap;*/
 }
 .tiva-timetable .timetable-week .timetable-column .timetable-column-content .timetable-speaker {
 	font-size: 13px;
