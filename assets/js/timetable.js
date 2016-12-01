@@ -424,10 +424,6 @@ jQuery(document).ready(function(){
 					var tiva_current_week = new Date(todayDate.setDate(tiva_current_date.getDate() - todayDate.getDay() + 1));
 				}
 				createTimetable(timetable_contain, 'current', tiva_current_week, tiva_current_month, tiva_current_year);
-				console.log(tiva_current_date);
-				console.log(tiva_current_week);
-				console.log(tiva_current_month);
-				console.log(tiva_current_year);
 			});	
 		}
 	});
