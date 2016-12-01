@@ -1,48 +1,39 @@
-- name: Workshop Day
-  track: main
-  day: wednesday
-  starttime: "09:00"
-  endtime: "17:00"
-  type: special
-  description: |
-    PHP UK is pleased to bring to you four options for a full day of training on Wednesday, 15th February 2017, a day before the main conference. Each course is a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available. **Note: An additional ticket is required to attend the workshop day.
-
 - name: Diving Deep into Docker
-  track: main
+  track: workshop1
   day: wednesday
   starttime: "09:00"
   endtime: "17:00"
-  type: break
+  type: talk
   speaker: davidmckay
   description: |
     Docker, the hottest technology around at the moment. It swept the Ops world by storm in 2014, became mainstream in 2015, and now it’s set to dominate the developer world, in 2016. Docker is a tool that allows you to package your application up into a single-runnable distributable binary - akin to the phar, but in Hulk mode. Docker allows you, a developer, to specify the exact environment your application needs to run, across development; test; staging; and production. In this tutorial I will pull back the curtain and show you how Docker works and the technologies that make it all possible. We'll dive into Docker Image Layering and optimisation, Docker Networking, Docker Plugins and orchestrating containers at scale with Docker Swarm.
 
 - name: Web Security Essentials
-  track: main
+  track: workshop2
   day: wednesday
   starttime: "09:00"
   endtime: "17:00"
-  type: break
+  type: talk
   speaker: eliwhite
   description: |
     Learn how to write secure code in this tutorial that teaches you Web & PHP Security practices. You will learn all the basics you need to know to protect yourself from malicious users. This class covers the most frequent security attacks, how to detect them, how to protect yourself from them, and how to recover if you are breached. It also covers PHP specific security topics such as best practices for protecting user sessions, working with cookies, and securely handling user logins & passwords.
 
 - name: "Last train for PHP 7.1"
-  track: main
+  track: workshop3
   day: wednesday
   starttime: "09:00"
   endtime: "17:00"
-  type: break
+  type: talk
   speaker: damienseguy
   description: |
     Everyone must migrate to PHP 7, take advantage of exceptional performances, cut half their hardware and enjoy the best of PHP ever. This workshop is for everyone that is still eyeing PHP 7 while  with PHP 5, and wants to review his million LOC project before jumping to PHP 7. When migrating, we need to check old code and target only the interesting issues. This session will connect the backward incompatibilities and new features to actual location in the code, relying on static analysis to process quickly large code base. Based on the accumulated experience of the tools and our own, we'll review the issues, diagnose criticality, select the best fixes and prioritize the tasks.  All tools are Open Source, and ready to be integrated into your project life.
 
 - name: Test Driven Development
-  track: main
+  track: workshop4
   day: wednesday
   starttime: "09:00"
   endtime: "17:00"
-  type: break
+  type: talk
   speaker: jakubzalas
   description: |
     Learn everything from writing good unit tests, through using test doubles (like stubs or mocks), to writing integration tests. Learn how to structure your project to benefit from a test-first design. Apply the right amount of testing on appropriate levels, write decoupled code, and run your tests in seconds, not hours. The result will look suspiciously close to the hexagonal architecture.

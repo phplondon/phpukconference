@@ -1,0 +1,19 @@
+---
+---
+{
+    "items": [
+            {% for talk in site.data.2017.talks %}{% if talk.day == 'wednesday' %}{% assign speaker = site.data.2017.speakers | where:"slug", talk.speaker  | first %}{
+              "speaker": "{{ speaker.name }}",
+              "image": "{{ talk.speaker }}.jpg",
+              "talk": "{{ talk.name }}",
+              "date": "{% if talk.track == "workshop1" %}12{% elsif talk.track == "workshop2" %}13{% elsif talk.track == "workshop3" %}14{% else %}15{% endif %}",
+              "month": "02",
+              "year": "2017",
+              "start_time": "{{ talk.starttime }}",
+              "end_time": "{{ talk.endtime }}",
+              "type": "{{ talk.type }}",
+              "description": {{talk.description | jsonify}}
+            },
+    {% endif %}{% endfor %}{}
+  ]
+}
