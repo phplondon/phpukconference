@@ -1,0 +1,260 @@
+- name: Johanna Cherry
+  slug: johannacherry
+  twitter: johannacherry
+  github: johannac
+  company: Vitis Events
+  type: organiser
+  bio: |
+      Johanna Cherry has spent the last 13 years developing systems and applications with PHP, Go, Cassandra, and lots of other cool web technologies. Over the years she has previously held roles at Songkick as Platform Architect, Data Team Lead at Hailo, Development Manager for the affiliate network Webgains and Technical Team Lead for the PHP consultancy Ibuildings. She earned a Bachelor of Science in Technology Management from Herzing University in Madison Wisconsin.
+
+      Jo manages speakers, socials, the venue, marketing, and delegate services for the conference.
+
+- name: Sam Bell
+  slug: sambell
+  twitter: _samdb
+  github: samdb
+  company: Vitis Events
+  type: organiser
+  bio: |
+      Sam Bell is co-founder of charting app ChartBlocks, an online chart building tool. He is also managing director of web agency Copia Digital where he and his team build websites and web applications for hedge funds and asset managers, helping them report on fund performance to their investors.
+
+      Sam manages registration, sponsors, exhibits, and volunteers for the conference.
+
+- name: Adam Baratz
+  slug: adambaratz
+  twitter: adambaratz
+  company: Wayfair
+  bio: |
+      Adam is Associate Director of Engineering at <a href="https://www.wayfair.com/" target="_blank">Wayfair</a>, where he leads product and platform teams. He's been writing PHP since 2000. He maintains <a href="http://php.net/manual/en/ref.pdo-dblib.php" target="_blank">pdo_dblib</a> and contributes to <a href="https://github.com/jbboehr/php-mustache" target="_blank">php-mustache</a>.
+
+- name: Adam Englander
+  slug: adamenglander
+  twitter: adam_englander
+  company: iovation
+  bio: |
+      Adam Englander is an Engineer, Speaker, and Author with 30 years of experience in building business applications. He has been an outspoken evangelist of PHP during what he calls “The PHP Renaissance”. Adam is a strong believer in the power of strong developer communities. He is a actively involved in the Las Vegas technical community and the  Founder of PHP Vegas. Always looking to push the boundaries of what is possible with PHP, Adam has been working to expose the PHP community at large to  IoT and asynchronous programming. He also advocates building better applications today by building well tested applications that are cryptography secure.
+
+- name: Alena Holligan
+  slug: alenaholligan
+  twitter: sketchings
+  company: Treehouse
+  bio: |
+
+- name: Anna Filina
+  slug: annafilina
+  twitter: afilina
+  company: FooLab
+  bio: |
+      Anna Filina is a web developer, project rescue expert, Pluralsight author, speaker and conference organizer. She enjoys realizing seemingly impossible things. She has been coding for two decades.
+
+- name: Antonio Peric-Mazar
+  slug: antoniopericmazar
+  twitter: antonioperic
+  company: Locastic
+  bio: |
+      Antonio is CEO at Locastic, a development agency based in Croatia. For the last 10 years he has been developing web applications, and for more then 6 years he's been using Symfony as his main tool. During that time, he helped a lot of various clients to build amazing products and applications. In his free time he is working on a PhD in Computer Science.
+
+- name: Chris Sherry
+  slug: chrissherry
+  twitter: tweetingsherry
+  company: 3 Sided Cube
+  bio: |
+      Chris is an application engineer at 3 Sided Cube in Bournemouth. Initially a designer since 2009, he has expanded his skillset into frontend development backend and now devops. An advocate of developer communities, Chris is a coach at Codebar, an organiser of PHPDorset and has given talks around the south - most notably at the PHP South Coast conference and WordPress London.
+
+- name: Colin O'Dell
+  slug: colinodell
+  twitter: colinodell
+  company: Unleashed Technologies
+  bio: |
+      <a href="http://www.colinodell.com/">Colin O'Dell</a> is a Lead Web Developer at <a href="https://www.unleashed-technologies.com">Unleashed Technologies</a>, a web and hosting firm based in Maryland. He began programming at age 8, co-founded a local web shop at 15, and has over 14 years of experience with PHP. In addition to being an active member of the PHP League and maintainer of the <a href="http://commonmark.thephpleague.com">league/commonmark</a> project, Colin is also the author of the PHP 7 Upgrade Guide ebook and co-organizer of the <a href="https://www.meetup.com/baltimorephp/">Baltimore PHP Meetup</a>.
+
+- name: Damien Seguy
+  slug: damienseguy
+  twitter: faguo
+  company: Exakat
+  bio: |
+      Damien Seguy is CTO at <a href="http://www.exakat.io/">Exakat Ltd.</a>, a company specialized in PHP code quality solutions for the industry. He leads the development of the <a href="http://github.com/exakat">exakat static analysis engine</a>, that automatically review code for version compatibility, security and clear code. Over the last 17 years Damien has contributed to PHP, as documentation author, elephpant breeder, conference UFO on all continents. He also enjoys machine learning, gremlin, 狮子头 and camembert.
+
+- name: Dave Ward
+  slug: daveward
+  company: Worldstores
+  bio: |
+      Dave is Head of Development at Worldstores, and still misses coding from his background as a developer. He's hugely enthusiastic about continuously improving all parts of the delivery lifecycle and gets great satisfaction from effecting beneficial change. He enjoys skiing, photography and also plays in a reservist military band. At the weekend you can sometimes spot him changing the guard at Buckingham Palace.
+
+- name: David Zuelke
+  slug: davidzuelke
+  twitter: dzuelke
+  company: Heroku
+  bio: |
+
+- name: David McKay
+  slug: davidmckay
+  twitter: rawkode
+  company: Consultant
+  bio: |
+      David McKay is a software and technology professional, born & bred in Glasgow, Scotland. As a serial user group organiser, organising Docker Glasgow, DevOps Glasgow and Pair Programming Glasgow, David is always searching for new and creative ways to share knowledge with others. Oh, and he quite likes domain-driven design, micro-services and clean code.
+
+- name: Derick Rethans
+  slug: derickrethans
+  twitter: derickr
+  company: MongoDB
+  bio: |
+      Derick Rethans is a PHP internals expert, author of <a href='https://xdebug.org'>Xdebug</a> and an <a href="https://openstreetmap.org">OpenStreetMap</a> and mapping enthusiast. He has contributed in a number of ways to the PHP project, including the <a href='https://xdebug.org'>Xdebug</a> debugging tool, and various extensions and additions. He's a frequent lecturer at <a href="https://derickrethans.nl/talks.html">conferences</a>, the author of <a href="https://phpdatebook.com">php|architect's Guide to Date and Time Programming</a>, and the co-author of <a href="http://www.amazon.co.uk/exec/obidos/ASIN/013147149X/derickrethans-21">PHP 5 Power Programming</a>. He is now working at <a href='http://mongodb.com'>MongoDB</a> to work on the <a href='https://pecl.php.net/mongodb'>PHP</a> and <a href='https://github.com/mongodb/mongo-hhvm-driver'>HHVM</a> drivers for <a href='https://mongodb.org'>MongoDB</a>.
+
+- name: Eli White
+  slug: eliwhite
+  twitter: eliw
+  company: One for All Events
+  bio: |
+      Eli has been building Web Applications for 20 years and fell in love with PHP the day that PHP 4 was released. Since then he's been a strong advocate for PHP and used it in every project he's worked on.  He is currently the Vice President of One for All Events LLC, and Conference Chair for php[architect]. He is a strong advocate for "Just getting it done" when it comes to coding, and speaks at numerous conferences each year.
+
+- name: Freek Van der Herten
+  slug: freekvanderherten
+  twitter: freekmurze
+  company: Spatie
+  bio: |
+      Freek Van der Herten is a partner and developer at <a href="https://spatie.be">Spatie</a>, an Antwerp based company that specializes in creating Laravel apps. He is the author of many of the <a href="https://packagist.org/search/?q=spatie">80+ packages<a> that the company has released. After hours Freek co-organises <a href="http://phpantwerp.be">PHP Antwerp</a> and enjoys playing kraut rock in <a href="http://jarenduren.bandcamp.com">his band</a>.
+
+- name: Gareth Ellis
+  slug: garethellis
+  twitter: garethellis
+  company: ICON Language Services
+  bio: |
+      Gareth Ellis is lead developer in the Language Services group at ICON Clinical Research, where has worked since 2004 in a variety of roles. When he's not building software, he's usually found on the cricket pitch, in the kitchen or in front of a film. He is an occasional contributor to open source projects, and was the English Open powerlifting champion in 2011.
+
+- name: Gary Hockin
+  slug: garyhockin
+  twitter: geeh
+  company: JetBrains
+  bio: |
+      Gary Hockin travels all over the world empowering users of PhpStorm as a Developer Advocate for JetBrains (fine purveyors of quality IDEs). He is a talented and evocative speaker, a cultivated author of impressively entertaining blog posts, and records elegant and informative screencasts and videos. Gary's also a contributor to the Zend Framework and is argumentative enough to be on the community review team. When Gary had a real job, he was a developer of at least "competent" standard with nearly 20 years experience. When not developing, speaking about developing, reading about developing or writing about developing, Gary enjoys playing computer games, and arguing with his wife and two kids. Gary has recently discovered that conferences ask speakers to write their own biography text, and you can get away with writing pretty much anything you want.
+
+- name: Georgiana Gligor
+  slug: georgianagligor
+  twitter: gbtekkie
+  company: Tekkie Consulting
+  bio: |
+      Having crafted professional software since 2003, Georgiana Gligor is living proof that geek girls are an asset to any team. She loves coding large-scale applications and mentoring team mates in achieving craftsmanship. Georgiana has experience in every aspect of the life cycle of software development and is hungry for more. Since 2011 she is running her <a href="http://tekkie.ro/about/">own consulting company</a> specialised in application architecture, QA, DevOps, and modernising legacy codebases and can sometimes be found offering <a href="http://tekkie.ro/trainings/">in-house trainings</a> for companies on topics like Domain-Driven Design, RESTful APIs, Continuous Delivery, or software craftsmanship.
+
+- name: Hannes Van De Vreken
+  slug: hannesvandevreken
+  twitter: hannesvdvreken
+  company: madewithlove
+  bio: |
+      Belgian, Software Engineer at madewithlove, open source user and contributor, blogger, organiser of meetups and also a marathon runner.
+
+- name: Jakub Zalas
+  slug: jakubzalas
+  twitter: jakub_zalas
+  company: Freelancer
+  bio: |
+      Jakub Zalas is an independent software consultant who helps teams and organisations to deliver quality solutions. He's one of the Symfony core team members and an organiser of the Symfony user group in London. Being focused on quality, Jakub promotes agile development practices like s.o.l.i.d. and test driven development.
+
+- name: James Titcumb
+  slug: jamestitcumb
+  twitter: asgrim
+  company: Roave, LLC
+  bio: |
+      James is the founder of the UK based PHP Hampshire user group and the PHP South Coast Conference. He’s also a Zend Certified Engineer and consultant at Roave. During his downtime, he continues to run the PHP Hampshire user group and the conference, and keeps up with active contributions to various open source projects.
+
+- name: James Mallison
+  slug: jamesmallison
+  twitter: J7mbo
+  company: trivago
+  bio: |
+
+- name: Jennifer Wong
+  slug: jenniferwong
+  twitter: mybluewristband
+  company: Eventbrite
+  bio: |
+    Jennifer Wong is a self-taught software engineer at Eventbrite where she spends her days making the web a prettier and more user-friendly place. She has written for Net Magazine and had projects covered by Mashable, Engadget, Gizmodo, and more. Jenn is an avid conference speaker and loves eating, coding, and sleeping.
+
+- name: Karina Popova
+  slug: karinapopova
+  twitter: kary_key
+  company: whatever mobile
+  bio: |
+      Karina has been worked as DevOps Lead last 10 years. She has confident communication, leadership skills across different levels, developed through international professional interaction and engagements with representatives of various government institutions or IT companies using agile environment across the world. Her social responsibility and communicative competence are demonstrated in the organization of professional networks, events and conferences. At the same time she gained public speaking skills through frequent academic presentations, workshops and participation as a speaker at IoT and DevOps conferences. 
+
+- name: Liam Wiltshire
+  slug: liamwiltshire
+  twitter: l_wiltshire
+  company: Tebex
+  bio: |
+      Liam is a UK based Senior PHP Developer &amp; Business Manager at Tebex, creators of <a href="http://www.buycraft.net">Buycraft.net</a>, the first e-commerce platform for Minecraft. In his nine years as a dev, he's tackled projects large and small, from multi-million pound eCommerce sites to the plumber down the road looking for 'mates' rates. These days Liam focuses on providing gCommerce platforms for multiplayer sandbox games, and in his spare time is trying to learn the secret to actually having some spare time.
+
+- name: Luís Cobucci
+  slug: luiscobucci
+  twitter: lcobucci
+  company: Werkspot
+  bio: |
+      A software developer that also loves to share his thoughts about quality, tests and object oriented programming. Active member of the PHP Community, author and contributor to some open source projects.
+
+- name: Michael Cullum
+  slug: michaelcullum
+  twitter: michaelcullumuk
+  company: PHP FIG / phpBB / Freelancer
+  bio: |
+      Michael Cullum is a backend PHP developer from the UK, working particularly with Symfony, and has been for about nine years. He is an official team member and member of the management team at <a href="https://www.phpbb.com>phpBB</a> where he has been a contributor for over half a decade. More recently he founded the new PHP Surrey User Group and has helped organise a number of conferences. Michael is passionate about open source software and is an advocate of modern development principles & methods, open source project co-operation, and the active development of standards. He is actively involved in the <a href="http://php-fig.org>PHP FIG</a> previously as editor of PSR 12 and he now runs the administration of the FIG as a PHP FIG Secretary.
+
+- name: Michele Orselli
+  slug: micheleorselli
+  twitter: _orso_
+  company: ideato
+  bio: |
+      Software engineer, working with on the web since 2005 and now CTO at ideato. I have broad interests in several aspects of software development like automation, quality and testing. I'm co-author of "PHP Best Practices", published by FAG. Serial speaker @phpday, you can find some of my talks on <a href="https://joind.in/user/view/188">joind.in</a>
+
+- name: Michiel Rook
+  slug: michielrook
+  twitter: michieltcs
+  company: make.io
+  bio: |
+      Michiel Rook is a Java/PHP/Scala contractor and consultant from the Netherlands. He loves coaching teams to develop better software and implement continuous deployment. He is a co-founder of Make.io and a member of the Dutch Web Alliance. He is an Army reservist and enjoys music, cars, sports and movies.
+
+- name: Nacho Martín
+  slug: nachomartin
+  twitter: nacmartin
+  company: Limenius
+  bio: |
+      Nacho Martín is a passionate developer that writes code at Limenius, agency that he co-founded. He works mainly with PHP, JavaScript and Erlang. He is also active in the Symfony community as member of the organiser team of the deSymfony conference.
+
+- name: Rouven Weßling
+  slug: rouvenwessling
+  twitter: rouvenwessling
+  company: Contentful
+  bio: |
+      Rouven is a Developer Evangelist at Contentful, where he’s responsible for the PHP SDK and the PHP community. In his free time, he loves building overcomplicated tools for simple problems – only to immediately discard them when no one wants to use them. When he’s not programming, you’re most likely to find him eating cake or running on the streets of Berlin (so he can eat more cake).
+
+- name: Rowan Merewood
+  slug: rowanmerewood
+  twitter: rowan_m
+  company: Google
+  bio: |
+      Rowan is a Developer Advocate at Google, which means he works with partners to build real-world applications to prove and shape new technology. Aside from the obligatory exposure to BASIC as a child, the web has always been his natural home for coding. From early Perl-based guestbooks, through Python CMS integrations, onto PHP in more places than seems healthy, he’s seen how a high performing web app is critical to success in any business.
+
+- name: Rudra Pratap Sinha
+  slug: rudrapratapsinha
+  company: Wikimedia Foundation
+  bio: |
+      Rudra Pratap Sinha is a Wikimedia movement contributor/developer committed to bring the "sum of all human knowledge" for free. A believer of FOSS, based in Kolkata, India. Sinha has been contributing on Wikipedia since 2011 as a volunteer editor/developer focusing on Wikipedia's well known PHP framework, MediaWiki. Apart from Wikimedia projects, he works as a software engineer focusing on web technologies.
+
+- name: Sebastian Thoss
+  slug: sebastianthoss
+  company: tech.kartenmacherei
+  bio: |
+      I'm in IT since mid nineties and still love it. After several years of living and working in Ireland and Australia. I came back to Hamburg, Germany in order to learn even more about architecture of software. Since April 2015 I'm at kartenmacherei responsible for backend projects, the team and training of our young apprentice. I'm in for agile processes like scrum and lean. Especially at kartenmacherei we're looking not for the fast but for the best solution. In my free time I'm at Meetups, Barcamps and conferences to learn even more about software architecture and new technologies.
+
+- name: Terrence Ryan
+  slug: terrenceryan
+  twitter: tpryan
+  company: Google
+  bio: |
+      Terry Ryan is a Developer Advocate for the Google Cloud Platform team. He has 15 years of experience working with the web - both front end and back. He is passionate about web standards and wants to bring web developers to the Google Cloud Platform. Before Google, he worked for Adobe and the Wharton School of Business. He also wrote Driving Technical Change for Pragmatic Bookshelf, a book that arms technology professionals with the tools to convince reluctant co-workers to adopt new tools and technology.
+
+- name: Victoria Quirante
+  slug: victoriaquirante
+  twitter: vicqr
+  company: Limenius
+  bio: |
+      Victoria co-founded the development agency <a href="http://limenius.com/">Limenius</a>, where she works as a senior software developer and project manager. She is a seasoned developer, with more than 8 years of experience designing and building projects with PHP and Symfony. She also gives trainings, helping teams to overcome forthcoming challenges.

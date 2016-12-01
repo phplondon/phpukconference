@@ -1,0 +1,558 @@
+- name: Registration &amp; Breakfast
+  track: workshop1
+  day: wednesday
+  starttime: "08:30"
+  endtime: "09:00"
+  type: break
+  description: |
+    Registration will be open from 8:30am. A light breakfast with coffee/tea/juice will be served until shortly before 9am.
+
+- name: Diving Deep into Docker
+  track: workshop1
+  day: wednesday
+  starttime: "09:00"
+  endtime: "17:00"
+  type: talk
+  speaker: davidmckay
+  description: |
+    Docker, the hottest technology around at the moment. It swept the Ops world by storm in 2014, became mainstream in 2015, and now it’s set to dominate the developer world, in 2016. Docker is a tool that allows you to package your application up into a single-runnable distributable binary - akin to the phar, but in Hulk mode. Docker allows you, a developer, to specify the exact environment your application needs to run, across development; test; staging; and production. In this tutorial I will pull back the curtain and show you how Docker works and the technologies that make it all possible. We'll dive into Docker Image Layering and optimisation, Docker Networking, Docker Plugins and orchestrating containers at scale with Docker Swarm.
+
+- name: Web Security Essentials
+  track: workshop2
+  day: wednesday
+  starttime: "09:00"
+  endtime: "17:00"
+  type: talk
+  speaker: eliwhite
+  description: |
+    Learn how to write secure code in this tutorial that teaches you Web & PHP Security practices. You will learn all the basics you need to know to protect yourself from malicious users. This class covers the most frequent security attacks, how to detect them, how to protect yourself from them, and how to recover if you are breached. It also covers PHP specific security topics such as best practices for protecting user sessions, working with cookies, and securely handling user logins & passwords.
+
+- name: "Last train for PHP 7.1"
+  track: workshop3
+  day: wednesday
+  starttime: "09:00"
+  endtime: "17:00"
+  type: talk
+  speaker: damienseguy
+  description: |
+    Everyone must migrate to PHP 7, take advantage of exceptional performances, cut half their hardware and enjoy the best of PHP ever. This workshop is for everyone that is still eyeing PHP 7 while  with PHP 5, and wants to review his million LOC project before jumping to PHP 7. When migrating, we need to check old code and target only the interesting issues. This session will connect the backward incompatibilities and new features to actual location in the code, relying on static analysis to process quickly large code base. Based on the accumulated experience of the tools and our own, we'll review the issues, diagnose criticality, select the best fixes and prioritize the tasks.  All tools are Open Source, and ready to be integrated into your project life.
+
+- name: Test Driven Development
+  track: workshop4
+  day: wednesday
+  starttime: "09:00"
+  endtime: "17:00"
+  type: talk
+  speaker: jakubzalas
+  description: |
+    Learn everything from writing good unit tests, through using test doubles (like stubs or mocks), to writing integration tests. Learn how to structure your project to benefit from a test-first design. Apply the right amount of testing on appropriate levels, write decoupled code, and run your tests in seconds, not hours. The result will look suspiciously close to the hexagonal architecture.
+
+- name: Pre-Conference Social
+  track: workshop1
+  day: wednesday
+  starttime: "18:00"
+  endtime: "21:00"
+  type: special
+  description: |
+
+- name: Registration &amp; Breakfast
+  track: main
+  day: thursday
+  starttime: "08:00"
+  endtime: "09:10"
+  type: break
+  description: |
+    Registration will be open from 8am. A light breakfast with coffee/tea/juice will be served until shortly before 9am.
+
+- name: Opening address
+  track: main
+  day: thursday
+  starttime: "09:10"
+  endtime: "09:20"
+  type: special
+  description: |
+    Johanna and Sam welcome all our delegates, speakers, and sponsors to the conference and provide an overview of the days events to come. 
+
+- name: State of the PHP Community
+  track: main
+  day: thursday
+  starttime: "09:20"
+  endtime: "09:50"
+  type: keynote
+  speaker: eliwhite
+  description: |
+    PHP is sitting at an all time high for usage, with it running over 80% of the world’s websites.  But how healthy is the PHP Community?  In this talk we will examine the good and the bad of the PHP community and talk through some of the pain points that we may have experienced.  But we’ll leave understanding the power of the community when it works together and understand why (and how) you should be helping to grow the community circle larger.
+
+- name: Morning Refreshment Break
+  track: main
+  day: thursday
+  starttime: "09:50"
+  endtime: "10:20"
+  type: break
+  description: |
+    Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+
+- name: I saw the future, and its web servers were written in PHP
+  track: main
+  day: thursday
+  starttime: "10:20"
+  endtime: "11:20"
+  type: talk  
+  speaker: davidzuelke
+  description: |
+    PHP's stateless execution model is still based on the mechanics of CGI: request in, response out. This simplicity also means overhead on each request from frameworks starting up; applications also cannot interact with the request body during transmission, e.g. for streaming the body or handling upgrades to Websockets. That's why all other web languages now offer production ready web servers implemented purely in each language: Jetty, Puma, Gunicorn and friends use a modern process model and standardized middleware protocols. PHP 7 finally brought some necessary engine changes like catchable fatal errors, so there now is no longer a need for Apache or Nginx: event based HTTP components from projects like ReactPHP or Icicle, brought together by a server like Aerys or PHP-PM, start a framework once, and handle requests in a loop. The result is a massive gain in performance especially with frameworks like Symfony, and the potential for new features that previously were not possible with an external web server in front of an application. Let's explore the current state of affairs, the solutions other programming languages found, and the bright new future that's ahead for PHP, which, as always, will require sacrifices to be made.
+
+- name: WordPress for the Modern PHP Developer
+  track: side1
+  day: thursday
+  starttime: "10:20"
+  endtime: "11:20"
+  type: talk  
+  speaker: chrissherry
+  description: |
+    Chris has a love-hate relationship with WordPress, but whether you like it or not, it powers 26% of the Internet. Many of these projects have outgrown their humble beginnings as blogs or websites and are now highly customised web applications. However the modern tools we use as PHP developers can be tricky to utilise with the popular blogging platform. This technical talk will guide you through how to make the use of Git, Composer, and other tools familiar to PHP developers within your WordPress install - and help you take back control of your themes, plug-ins, database and environments in a growing application.
+
+- name: Real-time Communication To Simplify Your Life
+  track: side2
+  day: thursday
+  starttime: "10:20"
+  endtime: "11:20"
+  type: talk
+  speaker: karinapopova
+  description: |
+    An implicit goal of developing applications is to increase level of communication. A connectivity is becoming an integral part of IoT projects. What would you think if you have the connectivity wherever your IoT sensor is, your own independent cloud based network, extremely scalable and globally distributed. Nowadays SIM cards and endpoints can be easily managed in real-time via an intuitive user-interface or an easy-to-integrate API. The developing process, security issues and key features will be discussed together with lots of real working IoT use cases based on PHP.
+
+- name: Room change
+  track: main
+  day: thursday
+  starttime: "11:20"
+  endtime: "11:30"
+  type: break
+  description: ""
+
+- name: Serving 30,000,000 Requests an Hour in the Cloud
+  track: main
+  day: thursday
+  starttime: "11:30"
+  endtime: "12:30"
+  type: talk  
+  speaker: terrenceryan
+  description: |
+    You've written an application and now the worst thing that can happen to you has come about - People are using it! You now have load spikes to deal with. You can scale up to deal with the excess traffic, but what do you do when your load is variable? How do you do that, and stay on budget? This session is a case study on getting an App Engine app to scale to serve 30,000,000 requests an hour.  It will take you through the architecture, the code changes and the technology trade offs to get to that level of traffic. And how to make sure your app scales down so running infrastructure to deal with potential traffic doesn't drown you.
+
+- name: "The road to continuous deployment: a case study"
+  track: side1
+  day: thursday
+  starttime: "11:30"
+  endtime: "12:30"
+  type: talk  
+  speaker: michielrook
+  description: |
+    It's a situation many of us are familiar with: a large legacy, monolithic application, limited or no tests, slow & manual release process, low velocity, no confidence...  A lot of refactoring is required, but management keeps pushing for new features. How to proceed? Using examples and lessons learned from a real-world case, I'll show you how to replace a legacy application with a modern service-oriented architecture and build a continuous integration and deployment pipeline to deliver value from the first sprint. On the way, we’ll take a look at the process, automated testing, monitoring, master/trunk based development and various tips and best practices.
+
+- name: It's all about the goto
+  track: side2
+  day: thursday
+  starttime: "11:30"
+  endtime: "12:30"
+  type: talk
+  speaker: derickrethans
+  description: |
+    Don't worry, this is not about the goto keyword. In this presentation, I am showing you some of the inner workings of PHP. We are going to look at how different language keywords and constructs are handled internally. Basically, everything is converted to goto, but the how and why, is not as simple as it seems!  This is a very in depth talk, mostly interesting to people that want to know how PHP works internally. Expect lots of wonkyness, a form of assembly, and trees.
+
+- name: Lunch
+  track: main
+  day: thursday
+  starttime: "12:30"
+  endtime: "13:30"
+  type: break
+  description: |
+    A buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+
+- name: Unit Testing by Example
+  track: main
+  day: thursday
+  starttime: "13:30"
+  endtime: "14:30"
+  type: talk
+  speaker: annafilina
+  description: |
+    Everyone tells you that you need to test. You know the theory, but you don't know where to begin. What to test? What cases to write? Through realistic and pragmatic examples, this presentation will take you away from var_dump and ease you into the testing business until you're ready to do TDD. All this without losing sight of the tight deadlines.
+
+- name: Building RESTful APIs with Symfony Components
+  track: side1
+  day: thursday
+  starttime: "13:30"
+  endtime: "14:30"
+  type: talk
+  speaker: victoriaquirante
+  description: |
+    Built around the HTTP specification, Symfony components provide a rock solid foundation for building RESTful APIs, whether we are using the full framework or not. In this session we will see how to successfully deal with problems such as how to adapt our models to the desired representations back and forth, authentication strategies, some tips and tricks to test effectively our APIs and also how to apply these concepts to migrate effectively a legacy application, based upon real use cases.
+
+- name: "Hopping in the Clouds: a tale of migration from one cloud provider to another"
+  track: side2
+  day: thursday
+  starttime: "13:30"
+  endtime: "14:30"
+  type: talk
+  speaker: micheleorselli
+  description: |
+    Today there are a lot of cloud providers, with a wide range of offers. Web projects usually have continuously changing needs: what worked well yesterday may not be enough today. These two facts became quite obvious for us while migrating a large PHP application from Rackspace to Amazon. In this session I’d like to share this experience highlighting infrastructure and code evolution, migration steps, cost analisys, issues. 
+
+- name: Room change
+  track: main
+  day: thursday
+  starttime: "14:30"
+  endtime: "14:40"
+  type: break
+  description: ""
+
+- name: Don’t Lose Sleep - Secure Your REST
+  track: main
+  day: thursday
+  starttime: "14:40"
+  endtime: "15:40"
+  type: talk
+  speaker: adamenglander
+  description: |
+    Are you worried that your REST API may be the next victim of an attack by ruthless hackers? Don't fret. Utilizing the same standards implemented by OAuth 2.0 and OpenID Connect, you can secure your REST API. Open and proven standards are the best ways to secure your REST APIs for now and well into the future. JSON Object Signing and Encryption (JOSE) is the core of a truly secure standards based REST API. In this talk, you will learn how to use the components of JOSE to secure your REAST API for now and the future.
+
+- name: SmokeTests - Why you should try to burn down your productions environment
+  track: side1
+  day: thursday
+  starttime: "14:40"
+  endtime: "15:40"
+  type: talk
+  speaker: sebastianthoss
+  description: |
+    Today it's crystal clear why we need unit tests. Even integration and acceptance tests are quite common but who is making sure that your pages are working in production environment? I'd like to show in detail how smoke tests will help achieving this goal and why you should try to burn down your production server.
+
+- name: Integrating React.js with PHP Projects
+  track: side2
+  day: thursday
+  starttime: "14:40"
+  endtime: "15:40"
+  type: talk
+  speaker: nachomartin
+  description: |
+    Is React.js a library or a framework? In any case, it is a new way of working that represents a revolution in the way of building web projects. It has very particular characteristics that allow us, for instance, to render React code from the server side, or to include React components from Twig tags. During this talk we will present React.js, we will explore how to take advantage of it from PHP projects and we will give answers to practical problems such as universal (isomorphical) rendering and the generation of React.js forms from Symfony forms without duplication of efforts.
+
+- name: Afternoon Refreshment Break
+  track: main
+  day: thursday
+  starttime: "15:40"
+  endtime: "16:00"
+  type: break
+  description: |
+    Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+
+- name: SOLID for Beginners
+  track: main
+  day: thursday
+  starttime: "16:00"
+  endtime: "17:00"
+  type: talk
+  speaker: garethellis
+  description: |
+    It is pretty common to hear people talk about "SOLID code" in talks, blogs and podcasts these days. For the object-oriented programming novice who hears this term for the first time, the Wikipedia article gives a high-level overview, but advice and information about what ""SOLID"" really means on a practical level can be hard to come across. This talk aims to clarify what the SOLID principles are and how you can apply them in your work, with the aim of producing easier-to-maintain, de-coupled code with fewer smells. I'll show you PHP examples of each of the five SOLID principles, talk about when and how to implement them in your applications and give you a few other hints about ways you can improve your OOP design.
+
+- name: Progressive Web Apps in the Wild
+  track: side1
+  day: thursday
+  starttime: "16:00"
+  endtime: "17:00"
+  type: talk
+  speaker: rowanmerewood
+  description: |
+    Progressive Web App provides a term to encompass what a modern web site can and should be. It builds on the foundations of web and enforces its best practices while allowing sites to adopt advanced features that previously required a native app. We will look at how to build a fast and secure web app while progressively layering in offline support, push notifications, and adding to the homescreen... and all beautifully standards-compliant.
+
+- name: Static analysis saved my code tonight
+  track: side2
+  day: thursday
+  starttime: "16:00"
+  endtime: "17:00"
+  type: talk
+  speaker: damienseguy
+  description: |
+    Everyone must migrate to PHP 7, take advantage of exceptional performances, cut half their hardware and enjoy the best of PHP ever. This workshop is for everyone that is still eyeing PHP 7 while  with PHP 5, and wants to review his million LOC project before jumping to PHP 7. When migrating, we need to check old code and target only the interesting issues. This session will connect the backward incompatibilities and new features to actual location in the code, relying on static analysis to process quickly large code base. Based on the accumulated experience of the tools and our own, we'll review the issues, diagnose criticality, select the best fixes and prioritize the tasks.  All tools are Open Source, and ready to be integrated into your project life.
+
+- name: Room change
+  track: main
+  day: thursday
+  starttime: "17:00"
+  endtime: "17:10"
+  type: break
+  description: ""
+
+- name: Using Open Source for Fun and Profit
+  track: main
+  day: thursday
+  starttime: "17:10"
+  endtime: "17:40"
+  type: keynote
+  speaker: garyhockin
+  description: |
+    10 years ago I was a lonely developer sitting in a small room quietly turning out code between 9am and 5pm, Monday to Friday. Fast-forward to now and you'll see me standing in front of audiences all around the world talking to developers about numerous topics."Why are you bragging like that at me?" I hear you ask. Because it could happen to you too. The question I always ask myself is ""How the hell did that happen?!?!"". The truth is that the only reason I've managed to advance my career so far in a decade is because of the people that make up the communities of open source projects. Not only do open source projects save you time and money, but the friendships and support groups that can be made within these communities is, frankly, staggering. Join me as I chart my journey from wage slave to conference speaker, and look at how you can leverage the power of open source to make real friends, real money, and real happiness.
+
+- name: Closing address
+  track: main
+  day: thursday
+  starttime: "17:40"
+  endtime: "18:00"
+  type: special
+  description: |
+
+- name: Mid-Conference Social
+  track: main
+  day: thursday
+  starttime: "18:00"
+  endtime: "21:00"
+  type: special
+  description: |
+    The mid-conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. There will be lots of fun activities planned for the evening. More details will be announced soon.
+
+- name: Registration &amp; Breakfast
+  track: main
+  day: friday
+  starttime: "08:00"
+  endtime: "09:10"
+  type: break
+  description: |
+    Registration will be open from 8am. A light breakfast with coffee/tea/juice will be served until shortly before 9am.
+
+- name: Opening address
+  track: main
+  day: friday
+  starttime: "09:10"
+  endtime: "09:20"
+  type: special
+  description: |
+    Johanna and Sam welcome all our delegates, speakers, and sponsors to the conference and provide an overview of the days events to come. 
+
+- name: I Think I Know What You’re Talking About, But I'm Not Sure
+  track: main
+  day: friday
+  starttime: "09:20"
+  endtime: "09:50"
+  type: keynote
+  speaker: jenniferwong
+  description: |
+    Recursion, instantiate, lexical scope - where do these words come from?! If you’ve ever been in conversation with other developers and thought, “I think I know what they’re talking about, but I’m not sure...”, you’re not alone. Let’s delve into the weird and wonderful parlance that computer scientists and developers have created for themselves. Whether the words are borrowed or just plain made up, I’ll uncover how they made their way into the vocabulary of the modern programmer. In this session, you’ll learn everything from etymology to history to broader definitions, all of which can help you understand what the heck that person’s rambling about. So, the next time you’re in conversation, you’ll be the one discussing dependency injection versus inversion of control with ease.
+
+- name: Morning Refreshment Break
+  track: main
+  day: friday
+  starttime: "09:50"
+  endtime: "10:20"
+  type: break
+  description: |
+    Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+
+- name: Speak to your computer - Build a Trivia game using Amazon Alexa and AWS Lambda
+  track: main
+  day: friday
+  starttime: "10:20"
+  endtime: "11:20"
+  type: talk  
+  speaker: rouvenwessling
+  description: |
+    Growing up with Knight Rider I was sure that we'd all be talking to our computers in no time. Imagine my disappointment when I first tried a dictation app in the 90s - gruesome. Things have changed and now we're all able to have something resembling a conversation with our cell phones. But you couldn't teach it any new tricks unless your work for Apple, Google or Microsoft - how frustrating. Now with Amazon Alexa we as developer can finally create voice interfaces for our own applications. I'd like to show you how to do just that by creating an Alexa Skills Kit using an AWS Lambda function and a RESTful API to have our very own voice based Trivia game.
+
+- name: JWT - To authentication & beyond!
+  track: side1
+  day: friday
+  starttime: "10:20"
+  endtime: "11:20"
+  type: talk  
+  speaker: luiscobucci
+  description: |
+    Tokens are widely used to identify resources and try to add some security to insecure environments, but sometimes the management of those identifiers can get a bit complex - even more on distributed systems. What if we could have an intelligent token, one that simplifies the way things works without losing integrity or security? In this talk we present Json Web Tokens as an alternative for smart and self contained tokens, explaining how to use each claim and giving some common use cases.
+
+- name: Taking care of backups with Laravel
+  track: side2
+  day: friday
+  starttime: "10:20"
+  endtime: "11:20"
+  type: talk
+  speaker: freekvanderherten
+  description: |
+    Thanks to all the excellent resources on server management many developers are now setting up and administrating their own servers. If you are one of them you can't count on anybody else but yourself to backup the data of your clients. We'll cover the backup issues presented when using modern hosting such as Linode and DigitalOcean. Then we'll review some enterprise grade solutions. Finally we'll dive deep into implementing a backup system using Laravel 5's filesystem abstraction.
+
+- name: Room change
+  track: main
+  day: friday
+  starttime: "11:20"
+  endtime: "11:30"
+  type: break
+  description: ""
+
+- name: Preparing your Dockerised Application for Production Deployment
+  track: main
+  day: friday
+  starttime: "11:30"
+  endtime: "12:30"
+  type: talk  
+  speaker: daveward
+  description: |
+    You’ve got your application dockerised for development. That process is working smoothly, and you’re gaining a lot of the benefits that docker gives you - environments are trivial to setup, independent of platform, and they are consistent for everyone on your team. How do you go about taking the next step so that your application is deployed into a scalable and reliable production setup? How do you create deployment artefacts which are built with consistency and transparency? How do you manage environment variables between staging and production environments? How do you perform actions / schedule processes in one environment and not another? In this talk we will discuss what you need to do to get your dockerised application ready for deployment into a production environment.
+
+- name: Kicking off with Zend Expressive and Doctrine ORM
+  track: side1
+  day: friday
+  starttime: "11:30"
+  endtime: "12:30"
+  type: talk  
+  speaker: jamestitcumb
+  description: |
+    You've heard of Zend's new framework, Expressive, and you've heard it's the new hotness. In this talk, I will introduce the concepts of Expressive, how to bootstrap a simple application with the framework using best practices, and finally how to integrate a third party tool like Doctrine ORM.
+
+- name: Code review beyond code style
+  track: side2
+  day: friday
+  starttime: "11:30"
+  endtime: "12:30"
+  type: talk
+  speaker: hannesvandevreken
+  description: |
+    Reviewing code can feel like a secondary task. Discussing code can be easy though, if you leave out syntax details. Following a couple of guide lines for pull requests can make code reviewing much easier. Some code style rules can drastically reduce the mental overhead needed to understand code changes. Furthermore this talk will give some general guidelines on how to give feedback on PRs as a peer developer or coworker. These rules are not to keep for yourself, share them with your peers and your life will get easier.
+
+- name: Lunch
+  track: main
+  day: friday
+  starttime: "12:30"
+  endtime: "13:30"
+  type: break
+  description: |
+    A buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+
+- name: Testing Complex Applications for PHP7
+  track: main
+  day: friday
+  starttime: "13:30"
+  endtime: "14:30"
+  type: talk
+  speaker: adambaratz
+  description: |
+    Wayfair is one of the world's largest online destinations for the home. Our storefront is a very large PHP application -- 3.5M LoC interacting with a wide array of extensions -- that serves 2M daily visitors. So we were delighted when our upgrade to PHP7 went without a hitch. It worked so well because of a test plan that covered a wide range of strategies and tools. This case study will combine a walkthrough of this project with a practical tour of PHP testing tools, from PHPUnit to GDB.
+
+- name: Silo-Based Architectures for High Availability Applications
+  track: side1
+  day: friday
+  starttime: "13:30"
+  endtime: "14:30"
+  type: talk
+  speaker: georgianagligor
+  description: |
+    High availability is becoming a de-facto requirement of today's applications. Customer-facing IT failures mean directly losing customer revenue and trust, as users have grown accustomed to easily switching service providers for more reliable ones. Lack of internal systems availability block employee productivity and add to the financial burden. Thus, it is critical to have a healthy, performant, resilient IT structure serving as a backbone of conducting your business. But there are no textbook solutions to achieving five 9s availability. Data redundancy, computing clusters, load balancing, fail-over mechanisms, each of these individually addresses one potential issue, but none treats systems in your organisation holistically for maximising business revenue. Silos are a clever method of grouping servers in such a way that they can be scaled both horizontally and vertically, depending on the actual application needs. Most importantly, it frees you from over-optimizing the architecture upfront, by allowing fine adjustments easy to integrate in your Agile workflow.
+
+- name: Drupal8 for Symfony Developers
+  track: side2
+  day: friday
+  starttime: "13:30"
+  endtime: "14:30"
+  type: talk
+  speaker: antoniopericmazar
+  description: |
+    Drupal8 modernization (new object-oriented base) and adoption of many Symfony components is a huge step in connecting these two amazing communities and amazing projects. Drupal8 is not powered by full-stack Symfony and there is still many differences between these two relatives, but still, Symfony developers should master it easily. This talk is for Symfony developers who don't have experience with Drupal8. It will guide you through routing, controllers, hooks, events, Drupal Console, DI and many other interesting elements that power Drupal8 under the hood. It will also show how to build custom modules Symfony way.
+
+- name: Room change
+  track: main
+  day: friday
+  starttime: "14:30"
+  endtime: "14:40"
+  type: break
+  description: ""
+
+- name: Demystifying Object-Oriented Programming
+  track: main
+  day: friday
+  starttime: "14:40"
+  endtime: "15:40"
+  type: talk
+  speaker: alenaholligan
+  description: |
+    Abstraction, Encapsulation, Polymorphism, and Interfaces: whether you’ve been programming in PHP for years or are just starting your journey, these terms can be overwhelming even on a good day. Variables, conditionals, those all make sense. But this whole Object-Oriented thing is WAY more complicated. Not only that, people that already understand it act like it’s so easy and they talk right over the simple questions and never explain the basic concepts in a way that actually makes sense. In this session we’ll take you through real life examples of Object-Oriented terminology in a way that will make sense of all the mumbo jumbo and allow you to utilizing OOP immediately.
+
+- name: "'We need a bigger boat' - Introduction to application scaling"
+  track: side1
+  day: friday
+  starttime: "14:40"
+  endtime: "15:40"
+  type: talk
+  speaker: liamwiltshire
+  description: |
+    At one time or another, every developer comes across the same problem - their application starts getting slower, then starts falling over, then isn't available at all. Often, this comes down to too many users, too much stored data - in other words a scaling problem. Looking at a range of options, from horizontal and vertical scaling, to caching, sharding and optimisation, Liam will discuss approaches to scaling that can be used on new applications, and also some that can be retro-fitted to existing applications.
+    
+- name: "MediaWiki: The powerhouse of Wikipedia"
+  track: side2
+  day: friday
+  starttime: "14:40"
+  endtime: "15:40"
+  type: talk
+  speaker: rudrapratapsinha
+  description: |
+    MediaWiki is a well known open source wiki framework mostly written on PHP. Most PHP developers are aware of MediaWiki but sometimes it is more than just reading manual that is needed. The evaluation of mediawiki, the history, how a number of volunteers invested their time to make this popular open source framework will be briefed during the session. How anyone can get involved as a mediawiki developer. Understanding the APIs, installing mediawiki and running php bots on mediawiki powered websites, including Wikipedia. How anyone can make extensions and parser functions on mediawiki that could support programming languages like Lua. Why using mediawiki for enterprises is a bad idea are some aspects will be talked.
+
+- name: Afternoon Refreshment Break
+  track: main
+  day: friday
+  starttime: "15:40"
+  endtime: "16:00"
+  type: break
+  description: |
+    Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+
+- name: "Websockets and Torrents: A match made in PHP"
+  track: main
+  day: friday
+  starttime: "16:00"
+  endtime: "17:00"
+  type: talk
+  speaker: jamesmallison
+  description: |
+    Websockets are a technology allowing bi-directional communication between the server and the client and are not often the topic of focus when it comes to writing standard web applications due to their architectural complexity and learning curve required. This talk is the story of my first real project involving sending torrent data from the server to the browser so I could build my own Torrent Web GUI. What is an event loop? How does it work? How about authentication when using both HTTP and Websocket requests? How do I make my code non-blocking? These are some of the topics covered from both a theoretical and a practical standpoint. I also talk about security and privacy and how not to get caught when setting up a server designed solely for streaming Ubuntu downloads.
+
+- name: Debugging Effectively
+  track: side1
+  day: friday
+  starttime: "16:00"
+  endtime: "17:00"
+  type: talk
+  speaker: colinodell
+  description: |
+    Software bugs are inevitable; some are especially difficult to track down, causing you to waste countless hours before throwing your hands up in defeat. It doesn't have to be this way! The mental fatigue and wasted time can be avoided by using strategies like identifying the most-appropriate tool, taking a logical & objective approach, challenging assumptions, listening to variables, isolating the code path, and reinforcing code with automated tests. Attendees will learn how to combine these techniques with the right mindset and attitude in order to debug their code quickly and effectively.
+
+- name: TBA
+  track: side2
+  day: friday
+  starttime: "16:00"
+  endtime: "17:00"
+  type: talk
+  speaker: TBA
+  description: |
+
+- name: Room change
+  track: main
+  day: friday
+  starttime: "17:00"
+  endtime: "17:10"
+  type: break
+  description: ""
+
+- name: Towards a framework-less world
+  track: main
+  day: friday
+  starttime: "17:10"
+  endtime: "17:40"
+  type: keynote
+  speaker: michaelcullum
+  description: |
+    Decoupling, abstracting and ungluing your applications has been something that people have been talking about for years. Ultimately though, most packages still have dependencies and creating a library-abstract bundle is still hard but it's getting easier. How far are we from having the ability to package re-usable web-focussed widgets that can be composed into applications? What would a world where libraries were all non-framework specific that could be glued in look like? Lets have a look at how far we've come as an industry and what the future could hold.
+
+- name: Closing Address & Prize Raffle
+  track: main
+  day: friday
+  starttime: "17:40"
+  endtime: "18:00"
+  type: special
+  description: |

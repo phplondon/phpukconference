@@ -1146,35 +1146,62 @@ input + button {
     .page-title.-collapse h1 {
       font-size: 2rem; }
 
-.about {
+.page-title.about {
   background-image: url(/assets/images/banners/about.png); }
 
-.speakers {
+.page-title.speakers {
   background-image: url(/assets/images/banners/speakers.png); }
 
-.schedule {
+.page-title.schedule {
   background-image: url(/assets/images/banners/schedule.png); }
 
-.sponsors {
+.page-title.sponsors {
   background-image: url(/assets/images/banners/sponsors.png); }
 
-.socials {
+.page-title.socials {
   background-image: url(/assets/images/banners/socials.png); }
 
-.venue {
+.page-title.venue {
   background-image: url(/assets/images/banners/venue.png); }
 
-.diversity {
+.page-title.diversity {
   background-image: url(/assets/images/banners/diversity.png); }
 
-.tickets {
+.page-title.tickets {
   background-image: url(/assets/images/banners/tickets.png); }
 
-.speakers {
+.page-title.speakers {
   background-image: url(/assets/images/banners/speakers.png); }
 
-.videos {
+.page-title.videos {
   background-image: url(/assets/images/banners/videos.png); }
+
+.speakers {
+  list-style: none; }
+
+.speaker {
+  clear: both;
+  margin-bottom: 30px; }
+  .speaker-photo {
+    float: left;
+    margin: 0 20px 30px 0;
+    width: 150px;
+    max-width: 22%; }
+    @media (min-width: 0) and (max-width: 720px) {
+      .speaker-photo {
+        margin-bottom: 10px; } }
+    @media (min-width: mobile-only) {
+      .speaker-photo {
+        margin-bottom: 10px; } }
+  .speaker-name {
+    display: inline-block;
+    margin-top: 0; }
+  .speaker-company {
+    color: #00718A;
+    margin-bottom: 5px; }
+  .speaker-handle {
+    display: block;
+    margin-bottom: 5px; }
 
 .header-bar {
   display: none;

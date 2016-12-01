@@ -42,7 +42,7 @@
 // variable located in settings/_global 50
 @each $banner-name in $banner-list {
 
-	.#{$banner-name} {
+	.page-title.#{$banner-name} {
 		background-image:url(/assets/images/banners/#{$banner-name}.png);
 	}
 }

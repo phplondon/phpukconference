@@ -106,9 +106,8 @@
 	text-decoration: none;
 	text-align: center;
 	outline: none;
-	padding: 0;
-	-webkit-box-shadow: 0 0 22px 0 rgba(0,0,0,0.1);
-    box-shadow: 0 0 22px 0 rgba(0,0,0,0.1);
+	padding: 5;
+  border-bottom: 1px solid #fff;
 }
 .tiva-timetable .timetable-week .timetable-column .timetable-column-content .timetable-title:hover {
 	opacity: 0.8;	
@@ -130,7 +129,13 @@
 	font-size: 14px;
 	line-height: 14px;
 	font-weight: bold;
+/*  white-space: nowrap;*/
+}
+.tiva-timetable .timetable-week .timetable-column .timetable-column-content .timetable-speaker {
+	font-size: 13px;
+	line-height: 13px;
 	white-space: nowrap;
+	margin-bottom: 1px;
 }
 .tiva-timetable .timetable-week .timetable-column .timetable-column-content .timetable-time {
 	font-size: 13px;
@@ -139,8 +144,8 @@
 	margin-bottom: 1px;
 }
 .tiva-timetable .timetable-week .timetable-column .timetable-column-grid  .grid-item {
-	border-right: 1px solid #e8e8e8;
-    border-bottom: 1px solid #e8e8e8;
+	/*border-right: 1px solid #e8e8e8;
+  border-bottom: 1px solid #e8e8e8;*/
 	height: 100px;
 	-webkit-box-sizing: content-box;
 	-moz-box-sizing: content-box;
@@ -169,7 +174,7 @@
 	font-size: 15px;
 }
 .tiva-timetable .timetable-list .timetable-day:last-child {
-	border-bottom: 1px solid #d1d1d1;
+/*  border-bottom: 1px solid #d1d1d1;*/
 }
 .tiva-timetable .timetable-list .timetable-content {
 	padding: 15px;
@@ -280,25 +285,33 @@
 .tiva-timetable .timetable-week .timetable-column .timetable-title.color-talk,
 .tiva-timetable .timetable-list .timetable-item .timetable-color.color-talk,
 .timetable-popup .popup-header.color-talk  {
-	background: #567BD2;	
+	background: #374871;	
 }
-.tiva-timetable .timetable-month .timetable-item .timetable-color.color-keynote ,
+.tiva-timetable .timetable-month .timetable-item .timetable-color.color-special,
+.tiva-timetable .timetable-week .timetable-column .timetable-title.color-special,
+.tiva-timetable .timetable-list .timetable-item .timetable-color.color-special,
+.timetable-popup .popup-header.color-special {
+  background: #cf3d72;
+}
+.tiva-timetable .timetable-month .timetable-item .timetable-color.color-keynote,
 .tiva-timetable .timetable-week .timetable-column .timetable-title.color-keynote,
 .tiva-timetable .timetable-list .timetable-item .timetable-color.color-keynote,
 .timetable-popup .popup-header.color-keynote {
-	background: #13baff;	
+	background: #374871;
 }
 .tiva-timetable .timetable-month .timetable-item .timetable-color.color-break,
 .tiva-timetable .timetable-week .timetable-column .timetable-title.color-break,
 .tiva-timetable .timetable-list .timetable-item .timetable-color.color-break3,
 .timetable-popup .popup-header.color-break {
-	background: #669933;	
+  background: rgba(200, 200, 200, .8);
+  color: #6F6F6F;
 }
 .tiva-timetable .timetable-month .timetable-item .timetable-color.color-lunch,
 .tiva-timetable .timetable-week .timetable-column .timetable-title.color-lunch,
 .tiva-timetable .timetable-list .timetable-item .timetable-color.color-lunch,
 .timetable-popup .popup-header.color-lunch {
-	background: #ff8a23;	
+  background: rgba(200, 200, 200, .8);
+  color: #6F6F6F;
 }
 .tiva-timetable .timetable-month .timetable-item .timetable-title {
 	font-size: 13px;
@@ -352,8 +365,12 @@
 }
 .timetable-popup .popup-body .timetable-image {
 	float:left;
-	max-width:40%;
-	margin:0 15px 15px 0;
+	max-width:25%;
+	margin:0 15px 5px 0;
+}
+.timetable-popup .popup-body .timetable-image.break,
+.timetable-popup .popup-body .timetable-image.special{
+	display:none;
 }
 .timetable-popup .popup-body .timetable-desc {
 	text-align: justify;
@@ -368,6 +385,11 @@
 	font-size: 16px;
 	color: #f15e6e;
 	text-align:left;
+}
+
+.timetable-popup .color-special .track-name,
+.timetable-popup .color-break .track-name{
+	display:none;
 }
 
 /* Animation Popup */
@@ -504,5 +526,35 @@
 .timetable-title.color-special,
 .timetable-title.color-keynote{
 	width:300% !important;
+	z-index:1;
+}
+
+h2.center{
+	text-align:center;
+}
+
+.tiva-timetable.col4 .loading {
+  padding: 40px 0;
+}
+
+.tiva-timetable.col4 .timetable-week .timetable-axis .axis-item {
+  height: 41px;
+}
+
+.tiva-timetable.col4 .timetable-week .timetable-columns .timetable-column {
+  width: 25% !important;
+}
+
+.tiva-timetable.col4 .timetable-week .timetable-column .timetable-column-content .timetable-title {
+  height: 40px;
+}
+
+.tiva-timetable.col4 .timetable-week .timetable-column .timetable-column-grid  .grid-item {
+  height: 40px;
+}
+.tiva-timetable.col4 .timetable-title.color-break,
+.tiva-timetable.col4 .timetable-title.color-special,
+.tiva-timetable.col4 .timetable-title.color-keynote{
+	width:400% !important;
 	z-index:1;
 }
