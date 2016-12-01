@@ -4,6 +4,7 @@
     "items": [
             {% for talk in site.data.2017.talks %}{% if talk.day == 'thursday' %}{% assign speaker = site.data.2017.speakers | where:"slug", talk.speaker  | first %}{
               "speaker": "{{ speaker.name }}",
+              "slug": "{{ talk.speaker }}",
               "image": "{{ talk.speaker }}.jpg",
               "talk": "{{ talk.name }}",
               "date": "{% if talk.track == "main" %}12{% elsif talk.track == "side1" %}13{% else %}14{% endif %}",

@@ -1,3 +1,12 @@
+- name: Registration &amp; Breakfast
+  track: workshop1
+  day: wednesday
+  starttime: "08:30"
+  endtime: "09:00"
+  type: break
+  description: |
+    Registration will be open from 8:30am. A light breakfast with coffee/tea/juice will be served until shortly before 9am.
+
 - name: Diving Deep into Docker
   track: workshop1
   day: wednesday
@@ -37,6 +46,14 @@
   speaker: jakubzalas
   description: |
     Learn everything from writing good unit tests, through using test doubles (like stubs or mocks), to writing integration tests. Learn how to structure your project to benefit from a test-first design. Apply the right amount of testing on appropriate levels, write decoupled code, and run your tests in seconds, not hours. The result will look suspiciously close to the hexagonal architecture.
+
+- name: Pre-Conference Social
+  track: workshop1
+  day: wednesday
+  starttime: "18:00"
+  endtime: "21:00"
+  type: special
+  description: |
 
 - name: Registration &amp; Breakfast
   track: main
@@ -111,6 +128,7 @@
   starttime: "11:20"
   endtime: "11:30"
   type: break
+  description: ""
 
 - name: Serving 30,000,000 Requests an Hour in the Cloud
   track: main
@@ -187,6 +205,7 @@
   starttime: "14:30"
   endtime: "14:40"
   type: break
+  description: ""
 
 - name: Don’t Lose Sleep - Secure Your REST
   track: main
@@ -263,6 +282,7 @@
   starttime: "17:00"
   endtime: "17:10"
   type: break
+  description: ""
 
 - name: Using Open Source for Fun and Profit
   track: main
@@ -274,11 +294,11 @@
   description: |
     10 years ago I was a lonely developer sitting in a small room quietly turning out code between 9am and 5pm, Monday to Friday. Fast-forward to now and you'll see me standing in front of audiences all around the world talking to developers about numerous topics."Why are you bragging like that at me?" I hear you ask. Because it could happen to you too. The question I always ask myself is ""How the hell did that happen?!?!"". The truth is that the only reason I've managed to advance my career so far in a decade is because of the people that make up the communities of open source projects. Not only do open source projects save you time and money, but the friendships and support groups that can be made within these communities is, frankly, staggering. Join me as I chart my journey from wage slave to conference speaker, and look at how you can leverage the power of open source to make real friends, real money, and real happiness.
 
-- name: Closing address and Prize Raffle
+- name: Closing address
   track: main
   day: thursday
   starttime: "17:40"
-  endtime: "17:55"
+  endtime: "18:00"
   type: special
   description: |
 
@@ -364,6 +384,7 @@
   starttime: "11:20"
   endtime: "11:30"
   type: break
+  description: ""
 
 - name: Preparing your Dockerised Application for Production Deployment
   track: main
@@ -440,6 +461,7 @@
   starttime: "14:30"
   endtime: "14:40"
   type: break
+  description: ""
 
 - name: Demystifying Object-Oriented Programming
   track: main
@@ -515,6 +537,7 @@
   starttime: "17:00"
   endtime: "17:10"
   type: break
+  description: ""
 
 - name: Towards a framework-less world
   track: main
@@ -526,10 +549,10 @@
   description: |
     Decoupling, abstracting and ungluing your applications has been something that people have been talking about for years. Ultimately though, most packages still have dependencies and creating a library-abstract bundle is still hard but it's getting easier. How far are we from having the ability to package re-usable web-focussed widgets that can be composed into applications? What would a world where libraries were all non-framework specific that could be glued in look like? Lets have a look at how far we've come as an industry and what the future could hold.
 
-- name: Closing address
+- name: Closing Address & Prize Raffle
   track: main
   day: friday
   starttime: "17:40"
-  endtime: "17:55"
+  endtime: "18:00"
   type: special
   description: |
