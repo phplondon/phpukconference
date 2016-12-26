@@ -1728,10 +1728,19 @@ input + button {
         width: auto; } }
 
 .sponsor-bar {
-  border-top: 1px solid #CCCCCC; }
-
-.sponsor-logos li {
-  display: inline-block; }
+  border-top: 1px solid #CCCCCC;
+  padding: 50px 0; }
+  .sponsor-bar .sponsor-list {
+    margin: 0 0 20px 0;
+    list-style: none; }
+    .sponsor-bar .sponsor-list li {
+      display: inline-block;
+      margin: 0 10px;
+      vertical-align: middle; }
+    .sponsor-bar .sponsor-list img {
+      display: block;
+      max-width: 150px;
+      max-height: 70px; }
 
 /**
 * 1. Allow us to style box model properties.

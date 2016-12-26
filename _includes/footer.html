@@ -1,6 +1,15 @@
 {% if page.url != '/sponsors/' %}
 <div class="row -center sponsor-bar">
     <div class="wrapper">
+        <ul class="sponsor-list">
+            {% for sponsor in site.data.2017.sponsors %}
+            <li class="sponsor-list__sponsor">
+                <a href="{{ sponsor.url }}" class="sponsor__link">
+                    <img src="/2017/assets/images/sponsors/{{ sponsor.id }}.png" alt="{{ sponsor.name }}">
+                </a>
+            </li>
+            {% endfor %}
+        </ul>
         <h5>Want to sponsor the PHP UK Conference? <a href="/sponsors">Click here.</a></h5>
     </div>
 </div>

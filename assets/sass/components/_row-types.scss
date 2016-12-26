@@ -34,11 +34,22 @@
 //Sponsors
 .sponsor-bar{
 	border-top:1px solid $color-grey;
-}
+	padding:50px 0;
 
-.sponsor-logos{
-	
-	li{
-		display:inline-block;
+	.sponsor-list{
+		margin:0 0 20px 0;
+		list-style:none;
+		
+		li{
+			display:inline-block;
+			margin:0 10px;
+			vertical-align:middle;
+		}
+
+		img{
+			display:block;
+			max-width:150px;
+			max-height:70px;
+		}
 	}
 }
