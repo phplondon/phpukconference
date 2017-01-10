@@ -633,9 +633,9 @@ h3 + p + p {
   .constrain {
     max-width: 50%; } }
 
-.link {
+.link, .sponsor-list.-profiles .sponsor__link {
   color: #242424; }
-  .link:before {
+  .link:before, .sponsor-list.-profiles .sponsor__link:before {
     padding-right: 4px;
     content: "\025B8"; }
 
@@ -1203,6 +1203,35 @@ input + button {
     display: block;
     margin-bottom: 5px; }
 
+.sponsor-list {
+  list-style: none; }
+  .sponsor-list.-profiles__sponsor {
+    display: block;
+    clear: both; }
+  .sponsor-list.-profiles .profile {
+    margin-left: 230px; }
+    @media (min-width: 0) and (max-width: 720px) {
+      .sponsor-list.-profiles .profile {
+        margin-left: 0; } }
+    @media (min-width: mobile-only) {
+      .sponsor-list.-profiles .profile {
+        margin-left: 0; } }
+  .sponsor-list.-profiles .sponsor__logo {
+    float: left;
+    max-width: 198px;
+    height: auto; }
+    @media (min-width: 0) and (max-width: 720px) {
+      .sponsor-list.-profiles .sponsor__logo {
+        max-width: 40%;
+        margin-right: 10px; } }
+    @media (min-width: mobile-only) {
+      .sponsor-list.-profiles .sponsor__logo {
+        max-width: 40%;
+        margin-right: 10px; } }
+  .sponsor-list.-profiles .sponsor__link {
+    clear: both;
+    display: block; }
+
 .header-bar {
   display: none;
   height: 32px;
@@ -1708,6 +1737,9 @@ input + button {
 .row.-collapse {
   padding: 0; }
 
+.row.-no-top-padding {
+  padding-top: 0; }
+
 .row.-medium {
   background: #F4F4F4; }
 
@@ -1731,8 +1763,7 @@ input + button {
   border-top: 1px solid #CCCCCC;
   padding: 50px 0; }
   .sponsor-bar .sponsor-list {
-    margin: 0 0 20px 0;
-    list-style: none; }
+    margin: 0 0 20px 0; }
     .sponsor-bar .sponsor-list li {
       display: inline-block;
       margin: 0 10px;

@@ -1,0 +1,36 @@
+.sponsor-list{
+	list-style:none;
+
+	&.-profiles{
+
+		&__sponsor{
+			display:block;
+			clear:both;
+		}
+
+		.profile{
+			margin-left:230px;
+
+			@include respond(mobile-only){
+				margin-left:0;
+			}
+		}
+
+		 .sponsor__logo{
+			float:left;
+			max-width:198px;
+			height:auto;
+
+			@include respond(mobile-only){
+				max-width:40%;
+				margin-right:10px;
+			}
+		}
+
+		.sponsor__link{
+			clear:both;
+			display:block;
+			@extend .link;
+		}
+	}
+}

@@ -4,6 +4,10 @@
 		padding:0;
 	}
 
+	&.-no-top-padding{
+		padding-top:0;
+	}
+
 	&.-medium{
 		background:$color-grey-light;
 	}
@@ -38,7 +42,6 @@
 
 	.sponsor-list{
 		margin:0 0 20px 0;
-		list-style:none;
 		
 		li{
 			display:inline-block;
