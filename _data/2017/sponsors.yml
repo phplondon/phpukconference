@@ -1,7 +1,7 @@
 - name: Shopware
   id: shopware
   type: silver
-  url: httpss://en.shopware.com
+  url: https://en.shopware.com
   description: |
     Shopware AG is one of the leading manufacturers of online shop systems in Germany. As an independent, equity-financed company, we develop high quality software on-site and work closely with our customers and partners in order to optimize our product. We evolve transparently and always remain flexible and open to requests from our growing community. These qualities produce high annual growth rates in addition to premium levels of service, which distinguish us from the rest.
 
