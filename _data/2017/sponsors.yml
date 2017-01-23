@@ -1,9 +1,23 @@
+- name: Red Hat Openshift
+  id: openshift
+  type: platinum
+  url: https://www.openshift.com
+  description: |
+    Based on top of Docker containers and the Kubernetes container cluster manager, OpenShift 3 adds developer and operational centric tools to enable rapid application development, easy deployment and scaling, and long-term lifecycle maintenance for small and large teams and applications.
+
 - name: Shopware
   id: shopware
   type: silver
-  url: httpss://en.shopware.com
+  url: https://en.shopware.com
   description: |
     Shopware AG is one of the leading manufacturers of online shop systems in Germany. As an independent, equity-financed company, we develop high quality software on-site and work closely with our customers and partners in order to optimize our product. We evolve transparently and always remain flexible and open to requests from our growing community. These qualities produce high annual growth rates in addition to premium levels of service, which distinguish us from the rest.
+
+- name: Siteground
+  id: siteground
+  type: silver
+  url: https://www.siteground.com/
+  description: |
+    SiteGround, with over 12 years in the business and hosting more than 400 000 domain names, is a leading web hosting company internationally recognized for their unique approach to hosting. They do things most other hosting companies wouldn’t even consider possible. With a focus on performance, security and unmatched customer service, they have developed their in-house solutions to protect your website from hacks and invented new technologies that can make your website run over one hundred times faster. Best part of it - they have amazing, fast, experienced and super friendly individuals working on their support team to help you 24/7! To make the life of their geeky clients easier, they provide many goodies like free SSL certificate with each hosting account, automatic software updates, built-in caching and CDN, staging tool and GIT integration.
 
 - name: JetBrains
   id: jetbrains
@@ -22,3 +36,10 @@
     We're proud to count some of the world's leading organisations as clients, including Virgin, Victoria Beckham, Talk Mobile, Nokia, and William Hill.
 
     With offices across the UK and Europe, Inviqa employs more than 200 professionals, including software engineers, consultants, business analysts, project managers, and UX specialists. Our team is made up of brilliant, talented people who aspire to be the best at what they do, and we’re always on the hunt for fresh talent. Check out our openings at inviqa.com/careers.
+
+- name: Nexmo
+  id: nexmo
+  type: gold
+  url: https://www.nexmo.com/
+  description: |
+    Nexmo is a global cloud communications platform, providing APIs and SDKs for SMS, voice, phone verification, messaging and advanced multi-channel conversations. We have officially supported open source libraries for Node.JS, Ruby, Python, PHP, Java and C# .NET enabling you to build scalable communications features such as two-factor authentication, notifications, two-way and group messaging, one to one or multi person calls, all with the technologies that you are already using.
