@@ -35,7 +35,7 @@
   type: talk
   speaker: damienseguy
   description: |
-    Everyone must migrate to PHP 7, take advantage of exceptional performances, cut half their hardware and enjoy the best of PHP ever. This workshop is for everyone that is still eyeing PHP 7 while  with PHP 5, and wants to review his million LOC project before jumping to PHP 7. When migrating, we need to check old code and target only the interesting issues. This session will connect the backward incompatibilities and new features to actual location in the code, relying on static analysis to process quickly large code base. Based on the accumulated experience of the tools and our own, we'll review the issues, diagnose criticality, select the best fixes and prioritize the tasks.  All tools are Open Source, and ready to be integrated into your project life.
+    Everyone must migrate to PHP 7! Take advantage of exceptional performance improvements, cut your hardware use in half and enjoy the best of PHP. This workshop is for everyone that is still eyeing PHP 7 while still using PHP 5, and wants to review their 1 million LOC project before jumping to PHP 7. When migrating, we need to check old code and target only the interesting issues. This session will connect the backward incompatibilities and new features to their actual location in the code, relying on static analysis to quickly process a large code base. Based on our accumulated experience and tools, we'll review the issues, diagnose criticality, select the best fixes and prioritize the tasks. All tools are Open Source, and ready to be integrated into your project lifecycle. 
 
 - name: Test Driven Development
   track: workshop4
