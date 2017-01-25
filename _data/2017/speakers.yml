@@ -235,12 +235,6 @@
   bio: |
       Rowan is a Developer Advocate at Google, which means he works with partners to build real-world applications to prove and shape new technology. Aside from the obligatory exposure to BASIC as a child, the web has always been his natural home for coding. From early Perl-based guestbooks, through Python CMS integrations, onto PHP in more places than seems healthy, he’s seen how a high performing web app is critical to success in any business.
 
-- name: Rudra Pratap Sinha
-  slug: rudrapratapsinha
-  company: Wikimedia Foundation
-  bio: |
-      Rudra Pratap Sinha is a Wikimedia movement contributor/developer committed to bring the "sum of all human knowledge" for free. A believer of FOSS, based in Kolkata, India. Sinha has been contributing on Wikipedia since 2011 as a volunteer editor/developer focusing on Wikipedia's well known PHP framework, MediaWiki. Apart from Wikimedia projects, he works as a software engineer focusing on web technologies.
-
 - name: Sebastian Thoss
   slug: sebastianthoss
   company: tech.kartenmacherei

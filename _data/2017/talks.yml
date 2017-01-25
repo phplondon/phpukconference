@@ -483,15 +483,14 @@
   description: |
     At one time or another, every developer comes across the same problem - their application starts getting slower, then starts falling over, then isn't available at all. Often, this comes down to too many users, too much stored data - in other words a scaling problem. Looking at a range of options, from horizontal and vertical scaling, to caching, sharding and optimisation, Liam will discuss approaches to scaling that can be used on new applications, and also some that can be retro-fitted to existing applications.
     
-- name: "MediaWiki: The powerhouse of Wikipedia"
+- name: "TBA"
   track: side2
   day: friday
   starttime: "14:40"
   endtime: "15:40"
   type: talk
-  speaker: rudrapratapsinha
+  speaker: 
   description: |
-    MediaWiki is a well known open source wiki framework mostly written on PHP. Most PHP developers are aware of MediaWiki but sometimes it is more than just reading manual that is needed. The evaluation of mediawiki, the history, how a number of volunteers invested their time to make this popular open source framework will be briefed during the session. How anyone can get involved as a mediawiki developer. Understanding the APIs, installing mediawiki and running php bots on mediawiki powered websites, including Wikipedia. How anyone can make extensions and parser functions on mediawiki that could support programming languages like Lua. Why using mediawiki for enterprises is a bad idea are some aspects will be talked.
 
 - name: Afternoon Refreshment Break
   track: main
