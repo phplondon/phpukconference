@@ -137,6 +137,13 @@
   bio: |
       Having crafted professional software since 2003, Georgiana Gligor is living proof that geek girls are an asset to any team. She loves coding large-scale applications and mentoring team mates in achieving craftsmanship. Georgiana has experience in every aspect of the life cycle of software development and is hungry for more. Since 2011 she is running her <a href="http://tekkie.ro/about/">own consulting company</a> specialised in application architecture, QA, DevOps, and modernising legacy codebases and can sometimes be found offering <a href="http://tekkie.ro/trainings/">in-house trainings</a> for companies on topics like Domain-Driven Design, RESTful APIs, Continuous Delivery, or software craftsmanship.
 
+- name: Grant Shipley
+  slug: grantshipley
+  twitter: 
+  company: Red Hat
+  bio: |
+      Grant Shipley is a Director at Red Hat focused on cloud and container technologies.  He is the author of several books including "OpenShift for Developers" and "Learning OpenShift". Prior to that, Grant was a Manager of Software Development with responsibilities over the <a href="http://www.redhat.com">www.redhat.com</a> website and supporting infrastructure. Grant has over 15 years of software development experience focusing on Java and PHP. In his free time, he contributes to several open source projects as well as developing mobile applications. Grant has been using Linux on a daily basis since 1994 and is active in the FOSS community.
+
 - name: Hannes Van De Vreken
   slug: hannesvandevreken
   twitter: hannesvdvreken

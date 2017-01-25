@@ -501,8 +501,18 @@
   description: |
     Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
 
-- name: "Websockets and Torrents: A match made in PHP"
+- name: "Docker, Kubernetes, and OpenShift for PHP Developers"
   track: main
+  day: friday
+  starttime: "16:00"
+  endtime: "17:00"
+  type: talk
+  speaker: grantshipley
+  description: |
+    So, you want to use Docker and Kubernetes for your development but don’t want to spend your days writing Dockerfiles and running Docker builds? In this talk you will learn how to deploy and manage applications using docker, kubernetes, and the open source OpenShift projects to truly simplify your development flow. Diving a bit deeper, we will learn how to use the Source 2 Image project to automatically build and deploy docker images straight from source code. After that, we will take it up a notch by learning how to add databases and scale the application to achieve fast response times for your users. At the conclusion of this talk, you will understand the workflow to build, deploy, scale and manage applications deployed using Docker, Kubernetes, and OpenShift. And just for giggles, we will also learn how to do A/B and Blue / Green deployments.
+
+- name: "Websockets and Torrents: A match made in PHP"
+  track: side1
   day: friday
   starttime: "16:00"
   endtime: "17:00"
@@ -512,7 +522,7 @@
     Websockets are a technology allowing bi-directional communication between the server and the client and are not often the topic of focus when it comes to writing standard web applications due to their architectural complexity and learning curve required. This talk is the story of my first real project involving sending torrent data from the server to the browser so I could build my own Torrent Web GUI. What is an event loop? How does it work? How about authentication when using both HTTP and Websocket requests? How do I make my code non-blocking? These are some of the topics covered from both a theoretical and a practical standpoint. I also talk about security and privacy and how not to get caught when setting up a server designed solely for streaming Ubuntu downloads.
 
 - name: Debugging Effectively
-  track: side1
+  track: side2
   day: friday
   starttime: "16:00"
   endtime: "17:00"
@@ -520,15 +530,6 @@
   speaker: colinodell
   description: |
     Software bugs are inevitable; some are especially difficult to track down, causing you to waste countless hours before throwing your hands up in defeat. It doesn't have to be this way! The mental fatigue and wasted time can be avoided by using strategies like identifying the most-appropriate tool, taking a logical & objective approach, challenging assumptions, listening to variables, isolating the code path, and reinforcing code with automated tests. Attendees will learn how to combine these techniques with the right mindset and attitude in order to debug their code quickly and effectively.
-
-- name: TBA
-  track: side2
-  day: friday
-  starttime: "16:00"
-  endtime: "17:00"
-  type: talk
-  speaker: TBA
-  description: |
 
 - name: Room change
   track: main
