@@ -1766,7 +1766,7 @@ input + button {
     margin: 0 0 20px 0; }
     .sponsor-bar .sponsor-list li {
       display: inline-block;
-      margin: 0 10px;
+      margin: 0 10px 10px;
       vertical-align: middle; }
     .sponsor-bar .sponsor-list img {
       display: block;

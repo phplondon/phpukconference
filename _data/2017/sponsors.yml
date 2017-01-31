@@ -5,20 +5,6 @@
   description: |
     Based on top of Docker containers and the Kubernetes container cluster manager, OpenShift 3 adds developer and operational centric tools to enable rapid application development, easy deployment and scaling, and long-term lifecycle maintenance for small and large teams and applications.
 
-- name: Shopware
-  id: shopware
-  type: silver
-  url: https://en.shopware.com
-  description: |
-    Shopware AG is one of the leading manufacturers of online shop systems in Germany. As an independent, equity-financed company, we develop high quality software on-site and work closely with our customers and partners in order to optimize our product. We evolve transparently and always remain flexible and open to requests from our growing community. These qualities produce high annual growth rates in addition to premium levels of service, which distinguish us from the rest.
-
-- name: Siteground
-  id: siteground
-  type: silver
-  url: https://www.siteground.com/
-  description: |
-    SiteGround, with over 12 years in the business and hosting more than 400 000 domain names, is a leading web hosting company internationally recognized for their unique approach to hosting. They do things most other hosting companies wouldn’t even consider possible. With a focus on performance, security and unmatched customer service, they have developed their in-house solutions to protect your website from hacks and invented new technologies that can make your website run over one hundred times faster. Best part of it - they have amazing, fast, experienced and super friendly individuals working on their support team to help you 24/7! To make the life of their geeky clients easier, they provide many goodies like free SSL certificate with each hosting account, automatic software updates, built-in caching and CDN, staging tool and GIT integration.
-
 - name: JetBrains
   id: jetbrains
   type: gold
@@ -43,3 +29,41 @@
   url: https://www.nexmo.com/
   description: |
     Nexmo is a global cloud communications platform, providing APIs and SDKs for SMS, voice, phone verification, messaging and advanced multi-channel conversations. We have officially supported open source libraries for Node.JS, Ruby, Python, PHP, Java and C# .NET enabling you to build scalable communications features such as two-factor authentication, notifications, two-way and group messaging, one to one or multi person calls, all with the technologies that you are already using.
+
+- name: Flypay
+  id: flypay
+  type: gold
+  url: https://www.flypay.co.uk/
+  description: |
+    Flypay creates solutions for hospitality companies to create better experiences and improve revenue or efficiency. These include our core Flypay solutions: for restaurant customers to check, split and pay their bill directly from their smartphones, order more for collection or at table, or set up a pre-authed tab that allows you just to walk out at the end of your evening. It also includes our new platform, Flyt, which seeks to unify restaurant technology to create some really magical experiences across booking, payment, ordering, loyalty, delivery and other parts of the journey.
+    Listed as one of the UK's top 100 most innovative startups in 2013 by Smarta/O2, Mobile Payment Solution of the Year 2015 by Retail Awards, and Bloomberg Business Innovators 2016.
+
+- name: WP Engine
+  id: wpengine
+  type: gold
+  url: https://wpengine.com/
+  description: |
+    WP Engine powers amazing digital experiences for websites and applications built on WordPress. The company’s premium managed hosting platform provides the performance, reliability and security required by the biggest brands and agencies in the world while remaining affordable and intuitive for smaller businesses and individuals.
+
+    Our award-winning customer service team of WordPress experts is trusted by over 58,000 companies across over 130 countries to quickly solve technical problems, and create a world-class customer experience. The company’s exceptional customer service team comprises rigorously-trained WordPress experts and is the fastest-growing WordPress support team in the industry. This award-winning support team specialises in quickly solving technical problems, and creating a world-class customer experience for its customers. Founded in 2010, WP Engine is headquartered in Austin, Texas, and has offices in San Francisco, California, San Antonio, Texas, London, England, and Limerick, Ireland.
+
+- name: Shopware
+  id: shopware
+  type: silver
+  url: https://en.shopware.com
+  description: |
+    Shopware AG is one of the leading manufacturers of online shop systems in Germany. As an independent, equity-financed company, we develop high quality software on-site and work closely with our customers and partners in order to optimize our product. We evolve transparently and always remain flexible and open to requests from our growing community. These qualities produce high annual growth rates in addition to premium levels of service, which distinguish us from the rest.
+
+- name: Siteground
+  id: siteground
+  type: silver
+  url: https://www.siteground.com/
+  description: |
+    SiteGround, with over 12 years in the business and hosting more than 400 000 domain names, is a leading web hosting company internationally recognized for their unique approach to hosting. They do things most other hosting companies wouldn’t even consider possible. With a focus on performance, security and unmatched customer service, they have developed their in-house solutions to protect your website from hacks and invented new technologies that can make your website run over one hundred times faster. Best part of it - they have amazing, fast, experienced and super friendly individuals working on their support team to help you 24/7! To make the life of their geeky clients easier, they provide many goodies like free SSL certificate with each hosting account, automatic software updates, built-in caching and CDN, staging tool and GIT integration.
+
+- name: Contentful
+  id: contentful
+  type: silver
+  url: https://www.contentful.com/
+  description: |
+    Contentful is a content management developer platform that enables web and mobile developers to manage, integrate, and deliver digital content to any kind of device or service that can connect to an API - be it smartcars, VR, mobile, web, digital signage, or any new platform.
