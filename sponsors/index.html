@@ -42,6 +42,23 @@ weight: 4
 </div>
 <div class="row -no-top-padding">
 	<div class="wrapper">
+		<h3>Track sponsors</h3>
+        <ul class="sponsor-list -profiles">
+            {% for sponsor in track_sponsors %}
+            <li class="sponsor-list__sponsor">
+            	<img src="/2017/assets/images/sponsors/{{ sponsor.id }}.png" alt="{{ sponsor.name }}" class="sponsor__logo">
+            	<div class="profile">
+					<h4 class="sponsor__name">{{ sponsor.name }}</h4>
+	            	<p>{{ sponsor.description }}</p>
+	                <a href="{{ sponsor.url }}" class="sponsor__link">Visit the website</a>
+	            </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+<div class="row -no-top-padding">
+	<div class="wrapper">
 		<h3>Gold sponsors</h3>
         <ul class="sponsor-list -profiles">
             {% for sponsor in gold_sponsors %}

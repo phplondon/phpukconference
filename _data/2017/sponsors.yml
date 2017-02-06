@@ -5,6 +5,13 @@
   description: |
     Based on top of Docker containers and the Kubernetes container cluster manager, OpenShift 3 adds developer and operational centric tools to enable rapid application development, easy deployment and scaling, and long-term lifecycle maintenance for small and large teams and applications.
 
+- name: SamKnows
+  id: samknows
+  type: track
+  url: https://www.samknows.com
+  description: |
+    Founded in 2008 and headquartered in London (near the Tate Modern), SamKnows is the global leader in internet performance measurement. Our work with governments, internet companies and large ISPs gives us access to an exceptionally large dataset. Our free software and Whiteboxes are used globally to ensure consumers receive a better mobile and fixed internet service. If you’re interested in helping us to find ways to better use our extensive dataset to improve the internet, we want to talk to you. Stop by our booth and meet some of our engineers and maybe even Sam himself. Yes, there is a Sam, and he regrets naming the company after himself every single day!
+
 - name: JetBrains
   id: jetbrains
   type: gold
@@ -46,6 +53,15 @@
     WP Engine powers amazing digital experiences for websites and applications built on WordPress. The company’s premium managed hosting platform provides the performance, reliability and security required by the biggest brands and agencies in the world while remaining affordable and intuitive for smaller businesses and individuals.
 
     Our award-winning customer service team of WordPress experts is trusted by over 58,000 companies across over 130 countries to quickly solve technical problems, and create a world-class customer experience. The company’s exceptional customer service team comprises rigorously-trained WordPress experts and is the fastest-growing WordPress support team in the industry. This award-winning support team specialises in quickly solving technical problems, and creating a world-class customer experience for its customers. Founded in 2010, WP Engine is headquartered in Austin, Texas, and has offices in San Francisco, California, San Antonio, Texas, London, England, and Limerick, Ireland.
+
+- name: SensioLabs
+  id: sensiolabs
+  type: gold
+  url: https://sensiolabs.com/
+  description: |
+    SensioLabs is an Open Source software & SaaS editor leading PHP innovation with the creation of the PHP framework Symfony and Twig. SensioLabs is supported by an extensive community of over 500,000 active developers around the globe, all of whom contribute regularly to the Symfony project. Version 2 of Symfony was downloaded over 500 million times from 2011 to 2016.
+ 
+    Beyond offering council, services, trainings and support for its Open Source products, SensioLabs creates innovative SaaS solutions that simplify developer’s workloads and fully respond to the demands of big web businesses (BlaBlaCar, Spotify…). From performance, to quality, to hosting and automatic deployment, SensioLabs offers a complete range of products for web application management such as Blackfire.io, SensioLabsInsight and SensioCloud.
 
 - name: Shopware
   id: shopware
