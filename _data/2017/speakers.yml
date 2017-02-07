@@ -55,6 +55,13 @@
   bio: |
       Antonio is CEO at Locastic, a development agency based in Croatia. For the last 10 years he has been developing web applications, and for more then 6 years he's been using Symfony as his main tool. During that time, he helped a lot of various clients to build amazing products and applications. In his free time he is working on a PhD in Computer Science.
 
+- name: Ciaran McNulty
+  slug: ciaranmcnulty
+  twitter: ciaranmcnulty
+  company: Inviqa
+  bio: |
+      At Inviqa, Ciaran helps teams at all levels of ability improve via training and coaching. He has been a PHP professional since the late 90s and is passionate about TDD, BDD and Agile methodologies. He is lead maintainer of PhpSpec.
+
 - name: Chris Sherry
   slug: chrissherry
   twitter: tweetingsherry
@@ -87,6 +94,7 @@
   twitter: dzuelke
   company: Heroku
   bio: |
+      David works at Heroku, a cloud platform as a service headquartered in San Francisco. He was already building applications for the Web when the dot-com bubble burst, and went on to co-own a software consultancy before exploring the e-commerce and Berlin startup scenes. Based in Munich, Germany, he is a regular speaker at technology conferences around the world and an avid fan of all things fast or exciting.
 
 - name: David McKay
   slug: davidmckay

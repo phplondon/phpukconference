@@ -435,8 +435,18 @@
   description: |
     Wayfair is one of the world's largest online destinations for the home. Our storefront is a very large PHP application -- 3.5M LoC interacting with a wide array of extensions -- that serves 2M daily visitors. So we were delighted when our upgrade to PHP7 went without a hitch. It worked so well because of a test plan that covered a wide range of strategies and tools. This case study will combine a walkthrough of this project with a practical tour of PHP testing tools, from PHPUnit to GDB.
 
-- name: Silo-Based Architectures for High Availability Applications
+- name: "Driving Design through Examples"
   track: side1
+  day: friday
+  starttime: "13:30"
+  endtime: "14:30"
+  type: talk
+  speaker: ciaranmcnulty
+  description: |
+    Modelling by Example is a set of practices that combine BDD (Behaviour Driven Development) and DDD (Domain Driven Design) techniques to create a workflow that directly drives code from a starting point of user requirements. We will see how a simple feature can be defined via conversation with stakeholders, captured as automatable requirements, and expressed directly in the object model using tools such as Behat and PhpSpec.
+
+- name: Silo-Based Architectures for High Availability Applications
+  track: side2
   day: friday
   starttime: "13:30"
   endtime: "14:30"
@@ -444,16 +454,6 @@
   speaker: georgianagligor
   description: |
     High availability is becoming a de-facto requirement of today's applications. Customer-facing IT failures mean directly losing customer revenue and trust, as users have grown accustomed to easily switching service providers for more reliable ones. Lack of internal systems availability block employee productivity and add to the financial burden. Thus, it is critical to have a healthy, performant, resilient IT structure serving as a backbone of conducting your business. But there are no textbook solutions to achieving five 9s availability. Data redundancy, computing clusters, load balancing, fail-over mechanisms, each of these individually addresses one potential issue, but none treats systems in your organisation holistically for maximising business revenue. Silos are a clever method of grouping servers in such a way that they can be scaled both horizontally and vertically, depending on the actual application needs. Most importantly, it frees you from over-optimizing the architecture upfront, by allowing fine adjustments easy to integrate in your Agile workflow.
-
-- name: Drupal8 for Symfony Developers
-  track: side2
-  day: friday
-  starttime: "13:30"
-  endtime: "14:30"
-  type: talk
-  speaker: antoniopericmazar
-  description: |
-    Drupal8 modernization (new object-oriented base) and adoption of many Symfony components is a huge step in connecting these two amazing communities and amazing projects. Drupal8 is not powered by full-stack Symfony and there is still many differences between these two relatives, but still, Symfony developers should master it easily. This talk is for Symfony developers who don't have experience with Drupal8. It will guide you through routing, controllers, hooks, events, Drupal Console, DI and many other interesting elements that power Drupal8 under the hood. It will also show how to build custom modules Symfony way.
 
 - name: Room change
   track: main
@@ -483,14 +483,15 @@
   description: |
     At one time or another, every developer comes across the same problem - their application starts getting slower, then starts falling over, then isn't available at all. Often, this comes down to too many users, too much stored data - in other words a scaling problem. Looking at a range of options, from horizontal and vertical scaling, to caching, sharding and optimisation, Liam will discuss approaches to scaling that can be used on new applications, and also some that can be retro-fitted to existing applications.
     
-- name: "TBA"
+- name: Drupal8 for Symfony Developers
   track: side2
   day: friday
   starttime: "14:40"
   endtime: "15:40"
   type: talk
-  speaker: 
+  speaker: antoniopericmazar
   description: |
+    Drupal8 modernization (new object-oriented base) and adoption of many Symfony components is a huge step in connecting these two amazing communities and amazing projects. Drupal8 is not powered by full-stack Symfony and there is still many differences between these two relatives, but still, Symfony developers should master it easily. This talk is for Symfony developers who don't have experience with Drupal8. It will guide you through routing, controllers, hooks, events, Drupal Console, DI and many other interesting elements that power Drupal8 under the hood. It will also show how to build custom modules Symfony way.
 
 - name: Afternoon Refreshment Break
   track: main
