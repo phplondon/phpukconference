@@ -1,4 +1,4 @@
-- name: Red Hat Openshift
+- name: Red Hat OpenShift
   id: openshift
   type: platinum
   url: https://www.openshift.com
@@ -14,7 +14,7 @@
 
 - name: JetBrains
   id: jetbrains
-  type: gold
+  type: track
   url: https://jetbrains.com
   description: |
     JetBrains has a passion for making developers more productive. We design intelligent development tools to simplify your challenging tasks, automate the easy ones, and help you develop with pleasure. PhpStorm is a PHP IDE that actually 'gets' your code, supports PHP 5.3/5.4/5.5 and features on the fly error prevention, best autocompletion & code refactoring, zero configuration debugging, the best HTML, CSS, and JavaScript editor. We also offer top-notch IDEs for Java, JavaScript, Ruby, Python, and Objective-C, as well as a pack of tools for .NET developers and team productivity tools for continuous integration and issue tracking. With headquarters in Prague, Czech Republic, we also have R&D labs in Russia, USA and Germany.
