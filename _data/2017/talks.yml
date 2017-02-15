@@ -5,7 +5,7 @@
   endtime: "09:00"
   type: break
   description: |
-    Registration will be open from 8:30am. A light breakfast with coffee/tea/juice will be served until shortly before 9am.
+    Registration will be open from 8:30am. A light breakfast with coffee/tea/juice will be served until shortly before 9am. 
 
 - name: <strike>Diving Deep into Docker</strike> - Sold Out!
   track: workshop1
@@ -63,7 +63,7 @@
   endtime: "09:10"
   type: break
   description: |
-    Registration will be open from 8am. A light breakfast with coffee/tea/juice will be served until shortly before 9am.
+    Registration will be open from 8am. A light breakfast with coffee/tea/juice will be served until shortly before 9am. <br><a href="/menu">Food menu</a>
 
 - name: Opening address
   track: main
@@ -91,7 +91,7 @@
   endtime: "10:20"
   type: break
   description: |
-    Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors. <br><a href="/menu">Food menu</a>
 
 - name: I saw the future, and its web servers were written in PHP
   track: main
@@ -168,7 +168,7 @@
   endtime: "13:30"
   type: break
   description: |
-    A buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    A buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors. <br><a href="/menu">Food menu</a>
 
 - name: Unit Testing by Example
   track: main
@@ -245,7 +245,7 @@
   endtime: "16:00"
   type: break
   description: |
-    Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors. <br><a href="/menu">Food menu</a>
 
 - name: Introduction to SOLID
   track: main
@@ -319,7 +319,7 @@
   endtime: "09:10"
   type: break
   description: |
-    Registration will be open from 8am. A light breakfast with coffee/tea/juice will be served until shortly before 9am.
+    Registration will be open from 8am. A light breakfast with coffee/tea/juice will be served until shortly before 9am. <br><a href="/menu">Food menu</a>
 
 - name: Opening address
   track: main
@@ -347,7 +347,7 @@
   endtime: "10:20"
   type: break
   description: |
-    Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors. <br><a href="/menu">Food menu</a>
 
 - name: Speak to your computer - Build a Trivia game using Amazon Alexa and AWS Lambda
   track: main
@@ -424,7 +424,7 @@
   endtime: "13:30"
   type: break
   description: |
-    A buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    A buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors. <br><a href="/menu">Food menu</a>
 
 - name: Testing Complex Applications for PHP7
   track: main
@@ -501,7 +501,7 @@
   endtime: "16:00"
   type: break
   description: |
-    Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors. <br><a href="/menu">Food menu</a>
 
 - name: "Docker, Kubernetes, and OpenShift for PHP Developers"
   track: main
