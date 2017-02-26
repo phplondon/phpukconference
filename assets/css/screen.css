@@ -560,38 +560,6 @@ ins {
     .twitter-tweet {
       margin: 20px 0 0 0 !important; } }
 
-.fact-wrapper {
-  border-bottom: 1px solid #4E4E4E; }
-
-.fact {
-  list-style: none;
-  font-family: "Open Sans", sans-serif; }
-  .fact__item {
-    position: relative;
-    padding-bottom: 20px;
-    color: #FFFFFF;
-    text-align: left;
-    overflow: visible; }
-    .fact__item:before {
-      display: block;
-      position: absolute;
-      bottom: -4px;
-      left: 20px;
-      content: "";
-      width: 7px;
-      height: 7px;
-      border-radius: 50%;
-      background: #4E4E4E; }
-  .fact__figure {
-    display: block;
-    font-size: 3rem;
-    font-weight: 300; }
-    .fact__figure sup {
-      font-size: .5em; }
-  .fact__label {
-    opacity: 0.5;
-    font-weight: 700; }
-
 h1, h2, h3, h4, h5, h6,
 ul, ol, dl,
 blockquote, p, address,
@@ -1231,6 +1199,116 @@ input + button {
   .sponsor-list.-profiles .sponsor__link {
     clear: both;
     display: block; }
+
+.fact {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  font-family: "Open Sans", sans-serif; }
+  @media (min-width: 1080px) {
+    .fact {
+      margin-left: 0 !important; } }
+  @media (min-width: large) {
+    .fact {
+      margin-left: 0 !important; } }
+  .fact .grid__item {
+    position: relative;
+    overflow: visible; }
+    @media (min-width: 1080px) {
+      .fact .grid__item {
+        padding-left: 0 !important; }
+        .fact .grid__item:before, .fact .grid__item:after {
+          display: block;
+          position: absolute;
+          content: "";
+          z-index: 9; }
+        .fact .grid__item:before {
+          top: 50%;
+          left: 75%;
+          right: 0;
+          width: 50%;
+          border-bottom: 1px solid #ff6600; }
+        .fact .grid__item:after {
+          top: 50%;
+          right: 0;
+          width: 10px;
+          height: 10px;
+          margin: -5px -5px 0;
+          -webkit-border-radius: 50%;
+          -khtml-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          -o-border-radius: 50%;
+          border-radius: 50%;
+          background: #ff6600; }
+        .fact .grid__item:last-of-type:before, .fact .grid__item:last-of-type:after {
+          display: none; } }
+    @media (min-width: large) {
+      .fact .grid__item {
+        padding-left: 0 !important; }
+        .fact .grid__item:before, .fact .grid__item:after {
+          display: block;
+          position: absolute;
+          content: "";
+          z-index: 9; }
+        .fact .grid__item:before {
+          top: 50%;
+          left: 75%;
+          right: 0;
+          width: 50%;
+          border-bottom: 1px solid #ff6600; }
+        .fact .grid__item:after {
+          top: 50%;
+          right: 0;
+          width: 10px;
+          height: 10px;
+          margin: -5px -5px 0;
+          -webkit-border-radius: 50%;
+          -khtml-border-radius: 50%;
+          -moz-border-radius: 50%;
+          -ms-border-radius: 50%;
+          -o-border-radius: 50%;
+          border-radius: 50%;
+          background: #ff6600; }
+        .fact .grid__item:last-of-type:before, .fact .grid__item:last-of-type:after {
+          display: none; } }
+  .fact__item {
+    position: relative;
+    height: 250px;
+    width: 250px;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+    text-align: center;
+    overflow: visible;
+    margin: 0 auto;
+    background-color: #ff6600;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    z-index: 10; }
+  .fact__text {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    -khtml-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%); }
+  .fact__figure {
+    display: block;
+    font-size: 5rem;
+    font-weight: 300; }
+    .fact__figure sup {
+      font-size: .5em; }
+  .fact__label {
+    opacity: 0.5;
+    font-weight: 700; }
 
 .header-bar {
   display: none;
