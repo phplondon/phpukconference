@@ -1213,10 +1213,15 @@ input + button {
       margin-left: 0 !important; } }
   .fact .grid__item {
     position: relative;
-    overflow: visible; }
+    overflow: visible;
+    padding-bottom: 20px; }
+    .fact .grid__item:nth-of-type(3), .fact .grid__item:nth-of-type(4) {
+      padding-bottom: 0;
+      margin-bottom: 0; }
     @media (min-width: 1080px) {
       .fact .grid__item {
-        padding-left: 0 !important; }
+        padding-left: 0 !important;
+        padding-bottom: 0; }
         .fact .grid__item:before, .fact .grid__item:after {
           display: block;
           position: absolute;
@@ -1245,7 +1250,8 @@ input + button {
           display: none; } }
     @media (min-width: large) {
       .fact .grid__item {
-        padding-left: 0 !important; }
+        padding-left: 0 !important;
+        padding-bottom: 0; }
         .fact .grid__item:before, .fact .grid__item:after {
           display: block;
           position: absolute;
@@ -1274,9 +1280,8 @@ input + button {
           display: none; } }
   .fact__item {
     position: relative;
-    height: 250px;
-    width: 250px;
-    padding-bottom: 20px;
+    height: 150px;
+    width: 150px;
     color: #FFFFFF;
     text-align: center;
     overflow: visible;
@@ -1289,6 +1294,14 @@ input + button {
     -o-border-radius: 50%;
     border-radius: 50%;
     z-index: 10; }
+    @media (min-width: 720px) {
+      .fact__item {
+        height: 250px;
+        width: 250px; } }
+    @media (min-width: medium) {
+      .fact__item {
+        height: 250px;
+        width: 250px; } }
   .fact__text {
     position: absolute;
     top: 50%;
@@ -1299,11 +1312,18 @@ input + button {
     -moz-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     -o-transform: translateY(-50%);
-    transform: translateY(-50%); }
+    transform: translateY(-50%);
+    padding: 25px; }
   .fact__figure {
     display: block;
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: 300; }
+    @media (min-width: 720px) {
+      .fact__figure {
+        font-size: 5rem; } }
+    @media (min-width: medium) {
+      .fact__figure {
+        font-size: 5rem; } }
     .fact__figure sup {
       font-size: .5em; }
   .fact__label {

@@ -1,4 +1,5 @@
-$fact-size:         250px;
+$fact-size:         150px;
+$fact-size-large:   250px;
 
 .fact{
     position:relative;
@@ -13,9 +14,17 @@ $fact-size:         250px;
     .grid__item{
         position:relative;
         overflow:visible;
+        padding-bottom:$base-spacing-unit;
+
+        &:nth-of-type(3),
+        &:nth-of-type(4){
+            padding-bottom:0;
+            margin-bottom:0;
+        }
 
         @include respond(large){
             padding-left:0 !important;
+            padding-bottom:0;
 
             &:before,
             &:after{
@@ -54,7 +63,6 @@ $fact-size:         250px;
 		position:relative;
         height:$fact-size;
         width:$fact-size;
-		padding-bottom:$base-spacing-unit;
 		color:$color-white;
 		text-align:center;
 		overflow:visible;
@@ -62,16 +70,26 @@ $fact-size:         250px;
         background-color:$color-brand-secondary;
         @include border-radius(50%);
         z-index:10;
+
+        @include respond(medium){
+            height:$fact-size-large;
+            width:$fact-size-large;
+        }
 	}
 
     &__text{
         @include vertical-align-center;
+        padding:25px;
     }
 
         &__figure{
             display:block;
-            font-size:5rem;
+            font-size:3rem;
             @include font-weight(light);
+
+            @include respond(medium){
+                font-size:5rem;
+            }
 
             sup{
                 font-size:.5em;
