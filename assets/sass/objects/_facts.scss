@@ -1,8 +1,9 @@
-$fact-size:         150px;
-$fact-size-large:   250px;
+$fact-size:         120px;
+$fact-size-large:   200px;
 
 .fact{
     position:relative;
+    margin:-20px 0;
 	list-style:none;
     overflow:hidden;
 	@include font-family(primary);
@@ -67,7 +68,7 @@ $fact-size-large:   250px;
 		text-align:center;
 		overflow:visible;
         margin:0 auto;
-        background-color:$color-brand-secondary;
+        background-color:$color-brand-primary;
         @include border-radius(50%);
         z-index:10;
 
@@ -88,7 +89,7 @@ $fact-size-large:   250px;
             @include font-weight(light);
 
             @include respond(medium){
-                font-size:5rem;
+                font-size:4rem;
             }
 
             sup{
