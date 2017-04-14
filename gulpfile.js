@@ -43,7 +43,8 @@ var cp = require('child_process');
 // Sass build
 var sassBuild = function () {
     gulp.src('assets/sass/**/*.scss').pipe(sass({
-        errLogToConsole: false
+        errLogToConsole: false,
+        outputStyle: 'compressed'
     }))
     .on('error', reportError)
     // .pipe(cleanCSS())
