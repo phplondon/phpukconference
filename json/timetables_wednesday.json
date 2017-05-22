@@ -7,7 +7,7 @@
               "slug": "{{ talk.speaker }}",
               "image": "{{ talk.speaker }}.jpg",
               "talk": "{{ talk.name }}",
-              "date": "{% if talk.track == "workshop1" %}12{% elsif talk.track == "workshop2" %}13{% elsif talk.track == "workshop3" %}14{% else %}15{% endif %}",
+              "date": "{% if talk.track == "workshop1" %}11{% elsif talk.track == "workshop2" %}12{% elsif talk.track == "workshop3" %}14{% else %}13{% endif %}",
               "month": "02",
               "year": "2017",
               "start_time": "{{ talk.starttime }}",

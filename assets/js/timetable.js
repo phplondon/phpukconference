@@ -24,7 +24,7 @@ var fourcoltt = {
 // Global Variable
 var tiva_timetables = [];
 //var tiva_current_date = new Date();
-var tiva_current_date = new Date("Fri Feb 17 2017 00:00:00 GMT+0000 (GMT)");
+var tiva_current_date = new Date("Thu Feb 16 2018 00:00:00 GMT+0000 (GMT)");
 //var tiva_current_month = tiva_current_date.getMonth() + 1;
 var tiva_current_month = tiva_current_date.getMonth();
 //var tiva_current_year = tiva_current_date.getFullYear();
