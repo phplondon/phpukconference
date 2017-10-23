@@ -1,0 +1,36 @@
+- name: Mercari
+  id: mercari
+  type: track
+  url: https://www.mercari.com
+  description: 
+    "Mercari is the marketplace app that makes it easy for anyone to buy and sell goods.
+    Originally launched in Japan in 2013, Mercari rapidly achieved success in its home market
+    before expanding to the US in 2014 and to the UK in early 2017. In 2016, Mercari raised $75
+    million in funding and now has a valuation of $1 billion. Today the app has been
+    downloaded over 70 million times worldwide.<br><br>
+    The London office is a fast-growing, fun environment that’s home to international talent
+    from all over the globe.<br><br>
+    -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - <br>
+    About Mercari<br>
+    HASSLE-FREE &amp; SECURE<br>
+    – Start buying and selling instantly with easy sign-up<br>
+    – Buy in two clicks with secure in-app payments<br>
+    LIST YOUR ITEMS IN 40 SECONDS<br>
+    – Quickly take and upload photos directly from your phone<br>
+    – Add a description, set your price and start selling<br>
+    FIND ITEMS YOU LOVE FOR LESS<br>
+    – Discover items and brands you love at bargain prices"
+
+- name: JetBrains
+  id: jetbrains
+  type: gold
+  url: https://jetbrains.com
+  description: |
+    JetBrains has a passion for making developers more productive. We design intelligent development tools to simplify your challenging tasks, automate the easy ones, and help you develop with pleasure. PhpStorm is a PHP IDE that actually 'gets' your code, supports PHP 5.3/5.4/5.5 and features on the fly error prevention, best autocompletion & code refactoring, zero configuration debugging, the best HTML, CSS, and JavaScript editor. We also offer top-notch IDEs for Java, JavaScript, Ruby, Python, and Objective-C, as well as a pack of tools for .NET developers and team productivity tools for continuous integration and issue tracking. With headquarters in Prague, Czech Republic, we also have R&D labs in Russia, USA and Germany.
+
+- name: Shopware
+  id: shopware
+  type: silver
+  url: https://en.shopware.com
+  description: |
+    Shopware AG is one of the leading manufacturers of online shop systems in Germany. As an independent, equity-financed company, we develop high quality software on-site and work closely with our customers and partners in order to optimize our product. We evolve transparently and always remain flexible and open to requests from our growing community. These qualities produce high annual growth rates in addition to premium levels of service, which distinguish us from the rest.
