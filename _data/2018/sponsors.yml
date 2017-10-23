@@ -26,11 +26,11 @@
   type: gold
   url: https://jetbrains.com
   description: |
-    JetBrains has a passion for making developers more productive. We design intelligent development tools to simplify your challenging tasks, automate the easy ones, and help you develop with pleasure. PhpStorm is a PHP IDE that actually 'gets' your code, supports PHP 5.3/5.4/5.5 and features on the fly error prevention, best autocompletion & code refactoring, zero configuration debugging, the best HTML, CSS, and JavaScript editor. We also offer top-notch IDEs for Java, JavaScript, Ruby, Python, and Objective-C, as well as a pack of tools for .NET developers and team productivity tools for continuous integration and issue tracking. With headquarters in Prague, Czech Republic, we also have R&D labs in Russia, USA and Germany.
+    Here at JetBrains, we develop the tools relied on by developers to create some of the world's most advanced software. With over 15 years of cutting-edge innovation, we have strived to implement the features top performing development demands. Our IDE packages help you to work faster by automating common, repetitive tasks, enabling you to stay focused on code design and the big picture. We provide tools to explore and familiarize yourself with code bases faster and make it easy for you to take care of the code quality through all the stages of development so you can spend less time on maintenance tasks in the future.
 
 - name: Shopware
   id: shopware
   type: silver
-  url: https://en.shopware.com
+  url: https://www.shopware.co.uk
   description: |
-    Shopware AG is one of the leading manufacturers of online shop systems in Germany. As an independent, equity-financed company, we develop high quality software on-site and work closely with our customers and partners in order to optimize our product. We evolve transparently and always remain flexible and open to requests from our growing community. These qualities produce high annual growth rates in addition to premium levels of service, which distinguish us from the rest.
+    Shopware is a manufacturer of open source eCommerce software and the market leader in Germany. Founded in 2000, the company has more than 150 employees and focuses on the development and support of its core product, Shopware 5; an innovative online shop software for businesses of all sizes. With over 60,000 customers, 3,000 plugins and 1,200 partners, Shopware's modular basis and range of features provide businesses with the ultimate platform for growth. The company is 100% owner-operated and equity-financed, thus guaranteeing the highest degree of flexibility. "Emotional shopping on any device", the slogan of Shopware 5, offers new technology for storytelling in online shops, and comes with a customizable and fully responsive template.
