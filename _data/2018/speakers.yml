@@ -1,0 +1,258 @@
+- name: Johanna Cherry
+  slug: johannacherry
+  twitter: johannacherry
+  github: johannac
+  company: Vitis Events
+  type: organiser
+  bio: |
+      Johanna Cherry has spent the last 13 years developing systems and applications with PHP, Go, Cassandra, and lots of other cool web technologies. Over the years she has previously held roles at Songkick as Platform Architect, Data Team Lead at Hailo, Development Manager for the affiliate network Webgains and Technical Team Lead for the PHP consultancy Ibuildings. She earned a Bachelor of Science in Technology Management from Herzing University in Madison Wisconsin.
+
+      Jo manages speakers, socials, the venue, marketing, and delegate services for the conference.
+
+- name: Sam Bell
+  slug: sambell
+  twitter: _samdb
+  github: samdb
+  company: Vitis Events
+  type: organiser
+  bio: |
+      Sam Bell is co-founder of charting app ChartBlocks, an online chart building tool. He is also managing director of web agency Copia Digital where he and his team build websites and web applications for hedge funds and asset managers, helping them report on fund performance to their investors.
+
+      Sam manages registration, sponsors, exhibits, and volunteers for the conference.
+
+- name: David McKay
+  slug: davidmckay
+  twitter: rawkode
+  company: Consultant
+  photo: /2017/assets/images/speakers/davidmckay.jpg
+  bio: |
+      David McKay is a software and technology professional, born & bred in Glasgow, Scotland. As a serial user group organiser, organising Docker Glasgow, DevOps Glasgow and Pair Programming Glasgow, David is always searching for new and creative ways to share knowledge with others. Oh, and he quite likes domain-driven design, micro-services and clean code.
+
+- name: Ciaran McNulty
+  slug: ciaranmcnulty
+  twitter: ciaranmcnulty
+  company: Inviqa
+  photo: https://secure.gravatar.com/avatar/018a9da9b68e248e4dbf035cd36cc644?s=150
+  bio: |
+      At Inviqa, Ciaran helps teams at all levels of ability improve via training and coaching. He has been a PHP professional since the late 90s and is passionate about TDD, BDD and Agile methodologies. He is lead maintainer of PhpSpec.
+      
+- name: Wim Godden
+  slug: wimgodden
+  twitter: wimgtr
+  company: Cu.be Solutions
+  photo: https://secure.gravatar.com/avatar/81c47e5159d488dbac96059003b8ac39?s=150
+  bio: |
+      Wim Godden has been working with open source technologies since 1997 and has been involved in open source projects such as PHPCompatibility and OpenX. Next to PHP, he's worked with a wide range of technologies (from database clusters to Internet backbone design) and focuses a lot of his time on high-scalability projects and on coaching/training web engineers.
+      
+- name: Michael Cullum
+  slug: michaelcullum
+  twitter: michaelcullumuk
+  company: SamKnows / PHP FIG / phpBB
+  photo: https://secure.gravatar.com/avatar/c845a8857cadb4f26a7b4ab7604e413b?s=150
+  bio: |
+      Michael Cullum is a backend PHP developer, working particularly with Symfony, and has been for about nine years. He currently works at SamKnows as a senior software engineer handling and processing huge amounts of internet measurement data. He is also a manager & core developer at phpBB where he has been a contributor for over half a decade and more recently he founded the new PHP Surrey User Group. He is actively involved in the PHP FIG previously as editor of PSR 12 and he now runs the administration of the FIG as the PHP FIG Secretary.
+      
+- name: Mike Lehan
+  slug: mikelehan
+  twitter: m1ke
+  company: StuRents.com
+  photo: https://secure.gravatar.com/avatar/252d0f4267f1c118389b5e8cd4863178?s=150
+  bio: |
+      Mike has been working in web application development using PHP for 10 years, including 3 years managing a development team for a property tech startup and before that 4 years building a real time application for managing operations at skydiving centres, as well as some time freelancing. Through working on business critical systems with real time elements Mike has learned the value of comprehensive logging & monitoring, redundant checks on applications & infrastructure, and of course well written testable code!
+      
+- name: Rob Allen
+  slug: roballen
+  twitter: akrabat
+  company: Nineteen Feet Limited
+  photo: https://secure.gravatar.com/avatar/79d9ba388d6b6cf4ec7310cad9fa8c8a?s=150
+  bio: |
+      Rob Allen is a software consultant and developer with many years experience and writes code in PHP, Swift and other interesting languages. He is part of Slim Framework's leadership team and contributes to Apache OpenWhisk and other open source projects. Rob is a published author and based in the UK where he runs <a href="http://19ft.com">Nineteen Feet Limited</a>, focussing on API development, training and consultancy. In his spare time, Rob blogs at <a href="https://akrabat.com">akrabat.com</a> and can often be seen with a camera in his hand.
+
+- name: Lorna Jane Mitchell
+  slug: lornamitchell
+  twitter: lornajane
+  company: IBM
+  photo: https://secure.gravatar.com/avatar/372a6ef44baaa7291f1a6698348d2e98?s=150
+  bio: |
+      Lorna is based "up north" in Yorkshire; she is a Developer Advocate with IBM Cloud Data Services, a published author and experienced conference speaker.  She brings her technical expertise on a range of topics to audiences all over the world with her writing and speaking engagements, always delivered with a very practical slant.  In her spare time, Lorna blogs at <a href="http://lornajane.net">http://lornajane.net</a>.
+  
+- name: James Titcumb
+  slug: jamestitcumb
+  twitter: asgrim
+  company: Roave, LLC
+  photo: https://secure.gravatar.com/avatar/e1bd9a357173c0e4697a54cb404bd966?s=150
+  bio: |
+      James is a consultant, trainer and developer at Roave. He is a prolific contributor to various open source projects and is a Zend Certified Engineer. He also founded the UK based PHP Hampshire user group and PHP South Coast conference.
+  
+- name: Mark Niebergall
+  slug: markniebergall
+  twitter: mbniebergall
+  company: i3logix
+  photo: https://secure.gravatar.com/avatar/fa5c9952b21b244cd6891574103edb40?s=150
+  bio: |
+      Mark Niebergall is a passionate, security-minded PHP software engineer with over a decade of hands-on experience with PHP projects. He is the Utah PHP User Group President and often speaks at user groups and conferences. Mark has a Masters degree in MIS, is CSSLP and SSCP cybersecurity certified, and volunteers for (ISC)2 exam development. Mark enjoys flying drones, casual gaming, and teaching his kids how to push buttons and use technology.
+
+- name: Michiel Rook
+  slug: michielrook
+  twitter: michieltcs
+  company: make.io
+  photo: /2017/assets/images/speakers/michielrook.jpg
+  bio: |
+      Michiel Rook is a Java/PHP/Scala consultant from the Netherlands. He loves coaching teams to develop better software and implement continuous deployment. He is a co-founder of Make.io and a member of the Dutch Web Alliance. When he’s not thinking about continuous deployment, devops or event sourcing he enjoys music, cars, sports and movies.
+
+- name: Freek Van der Herten
+  slug: freekvanderherten
+  twitter: freekmurze
+  company: Spatie
+  photo: https://secure.gravatar.com/avatar/a1b4b398630bbd32b77a82cbc37fae9a?s=150
+  bio: |
+      Freek Van der Herten is a partner and developer at <a href="https://spatie.be">Spatie</a>, an Antwerp based company that specializes in creating Laravel apps. The company has an open source first mentality. Freek is the author of many packages that Spatie releases. According to <a href="http://github-awards.com/users?utf8=%E2%9C%93&type=world&language=php">GitHub awards</a> Spatie is in the top 3 of PHP developers worldwide. After hours Freek writes about modern PHP and Laravel on <a href="https://murze.be">his blog</a> and is a co-organizer of <a href="http://phpantwerp.be">PHP User group in Antwerp, Belgium</a>. When not coding he's probably rehearsing with <a href="https://jarenduren.bandcamp.com/">his kraut-rock band</a>.
+
+- name: Thijs Feryn
+  slug: thijsferyn
+  twitter: ThijsFeryn
+  company: Combell
+  photo: https://secure.gravatar.com/avatar/ca901ddcea38854b9783781c91fc87c9?s=150
+  bio: |
+      <a href="https://twitter.com/ThijsFeryn">Thijs Feryn</a> is a "technical evangelist" at a Belgian webhosting company called <a href="https://www.combell.com/en/">Combell</a>. His goal is to bring technology to the people and people to technology. He focuses on bridging the gap between code and infrastructure. Thijs is a <a href="http://shop.oreilly.com/product/0636920056294.do">published author at O'Reilly</a>, he is also involved in many open source communities and leads the <a href="https://conference.phpbenelux.eu">PHPBenelux</a> community. He <a href="https://feryn.eu/speaking">speaks</a>, listens, <a href="https://feryn.eu/books">writes</a>, codes, teaches, <a href="https://feryn.eu/blog">blogs</a>, <a href="http://youtube.com/ThijsFeryn">vlogs</a>, organizes and is above all very excited to speak at PHPUK 2018.
+
+- name: Marcel Pociot
+  slug: marcelpociot
+  twitter: marcelpociot
+  photo: https://secure.gravatar.com/avatar/f02afcecaa4f0ac77531c6efdead2e67?s=150
+  bio: |
+      Marcel is a backend developer at the ORT interactive GmbH in Germany, which builds custom Laravel web projects. When he is not on his day job, you can find Marcel working on various open-source PHP projects and maintaining the most popular PHP chatbot framework "BotMan".
+
+- name: Barney Hanlon
+  slug: barneyhanlon
+  twitter: shrikeh
+  photo: https://secure.gravatar.com/avatar/8a2f83ee500e675e87b216d28ad7fb3e?s=150
+  bio: |
+      Barney has been a PHP developer for 14 years, and writes small (and hopefully useful) little libraries in his spare time. He likes cats, throwing axes, lead miniatures, and Viking tattoos.
+
+- name: Michael Heap
+  slug: michaelheap
+  twitter: mheap
+  company: Intechrity Ltd
+  photo: https://secure.gravatar.com/avatar/bbf9decfbfc2ab5b450ec503749ded28?s=150
+  bio: |
+      Michael is a polyglot software engineer, committed to reducing complexity in systems and making them more predictable. Working with a variety of languages and tools, he shares his technical expertise with audiences all around the world at user groups and conferences. Day to day, Michael is a fixer. He works on whatever needs an extra pair of hands both at his day job and in open source projects. When not immersed in technology, you'll find him either playing various board games or hiking through the countryside.
+
+- name: Dheeraj Joshi
+  slug: dheerajjoshi
+  twitter: dheerajhere
+  company: Wingify
+  photo: https://secure.gravatar.com/avatar/99a1c6a52cc56cc25cde65be5d54081a?s=150
+  bio: |
+      Dheeraj is a Front-end Artisan and the Security guy at Wingify. He is quite adept at writing JavaScript, an open source lover, and web security enthusiast. When he is not writing code, he spends time finding and reporting security vulnerabilities in web applications.
+
+- name: Jachim Coudenys
+  slug: jachimcoudenys
+  twitter: coudenysj
+  company: Combell
+  photo: https://secure.gravatar.com/avatar/4ce755c7f3ddf4e0c92e1aeaeea7677b?s=150
+  bio: |
+      Jachim Coudenys is a PHP developer at Combell. Since discovering PHP in 2002 (4.1.0), his work and after-work activities brought him from the world of development to server management, development workflows, more development, etc... Next to being a long-time member of PHPBenelux, he is co-organizer the PHP-WVL, a user group in West Flanders (BE). He is a Zend Certified developer and Certified MongoDB Developer & DBA. You can follow him on <a href="http://twitter.com/coudenysj">Twitter</a> and read his occasional <a href="http://blog.jachim.be">blog posts</a>.
+
+- name: Derick Rethans
+  slug: derickrethans
+  twitter: derickr
+  company: MongoDB
+  photo: https://secure.gravatar.com/avatar/2ef995275795830995d4241368713176?s=150
+  bio: |
+      Derick Rethans is a PHP internals expert, author of Xdebug and an OpenStreetMap and mapping enthusiast. He has contributed in a number of ways to the PHP project, including the Xdebug debugging tool, and various extensions and additions. He's a frequent lecturer at conferences, the author of php|architect's Guide to Date and Time Programming, and the co-author of PHP 5 Power Programming. He is now working at MongoDB to work on the PHP and C++ drivers for MongoDB.
+
+- name: Ipsha Bhidonia
+  slug: ipshabhidonia
+  twitter: ipsha21
+  company: Mozilla Tech Speaker
+  photo: https://secure.gravatar.com/avatar/cae367cf852d2f55f67f67374d720625?s=150
+  bio: |
+      Ipsha is a software engineer at Gemalto by profession, a Mozilla tech speaker by heart, and an advocate for a free and open web by passion. She likes traveling to new places and meeting people with different perspectives of the world. Fascinated by psychology and astronomy, she looks up to people who dare to think beyond the realms of what seems possible.
+
+- name: Hannes Van De Vreken
+  slug: hannesvandevreken
+  twitter: hannesvdvreken
+  company: Getstream.io
+  photo: https://secure.gravatar.com/avatar/39eb3f3d313b13f05534e496285040b8?s=150
+  bio: |
+      Hannes is a software engineer & developer advocate at getstream.io, open source user and contributor, tech writer, organiser of meetups in Belgium and also a marathon runner.
+
+- name: Beau Simensen
+  slug: beausimensen
+  twitter: beausimensen
+  company: Blackfire.io
+  photo: https://secure.gravatar.com/avatar/23d971deeb3975a7d28246192fbbe7b7?s=150
+  bio: |
+      Beau Simensen (<a href="https://twitter.com/beausimensen">@beausimensen</a>, <a href="https://beau.io">beau.io</a>) has been a professional polyglot programmer since 1998. He is a Technical Product Manager for SensioLabs US (<a href="https://sensiolabs.com">sensiolabs.com</a>) and is co-host of That Podcast (<a href="https://twitter.com/thatpodcast">@thatpodcast</a>, <a href="http://thatpodcast.io">thatpodcast.io</a>). An active open-sourcer, he created Sculpin (<a href="https://sculpin.io">sculpin.io</a>) and helped create Stack PHP (<a href="http://stackphp.com">stackphp.com</a>). He is also a serving Core Comitte member for the PHP Framework Interoperability Group (PHP-FIG) (<a href="http://php-fig.org">php-fig.org</a>). Beau is a proponent of framework agnostic code. Unglue all the things!
+
+- name: Dave Stokes
+  slug: davestokes
+  twitter: stoker
+  company: Oracle
+  photo: https://secure.gravatar.com/avatar/c0fe36ac77bf9a0ebe01f0b7844c8e7f?s=150
+  bio: |
+      Dave Stokes is a MySQL Community Manager for Oracle.  Previously he was the MySQL Certification Manager for MySQL AB and SUN.  He has worked for companies ranging alphabetically from the American Heart Association to Xerox and work ranging from Anti-submarine warfare to web developer.
+
+- name: Elizabeth Tucker Long
+  slug: elizabethtuckerlong
+  twitter: e3betht
+  company: Treeline Design
+  photo: https://secure.gravatar.com/avatar/b6b6d94f7cc0a47b2217f3749b9c3d8b?s=150
+  bio: |
+      Beth Tucker Long is a PHP developer and co-organizer of <a href="http://www.madisonphp.com">Madison PHP</a>. You can find her on Twitter (<a href="https://twitter.com/e3BethT">@e3betht</a>) or on her blog (<a href="http://www.alittleofboth.com">http://www.alittleofboth.com</a>). Beth is a firm believer in promoting community and mentoring. She runs Treeline Design, a web development company, and Playlist Event Music, a DJ company, along with her husband, Chris.
+
+- name: Amanda Folson
+  slug: amandafolson
+  twitter: AmbassadorAwsum
+  company: Nexmo
+  photo: https://secure.gravatar.com/avatar/f822f1d39cf52a0b934b9481472d7996?s=150
+  bio: |
+      From humble beginnings as a PHP4 web developer in grade school, Amanda now works as a Developer Relations Manager at Nexmo where she gets to share her passion for technology and education with others. In addition to consuming APIs and IPAs, she currently serves as a co-host for the PHPTownHall podcast and is involved in Open Sourcing Mental Illness. In her spare time you’ll find her in a hammock with a guitar.
+
+- name: Kat Zien
+  slug: katzien
+  twitter: kasiazien
+  photo: https://secure.gravatar.com/avatar/cd6bec94805761550b875485b2bca16b?s=150
+  bio: |
+      "You'll find Kat writing PHP, Go and Java at <a href="https://www.brightpearl.com/">Brightpearl</a>, working remotely from Bristol, UK or anywhere with wifi. Her main interests include automating \#allthethings, sorting out legacy code and making things simpler and faster. She's co-organising and giving talks at <a href="https://www.meetup.com/php-sw/">PHPSW</a> and <a href="https://www.meetup.com/golang-bristol/">Golang Bristol++</a>. Kat loves travelling and keeping active, appreciates good coffee and is a big Lego fan. She cycled from Copenhagen to Berlin in September 2017 and is planning to ride from Paris to London and from Vienna to Budapest this year to raise money for <a href="https://www.justgiving.com/fundraising/techbikers-copenhagen-to-berlin-2017-673">Room To Read</a>."
+
+- name: Chris Riley
+  slug: chrisriley
+  twitter: giveupalready
+  company: Imhotek Consulting Ltd
+  photo: https://secure.gravatar.com/avatar/d5a2aef3c745cca287ddef1948157fd3?s=150
+  bio: |
+      Chris is a freelance consultant based in York, Uk with experience working in the public sector, small and large companies throughout North Yorkshire. Chris has over 10 years experience with PHP and has a keen focus on both software architecture and none functional requirements such as security, performance and maintainability. In his free time, Chris can often be found producing or playing with experimental libraries and contributing to Zend framework.
+
+- name: Matt Brunt
+  slug: mattbrunt
+  twitter: brunty
+  company: Viva IT Limited
+  photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/11342/HEADSHOT_SQUARE.png
+  bio: |
+      Senior Software Engineer at Viva IT Limited. Mentoring a team and fostering a culture of sharing, learning, openness and quality. Player of tabletop and RPG games, Dungeons & Dragons Dungeon Master. Flier of fast first-person-view quadcopters. Lover of jaffa cakes.
+
+- name: Bastian Hofmann
+  slug: bastianhofmann
+  twitter: BastianHofmann
+  company: ResearchGate
+  photo: https://secure.gravatar.com/avatar/3a3f9c32c9e5a4c2970befd97d52285b?s=150
+  bio: |
+      Bastian works as a Software Engineer at ResearchGate, the social network for researchers and scientists. There he is caring about performance, monitoring, web-security and developer productivity. When he is not developing stuff or looking at graphs, he frequently speaks at international conferences on software architecture, scaling web applications and open standards and protocols.
+
+- name: Oliver Davies
+  slug: oliverdavies
+  twitter: opdavies
+  company: Microserve
+  photo: https://secure.gravatar.com/avatar/e0f6adcd63d8393e689b327e978d0887?s=150
+  bio: |
+      Oliver Davies has been building websites and web applications since 2007 - primarily with Drupal, though more recently also with Symfony, Silex, Laravel and Sculpin. He is a Senior Developer at Microserve, a Drupal core contributor and mentor, and an open source and contribution advocate. He regularly blogs and gives talks about web development and systems administration, maintains and contributes to various open source projects, and co-organises DrupalCamp Bristol as well as the Drupal Bristol and PHPSW user groups.
+
+- name: Liam Wiltshire
+  slug: liamwiltshire
+  twitter: l_wiltshire
+  company: Tebex
+  photo: https://secure.gravatar.com/avatar/b177f91007daac88583676236a01cfed?s=150
+  bio: |
+      Liam is a UK based Senior PHP Developer &amp; Business Manager at Tebex, creators of <a href="http://buycraft.net/">Buycraft.net</a>, the first e-commerce platform for Minecraft. In his nine years as a dev, he's tackled projects large and small, from multi-million pound eCommerce sites to the plumber down the road looking for 'mates' rates. These days Liam focuses on providing gCommerce platforms for multiplayer sandbox games, and in his spare time is trying to learn the secret to actually having some spare time.

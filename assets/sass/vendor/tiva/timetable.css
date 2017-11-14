@@ -533,6 +533,32 @@ h2.center{
 	text-align:center;
 }
 
+.tiva-timetable.col2 .loading {
+  padding: 40px 0;
+}
+
+.tiva-timetable.col2 .timetable-week .timetable-axis .axis-item {
+  height: 41px;
+}
+
+.tiva-timetable.col2 .timetable-week .timetable-columns .timetable-column {
+  width: 50% !important;
+}
+
+.tiva-timetable.col2 .timetable-week .timetable-column .timetable-column-content .timetable-title {
+  height: 40px;
+}
+
+.tiva-timetable.col2 .timetable-week .timetable-column .timetable-column-grid  .grid-item {
+  height: 40px;
+}
+.tiva-timetable.col2 .timetable-title.color-break,
+.tiva-timetable.col2 .timetable-title.color-special,
+.tiva-timetable.col2 .timetable-title.color-keynote{
+	width:200% !important;
+	z-index:1;
+}
+
 .tiva-timetable.col4 .loading {
   padding: 40px 0;
 }

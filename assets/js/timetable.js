@@ -3,9 +3,9 @@
 var wordMonth = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
 var threecoltt = {
   days: [
-    "Red Hat OpenShift Track",
-    "SamKnows Track",
-    "JetBrains Track"
+    "Main Track",
+    "Side Track 1",
+    "Side Track 2"
   ],
   height: 101
 }
@@ -13,9 +13,7 @@ var threecoltt = {
 var fourcoltt = {
   days: [
     "Option 1",
-    "Option 2",
-    "Option 3",
-    "Option 4"
+    "Option 2"
   ],
   height: 41
 }
@@ -316,7 +314,7 @@ function timetableWeek(el, tiva_timetables, firstDayWeek, config) {
 							if (timetables[t].start_time && timetables[t].end_time) {
 								// Image
 								if (timetables[t].image) {
-									var timetable_image = '<div class="timetable-image ' + timetables[t].type + '"><img src="/2017/assets/images/speakers/' + timetables[t].image + '" alt="' + timetables[t].speaker + '" /></div>';
+									var timetable_image = '<div class="timetable-image ' + timetables[t].type + '"><img src="' + timetables[t].image + '" alt="' + timetables[t].speaker + '" /></div>';
 								} else {
 									var timetable_image = '';
 								}
@@ -351,8 +349,11 @@ function timetableWeek(el, tiva_timetables, firstDayWeek, config) {
 																+ timetable_image
 																+ '<h4>' + timetables[t].talk + '</h4>'
 																+ '<div class="timetable-time"><a href="/speakers/#' + timetables[t].slug + '">' + timetables[t].speaker + '</a></div>'
-																+ '<div class="timetable-desc">' + timetables[t].description + '</div>'
-															+ '</div>'
+																+ '<div class="timetable-desc">' + timetables[t].description + '</div>';
+																if (timetables[t].level != "") {
+																	timetableString += '<div class="timetable-desc">Level: ' + timetables[t].level + '</div>';
+																}
+															timetableString += '</div>'
 														+ '</div>'
 													+ '</div>';
 							}

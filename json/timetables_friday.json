@@ -2,11 +2,12 @@
 ---
 {
     "items": [
-            {% for talk in site.data.2017.talks %}{% if talk.day == 'friday' %}{% assign speaker = site.data.2017.speakers | where:"slug", talk.speaker  | first %}{
+            {% for talk in site.data.2018.talks %}{% if talk.day == 'friday' %}{% assign speaker = site.data.2018.speakers | where:"slug", talk.speaker  | first %}{
               "speaker": "{{ speaker.name }}",
               "slug": "{{ talk.speaker }}",
-              "image": "{{ talk.speaker }}.jpg",
+              "image": "{{ speaker.photo }}",
               "talk": "{{ talk.name }}",
+              "level": "{{ talk.level }}",
               "date": "{% if talk.track == "main" %}11{% elsif talk.track == "side1" %}12{% else %}13{% endif %}",
               "month": "02",
               "year": "2018",

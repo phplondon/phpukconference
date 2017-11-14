@@ -7,21 +7,35 @@ weight: 2
 ---
 <div class="page-title speakers">
     <div class="wrapper">
-      <h1>Call For Papers</h1>
-      <h2>Now Open</h2>
+      <h1>Speakers</h1>
+      <h2>Our talks and speakers</h2>
     </div>
 </div>
 <div class="row">
   <div class="wrapper">
-      <h2>Opens: September 4th 2017 00:00 UTC</h2>
+      <ul class="speakers">
+        {% for speaker in site.data.2018.speakers %}
+        {% if speaker.type != "organiser" %}      
+        <li id="{{speaker.slug}}" class="speaker">
+            <img class="speaker-photo" src="{{speaker.photo}}">
+            <h4 class="speaker-name">{{speaker.name}}</h4> <h6 class="speaker-company">{{speaker.company}}</h6>
+            {% if speaker.twitter %}<a class="speaker-handle" href="https://twitter.com/{{speaker.twitter}}">@{{speaker.twitter}}</a>{% endif %}
+            <div class="speaker-bio">
+              {{speaker.bio}}
+            </div>
+        </li>
+        {% endif %}
+        {% endfor %}
+      </ul>
+      <!-- <h2>Opens: September 4th 2017 00:00 UTC</h2>
       <h2>Closes: October 15th 2017 23:59 UTC</h2>
       <p>PHP UK Conference is focused on education and discussion of the PHP programming language. We aim to attract the best speakers, contributors, and educators from around the world in hopes of providing the community with the best resources on the PHP programming language every year.</p>
 
 <p>We are looking for speakers and instructors to give talks and hands-on classroom sessions. We are seeking talks covering mainstream, advanced, niche or non-technical topics aimed at a multitude of skill levels.</p>
   <div class="callout -green">
-  	<a class="button -inverse -square right" href="https://www.papercall.io/phpuk18" target="_blank">Submit here</a>
-  	<h4>Submit a paper</h4>
-  	<p>If you'd like to submit a paper for consideration to speak at the conference, learn more and submit your details here.</p>
+      <a class="button -inverse -square right" href="https://www.papercall.io/phpuk18" target="_blank">Submit here</a>
+      <h4>Submit a paper</h4>
+      <p>If you'd like to submit a paper for consideration to speak at the conference, learn more and submit your details here.</p>
   </div>
     <h2>About</h2>
     <p>PHP UK seeks to deliver ‘wow’ talks that are fresh and inspiring about cutting edge topics or new perspectives on common problems. The audience will be from all backgrounds varying in skill level from beginner to intermediate to advanced, so talks varying widely in topic and skill levels are required. Most of all we want speakers who have a deep knowledge about the topics they are proposing and can’t wait to share that knowledge with a whole group of of eager listeners. Tell us what you’re most passionate about and why we should be passionate about it as well.</p>
@@ -47,7 +61,7 @@ weight: 2
         <li>No Q&A</li>
         <li>4 keynote sessions will be selected</li>
     </ul>
-    
+
     <h3>Talk Sessions</h3>
     <ul>
         <li>Breakout sessions throughout the conference</li>
@@ -69,22 +83,6 @@ weight: 2
         <li>Travel expenses paid in full</li>
         <li>Three nights hotel so you can attend the whole conference</li>
         <li>Invitation to the speaker’s dinner</li>
-    </ul>
-    <!--  
-    <ul class="speakers">
-      {% for speaker in site.data.2017.speakers %}
-      {% if speaker.type != "organiser" %}      
-      <li id="{{speaker.slug}}" class="speaker">
-          <img class="speaker-photo" src="/2017/assets/images/speakers/{{speaker.slug}}.jpg">
-          <h4 class="speaker-name">{{speaker.name}}</h4> <h6 class="speaker-company">{{speaker.company}}</h6>
-          {% if speaker.twitter %}<a class="speaker-handle" href="https://twitter.com/{{speaker.twitter}}">@{{speaker.twitter}}</a>{% endif %}
-          <div class="speaker-bio">
-            {{speaker.bio}}
-          </div>
-      </li>
-      {% endif %}
-      {% endfor %}
-    </ul>
-    -->
+    </ul> --> 
   </div>
 </div>

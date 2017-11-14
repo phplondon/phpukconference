@@ -1,0 +1,571 @@
+- name: Registration &amp; Breakfast
+  track: workshop1
+  day: wednesday
+  starttime: "08:30"
+  endtime: "09:00"
+  type: break
+  description: |
+    Registration will be open from 8:30am. A light breakfast with coffee/tea/juice will be served until shortly before 9am. 
+
+- name: Diving Deep into Docker
+  track: workshop1
+  day: wednesday
+  starttime: "09:00"
+  endtime: "17:00"
+  type: talk
+  level: All
+  speaker: davidmckay
+  description: |
+    Docker, the hottest technology around at the moment. It swept the Ops world by storm in 2014, became mainstream in 2015, and now it’s set to dominate the developer world, in 2016. Docker is a tool that allows you to package your application up into a single-runnable distributable binary - akin to the phar, but in Hulk mode. Docker allows you, a developer, to specify the exact environment your application needs to run, across development; test; staging; and production. In this tutorial I will pull back the curtain and show you how Docker works and the technologies that make it all possible. We'll dive into Docker Image Layering and optimisation, Docker Networking, Docker Plugins and orchestrating containers at scale with Docker Swarm.
+
+- name: BDD In Practice
+  track: workshop2
+  day: wednesday
+  starttime: "09:00"
+  endtime: "17:00"
+  type: talk
+  level: All
+  speaker: ciaranmcnulty
+  description: |
+    A tour of BDD best practices, applied in the PHP world. Behaviour Driven Development techniques help us to ensure that the code we're writing is solving real-world problems, and is software that matters. In this hands-on workshop we will build some simple software that fulfils a user's requirement; validate its functionality using tools such as Behat, PHPUnit and PhpSpec; and learn how our test architecture can support our application's architecture.
+
+- name: Pre-Conference Social
+  track: workshop1
+  day: wednesday
+  starttime: "18:00"
+  endtime: "21:00"
+  type: special
+  description: |
+    Wednesday night kicks off the conference with a night at the pub for drinks, snacks, and a chance to meet other delegates before the conference starts. <a href="/socials">More info &raquo;</a>
+
+- name: Registration &amp; Breakfast
+  track: main
+  day: thursday
+  starttime: "08:00"
+  endtime: "09:10"
+  type: break
+  description: |
+    Registration will be open from 8am. A light breakfast with coffee/tea/juice will be served until shortly before 9am. <br><a href="/menu">Food menu</a>
+
+- name: Opening address
+  track: main
+  day: thursday
+  starttime: "09:10"
+  endtime: "09:20"
+  type: special
+  description: |
+    Johanna and Sam welcome all our delegates, speakers, and sponsors to the conference and provide an overview of the days events to come. 
+
+- name: TBA
+  track: main
+  day: thursday
+  starttime: "09:20"
+  endtime: "09:50"
+  type: keynote
+  speaker: 
+  description: |
+    
+
+- name: Morning Refreshment Break
+  track: main
+  day: thursday
+  starttime: "09:50"
+  endtime: "10:20"
+  type: break
+  description: |
+    Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors. <br><a href="/menu">Food menu</a>
+
+- name: The why and the how of moving to 7.x
+  track: main
+  day: thursday
+  starttime: "10:20"
+  endtime: "11:20"
+  type: talk
+  level: All
+  speaker: wimgodden
+  description: |
+    With PHP 7.2 recently released and PHP 5.3 and 5.4 still accounting for over 40% of all production environments, it's time to paint a clear picture on not just why everyone should move to 7.0 (or 7.1), but on how to get code ready for the latest version of PHP. In this talk, we'll look at some handy tools and techniques to ease the migration.
+
+- name: Introduction to GraphQL
+  track: side1
+  day: thursday
+  starttime: "10:20"
+  endtime: "11:20"
+  type: talk  
+  level: All
+  speaker: michaelcullum
+  description: |
+    Since GraphQL was announced by Facebook in 2015 it has started to gain quite a bit of traction with many companies such as Github looking to adopt it to either replace or complement their existing REST APIs. GraphQL provides a powerful way for the frontend to be able to query data sources and your business logic, giving and receiving only the data that they need, without having to always have custom designed endpoints for every use-case. As a consumer of third party APIs it probably won't be long before you're consuming a GraphQL API; and as a designer or creator of APIs, GraphQL can sometimes provide a better alternative than a REST API. Join me for a tour of what GraphQL looks like, what it works well for, how to consume a GraphQL API, and how to easily design and create one in PHP.
+
+- name: "What You'll Miss on AWS & How To Find It"
+  track: side2
+  day: thursday
+  starttime: "10:20"
+  endtime: "11:20"
+  type: talk
+  level: Intermediate
+  speaker: mikelehan
+  description: |
+    AWS is exciting & provides a boost to your app's availability, scalability and security. But moving from traditional hosting to the cloud can change how you develop, deploy & manage infrastructure. We can use old & new tools to smooth the migration, getting the power of the cloud without the pain! In the talk we will look over 9 things you'll miss on AWS and how to get them back. We'll cover auto scaling, load balancing, networked file systems, PHP opcache, Lambda functions, databases, logging, & queues - giving you a pathway to AWS operation with minimal changes to your application, keeping the cost down and the productivity high!
+
+- name: Room change
+  track: main
+  day: thursday
+  starttime: "11:20"
+  endtime: "11:30"
+  type: break
+  description: ""
+
+- name: Building Websites with Zend Expressive 2
+  track: main
+  day: thursday
+  starttime: "11:30"
+  endtime: "12:30"
+  type: talk  
+  level: Beginner
+  speaker: roballen
+  description: |
+    Zend Expressive 2 is the ideal framework for building PHP applications of all types. Its easy-to-understand architecture makes it ideal for projects of all shapes and sizes. In this talk, I'll show you how to build an Expressive application than can scale with your needs.  We will look at how Expressive's middleware system leverages the upcoming PSR-15 specification to create easily understandable and flexible applications. We will cover application setup, routing and error handling before diving into some thoughts on how architect an Expressive application. By the end of the session, you will be equipped to create Expressive applications yourself.
+
+- name: Working with Webhooks
+  track: side1
+  day: thursday
+  starttime: "11:30"
+  endtime: "12:30"
+  type: talk  
+  level: All
+  speaker: lornamitchell
+  description: |
+    In an increasingly connected world, APIs are key to great tools and effective workflows.  What is better than an API?  A webhook of course!  Webhooks are a key building block of a modern application, allowing systems to exchange data in response to events. This session gives examples of webhooks currently in use ""in the wild"", and examines both when a webhook is useful and the internal design and structuring of webhook payloads.  We'll discuss how to work with webhooks in a scalable way regardless of technology stack; how to recieve and process incoming webhooks from an external system and how to design and publish your own for use by partners or consumers.  Recommended for anyone wanting to teach their applications to play nicely with others.
+
+- name: Climbing the Abstract Syntax Tree
+  track: side2
+  day: thursday
+  starttime: "11:30"
+  endtime: "12:30"
+  type: talk
+  level: Intermediate
+  speaker: jamestitcumb
+  description: |
+    The new Abstract Syntax Tree (AST) in PHP 7 means the way our PHP code is being executed has changed. Understanding this new fundamental compilation step is key to understanding how our code is being run. To demonstrate, James will show how a basic compiler works and how introducing an AST simplifies this process. We’ll look into how these magical time-warp techniques* can also be used in your code to introspect, analyse and modify code in a way that was never possible before. After seeing this talk, you'll have a great insight as to the wonders of an AST, and how it can be applied to both compilers and userland code.<br>(*actual magic or time-warp not guaranteed)
+
+- name: Lunch
+  track: main
+  day: thursday
+  starttime: "12:30"
+  endtime: "13:30"
+  type: break
+  description: |
+    A buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors. <br><a href="/menu">Food menu</a>
+
+- name: Debugging PHP with Xdebug
+  track: main
+  day: thursday
+  starttime: "13:30"
+  endtime: "14:30"
+  type: talk
+  level: All
+  speaker: markniebergall
+  description: |
+    Debugging in PHP can be tedious and prone to error when using var_dump and echo statements. Learn how to debug more effectively and get better insight into an application by using Xdebug. See how to setup PhpStorm, Xdebug, and the browser to enable debugging that will let you step into code and see variable values live. Extend those debugging capabilities into cli, APIs, and SOAP clients to increase the code that can be debugged with ease.
+
+- name: Database Schema Migrations with Zero Downtime
+  track: side1
+  day: thursday
+  starttime: "13:30"
+  endtime: "14:30"
+  type: talk
+  level: All
+  speaker: michielrook
+  description: |
+    Does your application or service use a database? When that application changes because of new business requirements, you may need to make changes to the database schema. These database migrations could lead to downtime and can be an obstacle to implementing continuous delivery/deployment. How can we deal with database migrations when we don’t want our end-users to experience downtime, and want to keep releasing? In this talk we’ll discuss non-destructive changes, rollbacks, large data sets, useful tools and a few strategies to migrate our data safely, with minimum disruption to production.
+
+- name: Creating a dashboard with Laravel, Vue and Pusher
+  track: side2
+  day: thursday
+  starttime: "13:30"
+  endtime: "14:30"
+  type: talk
+  level: Intermediate
+  speaker: freekvanderherten
+  description: |
+    Building a realtime dashboard is probably something every developer wants to do at one point. In this talk I'll explain how we leveraged both Laravel 5.5 and Vue to build the dashboard. After demonstrating the dashboard itself we'll take a deep dive in the code. We'll take a look at the entire flow: the grid system, how events are broadcasted using Pusher, some cool Vue mixins and much more. After this talk you'll be able to setup your own dashboard using our open sourced code.
+
+- name: Room change
+  track: main
+  day: thursday
+  starttime: "14:30"
+  endtime: "14:40"
+  type: break
+  description: ""
+
+- name: Build, provision & deploy in the Cloud with Packer, Ansible & Terraform
+  track: main
+  day: thursday
+  starttime: "14:40"
+  endtime: "15:40"
+  type: talk
+  level: Beginner
+  speaker: thijsferyn
+  description: |
+    In a continuous integration and continuous delivery context, it is hard to reliably deploy code to an environment. When code commits also imply changes to your stack, it gets even more tricky. In this presentation I'll show you how to build vendor-agnostic cloud images using Packer and how to provision the necessary software dependencies using Ansible, including your PHP code. Once the image is in place, we'll use Terraform to deploy these images and create loadbalanced computing instances on various cloud environments in a single configuration format.
+
+- name: From zero to multi-platform Chatbot with BotMan
+  track: side1
+  day: thursday
+  starttime: "14:40"
+  endtime: "15:40"
+  type: talk
+  level: All
+  speaker: marcelpociot
+  description: |
+    Chatbots are the friendly new helpers that arise in every industry. How will they help you? How can we develop them? How can tools like natural language processing help the user experience? Let us find out how to create an intelligent chatbot using BotMan - the PHP chatbot framework.
+
+- name: Command and (e)mission Control
+  track: side2
+  day: thursday
+  starttime: "14:40"
+  endtime: "15:40"
+  type: talk
+  level: All
+  speaker: barneyhanlon
+  description: |
+    Using event dispatchers and command buses in applications is becoming common place, but are we using them in a way that aids understanding? With the rise in popularity of Domain-Driven Design to drive meaning in applications, and our applications becoming increasingly small and "hexagonal", the concept of defining the difference between an Event and a Command is becoming more important. This talk explores using command buses and event dispatchers in combination to clearly segregate the structure, and uses an example of how to use these to create clean CQRS-based applications.
+
+- name: Afternoon Refreshment Break
+  track: main
+  day: thursday
+  starttime: "15:40"
+  endtime: "16:00"
+  type: break
+  description: |
+    Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors. <br><a href="/menu">Food menu</a>
+
+- name: "Zero to Jenkins: Automatic builds + deploys"
+  track: main
+  day: thursday
+  starttime: "16:00"
+  endtime: "17:00"
+  type: talk
+  level: All
+  speaker: michaelheap
+  description: |
+    In late 2016, Jenkins finally made it to version 2.0 which brought a huge number of improvements. In this talk, we'll go from an empty machine to a Jenkins install that automatically detects repos, branches and pull requests and builds them according to the Jenkinsfile in each branch. We'll be running tests, linting and packaging applications in parallel where possible, and even running things on Linux, Windows and MacOS all at the same time! 
+
+- name: Content Security Policy to the Rescue
+  track: side1
+  day: thursday
+  starttime: "16:00"
+  endtime: "17:00"
+  type: talk
+  level: All
+  speaker: dheerajjoshi
+  description: |
+    Developing web applications with security in mind is very much important in today's world with the increase in online attacks and fraud. Content Security Policy is a defense-in-depth mechanism which can help in mitigating Cross-Site Scripting vulnerabilities. In this talk, we'll see a live demo of an intentionally vulnerable web application and how Content Security Policy can prevent attacks. I’ll also talk about some success stories where companies successfully deployed CSP. We’ll discuss some common bypasses available for CSP and how CSP can be used to prevent other sets of issues like clickjacking, HTTPS migration, secure form submissions.
+
+- name: How Doctrine Caching Can Skyrocket Your Application
+  track: side2
+  day: thursday
+  starttime: "16:00"
+  endtime: "17:00"
+  type: talk
+  level: Intermediate
+  speaker: jachimcoudenys
+  description: |
+    When people talk about Doctrine (or any ORM for that matter), the performance issue always comes up fairly quickly. Besides the fact that Doctrine will help you develop faster, so a little overhead doesn't really matter, there are numerous options to increase the performance of the application. By understanding how the system works in the first place, a lot of issues can be avoided right away. When you have done everything to avoid these pitfalls, you can bring in the big guns: caching. Doctrine has different caching mechanism and since Doctrine 2.5 "Second Level Cache" was added to our toolbox. After this talk, you should know what the impact is of every cache and how to use it.
+
+- name: Room change
+  track: main
+  day: thursday
+  starttime: "17:00"
+  endtime: "17:10"
+  type: break
+  description: ""
+
+- name: TBA
+  track: main
+  day: thursday
+  starttime: "17:10"
+  endtime: "17:40"
+  type: keynote
+  speaker: 
+  description: |
+    
+
+- name: Closing address
+  track: main
+  day: thursday
+  starttime: "17:40"
+  endtime: "18:00"
+  type: special
+  description: |
+
+- name: Mid-Conference Social
+  track: main
+  day: thursday
+  starttime: "18:00"
+  endtime: "21:00"
+  type: special
+  description: |
+    The mid-conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href="/socials">More info &raquo;</a>
+
+- name: Registration &amp; Breakfast
+  track: main
+  day: friday
+  starttime: "08:00"
+  endtime: "09:10"
+  type: break
+  description: |
+    Registration will be open from 8am. A light breakfast with coffee/tea/juice will be served until shortly before 9am. <br><a href="/menu">Food menu</a>
+
+- name: Opening address
+  track: main
+  day: friday
+  starttime: "09:10"
+  endtime: "09:20"
+  type: special
+  description: |
+    Johanna and Sam welcome all our delegates, speakers, and sponsors to the conference and provide an overview of the days events to come. 
+
+- name: TBA
+  track: main
+  day: friday
+  starttime: "09:20"
+  endtime: "09:50"
+  type: keynote
+  speaker: 
+  description: |
+    
+
+- name: Morning Refreshment Break
+  track: main
+  day: friday
+  starttime: "09:50"
+  endtime: "10:20"
+  type: break
+  description: |
+    Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors. <br><a href="/menu">Food menu</a>
+
+- name: Introduction to PHP Extensions
+  track: main
+  day: friday
+  starttime: "10:20"
+  endtime: "11:20"
+  type: talk
+  level: Advanced
+  speaker: derickrethans
+  description: |
+    In this presentation, we take a first look at writing PHP extensions. Using step-by-step examples, we'll take a function written in PHP and convert them into a loadable extension using C. We'll then test both versions and compare the results. After seeing the size and scope of the benefits that can be realized with only a few minor changes, you'll want to try it out for yourself. You'll also understand why we start with simple things, and not try to rewrite all of Symfony in C.
+
+- name: Service Workers and their role in PWAs
+  track: side1
+  day: friday
+  starttime: "10:20"
+  endtime: "11:20"
+  type: talk
+  level: All
+  speaker: ipshabhidonia
+  description: |
+    Progressive Web Applications have gained unparalleled momentum in the tech world and are currently one of the hottest trends in Web Development. Find out how PWA attempts to combine features offered by most modern browsers with the benefits of mobile experience and how service workers make them fast, reliable & engaging. In this session we dive into what’s in store beyond providing the offline experience, push and background sync features. This talk examines how Service Workers fill the gap between web and native, and how they give better performance and user experiences.
+
+- name: Inversion of Control (IoC) Containers Beyond Constructor Injection
+  track: side2
+  day: friday
+  starttime: "10:20"
+  endtime: "11:20"
+  type: talk
+  level: Beginner
+  speaker: hannesvandevreken
+  description: |
+    Did you know your IoC container can do a whole lot more than just constructor injection? It's packed with features. In this talk you will learn to leverage the container to write loosely coupled code. Well designed code put together by your container will make your apps decoupled from the framework!
+
+- name: Room change
+  track: main
+  day: friday
+  starttime: "11:20"
+  endtime: "11:30"
+  type: break
+  description: ""
+
+- name: Get Rolling Fast with Symfony Flex
+  track: main
+  day: friday
+  starttime: "11:30"
+  endtime: "12:30"
+  type: talk
+  level: All
+  speaker: beausimensen
+  description: |
+    Unsure where to start with your next application? Are you sure you want full stack Symfony eventually but not sure you can commit to the extra work upfront? Afraid if you start with a micro-framework like Silex you'll end up needing to migrate to full stack Symfony anyway? Enter Symfony Flex. Symfony flex brings all of the power of full stack Symfony with the upfront requirements of a micro-framework. Choosing Symfony upfront not longer commits you to the overhead you might expect from a traditional Symfony project. See how quickly a new project can be started and how it can evolve over time.
+
+- name: MySQL 8 -- A New Beginning
+  track: side1
+  day: friday
+  starttime: "11:30"
+  endtime: "12:30"
+  type: talk  
+  level: All
+  speaker: davestokes
+  description: |
+    MySQL 8 is a major redesign of the most popular database on the web. it will have a true data dictionary (no more .frm, MYI, or other little files) which means you can have millions of tables within a schema. Windowing Functions and Common Table Expressions are available, multi plane character support (because you need emojis in your data), user roles,  more JSON functions, and big optimizer improvements. And there will be a better 'out of the box' user experience.  And you will learn what happened to MySQL 6 and MySQL 7.
+
+- name: Theming WordPress
+  track: side2
+  day: friday
+  starttime: "11:30"
+  endtime: "12:30"
+  type: talk
+  level: All
+  speaker: elizabethtuckerlong
+  description: |
+    Want to create your own custom design for WordPress, but don't want to rebuild all the awesome features that your favorite theme already has? Need to create something unique, but need to stay upgrade safe? You need a child theme! Learn the benefits and gotchas of a child theme as well as learn how to set up a child theme as we create a custom child theme step-by-step during this talk. 
+
+- name: Lunch
+  track: main
+  day: friday
+  starttime: "12:30"
+  endtime: "13:30"
+  type: break
+  description: |
+    A buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors. <br><a href="/menu">Food menu</a>
+
+- name: Zero to API with Lumen
+  track: main
+  day: friday
+  starttime: "13:30"
+  endtime: "14:30"
+  type: talk
+  level: Intermediate
+  speaker: amandafolson
+  description: |
+    Do you want to build an API? You're not alone. Several tools exist to help you prototype an API with minimal effort on your part. In this talk, we'll make use of PHP and Laravel's Lumen framework to build an API using all of the bells and whistles of a framework without all of the full stack stuff we don't need. By the time attendees leave this talk, they'll have an overview of how they can use Lumen to create an API that they'll love maintaining and that users will love using. They'll also have an overview of API design best practices as well as a sprinkling of service-oriented architecture.
+
+- name: "Performance optimisation: how do I go about it?"
+  track: side1
+  day: friday
+  starttime: "13:30"
+  endtime: "14:30"
+  type: talk
+  level: All
+  speaker: katzien
+  description: |
+    Every developer should be confident that their code is efficient and safe to run in production. But it can be hard to get started. What tools to use? What do the graphs mean? What to look at first? In this talk, we will analyse and optimise the performance of a simple PHP application. By demonstrating how to use some of the excellent open source projects such as xdebug, xhprof or ApacheBench, I hope to give you a good idea of where to start with analysing and optimising your PHP code.
+
+- name: The secrets of Cryptography
+  track: side2
+  day: friday
+  starttime: "13:30"
+  endtime: "14:30"
+  type: talk
+  level: Intermediate
+  speaker: chrisriley
+  description: |
+    Alice and Bob have secrets they want to talk about without Eve being able to listen in. Worse yet, the mischievous Mallory delights in changing messages sent between parties. In such a hostile environment how can Alice talk to Bob without their messages being overheard and how can she be sure that it was Bob that sent the message in the first place? This talk will take a brief look at historic codes and ciphers before taking a look at modern day Cryptography. If you want to be able to know the difference between a block cipher and a stream cipher or get a glimpse into the mathematics behind public key Cryptography this talk is for you.
+
+- name: Room change
+  track: main
+  day: friday
+  starttime: "14:30"
+  endtime: "14:40"
+  type: break
+  description: ""
+
+- name: "Behaviour Driven Development and Behat: Telling Stories Through Code"
+  track: main
+  day: friday
+  starttime: "14:40"
+  endtime: "15:40"
+  type: talk
+  level: Beginner
+  speaker: mattbrunt
+  description: |
+    Stories? Scenarios? BDD? Are these just more words in the ever-growing list of jargon that developers have to know? Or are they something more important than new terms to memorise? In this session we'll look at how BDD fits into the software development work-flow, how to tell user stories through features, and how to automate them in Behat. These techniques will help to ensure you're writing well designed and tested software that focuses on what the users want from a system.
+
+- name: Getting started with Kubernetes
+  track: side1
+  day: friday
+  starttime: "14:40"
+  endtime: "15:40"
+  type: talk
+  level: Beginner
+  speaker: bastianhofmann
+  description: |
+    Kubernetes is a very powerful container orchestration platform that is quickly gaining traction and gives you lots of benefits in deploying, running and scaling your microservice web application. But it has also a steep learning curve. In this talk I will introduce you to Kubernetes, why you would want to use it and all the tooling around Kubernetes with the help of practical examples.
+
+- name: Goodbye Drush Make. Hello Composer!
+  track: side2
+  day: friday
+  starttime: "14:40"
+  endtime: "15:40"
+  type: talk
+  level: Intermediate
+  speaker: oliverdavies
+  description: |
+    One of the main outcomes of Drupal 8 was "getting off the island" with third-party code included in core and adopting modern best practices from the wider PHP ecosystem - including Composer, PHP's dependency manager. Included to manage core's dependencies, it has also gained traction in the contrib space with the creation of the Drupal Composer project, and the Drupal Packagist and now native endpoints on Drupal.org exposing contrib project metadata. In this session, we'll learn how to fully manage a Drupal 7 or Drupal 8 website including contributed modules and themes and external libraries with Composer.
+
+- name: Afternoon Refreshment Break
+  track: main
+  day: friday
+  starttime: "15:40"
+  endtime: "16:00"
+  type: break
+  description: |
+    Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors. <br><a href="/menu">Food menu</a>
+
+- name: Automatic PHP 7 Compatibility Checking Using php7cc
+  track: main
+  day: friday
+  starttime: "16:00"
+  endtime: "17:00"
+  type: talk
+  level: All
+  speaker: markniebergall
+  description: |
+    Running PHP 5 and ready to upgrade to PHP 7 but want to check your code for compatibility? Learn all about using php7cc to automatically check code for PHP 7 compatibility, including installation, syntax, options, and how to run the tool. Discuss the commonly seen incompatible code and see how to fix the code to be compatible with PHP 7. Leave with the tools and knowledge needed to upgrade any PHP 5 project to PHP 7.
+
+- name: "London Calling: Creating a customisable, multi-tenanted i10n solution"
+  track: side1
+  day: friday
+  starttime: "16:00"
+  endtime: "17:00"
+  type: talk
+  level: Intermediate
+  speaker: liamwiltshire
+  description: |
+    Buycraft is a multi-tenanted gCommerce platform for Minecraft. Having supported over 500,000 servers around the world, it needs to support a whole range of languages. Centralised i10n sucks - users can't customise it, if the application doesn't have a language file then you can't use that language, and users cannot add their own strings to translate. This is exactly how Buycraft worked - what's a dev to do? Join Liam to find out how Buycraft investigated, hacked and 'borrowed' code to solve this problem to provide a fully flexible, i10n layer for all their customers.
+
+- name: TBA
+  track: side2
+  day: friday
+  starttime: "16:00"
+  endtime: "17:00"
+  type: talk
+  speaker: 
+  description: |
+    
+
+- name: Room change
+  track: main
+  day: friday
+  starttime: "17:00"
+  endtime: "17:10"
+  type: break
+  description: ""
+
+- name: TBA
+  track: main
+  day: friday
+  starttime: "17:10"
+  endtime: "17:40"
+  type: keynote
+  speaker: 
+  description: |
+    
+
+- name: Closing Address & Prize Raffle
+  track: main
+  day: friday
+  starttime: "17:40"
+  endtime: "18:00"
+  type: special
+  description: |

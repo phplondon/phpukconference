@@ -1,0 +1,540 @@
+- name: Registration &amp; Breakfast
+  track: workshop1
+  day: wednesday
+  starttime: "08:30"
+  endtime: "09:00"
+  type: break
+  description: |
+    Registration will be open from 8:30am. A light breakfast with coffee/tea/juice will be served until shortly before 9am. 
+
+- name: Diving Deep into Docker
+  track: workshop1
+  day: wednesday
+  starttime: "09:00"
+  endtime: "17:00"
+  type: talk
+  speaker: davidmckay
+  description: |
+    Docker, the hottest technology around at the moment. It swept the Ops world by storm in 2014, became mainstream in 2015, and now it’s set to dominate the developer world, in 2016. Docker is a tool that allows you to package your application up into a single-runnable distributable binary - akin to the phar, but in Hulk mode. Docker allows you, a developer, to specify the exact environment your application needs to run, across development; test; staging; and production. In this tutorial I will pull back the curtain and show you how Docker works and the technologies that make it all possible. We'll dive into Docker Image Layering and optimisation, Docker Networking, Docker Plugins and orchestrating containers at scale with Docker Swarm.
+
+- name: BDD In Practice
+  track: workshop2
+  day: wednesday
+  starttime: "09:00"
+  endtime: "17:00"
+  type: talk
+  speaker: ciaranmcnulty
+  description: |
+    A tour of BDD best practices, applied in the PHP world. Behaviour Driven Development techniques help us to ensure that the code we're writing is solving real-world problems, and is software that matters. In this hands-on workshop we will build some simple software that fulfils a user's requirement; validate its functionality using tools such as Behat, PHPUnit and PhpSpec; and learn how our test architecture can support our application's architecture.
+
+- name: Pre-Conference Social
+  track: workshop1
+  day: wednesday
+  starttime: "18:00"
+  endtime: "21:00"
+  type: special
+  description: |
+    Wednesday night kicks off the conference with a night at the pub for drinks, snacks, and a chance to meet other delegates before the conference starts. <a href="/socials">More info &raquo;</a>
+
+- name: Registration &amp; Breakfast
+  track: main
+  day: thursday
+  starttime: "08:00"
+  endtime: "09:10"
+  type: break
+  description: |
+    Registration will be open from 8am. A light breakfast with coffee/tea/juice will be served until shortly before 9am. <br><a href="/menu">Food menu</a>
+
+- name: Opening address
+  track: main
+  day: thursday
+  starttime: "09:10"
+  endtime: "09:20"
+  type: special
+  description: |
+    Johanna and Sam welcome all our delegates, speakers, and sponsors to the conference and provide an overview of the days events to come. 
+
+- name: 
+  track: main
+  day: thursday
+  starttime: "09:20"
+  endtime: "09:50"
+  type: keynote
+  speaker: 
+  description: |
+    
+
+- name: Morning Refreshment Break
+  track: main
+  day: thursday
+  starttime: "09:50"
+  endtime: "10:20"
+  type: break
+  description: |
+    Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors. <br><a href="/menu">Food menu</a>
+
+- name: 
+  track: main
+  day: thursday
+  starttime: "10:20"
+  endtime: "11:20"
+  type: talk  
+  speaker: 
+  description: |
+    
+
+- name: 
+  track: side1
+  day: thursday
+  starttime: "10:20"
+  endtime: "11:20"
+  type: talk  
+  speaker: 
+  description: |
+    
+
+- name: 
+  track: side2
+  day: thursday
+  starttime: "10:20"
+  endtime: "11:20"
+  type: talk
+  speaker: 
+  description: |
+    
+
+- name: Room change
+  track: main
+  day: thursday
+  starttime: "11:20"
+  endtime: "11:30"
+  type: break
+  description: ""
+
+- name: 
+  track: main
+  day: thursday
+  starttime: "11:30"
+  endtime: "12:30"
+  type: talk  
+  speaker: 
+  description: |
+    
+
+- name: 
+  track: side1
+  day: thursday
+  starttime: "11:30"
+  endtime: "12:30"
+  type: talk  
+  speaker: 
+  description: |
+    
+
+- name: 
+  track: side2
+  day: thursday
+  starttime: "11:30"
+  endtime: "12:30"
+  type: talk
+  speaker: 
+  description: |
+    
+
+- name: Lunch
+  track: main
+  day: thursday
+  starttime: "12:30"
+  endtime: "13:30"
+  type: break
+  description: |
+    A buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors. <br><a href="/menu">Food menu</a>
+
+- name: 
+  track: main
+  day: thursday
+  starttime: "13:30"
+  endtime: "14:30"
+  type: talk
+  speaker: 
+  description: |
+    
+
+- name: 
+  track: side1
+  day: thursday
+  starttime: "13:30"
+  endtime: "14:30"
+  type: talk
+  speaker: 
+  description: |
+    
+
+- name: 
+  track: side2
+  day: thursday
+  starttime: "13:30"
+  endtime: "14:30"
+  type: talk
+  speaker: 
+  description: |
+    
+
+- name: Room change
+  track: main
+  day: thursday
+  starttime: "14:30"
+  endtime: "14:40"
+  type: break
+  description: ""
+
+- name: 
+  track: main
+  day: thursday
+  starttime: "14:40"
+  endtime: "15:40"
+  type: talk
+  speaker: 
+  description: |
+    
+
+- name: 
+  track: side1
+  day: thursday
+  starttime: "14:40"
+  endtime: "15:40"
+  type: talk
+  speaker: 
+  description: |
+    
+
+- name: 
+  track: side2
+  day: thursday
+  starttime: "14:40"
+  endtime: "15:40"
+  type: talk
+  speaker: 
+  description: |
+    
+
+- name: Afternoon Refreshment Break
+  track: main
+  day: thursday
+  starttime: "15:40"
+  endtime: "16:00"
+  type: break
+  description: |
+    Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors. <br><a href="/menu">Food menu</a>
+
+- name: 
+  track: main
+  day: thursday
+  starttime: "16:00"
+  endtime: "17:00"
+  type: talk
+  speaker: 
+  description: |
+    
+
+- name: 
+  track: side1
+  day: thursday
+  starttime: "16:00"
+  endtime: "17:00"
+  type: talk
+  speaker: 
+  description: |
+    
+
+- name: 
+  track: side2
+  day: thursday
+  starttime: "16:00"
+  endtime: "17:00"
+  type: talk
+  speaker: 
+  description: |
+    
+
+- name: Room change
+  track: main
+  day: thursday
+  starttime: "17:00"
+  endtime: "17:10"
+  type: break
+  description: ""
+
+- name: 
+  track: main
+  day: thursday
+  starttime: "17:10"
+  endtime: "17:40"
+  type: keynote
+  speaker: 
+  description: |
+    
+
+- name: Closing address
+  track: main
+  day: thursday
+  starttime: "17:40"
+  endtime: "18:00"
+  type: special
+  description: |
+
+- name: Mid-Conference Social
+  track: main
+  day: thursday
+  starttime: "18:00"
+  endtime: "21:00"
+  type: special
+  description: |
+    The mid-conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href="/socials">More info &raquo;</a>
+
+- name: Registration &amp; Breakfast
+  track: main
+  day: friday
+  starttime: "08:00"
+  endtime: "09:10"
+  type: break
+  description: |
+    Registration will be open from 8am. A light breakfast with coffee/tea/juice will be served until shortly before 9am. <br><a href="/menu">Food menu</a>
+
+- name: Opening address
+  track: main
+  day: friday
+  starttime: "09:10"
+  endtime: "09:20"
+  type: special
+  description: |
+    Johanna and Sam welcome all our delegates, speakers, and sponsors to the conference and provide an overview of the days events to come. 
+
+- name: 
+  track: main
+  day: friday
+  starttime: "09:20"
+  endtime: "09:50"
+  type: keynote
+  speaker: 
+  description: |
+    
+
+- name: Morning Refreshment Break
+  track: main
+  day: friday
+  starttime: "09:50"
+  endtime: "10:20"
+  type: break
+  description: |
+    Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors. <br><a href="/menu">Food menu</a>
+
+- name: 
+  track: main
+  day: friday
+  starttime: "10:20"
+  endtime: "11:20"
+  type: talk  
+  speaker: 
+  description: |
+    
+
+- name: 
+  track: side1
+  day: friday
+  starttime: "10:20"
+  endtime: "11:20"
+  type: talk  
+  speaker: 
+  description: |
+    
+
+- name: 
+  track: side2
+  day: friday
+  starttime: "10:20"
+  endtime: "11:20"
+  type: talk
+  speaker: 
+  description: |
+    
+
+- name: Room change
+  track: main
+  day: friday
+  starttime: "11:20"
+  endtime: "11:30"
+  type: break
+  description: ""
+
+- name: 
+  track: main
+  day: friday
+  starttime: "11:30"
+  endtime: "12:30"
+  type: talk  
+  speaker: 
+  description: |
+    
+
+- name: 
+  track: side1
+  day: friday
+  starttime: "11:30"
+  endtime: "12:30"
+  type: talk  
+  speaker: jamestitcumb
+  description: |
+    
+
+- name: 
+  track: side2
+  day: friday
+  starttime: "11:30"
+  endtime: "12:30"
+  type: talk
+  speaker: 
+  description: |
+    
+
+- name: Lunch
+  track: main
+  day: friday
+  starttime: "12:30"
+  endtime: "13:30"
+  type: break
+  description: |
+    A buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors. <br><a href="/menu">Food menu</a>
+
+- name: 
+  track: main
+  day: friday
+  starttime: "13:30"
+  endtime: "14:30"
+  type: talk
+  speaker: adambaratz
+  description: |
+    
+
+- name: 
+  track: side1
+  day: friday
+  starttime: "13:30"
+  endtime: "14:30"
+  type: talk
+  speaker: 
+  description: |
+    
+
+- name:
+  track: side2
+  day: friday
+  starttime: "13:30"
+  endtime: "14:30"
+  type: talk
+  speaker: 
+  description: |
+    
+
+- name: Room change
+  track: main
+  day: friday
+  starttime: "14:30"
+  endtime: "14:40"
+  type: break
+  description: ""
+
+- name: 
+  track: main
+  day: friday
+  starttime: "14:40"
+  endtime: "15:40"
+  type: talk
+  speaker: 
+  description: |
+    
+
+- name: 
+  track: side1
+  day: friday
+  starttime: "14:40"
+  endtime: "15:40"
+  type: talk
+  speaker: 
+  description: |
+    
+
+- name: 
+  track: side2
+  day: friday
+  starttime: "14:40"
+  endtime: "15:40"
+  type: talk
+  speaker: 
+  description: |
+    
+
+- name: Afternoon Refreshment Break
+  track: main
+  day: friday
+  starttime: "15:40"
+  endtime: "16:00"
+  type: break
+  description: |
+    Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors. <br><a href="/menu">Food menu</a>
+
+- name: 
+  track: main
+  day: friday
+  starttime: "16:00"
+  endtime: "17:00"
+  type: talk
+  speaker: 
+  description: |
+    
+
+- name: 
+  track: side1
+  day: friday
+  starttime: "16:00"
+  endtime: "17:00"
+  type: talk
+  speaker: 
+  description: |
+    
+
+- name: 
+  track: side2
+  day: friday
+  starttime: "16:00"
+  endtime: "17:00"
+  type: talk
+  speaker: 
+  description: |
+    
+
+- name: Room change
+  track: main
+  day: friday
+  starttime: "17:00"
+  endtime: "17:10"
+  type: break
+  description: ""
+
+- name: 
+  track: main
+  day: friday
+  starttime: "17:10"
+  endtime: "17:40"
+  type: keynote
+  speaker: 
+  description: |
+    
+
+- name: Closing Address & Prize Raffle
+  track: main
+  day: friday
+  starttime: "17:40"
+  endtime: "18:00"
+  type: special
+  description: |
