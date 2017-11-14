@@ -1,0 +1,36 @@
+- name: Mercari
+  id: mercari
+  type: track
+  url: https://www.mercari.com
+  description: 
+    "Mercari is the marketplace app that makes it easy for anyone to buy and sell goods.
+    Originally launched in Japan in 2013, Mercari rapidly achieved success in its home market
+    before expanding to the US in 2014 and to the UK in early 2017. In 2016, Mercari raised $75
+    million in funding and now has a valuation of $1 billion. Today the app has been
+    downloaded over 70 million times worldwide.<br><br>
+    The London office is a fast-growing, fun environment that’s home to international talent
+    from all over the globe.<br><br>
+    -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - <br>
+    About Mercari<br>
+    HASSLE-FREE &amp; SECURE<br>
+    – Start buying and selling instantly with easy sign-up<br>
+    – Buy in two clicks with secure in-app payments<br>
+    LIST YOUR ITEMS IN 40 SECONDS<br>
+    – Quickly take and upload photos directly from your phone<br>
+    – Add a description, set your price and start selling<br>
+    FIND ITEMS YOU LOVE FOR LESS<br>
+    – Discover items and brands you love at bargain prices"
+
+- name: JetBrains
+  id: jetbrains
+  type: gold
+  url: https://jetbrains.com
+  description: |
+    Here at JetBrains, we develop the tools relied on by developers to create some of the world's most advanced software. With over 15 years of cutting-edge innovation, we have strived to implement the features top performing development demands. Our IDE packages help you to work faster by automating common, repetitive tasks, enabling you to stay focused on code design and the big picture. We provide tools to explore and familiarize yourself with code bases faster and make it easy for you to take care of the code quality through all the stages of development so you can spend less time on maintenance tasks in the future.
+
+- name: Shopware
+  id: shopware
+  type: silver
+  url: https://www.shopware.co.uk
+  description: |
+    Shopware is a manufacturer of open source eCommerce software and the market leader in Germany. Founded in 2000, the company has more than 150 employees and focuses on the development and support of its core product, Shopware 5; an innovative online shop software for businesses of all sizes. With over 60,000 customers, 3,000 plugins and 1,200 partners, Shopware's modular basis and range of features provide businesses with the ultimate platform for growth. The company is 100% owner-operated and equity-financed, thus guaranteeing the highest degree of flexibility. "Emotional shopping on any device", the slogan of Shopware 5, offers new technology for storytelling in online shops, and comes with a customizable and fully responsive template.
