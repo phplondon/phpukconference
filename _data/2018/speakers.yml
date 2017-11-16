@@ -32,7 +32,7 @@
   slug: ciaranmcnulty
   twitter: ciaranmcnulty
   company: Inviqa
-  photo: https://secure.gravatar.com/avatar/018a9da9b68e248e4dbf035cd36cc644?s=150
+  photo: /2018/assets/images/speakers/ciaranmcnulty.jpg
   bio: |
       At Inviqa, Ciaran helps teams at all levels of ability improve via training and coaching. He has been a PHP professional since the late 90s and is passionate about TDD, BDD and Agile methodologies. He is lead maintainer of PhpSpec.
       
@@ -166,7 +166,7 @@
   slug: ipshabhidonia
   twitter: ipsha21
   company: Mozilla Tech Speaker
-  photo: https://secure.gravatar.com/avatar/cae367cf852d2f55f67f67374d720625?s=150
+  photo: /2018/assets/images/speakers/ipshabhidonia.jpg
   bio: |
       Ipsha is a software engineer at Gemalto by profession, a Mozilla tech speaker by heart, and an advocate for a free and open web by passion. She likes traveling to new places and meeting people with different perspectives of the world. Fascinated by psychology and astronomy, she looks up to people who dare to think beyond the realms of what seems possible.
 
@@ -194,8 +194,8 @@
   bio: |
       Dave Stokes is a MySQL Community Manager for Oracle.  Previously he was the MySQL Certification Manager for MySQL AB and SUN.  He has worked for companies ranging alphabetically from the American Heart Association to Xerox and work ranging from Anti-submarine warfare to web developer.
 
-- name: Elizabeth Tucker Long
-  slug: elizabethtuckerlong
+- name: Beth Tucker Long
+  slug: bethtuckerlong
   twitter: e3betht
   company: Treeline Design
   photo: https://secure.gravatar.com/avatar/b6b6d94f7cc0a47b2217f3749b9c3d8b?s=150
@@ -213,9 +213,9 @@
 - name: Kat Zien
   slug: katzien
   twitter: kasiazien
-  photo: https://secure.gravatar.com/avatar/cd6bec94805761550b875485b2bca16b?s=150
+  photo: /2018/assets/images/speakers/katzien.jpg
   bio: |
-      "You'll find Kat writing PHP, Go and Java at <a href="https://www.brightpearl.com/">Brightpearl</a>, working remotely from Bristol, UK or anywhere with wifi. Her main interests include automating \#allthethings, sorting out legacy code and making things simpler and faster. She's co-organising and giving talks at <a href="https://www.meetup.com/php-sw/">PHPSW</a> and <a href="https://www.meetup.com/golang-bristol/">Golang Bristol++</a>. Kat loves travelling and keeping active, appreciates good coffee and is a big Lego fan. She cycled from Copenhagen to Berlin in September 2017 and is planning to ride from Paris to London and from Vienna to Budapest this year to raise money for <a href="https://www.justgiving.com/fundraising/techbikers-copenhagen-to-berlin-2017-673">Room To Read</a>."
+      You'll find Kat writing PHP, Go and Java at <a href="https://www.brightpearl.com/">Brightpearl</a>, working remotely from Bristol, UK or anywhere with wifi. Her main interests include automating \#allthethings, sorting out legacy code and making things simpler and faster. She's co-organising and giving talks at <a href="https://www.meetup.com/php-sw/">PHPSW</a> and <a href="https://www.meetup.com/golang-bristol/">Golang Bristol++</a>. Kat loves travelling and keeping active, appreciates good coffee and is a big Lego fan. She cycled from Copenhagen to Berlin in September 2017 and is planning to ride from Paris to London and from Vienna to Budapest this year to raise money for <a href="https://www.justgiving.com/fundraising/techbikers-copenhagen-to-berlin-2017-673">Room To Read</a>.
 
 - name: Chris Riley
   slug: chrisriley
