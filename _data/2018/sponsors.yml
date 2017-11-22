@@ -33,11 +33,11 @@
   type: gold
   url: https://www.bytemark.co.uk
   description: |
-  Bytemark was founded with a simple mission: reliable, UK hosting. Co-founders Matthew Bloch & Peter Taphouse, both engineers by nature built the business from the ground up. Today, they lead a team of 30+ staff who operate Bytemark’s own data centre in York, monitor its 10Gbps national network and deliver 24/7 support to clients of all sizes. Brands hosted on Bytemark’s network include the Royal College of Art, data.gov.uk and DVLA Auctions.
+    Bytemark was founded with a simple mission: reliable, UK hosting. Co-founders Matthew Bloch & Peter Taphouse, both engineers by nature built the business from the ground up. Today, they lead a team of 30+ staff who operate Bytemark’s own data centre in York, monitor its 10Gbps national network and deliver 24/7 support to clients of all sizes. Brands hosted on Bytemark’s network include the Royal College of Art, data.gov.uk and DVLA Auctions.
 
 - name: Shopware
   id: shopware
   type: silver
-  url: https://www.shopware.co.uk
+  url: https://en.shopware.com
   description: |
     Shopware is a manufacturer of open source eCommerce software and the market leader in Germany. Founded in 2000, the company has more than 150 employees and focuses on the development and support of its core product, Shopware 5; an innovative online shop software for businesses of all sizes. With over 60,000 customers, 3,000 plugins and 1,200 partners, Shopware's modular basis and range of features provide businesses with the ultimate platform for growth. The company is 100% owner-operated and equity-financed, thus guaranteeing the highest degree of flexibility. "Emotional shopping on any device", the slogan of Shopware 5, offers new technology for storytelling in online shops, and comes with a customizable and fully responsive template.
