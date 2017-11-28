@@ -221,7 +221,7 @@
   slug: chrisriley
   twitter: giveupalready
   company: Imhotek Consulting Ltd
-  photo: https://secure.gravatar.com/avatar/d5a2aef3c745cca287ddef1948157fd3?s=150
+  photo: /2018/assets/images/speakers/chrisriley.jpg
   bio: |
       Chris is a freelance consultant based in York, Uk with experience working in the public sector, small and large companies throughout North Yorkshire. Chris has over 10 years experience with PHP and has a keen focus on both software architecture and none functional requirements such as security, performance and maintainability. In his free time, Chris can often be found producing or playing with experimental libraries and contributing to Zend framework.
 
