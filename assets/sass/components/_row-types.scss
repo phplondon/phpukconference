@@ -56,3 +56,14 @@
 		}
 	}
 }
+
+//Video teaser
+.row.-video{
+	background:$color-grey-light;
+	padding:50px 0;
+
+	iframe{
+		float:right;
+		margin-left:40px;
+	}
+}
