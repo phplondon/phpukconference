@@ -119,7 +119,7 @@
 - name: Marcel Pociot
   slug: marcelpociot
   twitter: marcelpociot
-	company: Beyond Code GmbH
+  company: Beyond Code GmbH
   photo: https://secure.gravatar.com/avatar/f02afcecaa4f0ac77531c6efdead2e67?s=150
   bio: |
       Marcel is a managing partner and developer at the Beyond Code GmbH in Germany, which builds custom Laravel web projects and focuses on Chatbot development. When he is not on his day job, you can find Marcel working on various open-source PHP projects and maintaining the most popular PHP chatbot framework "BotMan".
