@@ -34,3 +34,24 @@
 		}
 	}
 }
+
+.ribbon{
+	position:relative;
+
+	&::after{
+		position:absolute;
+		top:$base-spacing-unit;
+		left:$base-spacing-unit;
+		width:205px;
+		height:205px;
+		content:"";
+	}
+	
+	&.--oneleft::after{
+		background-image:url('/assets/images/ribbon_1left.png');
+	}
+
+	&.--sold::after{
+		background-image:url('/assets/images/ribbon_sold.png');
+	}
+}

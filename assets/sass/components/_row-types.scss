@@ -13,6 +13,34 @@
 	}
 }
 
+//Form
+.-form.row{
+	
+	h4{
+		font-size:2rem;
+		line-height:1.2em;
+		margin:0 0 0.6em 0 !important;
+	}
+
+	form{
+		padding-top:2rem;
+
+		input[type="text"],
+		input[type="email"]{
+			border:2px solid $color-black;
+			color:$color-black;
+		}
+
+		.button{
+			width:100%;
+
+			@include respond(medium){
+				width:auto;
+			}
+		}
+	}
+}
+
 //Newsletter
 .newsletter{
 	

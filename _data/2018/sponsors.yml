@@ -35,6 +35,13 @@
   description: |
     Bytemark was founded with a simple mission: reliable, UK hosting. Co-founders Matthew Bloch & Peter Taphouse, both engineers by nature built the business from the ground up. Today, they lead a team of 30+ staff who operate Bytemark’s own data centre in York, monitor its 10Gbps national network and deliver 24/7 support to clients of all sizes. Brands hosted on Bytemark’s network include the Royal College of Art, data.gov.uk and DVLA Auctions.
 
+- name: RIPS Technologies
+  id: ripstechnologies
+  type: gold
+  url: https://www.ripstech.com
+  description: |
+    RIPS Technologies GmbH is a high-tech company based in Bochum, Germany, and delivers automated security analysis for PHP applications as platform independent software or highly scalable cloud service. With innovative code analysis algorithms that are specifically dedicated to the PHP language, even complex security vulnerabilities are detected that no other tool is able to find. Detailed patch instructions allow developers and consultants to remediate security risks in a time- and cost-efficient way, before these are exposed to attackers.
+
 - name: Shopware
   id: shopware
   type: silver
