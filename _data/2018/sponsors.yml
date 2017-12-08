@@ -42,6 +42,13 @@
   description: |
     RIPS Technologies GmbH is a high-tech company based in Bochum, Germany, and delivers automated security analysis for PHP applications as platform independent software or highly scalable cloud service. With innovative code analysis algorithms that are specifically dedicated to the PHP language, even complex security vulnerabilities are detected that no other tool is able to find. Detailed patch instructions allow developers and consultants to remediate security risks in a time- and cost-efficient way, before these are exposed to attackers.
 
+- name: Platform.sh
+  id: platformsh
+  type: gold
+  url: https://platform.sh
+  description: |
+    Platform.sh is a continuous deployment cloud hosting service that can scale web applications from the smallest project to ones handling millions of visitors. It is ideal for agile software teams because of its unique feature: it can replicate a live production cluster in seconds and create unlimited byte-level clones of ephemeral dev and staging environments. Users see up to 90% less DevOps efforts, 15x faster UAT, and 40% better developer productivity with Platform.sh.
+
 - name: Shopware
   id: shopware
   type: silver
