@@ -155,6 +155,14 @@
   bio: |
       Jachim Coudenys is a PHP developer at Combell. Since discovering PHP in 2002 (4.1.0), his work and after-work activities brought him from the world of development to server management, development workflows, more development, etc... Next to being a long-time member of PHPBenelux, he is co-organizer the PHP-WVL, a user group in West Flanders (BE). He is a Zend Certified developer and Certified MongoDB Developer & DBA. You can follow him on <a href="http://twitter.com/coudenysj">Twitter</a> and read his occasional <a href="http://blog.jachim.be">blog posts</a>.
 
+- name: Gary Hockin
+  slug: garyhockin
+  twitter: geeh
+  company: JetBrains
+  photo: /2017/assets/images/speakers/garyhockin.jpg
+  bio: |
+      Gary Hockin travels all over the world empowering users of PhpStorm as a Developer Advocate for JetBrains (fine purveyors of quality IDEs). He is a talented and evocative speaker, a cultivated author of impressively entertaining blog posts, and records elegant and informative screencasts and videos. Gary's also a contributor to the Zend Framework and is argumentative enough to be on the community review team. When Gary had a real job, he was a developer of at least "competent" standard with nearly 20 years experience. When not developing, speaking about developing, reading about developing or writing about developing, Gary enjoys playing computer games, and arguing with his wife and two kids. Gary has recently discovered that conferences ask speakers to write their own biography text, and you can get away with writing pretty much anything you want.
+
 - name: Derick Rethans
   slug: derickrethans
   twitter: derickr
