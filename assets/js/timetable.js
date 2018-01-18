@@ -3,8 +3,8 @@
 var wordMonth = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
 var threecoltt = {
   days: [
-    "Main Track",
-    "Side Track 1",
+    "RedHat Track",
+    "Mercari Track",
     "Side Track 2"
   ],
   height: 101
@@ -13,7 +13,8 @@ var threecoltt = {
 var fourcoltt = {
   days: [
     "Option 1",
-    "Option 2"
+    "Option 2",
+    "Option 3"
   ],
   height: 41
 }

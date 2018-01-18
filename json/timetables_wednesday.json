@@ -8,7 +8,7 @@
               "image": "{{ speaker.photo }}",
               "talk": "{{ talk.name }}",
               "level": "{{ talk.level }}",
-              "date": "{% if talk.track == "workshop1" %}11{% elsif talk.track == "workshop2" %}12{% elsif talk.track == "workshop3" %}14{% else %}13{% endif %}",
+              "date": "{% if talk.track == "workshop1" %}11{% elsif talk.track == "workshop2" %}12{% elsif talk.track == "workshop3" %}13{% else %}14{% endif %}",
               "month": "02",
               "year": "2018",
               "start_time": "{{ talk.starttime }}",

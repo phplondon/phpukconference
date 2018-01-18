@@ -542,7 +542,7 @@ h2.center{
 }
 
 .tiva-timetable.col2 .timetable-week .timetable-columns .timetable-column {
-  width: 50% !important;
+  width: 33.3% !important;
 }
 
 .tiva-timetable.col2 .timetable-week .timetable-column .timetable-column-content .timetable-title {
@@ -555,7 +555,7 @@ h2.center{
 .tiva-timetable.col2 .timetable-title.color-break,
 .tiva-timetable.col2 .timetable-title.color-special,
 .tiva-timetable.col2 .timetable-title.color-keynote{
-	width:200% !important;
+	width:300% !important;
 	z-index:1;
 }
 

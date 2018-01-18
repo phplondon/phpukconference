@@ -25,7 +25,6 @@ weight: 4
 {% assign track_sponsors = site.data.2018.sponsors | where:'type', 'track' %}
 {% assign gold_sponsors = site.data.2018.sponsors | where:'type', 'gold' %}
 {% assign silver_sponsors = site.data.2018.sponsors | where:'type', 'silver' %}
-{% comment %}
 <div class="row">
 	<div class="wrapper">
 		<h3>Platinum sponsor</h3>
@@ -43,8 +42,7 @@ weight: 4
         </ul>
     </div>
 </div>
-{% endcomment %}
-<div class="row">
+<div class="row -no-top-padding">
 	<div class="wrapper">
 		<h3>Track sponsors</h3>
         <ul class="sponsor-list -profiles">

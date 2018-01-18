@@ -29,6 +29,17 @@
   description: |
     A tour of BDD best practices, applied in the PHP world. Behaviour Driven Development techniques help us to ensure that the code we're writing is solving real-world problems, and is software that matters. In this hands-on workshop we will build some simple software that fulfils a user's requirement; validate its functionality using tools such as Behat, PHPUnit and PhpSpec; and learn how our test architecture can support our application's architecture.
 
+- name: "Docker, Kubernetes & OpenShift"
+  track: workshop3
+  day: wednesday
+  starttime: "09:00"
+  endtime: "17:00"
+  type: talk
+  level: All
+  speaker: michaelhausenblas
+  description: |
+    This workshop prepares web and application developers to build applications with containers, Kubernetes, and OpenShift. It starts with a short introduction to containers and Kubernetes, which are the foundation of OpenShift. Hands-on exercises walk you through a variety of applications and use cases for OpenShift. How about seeing how easy it can be to deploy your prebuilt containers? And how health checks to OpenShift can heal your application? We’ll dig into build containers, using just a Git repository. Want to see easy application scaling? No problem. Wish you could do A/B deployment? Your wish is our command. And finally, you’ll see a complete microservice application with database and polyglot back-end services.
+
 - name: Pre-Conference Social
   track: workshop1
   day: wednesday
