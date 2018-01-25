@@ -35,6 +35,14 @@
   photo: /2018/assets/images/speakers/ciaranmcnulty.jpg
   bio: |
       At Inviqa, Ciaran helps teams at all levels of ability improve via training and coaching. He has been a PHP professional since the late 90s and is passionate about TDD, BDD and Agile methodologies. He is lead maintainer of PhpSpec.
+
+- name: Jenny Wong
+  slug: jennywong
+  twitter: miss_jwo
+  company: Human Made
+  photo: /2018/assets/images/speakers/jennywong.jpg
+  bio: |
+      'Once a Web Developer, Jenny now works as a Community Engineer at Human Made. When she started, she spent her first two weeks organizing a conference. She can often be found evangelizing open source community, event organiser and occasionally, speaker. Her days are varied: From solving issues with event sites & supporting organisers, to passionately cheering people on to contribute back to their communities. She loves cooking up elaborate ideas to help improve participation experiences in open source projects. When away from the laptop, she’s usually binge watching Formula 1 & anime, doing house renovations or making a mess whilst cooking. You can find her on your messaging service of choice, making plenty of typos.'
       
 - name: Wim Godden
   slug: wimgodden
