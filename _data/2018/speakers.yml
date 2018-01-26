@@ -273,3 +273,11 @@
   photo: https://secure.gravatar.com/avatar/b177f91007daac88583676236a01cfed?s=150
   bio: |
       Liam is a UK based Senior PHP Developer &amp; Business Manager at Tebex, creators of <a href="http://buycraft.net/">Buycraft.net</a>, the first e-commerce platform for Minecraft. In his nine years as a dev, he's tackled projects large and small, from multi-million pound eCommerce sites to the plumber down the road looking for 'mates' rates. These days Liam focuses on providing gCommerce platforms for multiplayer sandbox games, and in his spare time is trying to learn the secret to actually having some spare time.
+      
+- name: Michael Hausenblas
+  slug: michaelhausenblas
+  twitter: mhausenblas
+  company: Red Hat
+  photo: /2018/assets/images/speakers/mhausenblas.jpg
+  bio: |
+      Michael is a Developer Advocate for OpenShift and Kubernetes at Red Hat where he helps appops to build and operate distributed services. His background is in large-scale data processing and container orchestration and he's experienced in advocacy and standardization at W3C and IETF. Before Red Hat, Michael worked at Mesosphere, MapR and in two research institutions in Ireland and Austria. He contributes to open source software (mainly using Go), blogs and hangs out on Twitter too much.

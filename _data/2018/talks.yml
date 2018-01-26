@@ -549,15 +549,15 @@
   description: |
     Buycraft is a multi-tenanted gCommerce platform for Minecraft. Having supported over 500,000 servers around the world, it needs to support a whole range of languages. Centralised i10n sucks - users can't customise it, if the application doesn't have a language file then you can't use that language, and users cannot add their own strings to translate. This is exactly how Buycraft worked - what's a dev to do? Join Liam to find out how Buycraft investigated, hacked and 'borrowed' code to solve this problem to provide a fully flexible, i10n layer for all their customers.
 
-- name: TBA
+- name: Building Cloud-Native Applications
   track: side2
   day: friday
   starttime: "16:00"
   endtime: "17:00"
   type: talk
-  speaker: 
+  speaker: michaelhausenblas
   description: |
-    
+    In this talk we will review best practices developing and operating cloud native applications and discuss when and how to use containers, including a demo how to do cloud native PHP apps using OpenShift, Red Hat’s enterprise Kubernetes distribution.
 
 - name: Room change
   track: main
