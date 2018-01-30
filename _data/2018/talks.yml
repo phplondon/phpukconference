@@ -567,20 +567,11 @@
   type: break
   description: ""
 
-- name: TBA
+- name: Prize Raffle & Closing Address
   track: main
   day: friday
   starttime: "17:10"
-  endtime: "17:40"
-  type: keynote
-  speaker: 
-  description: |
-    
-
-- name: Closing Address & Prize Raffle
-  track: main
-  day: friday
-  starttime: "17:40"
-  endtime: "18:00"
+  endtime: "17:30"
   type: special
+  speaker:
   description: |
