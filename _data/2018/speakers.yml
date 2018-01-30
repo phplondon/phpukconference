@@ -171,6 +171,14 @@
   bio: |
       Gary Hockin travels all over the world empowering users of PhpStorm as a Developer Advocate for JetBrains (fine purveyors of quality IDEs). He is a talented and evocative speaker, a cultivated author of impressively entertaining blog posts, and records elegant and informative screencasts and videos. Gary's also a contributor to the Zend Framework and is argumentative enough to be on the community review team. When Gary had a real job, he was a developer of at least "competent" standard with nearly 20 years experience. When not developing, speaking about developing, reading about developing or writing about developing, Gary enjoys playing computer games, and arguing with his wife and two kids. Gary has recently discovered that conferences ask speakers to write their own biography text, and you can get away with writing pretty much anything you want.
 
+- name: PJ Hagerty
+  slug: pjhagerty
+  twitter: aspleenic
+  company: DevRelate.io
+  photo: /2018/assets/images/speakers/pjhagerty.jpg
+  bio: |
+      Developer, writer, speaker, musician, and founder of DevRelate.io, PJ is known to travel the world speaking about programming and the way people think and interact. He is also known for wearing hats.
+
 - name: Derick Rethans
   slug: derickrethans
   twitter: derickr
