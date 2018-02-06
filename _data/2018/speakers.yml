@@ -31,10 +31,10 @@
 - name: Ciaran McNulty
   slug: ciaranmcnulty
   twitter: ciaranmcnulty
-  company: Inviqa
+  company: Crania Ltd
   photo: /2018/assets/images/speakers/ciaranmcnulty.jpg
   bio: |
-      At Inviqa, Ciaran helps teams at all levels of ability improve via training and coaching. He has been a PHP professional since the late 90s and is passionate about TDD, BDD and Agile methodologies. He is lead maintainer of PhpSpec.
+      At Crania, Ciaran helps teams at all levels of ability improve via training and coaching. He has been a PHP professional since the late 90s and is passionate about TDD, BDD and Agile methodologies. He is lead maintainer of PhpSpec.
 
 - name: Jenny Wong
   slug: jennywong
