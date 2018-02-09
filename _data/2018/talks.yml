@@ -468,16 +468,15 @@
   description: |
     Every developer should be confident that their code is efficient and safe to run in production. But it can be hard to get started. What tools to use? What do the graphs mean? What to look at first? In this talk, we will analyse and optimise the performance of a simple PHP application. By demonstrating how to use some of the excellent open source projects such as xdebug, xhprof or ApacheBench, I hope to give you a good idea of where to start with analysing and optimising your PHP code.
 
-- name: The secrets of Cryptography
+- name: Building Cloud-Native Applications
   track: side2
   day: friday
   starttime: "13:30"
   endtime: "14:30"
   type: talk
-  level: Intermediate
-  speaker: chrisriley
+  speaker: michaelhausenblas
   description: |
-    Alice and Bob have secrets they want to talk about without Eve being able to listen in. Worse yet, the mischievous Mallory delights in changing messages sent between parties. In such a hostile environment how can Alice talk to Bob without their messages being overheard and how can she be sure that it was Bob that sent the message in the first place? This talk will take a brief look at historic codes and ciphers before taking a look at modern day Cryptography. If you want to be able to know the difference between a block cipher and a stream cipher or get a glimpse into the mathematics behind public key Cryptography this talk is for you.
+    In this talk we will review best practices developing and operating cloud native applications and discuss when and how to use containers, including a demo how to do cloud native PHP apps using OpenShift, Red Hat’s enterprise Kubernetes distribution.
 
 - name: Room change
   track: main
@@ -551,15 +550,16 @@
   description: |
     Buycraft is a multi-tenanted gCommerce platform for Minecraft. Having supported over 500,000 servers around the world, it needs to support a whole range of languages. Centralised i10n sucks - users can't customise it, if the application doesn't have a language file then you can't use that language, and users cannot add their own strings to translate. This is exactly how Buycraft worked - what's a dev to do? Join Liam to find out how Buycraft investigated, hacked and 'borrowed' code to solve this problem to provide a fully flexible, i10n layer for all their customers.
 
-- name: Building Cloud-Native Applications
+- name: The secrets of Cryptography
   track: side2
   day: friday
   starttime: "16:00"
   endtime: "17:00"
   type: talk
-  speaker: michaelhausenblas
+  level: Intermediate
+  speaker: chrisriley
   description: |
-    In this talk we will review best practices developing and operating cloud native applications and discuss when and how to use containers, including a demo how to do cloud native PHP apps using OpenShift, Red Hat’s enterprise Kubernetes distribution.
+    Alice and Bob have secrets they want to talk about without Eve being able to listen in. Worse yet, the mischievous Mallory delights in changing messages sent between parties. In such a hostile environment how can Alice talk to Bob without their messages being overheard and how can she be sure that it was Bob that sent the message in the first place? This talk will take a brief look at historic codes and ciphers before taking a look at modern day Cryptography. If you want to be able to know the difference between a block cipher and a stream cipher or get a glimpse into the mathematics behind public key Cryptography this talk is for you.
 
 - name: Room change
   track: main
