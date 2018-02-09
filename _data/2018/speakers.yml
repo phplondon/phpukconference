@@ -289,3 +289,10 @@
   photo: /2018/assets/images/speakers/mhausenblas.jpg
   bio: |
       Michael is a Developer Advocate for OpenShift and Kubernetes at Red Hat where he helps appops to build and operate distributed services. His background is in large-scale data processing and container orchestration and he's experienced in advocacy and standardization at W3C and IETF. Before Red Hat, Michael worked at Mesosphere, MapR and in two research institutions in Ireland and Austria. He contributes to open source software (mainly using Go), blogs and hangs out on Twitter too much.
+
+- name: Marek Jelen
+  slug: marekjelen
+  twitter: marek_jelen
+  company: Red Hat
+  bio: |
+      Marek is a Developer Advocate for OpenShift and Kubernetes at Red Hat.

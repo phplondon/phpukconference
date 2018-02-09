@@ -36,7 +36,7 @@
   endtime: "17:00"
   type: talk
   level: All
-  speaker: michaelhausenblas
+  speaker: marekjelen
   description: |
     This workshop prepares web and application developers to build applications with containers, Kubernetes, and OpenShift. It starts with a short introduction to containers and Kubernetes, which are the foundation of OpenShift. Hands-on exercises walk you through a variety of applications and use cases for OpenShift. How about seeing how easy it can be to deploy your prebuilt containers? And how health checks to OpenShift can heal your application? We’ll dig into build containers, using just a Git repository. Want to see easy application scaling? No problem. Wish you could do A/B deployment? Your wish is our command. And finally, you’ll see a complete microservice application with database and polyglot back-end services.
 
