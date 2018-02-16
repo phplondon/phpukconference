@@ -83,3 +83,10 @@
   url: https://en.shopware.com
   description: |
     Shopware is a manufacturer of open source eCommerce software and the market leader in Germany. Founded in 2000, the company has more than 150 employees and focuses on the development and support of its core product, Shopware 5; an innovative online shop software for businesses of all sizes. With over 60,000 customers, 3,000 plugins and 1,200 partners, Shopware's modular basis and range of features provide businesses with the ultimate platform for growth. The company is 100% owner-operated and equity-financed, thus guaranteeing the highest degree of flexibility. "Emotional shopping on any device", the slogan of Shopware 5, offers new technology for storytelling in online shops, and comes with a customizable and fully responsive template.
+
+- name: MySQL
+  id: MySQL
+  type: silver
+  url: https://www.mysql.com
+  description: |
+    MySQL is the world's most popular OS database. With its proven performance, reliability and ease-of-use, MySQL has become the leading database choice for web-based applications, used by high profile web properties including Facebook, Twitter, YouTube, Yahoo! and more. Additionally, it is an extremely popular choice as embedded database, distributed by over 3,000 ISVs & OEMs. To organizations in need of an open source, ACID-compliant transactional database delivering real-time in-memory performance and 99.999 percent availability, Oracle offers MySQL Cluster. Oracle drives MySQL innovation, constantly improving MySQL solutions and delivering new capabilities to power next generation web, cloud, mobile and embedded applications. 
