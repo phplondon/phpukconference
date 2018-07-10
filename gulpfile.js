@@ -15,9 +15,9 @@ var cp = require('child_process');
 /**
  * Build the Jekyll Site
  */
- gulp.task('jekyll-build', function (done) {
+gulp.task('jekyll-build', function (done) {
     browserSync.notify('Building Jekyll');
-    return cp.spawn('jekyll', ['build', '--incremental'], {stdio: 'inherit'})
+    return cp.spawn('jekyll', ['build', '--incremental', '--config', '_config.dev.yml'], {stdio: 'inherit'})
     .on('close', done);
 });
 
