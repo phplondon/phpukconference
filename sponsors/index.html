@@ -9,7 +9,7 @@ image: banners/sponsors.png
 <div class="page-title sponsors">
 	<div class="wrapper">
 		<h1>Sponsors</h1>
-		<h2>Become a sponsor of PHP UK 2018</h2>
+		<h2>Become a sponsor of PHP UK 2019</h2>
 	</div>
 </div>
 <div class="row -medium">
@@ -18,60 +18,26 @@ image: banners/sponsors.png
 		<p>The PHP UK Conference relies heavily on sponsorship to run the event at rates affordable to the whole community. If you're interested in sponsoring our event, please <a href="mailto:contact@phpconference.co.uk">contact us</a>.</p>
 		<p><a href="mailto:contact@phpconference.co.uk" class="link">Contact us about sponsoring the conference</a></br>
         <a href="/sponsors/packages" class="link">See available sponsorship packages</a></br>
-        <a href="/sponsors/2017" class="link">See sponsors from last year</a></p>
+        <a href="/sponsors/2018" class="link">See sponsors from last year</a></p>
 	</div>
 </div>
 
-{% assign platinum_sponsors = site.data.2018.sponsors | where:'type', 'platinum' %}
-{% assign track_sponsors = site.data.2018.sponsors | where:'type', 'track' %}
-{% assign gold_sponsors = site.data.2018.sponsors | where:'type', 'gold' %}
-{% assign silver_sponsors = site.data.2018.sponsors | where:'type', 'silver' %}
+<!-- {% assign platinum_sponsors = site.data.2019.sponsors | where:'type', 'platinum' %}
+{% assign track_sponsors = site.data.2019.sponsors | where:'type', 'track' %}
+{% assign gold_sponsors = site.data.2019.sponsors | where:'type', 'gold' %}
+{% assign silver_sponsors = site.data.2019.sponsors | where:'type', 'silver' %}
 <div class="row">
-	<div class="wrapper">
-		<h3>Platinum sponsor</h3>
+    <div class="wrapper">
+        <h3>Platinum sponsor</h3>
         <ul class="sponsor-list -profiles">
             {% for sponsor in platinum_sponsors %}
             <li class="sponsor-list__sponsor">
-            	<img src="/2018/assets/images/sponsors/{{ sponsor.id }}.png" alt="{{ sponsor.name }}" class="sponsor__logo">
-            	<div class="profile">
-					<h4 class="sponsor__name">{{ sponsor.name }}</h4>
-	            	<p>{{ sponsor.description }}</p>
-	                <a href="{{ sponsor.url }}" class="sponsor__link" target="_blank">Visit the website</a>
-	            </div>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
-</div>
-<div class="row -no-top-padding">
-	<div class="wrapper">
-		<h3>Track sponsors</h3>
-        <ul class="sponsor-list -profiles">
-            {% for sponsor in track_sponsors %}
-            <li class="sponsor-list__sponsor">
-            	<img src="/2018/assets/images/sponsors/{{ sponsor.id }}.png" alt="{{ sponsor.name }}" class="sponsor__logo">
-            	<div class="profile">
-					<h4 class="sponsor__name">{{ sponsor.name }}</h4>
-	            	<p>{{ sponsor.description }}</p>
-	                <a href="{{ sponsor.url }}" class="sponsor__link" target="_blank">Visit the website</a>
-	            </div>
-            </li>
-            {% endfor %}
-        </ul>
-    </div>
-</div>
-<div class="row -no-top-padding">
-	<div class="wrapper">
-		<h3>Gold sponsors</h3>
-        <ul class="sponsor-list -profiles">
-            {% for sponsor in gold_sponsors %}
-            <li class="sponsor-list__sponsor">
-            	<img src="/2018/assets/images/sponsors/{{ sponsor.id }}.png" alt="{{ sponsor.name }}" class="sponsor__logo">
-            	<div class="profile">
-					<h4 class="sponsor__name">{{ sponsor.name }}</h4>
-	            	<p>{{ sponsor.description }}</p>
-	                <a href="{{ sponsor.url }}" class="sponsor__link" target="_blank">Visit the website</a>
-	            </div>
+                <img src="/2018/assets/images/sponsors/{{ sponsor.id }}.png" alt="{{ sponsor.name }}" class="sponsor__logo">
+                <div class="profile">
+                    <h4 class="sponsor__name">{{ sponsor.name }}</h4>
+                    <p>{{ sponsor.description }}</p>
+                    <a href="{{ sponsor.url }}" class="sponsor__link" target="_blank">Visit the website</a>
+                </div>
             </li>
             {% endfor %}
         </ul>
@@ -79,18 +45,52 @@ image: banners/sponsors.png
 </div>
 <div class="row -no-top-padding">
     <div class="wrapper">
-		<h3>Silver sponsors</h3>
+        <h3>Track sponsors</h3>
         <ul class="sponsor-list -profiles">
-            {% for sponsor in silver_sponsors %}
+            {% for sponsor in track_sponsors %}
             <li class="sponsor-list__sponsor">
-            	<img src="/2018/assets/images/sponsors/{{ sponsor.id }}.png" alt="{{ sponsor.name }}" class="sponsor__logo">
-            	<div class="profile">
-					<h4 class="sponsor__name">{{ sponsor.name }}</h4>
-	            	<p>{{ sponsor.description }}</p>
-	                <a href="{{ sponsor.url }}" class="sponsor__link" target="_blank">Visit the website</a>
-	            </div>
+                <img src="/2018/assets/images/sponsors/{{ sponsor.id }}.png" alt="{{ sponsor.name }}" class="sponsor__logo">
+                <div class="profile">
+                    <h4 class="sponsor__name">{{ sponsor.name }}</h4>
+                    <p>{{ sponsor.description }}</p>
+                    <a href="{{ sponsor.url }}" class="sponsor__link" target="_blank">Visit the website</a>
+                </div>
             </li>
             {% endfor %}
         </ul>
-	</div>
+    </div>
 </div>
+<div class="row -no-top-padding">
+    <div class="wrapper">
+        <h3>Gold sponsors</h3>
+        <ul class="sponsor-list -profiles">
+            {% for sponsor in gold_sponsors %}
+            <li class="sponsor-list__sponsor">
+                <img src="/2018/assets/images/sponsors/{{ sponsor.id }}.png" alt="{{ sponsor.name }}" class="sponsor__logo">
+                <div class="profile">
+                    <h4 class="sponsor__name">{{ sponsor.name }}</h4>
+                    <p>{{ sponsor.description }}</p>
+                    <a href="{{ sponsor.url }}" class="sponsor__link" target="_blank">Visit the website</a>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+<div class="row -no-top-padding">
+    <div class="wrapper">
+        <h3>Silver sponsors</h3>
+        <ul class="sponsor-list -profiles">
+            {% for sponsor in silver_sponsors %}
+            <li class="sponsor-list__sponsor">
+                <img src="/2018/assets/images/sponsors/{{ sponsor.id }}.png" alt="{{ sponsor.name }}" class="sponsor__logo">
+                <div class="profile">
+                    <h4 class="sponsor__name">{{ sponsor.name }}</h4>
+                    <p>{{ sponsor.description }}</p>
+                    <a href="{{ sponsor.url }}" class="sponsor__link" target="_blank">Visit the website</a>
+                </div>
+            </li>
+            {% endfor %}
+        </ul>
+    </div>
+</div> -->
