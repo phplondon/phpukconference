@@ -1,5 +1,6 @@
 permalink: pretty
 exclude: [node_modules]
+include: [_redirects]
 keep_files: [assets/css]
 title: PHP UK Conference
 name: PHP UK Conference
