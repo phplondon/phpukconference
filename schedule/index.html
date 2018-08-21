@@ -7,20 +7,87 @@ weight: 3
 image: banners/schedule.png
 ---
 <div class="page-title schedule">
-	<div class="wrapper">
-		<h1>Schedule</h1>
-		<h2>Our talks and speakers</h2>
-	</div>
-</div>
-<div class="row">
-	<div class="wrapper">
-		<p>Our call for papers will open later in the year. Further details will be announced as soon as they become available.</p>
-	</div>
     <div class="wrapper">
-        {% include callout_tickets.html %}
+        <h1>Schedule</h1>
+        <h2>Our talks and speakers</h2>
     </div>
 </div>
-
-<!-- Timetable JS Files -->
-<script src="/assets/js/jquery.magnific-popup.js"></script>
-<script src="/assets/js/timetable.js"></script>
+<div class="row">
+    <div class="wrapper relative">
+        <div class="col span12">
+            {% for day in site.data.2019.speakers %}
+            <h2 class="text-center">{{day.name}}</h2>
+            {{day.description}}
+            <ul class="schedule-container">
+                {% for slot in day.slots %}
+                {% if slot.slottype != 'mc' %}
+                {% if slot.tracks.size == 3 %}
+                <li class="slot title-row">
+                    <ul class="tracks-wrapper">
+                        <li class="spacer"></li>
+                        {% for track in slot.tracks %}
+                        <li class="slot track-title">
+                            <span class="name">{{track.track.location}}</span>
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </li>
+                {% endif %}
+                <li class="slot {{slot.slottype}}">
+                    <ul class="tracks-wrapper">
+                        <li class="time">{{slot.time}}</li>
+                        {% for track in slot.tracks %}
+                        <li class="track" id="{{track.track.id}}">
+                            <div class="track-slot-meta">
+                                <span class="track-name">{{track.track.name}}</span>
+                                <span class="title">{{track.track.title}}</span>
+                                <span class="subtitle">{{track.track.subtitle}}</span>
+                                {% if track.track.speaker %}
+                                <span class="speaker">
+                                    Speaker:
+                                    <a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a>
+                                </span>
+                                {% else if track.track.speakers %}
+                                <span class="speaker">
+                                {% for speaker in track.track.speakers %}
+                                <a href="/speakers/#{{speaker.slug}}">{{speaker.speaker}}</a>
+                                {% if speaker != track.track.speakers.last %}&amp; {% endif %}
+                                {% endfor %}
+                                </span>
+                                {% endif %}
+                                {% if track.track.level %}
+                                <span class="level">Level: {{track.track.level}}</span>
+                                {% endif %}
+                            </div>
+                            <p class="description">{{track.track.description}}</p>
+                            {% if track.track.menulink %}
+                            <p><a href="/menu/#{{track.track.menulink}}">Tasty food menu &raquo;</a></p>
+                            {% endif %}
+                            {% if track.track.video %}
+                            <span class="video"><a href="https://www.youtube.com/watch?v={{track.track.video}}&list={{site.data.2018.playlist}}">Video &raquo;</a></span>
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </li>
+                {% endif %}
+                {% endfor %}
+            </ul>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+<style>
+    .schedule-container .hack{
+        list-style-type:none;
+        width:30% !important;
+        background:#00A27C !important;
+        border-top-color: #00A27C;
+        border-bottom-color: #00A27C;
+    }
+@media (min-width: 720px){
+    .schedule-container .short-break .track{
+        width:60%;
+    }
+}
+</style>

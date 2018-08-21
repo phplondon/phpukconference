@@ -1,0 +1,686 @@
+- schedule-wednesday:
+  name: Wednesday 20th February 2019
+  description: |
+      <p>PHP UK Conference is pleased to bring to you <b>several</b> options for a full day of training on Wednesday, 20th February 2019, a day before the conference.</p><p>All  course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p>
+  slots:
+    - time: "08.00"
+      slottype: break change
+      tracks:
+        - track:
+            location: Brewery Foyer & King George
+            title: Registration and Refreshments
+            description: Please bring a copy of your ticket either printed or on a mobile device.
+    - time: "09.00"
+      slottype: workshop
+      tracks:
+        - track:
+            name: Workshop I
+            speaker: 
+            title: Coming Soon!
+            location: King Vault
+            id: workshopi
+            description: 
+        - track:
+            name: Workshop II
+            speaker: 
+            title: 
+            location: Queen Charlotte
+            id: workshopii
+            description: 
+        - track:
+            name: Workshop III
+            speakers:
+                - speaker: 
+                - speaker: 
+            title: 
+            location: Lower Sugar Room
+            id: workshopiii
+            description: 
+    - time: "10.30"
+      slottype: break
+      tracks:
+        - track:
+            location: King George
+            title: Refreshment break
+            description: Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates.
+    - time: "11.00"
+      slottype: workshop
+      tracks:
+        - track:
+            name: Workshop I
+            speaker: 
+            title: Coming Soon!
+            location: King Vault
+            id: workshopi
+            description: 
+        - track:
+            name: Workshop II
+            speaker: 
+            title: 
+            location: Queen Charlotte
+            id: workshopii
+            description: 
+        - track:
+            name: Workshop III
+            speakers:
+                - speaker: 
+                - speaker: 
+            title: 
+            location: Lower Sugar Room
+            id: workshopiii
+            description: 
+    - time: "12.30"
+      slottype: break
+      tracks:
+        - track:
+              location: King George
+              title: Lunch
+              description: |
+                A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates.
+    - time: "13.30"
+      slottype: workshop
+      tracks:
+        - track:
+            name: Workshop I
+            speaker: 
+            title: Coming Soon!
+            location: King Vault
+            id: workshopi
+            description: 
+        - track:
+            name: Workshop II
+            speaker: 
+            title: 
+            location: Queen Charlotte
+            id: workshopii
+            description: 
+        - track:
+            name: Workshop III
+            speakers:
+                - speaker: 
+                - speaker: 
+            title: 
+            location: Lower Sugar Room
+            id: workshopiii
+            description: 
+    - time: "15.00"
+      slottype: break
+      tracks:
+        - track:
+            location: King George
+            title: Refreshment break
+            description: Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates.
+    - time: "15.30"
+      slottype: workshop
+      tracks:
+        - track:
+            name: Workshop I
+            speaker: 
+            title: Coming Soon!
+            location: King Vault
+            id: workshopi
+            description: 
+        - track:
+            name: Workshop II
+            speaker: 
+            title: 
+            location: Queen Charlotte
+            id: workshopii
+            description: 
+        - track:
+            name: Workshop III
+            speakers:
+                - speaker: 
+                - speaker: 
+            title: 
+            location: Lower Sugar Room
+            id: workshopiii
+            description: 
+    - time: "18.00"
+      slottype: break
+      tracks:
+        - track:
+            title: Pre-Conference Social
+            description: |
+                The pre-conference social is a traditional style pubcon, open to anyone, where conference attendees and locals can meet up before the conference to network and socialise. <br><a href="/socials">More details &raquo;</a>
+- schedule-thursday:
+  name: Thursday 21st February 2019
+  description: |
+      <p>Thursday kicks off the main conference, where you will be able to attend a morning keynote followed by six talk slots throughout the day. During each talk slot you'll have the choice between three different tracks. There will be 3 cake &amp; coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The day will then close with our <a href="/socials">mid-conference social</a>.</p>
+  slots:
+    - time: "08.00"
+      slottype: mc
+      tracks:
+        - track:
+            title: Main Stage MCs
+            speakers: 
+              - speaker: 
+                bio: 
+                photo: 
+              - speaker: 
+                bio: 
+                photo: 
+    - time: "08.00"
+      slottype: break change
+      tracks:
+        - track:
+            location: Brewery Foyer & King George
+            title: Registration and Refreshments
+            description: Please bring a copy of your ticket either printed or on a mobile device.
+    - time: "09.00"
+      slottype: special keynote
+      tracks:
+        - track:
+            location: Main Track
+            title: "Opening Keynote"
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            description:
+    - time: "09.45"
+      slottype: break change
+      tracks:
+        - track:
+            location: King George
+            title: Refreshment break
+            description: Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    - time: "10.15"
+      slottype: talks
+      tracks:
+        - track:
+            location: Main Track
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description:
+        - track:
+            location: Side Track 1
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+        - track:
+            location: Side Track 2
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+    - time: "11.00"
+      slottype: break change
+      tracks:
+        - track:
+            title: Room change
+    - time: "11.15"
+      slottype: talks
+      tracks:
+        - track:
+            location: Main Track
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description:
+        - track:
+            location: Side Track 1
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+        - track:
+            location: Side Track 2
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+    - time: "12.00"
+      slottype: break
+      tracks:
+        - track:
+              location: King George
+              title: Lunch
+              description: |
+                A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    - time: "13.00"
+      slottype: talks
+      tracks:
+        - track:
+            location: Main Track
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description:
+        - track:
+            location: Side Track 1
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+        - track:
+            location: Side Track 2
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+    - time: "13.45"
+      slottype: break change
+      tracks:
+        - track:
+              title: Room change
+    - time: "14.00"
+      slottype: talks
+      tracks:
+        - track:
+            location: Main Track
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description:
+        - track:
+            location: Side Track 1
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+        - track:
+            location: Side Track 2
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+    - time: "14.45"
+      slottype: break
+      tracks:
+        - track:
+              location: King George
+              title: Refreshment break
+              description: |
+                Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    - time: "15.15"
+      slottype: talks
+      tracks:
+        - track:
+            location: Main Track
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description:
+        - track:
+            location: Side Track 1
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+        - track:
+            location: Side Track 2
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+    - time: "16.00"
+      slottype: break change
+      tracks:
+        - track:
+              title: Room change
+    - time: "16:15"
+      slottype: special keynote
+      tracks:
+        - track:
+            location: Main Track
+            title: Afternoon Keynote
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+    - time: "17.00"
+      slottype: break
+      tracks:
+        - track:
+            location: King George
+            title: Mid Conference Social
+            description: |
+                The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href="/socials">More details &raquo;</a>
+- schedule-friday:
+  name: Friday 21st February 2019
+  description: |
+      <p>Friday continues with the second day of the main conference. Again, you will be able to attend a morning keynote followed by six talk slots throughout the day. During each talk slot you'll have the choice between three different tracks. There will be 3 cake &amp; coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The conference will close on Friday with a final featured keynote, a prize raffle from our sponsors, and then on to the evening <a href="/socials">post-conference social</a>.</p>
+  slots:
+    - time: "08.00"
+      slottype: break change
+      tracks:
+        - track:
+            location: Brewery Foyer & King George
+            title: Registration and Refreshments
+            description: Please bring a copy of your ticket either printed or on a mobile device.
+    - time: "09.00"
+      slottype: special keynote
+      tracks:
+        - track:
+            location: Main Track
+            title: "Opening Keynote"
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            description:
+    - time: "09.45"
+      slottype: break change
+      tracks:
+        - track:
+            location: King George
+            title: Refreshment break
+            description: Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    - time: "10.15"
+      slottype: talks
+      tracks:
+        - track:
+            location: Main Track
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description:
+        - track:
+            location: Side Track 1
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+        - track:
+            location: Side Track 2
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+    - time: "11.00"
+      slottype: break change
+      tracks:
+        - track:
+            title: Room change
+    - time: "11.15"
+      slottype: talks
+      tracks:
+        - track:
+            location: Main Track
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description:
+        - track:
+            location: Side Track 1
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+        - track:
+            location: Side Track 2
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+    - time: "12.00"
+      slottype: break
+      tracks:
+        - track:
+              location: King George
+              title: Lunch
+              description: |
+                A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    - time: "13.00"
+      slottype: talks
+      tracks:
+        - track:
+            location: Main Track
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description:
+        - track:
+            location: Side Track 1
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+        - track:
+            location: Side Track 2
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+    - time: "13.45"
+      slottype: break change
+      tracks:
+        - track:
+              title: Room change
+    - time: "14.00"
+      slottype: talks
+      tracks:
+        - track:
+            location: Main Track
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description:
+        - track:
+            location: Side Track 1
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+        - track:
+            location: Side Track 2
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+    - time: "14.45"
+      slottype: break
+      tracks:
+        - track:
+              location: King George
+              title: Refreshment break
+              description: |
+                Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    - time: "15.15"
+      slottype: talks
+      tracks:
+        - track:
+            location: Main Track
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description:
+        - track:
+            location: Side Track 1
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+        - track:
+            location: Side Track 2
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+    - time: "16.00"
+      slottype: break change
+      tracks:
+        - track:
+              title: Room change
+    - time: "16:15"
+      slottype: special keynote
+      tracks:
+        - track:
+            location: Main Track
+            title: Afternoon Keynote
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+    - time: "17.00"
+      slottype: break
+      tracks:
+        - track:
+            title: Post Conference Social
+            description: |
+                The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href="/socials">More details &raquo;</a>
