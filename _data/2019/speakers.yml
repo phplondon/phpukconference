@@ -7,7 +7,7 @@
       slottype: break change
       tracks:
         - track:
-            location: Brewery Foyer & King George
+            location: The Montcalm Hotel at the Brewery
             title: Registration and Refreshments
             description: Please bring a copy of your ticket either printed or on a mobile device.
     - time: "09.00"
@@ -17,14 +17,14 @@
             name: Workshop I
             speaker: 
             title: Coming Soon!
-            location: King Vault
+            location: The Montcalm Hotel at the Brewery
             id: workshopi
             description: 
         - track:
             name: Workshop II
             speaker: 
             title: 
-            location: Queen Charlotte
+            location: 
             id: workshopii
             description: 
         - track:
@@ -33,14 +33,14 @@
                 - speaker: 
                 - speaker: 
             title: 
-            location: Lower Sugar Room
+            location: 
             id: workshopiii
             description: 
     - time: "10.30"
       slottype: break
       tracks:
         - track:
-            location: King George
+            location: 
             title: Refreshment break
             description: Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates.
     - time: "11.00"
@@ -50,14 +50,14 @@
             name: Workshop I
             speaker: 
             title: Coming Soon!
-            location: King Vault
+            location: The Montcalm Hotel at the Brewery
             id: workshopi
             description: 
         - track:
             name: Workshop II
             speaker: 
             title: 
-            location: Queen Charlotte
+            location: 
             id: workshopii
             description: 
         - track:
@@ -66,14 +66,14 @@
                 - speaker: 
                 - speaker: 
             title: 
-            location: Lower Sugar Room
+            location: 
             id: workshopiii
             description: 
     - time: "12.30"
       slottype: break
       tracks:
         - track:
-              location: King George
+              location: 
               title: Lunch
               description: |
                 A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates.
@@ -84,14 +84,14 @@
             name: Workshop I
             speaker: 
             title: Coming Soon!
-            location: King Vault
+            location: The Montcalm Hotel at the Brewery
             id: workshopi
             description: 
         - track:
             name: Workshop II
             speaker: 
             title: 
-            location: Queen Charlotte
+            location: 
             id: workshopii
             description: 
         - track:
@@ -100,14 +100,14 @@
                 - speaker: 
                 - speaker: 
             title: 
-            location: Lower Sugar Room
+            location: 
             id: workshopiii
             description: 
     - time: "15.00"
       slottype: break
       tracks:
         - track:
-            location: King George
+            location: 
             title: Refreshment break
             description: Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates.
     - time: "15.30"
@@ -117,14 +117,14 @@
             name: Workshop I
             speaker: 
             title: Coming Soon!
-            location: King Vault
+            location: The Montcalm Hotel at the Brewery
             id: workshopi
             description: 
         - track:
             name: Workshop II
             speaker: 
             title: 
-            location: Queen Charlotte
+            location: 
             id: workshopii
             description: 
         - track:
@@ -133,7 +133,7 @@
                 - speaker: 
                 - speaker: 
             title: 
-            location: Lower Sugar Room
+            location: 
             id: workshopiii
             description: 
     - time: "18.00"
