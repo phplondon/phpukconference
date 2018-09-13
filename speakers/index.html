@@ -12,28 +12,70 @@ image: banners/speakers.png
       <h2>Our talks and speakers</h2>
     </div>
 </div>
-<div class="row">
-  <div class="wrapper">
-      <ul class="speakers">
-        {% for speaker in site.data.2019.speakers %}
-        {% if speaker.type != "organiser" %}      
-        <li id="{{speaker.slug}}" class="speaker">
-            <img class="speaker-photo" src="{{speaker.photo}}">
-            <h4 class="speaker-name">{{speaker.name}}</h4> <h6 class="speaker-company">{{speaker.company}}</h6>
-            {% if speaker.twitter %}<a class="speaker-handle" href="https://twitter.com/{{speaker.twitter}}">@{{speaker.twitter}}</a>{% endif %}
-            <div class="speaker-bio">
-              {{speaker.bio}}
+<div class="wrapper">
+    <div class="row">
+        <div class="container">
+            <div class="col span12">
+                <ul class="speakers">
+                    <!-- <h2>Masters of Ceremonies<h2>
+                    {% for day in site.data.2019.speakers %}
+                        {% for slot in day.slots %}
+                            {% if slot.slottype == 'mc' %}
+                                {% for speaker in slot.tracks %}
+                                {% if speaker.track.speakers %}
+                                    {% for sp in speaker.track.speakers %}
+                                        {% include speaker.html speaker=sp %}
+                                    {% endfor %}
+                                {% else %}
+                                    {% include speaker.html speaker=speaker.track %}
+                                {% endif %}
+                                {% endfor %}
+                            {% endif %}
+                        {% endfor %}
+                    {% endfor %} -->
+                    <h2>Keynote Speakers<h2>
+                    {% for day in site.data.2019.speakers %}
+                        {% for slot in day.slots %}
+                            {% if slot.slottype == 'special keynote' %}
+                                {% for speaker in slot.tracks %}
+                                {% if speaker.track.speakers %}
+                                    {% for sp in speaker.track.speakers %}
+                                        {% include speaker.html speaker=sp %}
+                                    {% endfor %}
+                                {% else %}
+                                    {% include speaker.html speaker=speaker.track %}
+                                {% endif %}
+                                {% endfor %}
+                            {% endif %}
+                        {% endfor %}
+                    {% endfor %}
+                    <!-- <h2>Breakout Session Speakers<h2>
+                    {% for day in site.data.2019.speakers %}
+                        {% for slot in day.slots %}
+                            {% if slot.slottype != 'mc' and slot.slottype != 'special keynote' %}
+                                {% for speaker in slot.tracks %}
+                                    {% if speaker.track.speakers %}
+                                        {% for sp in speaker.track.speakers %}
+                                            {% include speaker.html speaker=sp %}
+                                        {% endfor %}
+                                    {% else %}
+                                        {% include speaker.html speaker=speaker.track %}
+                                    {% endif %}
+                                {% endfor %}
+                            {% endif %}
+                        {% endfor %}
+                    {% endfor %} -->
+                </ul>
             </div>
-        </li>
-        {% endif %}
-        {% endfor %}
-      </ul>
-      <p><strong>Our Call for Papers opens 22 August 2018, and closes 18 September 2018.</strong></p>
+        </div>
+    </div>
+</div>
+      <!-- <p><strong>Our Call for Papers opens 22 August 2018, and closes 18 September 2018.</strong></p>
 
       <p>PHP UK Conference is focused on education and discussion of the PHP programming language. We aim to attract the best speakers, contributors, and educators from around the world in hopes of providing the community with the best resources on the PHP programming language every year.</p>
 
       <p>We are looking for speakers and instructors to give talks and hands-on classroom sessions. We are seeking talks covering mainstream, advanced, niche or non-technical topics aimed at a multitude of skill levels.</p>
-      
+
     <h2>About</h2>
     <p>PHP UK seeks to deliver ‘wow’ talks that are fresh and inspiring about cutting edge topics or new perspectives on common problems. The audience will be from all backgrounds varying in skill level from beginner to intermediate to advanced, so talks varying widely in topic and skill levels are required. Most of all we want speakers who have a deep knowledge about the topics they are proposing and can’t wait to share that knowledge with a whole group of of eager listeners. Tell us what you’re most passionate about and why we should be passionate about it as well.</p>
 
@@ -86,6 +128,4 @@ image: banners/speakers.png
             <a class="button -inverse -square right" href="https://www.papercall.io/phpuk19" target="_blank">Submit here</a>
             <h4>Submit a paper</h4>
             <p>If you'd like to submit a paper for consideration to speak at the conference, learn more and submit your details here.</p>
-    </div>
-  </div>
-</div>
+    </div> -->

@@ -1,0 +1,15 @@
+{% if include.speaker.hide != true %}
+    {% if include.speaker.photo %}
+    <li id="{{include.speaker.slug}}" class="speaker">
+        <img class="speaker-photo" src="{{include.speaker.photo}}">
+        <h4 class="speaker-name">{{include.speaker.speaker}}</h4>
+        <h6 class="speaker-company">{{include.speaker.company}}</h4>
+        {% if include.speaker.handle %}
+            <a class="speaker-handle" href="https://twitter.com/{{include.speaker.handle}}">@{{include.speaker.handle}}</a>
+        {% endif %}
+        <div class="speaker-bio">
+          {{include.speaker.bio}}
+        </div>
+    </li>
+    {% endif %}
+{% endif %}
