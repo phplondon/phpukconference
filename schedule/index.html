@@ -22,13 +22,13 @@ image: banners/schedule.png
             <ul class="schedule-container">
                 {% for slot in day.slots %}
                 {% if slot.slottype != 'mc' %}
-                {% if slot.tracks.size == 3 %}
+                {% if slot.tracks.size > 2 %}
                 <li class="slot title-row">
                     <ul class="tracks-wrapper">
                         <li class="spacer"></li>
                         {% for track in slot.tracks %}
                         <li class="slot track-title">
-                            <span class="name">{{track.track.location}}</span>
+                            <span class="name">{{track.location}}</span>
                         </li>
                         {% endfor %}
                     </ul>

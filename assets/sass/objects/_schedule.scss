@@ -15,7 +15,7 @@
 		margin:0;
 		overflow:auto;
 		background:$color-grey-light;
-        color:$color-page-text;
+		color:$color-page-text;
 	}
 
 	.tracks-wrapper{
@@ -63,17 +63,34 @@
 	.track{
 		background:$color-brand-primary;
 
-		@include respond(medium){
-			width:30%;
-		}
-
 		> *{
 			color:$color-white;
 		}
 
 		a{
 			color:$color-white;
-            text-decoration:underline;
+			text-decoration:underline;
+		}
+	}
+	
+	.track:nth-last-child(n+2),
+	.track:nth-last-child(n+2) ~ * {
+		@include respond(medium){
+			width:45%;
+		}
+	}
+	
+	.track:nth-last-child(n+3),
+	.track:nth-last-child(n+3) ~ * {
+		@include respond(medium){
+			width:30%;
+		}
+	}
+	
+	.track:nth-last-child(n+4),
+	.track:nth-last-child(n+4) ~ * {
+		@include respond(medium){
+			width:22.5%;
 		}
 	}
 
@@ -98,10 +115,10 @@
 		> *{
 			color:$color-page-text;
 		}
-        
+		
 		a{
 			color:$color-page-text;
-            text-decoration:underline;
+			text-decoration:underline;
 		}
 
 		.title{
