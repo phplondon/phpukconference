@@ -15,18 +15,22 @@
       tracks:
         - track:
             name: Workshop I
-            speaker: 
-            title: Coming Soon!
+            speaker: David McKay
+            bio: <a href="https://twitter.com/rawkode">David McKay</a> is a software and technology professional, born & bred in Glasgow, Scotland. As a serial user group organiser, organising Docker Glasgow, DevOps Glasgow and Pair Programming Glasgow, David is always searching for new and creative ways to share knowledge with others. Oh, and he quite likes domain-driven design, micro-services and clean code. Additional info- Organiser of Scotland PHP, Docker Glasgow, CloudNative Glasgow, DevOps Glasgow, Pair Programming Glasgow, and MongoDB Glasgow. 22 talks delivered to the PHP and Docker communities in 2016.
+            title: Kubernetes By Example
+            photo: /2017/assets/images/speakers/davidmckay.jpg
             location: The Montcalm Hotel at the Brewery
             id: workshopi
-            description: 
+            description: Kubernetes, the flagship project from the Cloud Native Foundation, has become the de facto standard for running our container workloads. Unfortunately, Kubernetes is a fast moving, ever evolving, sea of complexity. From Pods to Deployments, ConfigMaps to Secrets, and PersistantVolumeClaims to StatefulSets; this workshop will get you on-course. In this workshop, David will walk you through a series of labs that will teach you everything you need to know to take your container based application and deploy it as a self-healing, redundant and resilient application on top of Kubernetes. Let's set sail.
         - track:
             name: Workshop II
-            speaker: 
-            title: Coming Soon!
+            speaker: Ciaran McNulty
+            bio: <a href="https://twitter.com/ciaranmcnulty">Ciaran McNulty</a> helps teams at all levels of ability improve via training and coaching. He has been a PHP professional since the late 90s and is passionate about TDD, BDD and Agile methodologies. He is lead maintainer of PhpSpec.
+            title: BDD in Practice
+            photo: /2018/assets/images/speakers/ciaranmcnulty.jpg
             location: The Montcalm Hotel at the Brewery
             id: workshopii
-            description: 
+            description: A tour of BDD best practices, applied in the PHP world. Behaviour Driven Development techniques help us to ensure that the code we're writing is solving real-world problems, and is software that matters. In this hands-on workshop we will build some simple software that fulfils a user's requirement; validate its functionality using tools such as Behat, PHPUnit and PhpSpec; and learn how our test architecture can support our application's architecture.
     - time: "10.30"
       slottype: break
       tracks:
@@ -40,14 +44,14 @@
         - track:
             name: Workshop I
             speaker: 
-            title: Coming Soon!
+            title: Kubernetes By Example, con't
             location: The Montcalm Hotel at the Brewery
             id: workshopi
             description: 
         - track:
             name: Workshop II
             speaker: 
-            title: 
+            title: BDD in Practice, con't
             location: 
             id: workshopii
             description: 
@@ -65,21 +69,14 @@
         - track:
             name: Workshop I
             speaker: 
-            title: Coming Soon!
+            title: Kubernetes By Example, con't
             location: The Montcalm Hotel at the Brewery
             id: workshopi
             description: 
         - track:
             name: Workshop II
             speaker: 
-            title: 
-            location: 
-            id: workshopii
-            description: 
-        - track:
-            name: Workshop II
-            speaker: 
-            title: 
+            title: BDD in Practice, con't
             location: 
             id: workshopii
             description: 
@@ -96,28 +93,14 @@
         - track:
             name: Workshop I
             speaker: 
-            title: Coming Soon!
+            title: Kubernetes By Example, con't
             location: The Montcalm Hotel at the Brewery
             id: workshopi
             description: 
         - track:
             name: Workshop II
             speaker: 
-            title: 
-            location: 
-            id: workshopii
-            description: 
-        - track:
-            name: Workshop II
-            speaker: 
-            title: 
-            location: 
-            id: workshopii
-            description: 
-        - track:
-            name: Workshop II
-            speaker: 
-            title: 
+            title: BDD in Practice, con't
             location: 
             id: workshopii
             description: 
