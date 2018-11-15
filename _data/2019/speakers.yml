@@ -405,14 +405,14 @@
       tracks:
         - track:
             location: Main Track
-            title: "Opening Keynote"
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            description:
+            title: From Good to SOLID - Becoming a Better PHP Developer
+            slug: katerinatrajchevska
+            speaker: Katerina Trajchevska 
+            handle: ktrajchevska
+            company: Adeva
+            photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/30352/Profile.jpg
+            bio: Software engineer and tech enthusiast. Co-founder of Adeva, a startup that helps global tech companies get easier access to world-class talent.
+            description: Working with companies from early-stage startups to Fortune 500, I've experienced both the struggle of continuing someone else's work and the joy of it. The difference is only in their approach towards the design of their code. It's a minor effort if done on time, with a huge impact on the overall development of the software. In this presentation, we'll focus on what distinguishes a good developer from a strong one and learn how to stand out from the crowd. After this presentation, you'd understand how to incorporate the SOLID principles in your daily work and design your code for extendibility. You'd learn how to write code in a way that will make it easy to go back to a feature you developed a year ago and extend it with additional functionality in minutes, not hours.
     - time: "09.45"
       slottype: break change
       tracks:
