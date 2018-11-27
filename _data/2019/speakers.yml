@@ -170,7 +170,7 @@
             level: 
             description:
         - track:
-            location: Side Track 1
+            location: Side Track
             title: 
             slug: 
             speaker: 
@@ -181,7 +181,7 @@
             level: 
             description: 
         - track:
-            location: Side Track 2
+            location: Velocity Track
             title: 
             slug: 
             speaker: 
@@ -191,12 +191,23 @@
             bio: 
             level: 
             description: 
-    - time: "11.00"
+        - track:
+            location: Design Track
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+    - time: "11.15"
       slottype: break change
       tracks:
         - track:
             title: Room change
-    - time: "11.15"
+    - time: "11.30"
       slottype: talks
       tracks:
         - track:
@@ -211,7 +222,7 @@
             level: 
             description:
         - track:
-            location: Side Track 1
+            location: Side Track
             title: 
             slug: 
             speaker: 
@@ -232,7 +243,7 @@
             bio: 
             level: 
             description: 
-    - time: "12.00"
+    - time: "12.30"
       slottype: break
       tracks:
         - track:
@@ -240,7 +251,7 @@
               title: Lunch
               description: |
                 A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
-    - time: "13.00"
+    - time: "13.30"
       slottype: talks
       tracks:
         - track:
@@ -276,12 +287,12 @@
             bio: 
             level: 
             description: 
-    - time: "13.45"
+    - time: "14.30"
       slottype: break change
       tracks:
         - track:
               title: Room change
-    - time: "14.00"
+    - time: "14.45"
       slottype: talks
       tracks:
         - track:
@@ -317,7 +328,7 @@
             bio: 
             level: 
             description: 
-    - time: "14.45"
+    - time: "15.45"
       slottype: break
       tracks:
         - track:
@@ -325,47 +336,6 @@
               title: Refreshment break
               description: |
                 Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
-    - time: "15.15"
-      slottype: talks
-      tracks:
-        - track:
-            location: Main Track
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description:
-        - track:
-            location: Side Track 1
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description: 
-        - track:
-            location: Side Track 2
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description: 
-    - time: "16.00"
-      slottype: break change
-      tracks:
-        - track:
-              title: Room change
     - time: "16:15"
       slottype: special keynote
       tracks:
@@ -456,12 +426,12 @@
             bio: 
             level: 
             description: 
-    - time: "11.00"
+    - time: "11.15"
       slottype: break change
       tracks:
         - track:
             title: Room change
-    - time: "11.15"
+    - time: "11.30"
       slottype: talks
       tracks:
         - track:
@@ -497,7 +467,7 @@
             bio: 
             level: 
             description: 
-    - time: "12.00"
+    - time: "12.30"
       slottype: break
       tracks:
         - track:
@@ -505,7 +475,7 @@
               title: Lunch
               description: |
                 A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
-    - time: "13.00"
+    - time: "13.30"
       slottype: talks
       tracks:
         - track:
@@ -541,12 +511,12 @@
             bio: 
             level: 
             description: 
-    - time: "13.45"
+    - time: "14.30"
       slottype: break change
       tracks:
         - track:
               title: Room change
-    - time: "14.00"
+    - time: "14.45"
       slottype: talks
       tracks:
         - track:
@@ -582,7 +552,7 @@
             bio: 
             level: 
             description: 
-    - time: "14.45"
+    - time: "15.45"
       slottype: break
       tracks:
         - track:
@@ -590,48 +560,7 @@
               title: Refreshment break
               description: |
                 Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
-    - time: "15.15"
-      slottype: talks
-      tracks:
-        - track:
-            location: Main Track
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description:
-        - track:
-            location: Side Track 1
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description: 
-        - track:
-            location: Side Track 2
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description: 
-    - time: "16.00"
-      slottype: break change
-      tracks:
-        - track:
-              title: Room change
-    - time: "16:15"
+    - time: "16.15"
       slottype: special keynote
       tracks:
         - track:
