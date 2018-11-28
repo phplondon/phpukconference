@@ -4,9 +4,10 @@
       <p>PHP UK Conference is pleased to bring to you <b>two</b> options for a full day of training on Wednesday, 20th February 2019, a day before the conference.</p><p>All  course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>**Please Note - an additional ticket is required to attend the workshop day.</p>
   slots:
     - time: "08.00"
-      slottype: break change
+      slottype: break
       tracks:
         - track:
+            colspan: 4
             location: The Montcalm Hotel at the Brewery
             title: Registration and Refreshments
             description: Please bring a copy of your ticket either printed or on a mobile device.
@@ -35,6 +36,7 @@
       slottype: break
       tracks:
         - track:
+            colspan: 4
             location: 
             title: Refreshment break
             description: Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates.
@@ -59,6 +61,7 @@
       slottype: break
       tracks:
         - track:
+              colspan: 4
               location: 
               title: Lunch
               description: |
@@ -84,6 +87,7 @@
       slottype: break
       tracks:
         - track:
+            colspan: 4
             location: 
             title: Refreshment break
             description: Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates.
@@ -108,6 +112,7 @@
       slottype: break
       tracks:
         - track:
+            colspan: 4
             title: Pre-Conference Social
             description: |
                 The pre-conference social is a traditional style pubcon, open to anyone, where conference attendees and locals can meet up before the conference to network and socialise. <br><a href="/socials">More details &raquo;</a>
@@ -129,9 +134,10 @@
                 bio: 
                 photo: 
     - time: "08.00"
-      slottype: break change
+      slottype: break
       tracks:
         - track:
+            colspan: 4
             location: Brewery Foyer & King George
             title: Registration and Refreshments
             description: Please bring a copy of your ticket either printed or on a mobile device.
@@ -139,6 +145,7 @@
       slottype: special keynote
       tracks:
         - track:
+            colspan: 4
             location: Main Track
             title: "Controlling the Variables"
             slug: thijsferyn
@@ -149,9 +156,10 @@
             bio:  <a href="https://twitter.com/ThijsFeryn">Thijs Feryn</a> is a "technical evangelist" at a Belgian webhosting company called <a href="https://www.combell.com/en/">Combell</a>. His goal is to bring technology to the people and people to technology. He focuses on bridging the gap between code and infrastructure. Thijs is a <a href="http://shop.oreilly.com/product/0636920056294.do">published author at O'Reilly</a>, he is also involved in many open source communities and leads the <a href="https://conference.phpbenelux.eu">PHPBenelux</a> community. He <a href="https://feryn.eu/speaking">speaks</a>, listens, <a href="https://feryn.eu/books">writes</a>, codes, teaches, <a href="https://feryn.eu/blog">blogs</a>, <a href="http://youtube.com/ThijsFeryn">vlogs</a>, organizes and is above all very excited to speak at PHPUK 2019.
             description: As a kid you have ambitions for the future? "When I grow up I want to become a …". Maybe you wanted to become a fireman, an astronaut, a nurse, a teacher, a police officer? As you grow up these ideas evolve and get replaced with actual ambitions, actual hopes and dreams. These might be entirely different than your childhood dreams. But how do you reach these goals? How do you accomplish these dreams? By listening to your parents, friends, or teachers? By doing it yourself? Or maybe you have given up and settled for a watered down version of the career and life you envisioned? People often attribute success to luck, and lack of success to incompetence. But what if I told you it's all about controlling the variables? Luck is something that you can control in a way. The more you figure out the context, the key players, the relationships, the values, and the rules of the ecosystem in which you want to succeed, the easier it is to gain from it. The more variables you control, the easier it is to find potential opportunities and to bank on them. Maybe you didn't get lucky, maybe you just saw it coming, and prepared yourself for it. In this keynote talk, Thijs is going to share his experiences, his hopes, his dreams, and how he applies a positive mental attitude to level up in his career, and in life in general. This is not a growth hacking talk, but a simple set of tips and tricks to succeed, even if it seems like the odds are stacked against you.
     - time: "09.45"
-      slottype: break change
+      slottype: break
       tracks:
         - track:
+            colspan: 4
             location: King George
             title: Refreshment break
             description: Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
@@ -160,9 +168,9 @@
       tracks:
         - track:
             location: Main Track
-            title: 
+            title: Massively Scaled High Performance Web Services with PHP
             slug: 
-            speaker: 
+            speaker: Demin Yin
             handle: 
             company: 
             photo: 
@@ -171,9 +179,9 @@
             description:
         - track:
             location: Side Track
-            title: 
+            title: Encrypting your database
             slug: 
-            speaker: 
+            speaker: Scott Dutton
             handle: 
             company: 
             photo: 
@@ -181,10 +189,11 @@
             level: 
             description: 
         - track:
+            rowspan: 3
             location: Velocity Track
-            title: 
+            title: "Web Developer's HTTP Toolbox"
             slug: 
-            speaker: 
+            speaker: Lorna Jane Mitchell
             handle: 
             company: 
             photo: 
@@ -192,10 +201,11 @@
             level: 
             description: 
         - track:
+            rowspan: 3
             location: Design Track
-            title: 
+            title: Event Storming for fun and profit!
             slug: 
-            speaker: 
+            speaker: Jeroen v.d. Gulik
             handle: 
             company: 
             photo: 
@@ -203,18 +213,19 @@
             level: 
             description: 
     - time: "11.15"
-      slottype: break change
+      slottype: break
       tracks:
         - track:
+            colspan: 2
             title: Room change
     - time: "11.30"
       slottype: talks
       tracks:
         - track:
             location: Main Track
-            title: 
+            title: Introduction to Serverless PHP
             slug: 
-            speaker: 
+            speaker: Rob Allen
             handle: 
             company: 
             photo: 
@@ -223,26 +234,15 @@
             description:
         - track:
             location: Side Track
-            title: 
+            title: Dive deep into blockchain
             slug: 
-            speaker: 
+            speaker: Tomasz Kowalczyk
             handle: 
             company: 
             photo: 
             bio: 
             level: 
-            description: 
-        - track:
-            location: Side Track 2
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description: 
+            description:
     - time: "12.30"
       slottype: break
       tracks:
@@ -288,7 +288,7 @@
             level: 
             description: 
     - time: "14.30"
-      slottype: break change
+      slottype: break
       tracks:
         - track:
               title: Room change
@@ -364,7 +364,7 @@
       <p>Friday continues with the second day of the main conference. Again, you will be able to attend a morning keynote followed by four talk slots throughout the day. During each talk slot you'll have the choice between four different tracks. There will be 3 cake &amp; coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The conference will close on Friday with a final featured keynote, a prize raffle from our sponsors, and then on to the evening <a href="/socials">post-conference social</a>.</p>
   slots:
     - time: "08.00"
-      slottype: break change
+      slottype: break
       tracks:
         - track:
             location: Brewery Foyer & King George
@@ -384,7 +384,7 @@
             bio: Software engineer and tech enthusiast. Co-founder of Adeva, a startup that helps global tech companies get easier access to world-class talent.
             description: Working with companies from early-stage startups to Fortune 500, I've experienced both the struggle of continuing someone else's work and the joy of it. The difference is only in their approach towards the design of their code. It's a minor effort if done on time, with a huge impact on the overall development of the software. In this presentation, we'll focus on what distinguishes a good developer from a strong one and learn how to stand out from the crowd. After this presentation, you'd understand how to incorporate the SOLID principles in your daily work and design your code for extendibility. You'd learn how to write code in a way that will make it easy to go back to a feature you developed a year ago and extend it with additional functionality in minutes, not hours.
     - time: "09.45"
-      slottype: break change
+      slottype: break
       tracks:
         - track:
             location: King George
@@ -427,7 +427,7 @@
             level: 
             description: 
     - time: "11.15"
-      slottype: break change
+      slottype: break
       tracks:
         - track:
             title: Room change
@@ -512,7 +512,7 @@
             level: 
             description: 
     - time: "14.30"
-      slottype: break change
+      slottype: break
       tracks:
         - track:
               title: Room change
