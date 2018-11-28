@@ -17,7 +17,7 @@ var cp = require('child_process');
  */
 gulp.task('jekyll-build', function (done) {
     browserSync.notify('Building Jekyll');
-    return cp.spawn('jekyll', ['build', '--incremental', '--config', '_config.dev.yml'], {stdio: 'inherit'})
+    return cp.spawn('jekyll', ['build', '--config', '_config.dev.yml'], {stdio: 'inherit'})
     .on('close', done);
 });
 
@@ -97,7 +97,7 @@ gulp.task('watch', function() {
   // Watch image files
   gulp.watch(['assets/images/**/*.png', 'assets/images/**/*.jpg', 'assets/images/**/*.gif', 'assets/images/**/*.jpeg'], ['images'], ['jekyll-rebuild']);
   // Watch .html files and posts
-  gulp.watch(['index.html', '*/*.html', '*.md', '_posts/*'], ['jekyll-rebuild']);
+  gulp.watch(['index.html', '*/*.html', '_data/*/*.yml', '*.md', '_posts/*'], ['jekyll-rebuild']);
 });
 
 // run 'scripts' task first, then watch for future changes
