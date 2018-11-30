@@ -22,10 +22,16 @@ image: banners/schedule.png
             <table class="schedule-wrapper">
             {% for slot in day.slots %}
                 <tr class="slot">
-                    <td class="time">{{slot.time}}</td>
+                    <td class="time"rowspan="{% if slot.slottype == "talk"%}3{% else %}2{% endif %}">{{slot.time}}</td>
+                    {% for track in slot.tracks %}
+                    <td class="location" colspan="{{track.track.colspan}}">{{track.track.location}}</td>
+                    {% endfor %}
+                </tr>
+                <tr class="slot">
                     {% for track in slot.tracks %}
                     <td class="track {{slot.slottype}}" id="{{track.track.id}}" colspan="{{track.track.colspan}}" rowspan="{{track.track.rowspan}}">
                         <div class="track-slot-meta">
+                            <span class="location">{{track.track.location}}</span>
                             <span class="track-name">{{track.track.name}}</span>
                             <span class="title">
                                 <span class="main-title">{{track.track.title}}</span>

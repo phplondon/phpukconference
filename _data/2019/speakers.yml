@@ -28,6 +28,7 @@
             colspan: 2
             name: Workshop II
             speaker: Ciaran McNulty
+            location: The Montcalm Hotel at the Brewery
             bio: <a href="https://twitter.com/ciaranmcnulty">Ciaran McNulty</a> helps teams at all levels of ability improve via training and coaching. He has been a PHP professional since the late 90s and is passionate about TDD, BDD and Agile methodologies. He is lead maintainer of PhpSpec.
             title: BDD in Practice
             photo: /2019/assets/images/speakers/ciaranmcnulty.jpg
@@ -39,7 +40,7 @@
       tracks:
         - track:
             colspan: 4
-            location: 
+            location: The Montcalm Hotel at the Brewery
             title: Refreshment break
             description: Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates.
     - time: "11.00"
@@ -48,25 +49,21 @@
         - track:
             colspan: 2
             name: Workshop I
-            speaker: 
             title: Kubernetes By Example, con't
             location: The Montcalm Hotel at the Brewery
             id: workshopi
-            description: 
         - track:
             colspan: 2
             name: Workshop II
-            speaker: 
             title: BDD in Practice, con't
-            location: 
+            location: The Montcalm Hotel at the Brewery
             id: workshopii
-            description: 
     - time: "12.30"
       slottype: break
       tracks:
         - track:
               colspan: 4
-              location: 
+              location: The Montcalm Hotel at the Brewery
               title: Lunch
               description: |
                 A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates.
@@ -76,25 +73,21 @@
         - track:
             colspan: 2
             name: Workshop I
-            speaker: 
             title: Kubernetes By Example, con't
             location: The Montcalm Hotel at the Brewery
             id: workshopi
-            description: 
         - track:
             colspan: 2
             name: Workshop II
-            speaker: 
             title: BDD in Practice, con't
-            location: 
+            location: The Montcalm Hotel at the Brewery
             id: workshopii
-            description: 
     - time: "15.00"
       slottype: break
       tracks:
         - track:
             colspan: 4
-            location: 
+            location: The Montcalm Hotel at the Brewery
             title: Refreshment break
             description: Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates.
     - time: "15.30"
@@ -103,25 +96,22 @@
         - track:
             colspan: 2
             name: Workshop I
-            speaker: 
             title: Kubernetes By Example, con't
             location: The Montcalm Hotel at the Brewery
             id: workshopi
-            description: 
         - track:
             colspan: 2
             name: Workshop II
-            speaker: 
             title: BDD in Practice, con't
-            location: 
+            location: The Montcalm Hotel at the Brewery
             id: workshopii
-            description: 
     - time: "18.00"
       slottype: break
       tracks:
         - track:
             colspan: 4
             title: Pre-Conference Social
+            location: Finch's Pub on Finsbury Square
             description: |
                 The pre-conference social is a traditional style pubcon, open to anyone, where conference attendees and locals can meet up before the conference to network and socialise. <br><a href="/socials">More details &raquo;</a>
 - schedule-thursday:
@@ -138,7 +128,7 @@
             title: Registration and Refreshments
             description: Please bring a copy of your ticket either printed or on a mobile device.
     - time: "09.00"
-      slottype: special keynote
+      slottype: keynote
       tracks:
         - track:
             colspan: 4
@@ -185,7 +175,7 @@
             level: Intermediate 
             description: 15 years ago, plain text password storing was normal with some using MD5. We look back now and wonder what we were thinking! With GDPR and people thinking more about personal details, its about time we caught up and started storing them securely. There are many uses for personal data and is often sought after by criminals for targeting people. How can you prevent your customers data being used in these attacks ? Encrypting your database is a fantastic way! PHP is the first language to have modern encryption built in to the core, This talk will show you how to use these methods to allow your data to be secure and also not lose the speed which you can currently search for this data in your application. This talk will touch on architecture and will be focused on MySQL although the same techniques can be used for any storage engine.
         - track:
-            rowspan: 3
+            rowspan: 5
             location: Velocity Track
             title: "Web Developer's HTTP Toolbox"
             slug: lornajanemitchell
@@ -197,7 +187,7 @@
             level: Intermediate
             description: You say "toolbox", I say "treasure chest". We work on the web building so much more than web pages but these rich, asynchronous applications can suffer from ailments that are difficult for us to see. This session is a tour through some of the best tools around for working with HTTP to observe interaction between components and diagnose problems. By knowing the tools at your disposal and the right job for each, you will be able to quickly and painlessly identify and fix HTTP-related problems - and then get to the pub on time! I mean, get the next thing done ;) Whether you're debugging a backend API, an asynchronous client request or an unexpected timeout, these are the tools you will want to have at hand.
         - track:
-            rowspan: 3
+            rowspan: 5
             location: Design Track
             title: Event Storming for fun and profit!
             slug: jeroenvdgulik
@@ -213,6 +203,7 @@
       tracks:
         - track:
             colspan: 2
+            location: Main Track and Side Track
             title: Room change
     - time: "11.30"
       slottype: talks
@@ -274,8 +265,8 @@
             level: Intermediate
             description: In this presentation we will look at storing complex data in a single field. Many noSQL solutions are created around this (such as Redis’ lists, sets and hashes; MongoDB’s records), and many relational database now also support storing complex data in a single field through specific data types (such as PostGreSQL’s JSONB or hstore). Each of the different database engines support different things, and handle these data types in different ways. In this session we compare the different approaches to storage, indexing and interactions with these data types in different databases.
         - track:
-            rowspan: 3
-            location: Side Track 2
+            rowspan: 5
+            location: Velocity Track
             title: Deploying your first Micro-Service Application to Kubernetes
             slug: bastianhofmann
             speaker: Bastian Hofmann
@@ -286,7 +277,7 @@
             level: All
             description: Kubernetes is a very powerful container orchestration platform that is quickly gaining traction and gives you lots of benefits in deploying, running and scaling your microservice web application. But it has also a steep learning curve. In this workshop you will deploy and scale your first application which consists of multiple Micro-Services to Kubernetes and learn how you can use Persistent Storage. If you want to not just watch, but also program along yourself, have Git, <a href="https://www.docker.com/products/docker-desktop">Docker</a> and the <a href="https://kubernetes.io/docs/tasks/tools/install-kubectl/">Kubernetes CLI kubectl</a> as well as a IDE or Text Editor of your choice installed on your system.
         - track:
-            rowspan: 3
+            rowspan: 5
             location: Design Track
             title: Getting Going with Automated Testing
             slug: garyhockin
@@ -302,6 +293,7 @@
       tracks:
         - track:
               colspan: 2
+              location: Main Track and Side Track
               title: Room change
     - time: "14.45"
       slottype: talks
@@ -319,7 +311,7 @@
             level: Intermediate
             description: Sick and tired of "X technology is only good for starting out; after you do, move to Y"? Good news - you don’t need to move away, you just need to get in further! In this talk, you'll learn about improvements in the newest version of the most used database in the world. What are Window Functions? How do you use CTEs? How can the new default encoding help me and what should I look for when upgrading versions?
         - track:
-            location: Side Track 1
+            location: Side Track
             title: Learning The How's and Why's of Machine Learning
             slug: liamwiltshire
             speaker: Liam Wiltshire 
@@ -377,7 +369,7 @@
             title: Registration and Refreshments
             description: Please bring a copy of your ticket either printed or on a mobile device.
     - time: "09.00"
-      slottype: special keynote
+      slottype: keynote
       tracks:
         - track:
             colspan: 4
@@ -414,7 +406,7 @@
             level: Intermediate
             description: Microservices are the latest architectural trend to take the PHP community by storm. Is it a good pattern? How can you use it effectively? In this talk, we'll explore real world experience building out a large scale application based around microservices - what worked really well, what didn't work at all, and what we learned along the way. Spoiler alert - we got a lot wrong.
         - track:
-            location: Side Track 1
+            location: Side Track
             title: Test to Break Principles 
             slug: robwaller
             speaker: Rob Waller
@@ -424,8 +416,8 @@
             level: Intermediate
             description: "The talk aims to highlight the importance of testing, why developers must spend more of their time testing, how testing generates more robust applications and why testing makes developers' lives easier. The talk is based around a live coding demo. The talk will: Explain the difference between tests that prove an application works and tests which aim to break the application logic - Highlight how test to break principles force developers to introduce logic to handle unexpected behaviour - Show how test to break principles result in more robust applications as developers write code that can only be used in one way - Encourage developers to apply test to break principles to all types of tests, including manual tests."
         - track:
-            rowspan: 3
-            location: Side Track 2
+            rowspan: 5
+            location: Velocity Track
             title: LAMP ❤️ AWS
             subtitle: Moving your application to the cloud
             slug: mikelehan
@@ -437,8 +429,8 @@
             level: Intermediate
             description: "There are a great many reasons your application can benefit from moving to the cloud, but enough requirements for retraining, uncertainty around cost or complexity and just plain worry about what can go wrong to delay or prevent such a move. When my business moved to the cloud we learned that there are ways around many of these challenges, allowing you to move your application in a way which might not be best practice but which works and gives you a solid platform from which to advance and improve your cloud implementation. In this tutorial we'll look at key building blocks to put a LAMP application onto AWS, what might cause problems for your individual use cases and how to mitigate these. As well as basic plans to get you started we'll look at pathways to modify your application and train your team to take more advantage of cloud native features and adhere to infrastructure and security best practices in a way which allows you to keep running your team and your business."
         - track:
-            rowspan: 3
-            location: Main Track
+            rowspan: 5
+            location: Design Track
             title: A Practical Introduction to Strategic Domain Driven Design 
             slug: pimelshoff
             speaker: Pim Elshoff
@@ -447,12 +439,13 @@
             photo: https://secure.gravatar.com/avatar/81e857852d96ca45a3c1c4965854e6c5?s=500
             bio: Like you, Pim is on a quest to do things a little bit better every time. As a scrum developer, he has extensive experience with solid coding, patient mentoring and tackling big projects using Domain Driven Design. Presentations by Pim are always fun, engaging and conversational. But don't fret; if you just want to listen and let others speak, it wíll be worth your time. Pim has worked at Procurios since 2012 and has seen a multitude of fundraising, political party and other clients that all share a common goal - getting the very most out of their software.
             level: All
-            description: "Knowing how to do things right is half the battle. Knowing how to do the right thing is the underappreciated but essential other half. In this workshop we'll learn how to discover the language of our clients. We will gracefully evolve our understanding from nothing to something and use various modelling tools to grow our understanding of the problem. If you want to have better conversations, make more useful models, and have the optimal preparation for writing code, then this is the workshop for you. Topics include context mapping, event storming, and value mapping."
+            description: "Knowing how to do things right is half the battle. Knowing how to do the right thing is the under appreciated but essential other half. In this workshop we'll learn how to discover the language of our clients. We will gracefully evolve our understanding from nothing to something and use various modelling tools to grow our understanding of the problem. If you want to have better conversations, make more useful models, and have the optimal preparation for writing code, then this is the workshop for you. Topics include context mapping, event storming, and value mapping."
     - time: "11.15"
       slottype: break
       tracks:
         - track:
             colspan: 2
+            location: Main Track and Side Track
             title: Room change
     - time: "11.30"
       slottype: talks
@@ -469,7 +462,7 @@
             level: All
             description: After days, weeks, or months of coding many developers don’t know how to gauge the quality of their code. I’ll introduce tools to grade, benchmark, and analyze PHP code in an automated fashion allowing developers to write better quality software. Then I’ll explain key metrics to help understand what may need to be refactored, and use code smells to point out bugs before end-users discover them. Attendees will see how to use these tools, know where to find them, and be able to implement them in their own workflows.
         - track:
-            location: Side Track 1
+            location: Side Track
             title: More Secrets of Cryptography
             slug: chrisriley
             speaker: Chris Riley
@@ -503,7 +496,7 @@
             level: Intermediate
             description: Continuous Delivery Pipeline as code is key helping you to ensure long term maintainability. Treating your pipeline as code helps you to version it in your SCM of choice, makes changes easily traceable and lets anyone on your team make required changes. In this session I will show you how we build and maintain our Continuous Delivery pipeline using tools like GitLab CI, Docker, Nexus and Traefik. Together we will take a deep dive into the GitLab CI Build Pipelines to build and deploy docker containers to dev, stage and production environments.
         - track:
-            location: Side Track 1
+            location: Side Track
             title: Get GOing with a New Language
             slug: katzien
             speaker: Kat Zien
@@ -514,8 +507,8 @@
             level: All
             description: Learning more than one programming language is key to becoming a better developer. It is like adding a new tool to your toolbox. The more tools you have, the easier and quicker you’ll be able to tackle whatever job you need to do. You’ll also be able to use the right tool for the job, and who doesn’t like that?! I picked up Go (golang) a few years ago as it was becoming more popular among developers. Coming from a PHP background, I had no idea what channels or goroutines were or how is concurrency different from parallelism. I’ve got to say, it was a whole new world. Very different, but very cool. I was hooked! By happy coincidence, my company was looking to rewrite a legacy PHP app in Go. It was over 2000 lines of procedural and messy PHP4 with more downtime than I’m willing to admit to. I took on this project, and soon enough we had a much faster, more maintainable and much more reliable app for our customers. Go gave us options we would not have in PHP. The goal of this talk is to give you a good idea of what Go is and how it compares with PHP. We’ll look at the language itself as well as the tooling and communities around it. Even if you’re not sold on Go by the end of it, I hope you’ll leave inspired to go out there and learn whatever language you wanted to look into next. 
         - track:
-            rowspan: 3
-            location: Side Track 2
+            rowspan: 5
+            location: Velocity Track
             title: Transparent Docker
             slug: donaldtyler
             speaker: Donald Tyler
@@ -536,8 +529,8 @@
                 <li>Updates to dependencies automatically distributed to other developers</li>
                 <li>Easily extended into CI/CD"</li></ul>
         - track:
-            rowspan: 3
-            location: Side Track 2
+            rowspan: 5
+            location: Design Track
             title: Best Practices for Crafting High Quality PHP Apps
             slug: jamestitcumb
             speaker: James Titcumb
@@ -552,6 +545,7 @@
       tracks:
         - track:
               colspan: 2
+              location: Main Track and Side Track
               title: Room change
     - time: "14.45"
       slottype: talks
@@ -586,7 +580,8 @@
         - track:
             colspan: 4
             location: Main Track
-            title: I deploy on Fridays (and maybe you should too)
+            title: I deploy on Fridays
+            subtitle: (and maybe you should too)
             slug: michielrook
             speaker: Michiel Rook
             handle: michieltcs
@@ -601,5 +596,6 @@
         - track:
             colspan: 4
             title: Post Conference Social
+            location: The Pasteur Rooms at The Brewery
             description: |
                 The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href="/socials">More details &raquo;</a>

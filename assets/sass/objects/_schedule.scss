@@ -20,12 +20,12 @@
 
 		@include respond(large){
 			display: table-cell;
-			width: 2%;
+			width: 5em;
 		}
 
 		@include respond(medium){
 			display: table-cell;
-			width: 2%;
+			width: 5em;
 		}
 
 		@include respond(mobile-only){
@@ -93,6 +93,16 @@
 				margin-bottom: initial;
 			}
 		}
+
+		.location{
+			display: none;
+
+			@include respond(mobile-only){
+				display: inline-block;
+				width: 100%;
+				border: 0px;
+			}
+		}
 	}
 
 	.workshop{
@@ -134,6 +144,25 @@
 			.title{
 				min-height: 1em;
 			}
+		}
+	}
+	
+	.location{
+		border-color:$color-white;
+		border-style:solid;
+		border-width:2px 1px;
+		opacity: .8;
+		
+		@include respond(large){
+			display: table-cell;
+		}
+
+		@include respond(medium){
+			display: table-cell;
+		}
+
+		@include respond(mobile-only){
+			display: none;
 		}
 	}
 }
