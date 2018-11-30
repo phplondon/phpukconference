@@ -1,5 +1,9 @@
-.schedule{
-	table-layout: auto;
+.wrapper {
+	min-width: 95%;
+}
+
+.schedule-wrapper{
+	table-layout: fixed;
 	width: 100%;
 	margin: 10px;
 	padding: 0;
@@ -16,12 +20,12 @@
 
 		@include respond(large){
 			display: table-cell;
-			width: 10%;
+			width: 2%;
 		}
 
 		@include respond(medium){
 			display: table-cell;
-			width: 10%;
+			width: 2%;
 		}
 
 		@include respond(mobile-only){
@@ -38,6 +42,8 @@
 		border-width:2px 1px;
 		background:$color-brand-primary;
 
+		vertical-align: top;
+
 		> *{
 			color:$color-white;
 		}
@@ -49,52 +55,67 @@
 
 		@include respond(large){
 			display: table-cell;
-			width: 22.5%;
+			width: 24.5%;
 		}
 
 		@include respond(medium){
 			display: table-cell;
-			width: 22.5%;
+			width: 24.5%;
 		}
 
 		@include respond(mobile-only){
 			display: inline-block;
 			width: 100%;
 		}
-		
+
 		.track-slot-meta{
+			margin-bottom: 1em;
+
 			> *{
-				display:block;
+				display: block;
+				font-size: 1em;
 			}
 
 			.title{
-				margin-bottom:6px;
-				font-size:1.1em;
-				line-height:1.3em;
-				min-height:10px;
+				min-height: 11em;
 
-				@include respond(medium){
-					min-height:50px;
+				.main-title {
+					font-size: 1.8em;
+					display: block;
+				}
+
+				.subtitle {
+					font-size: 1.2em;
 				}
 			}
 
 			.speaker{
-				margin-bottom:2px;
-			}
-
-			.track-name{
-				opacity:0.8;
-			}
-
-			.description{
-				margin-top:10px;
+				margin-bottom: initial;
 			}
 		}
+	}
+
+	.workshop{
+		.track-slot-meta{
+			.title{
+				min-height: 5em;
+			}
+		}
+	}
+
+	.talks{
+
 	}
 
 	.keynote{
 		text-align:center;
 		background:$color-green;
+
+		.track-slot-meta{
+			.title{
+				min-height: 5em;
+			}
+		}
 	}
 
 	.break{
@@ -109,8 +130,10 @@
 			text-decoration:underline;
 		}
 
-		.title{
-			min-height:10px;
+		.track-slot-meta{
+			.title{
+				min-height: 1em;
+			}
 		}
 	}
 }

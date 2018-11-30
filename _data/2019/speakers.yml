@@ -15,6 +15,7 @@
       slottype: workshop
       tracks:
         - track:
+            colspan: 2
             name: Workshop I
             speaker: David McKay
             bio: <a href="https://twitter.com/rawkode">David McKay</a> is a software and technology professional, born & bred in Glasgow, Scotland. As a serial user group organiser, organising Docker Glasgow, DevOps Glasgow and Pair Programming Glasgow, David is always searching for new and creative ways to share knowledge with others. Oh, and he quite likes domain-driven design, micro-services and clean code. Additional info- Organiser of Scotland PHP, Docker Glasgow, CloudNative Glasgow, DevOps Glasgow, Pair Programming Glasgow, and MongoDB Glasgow. 22 talks delivered to the PHP and Docker communities in 2016.
@@ -24,6 +25,7 @@
             id: workshopi
             description: Kubernetes, the flagship project from the Cloud Native Foundation, has become the de facto standard for running our container workloads. Unfortunately, Kubernetes is a fast moving, ever evolving, sea of complexity. From Pods to Deployments, ConfigMaps to Secrets, and PersistantVolumeClaims to StatefulSets; this workshop will get you on-course. In this workshop, David will walk you through a series of labs that will teach you everything you need to know to take your container based application and deploy it as a self-healing, redundant and resilient application on top of Kubernetes. Let's set sail.
         - track:
+            colspan: 2
             name: Workshop II
             speaker: Ciaran McNulty
             bio: <a href="https://twitter.com/ciaranmcnulty">Ciaran McNulty</a> helps teams at all levels of ability improve via training and coaching. He has been a PHP professional since the late 90s and is passionate about TDD, BDD and Agile methodologies. He is lead maintainer of PhpSpec.
@@ -44,6 +46,7 @@
       slottype: workshop
       tracks:
         - track:
+            colspan: 2
             name: Workshop I
             speaker: 
             title: Kubernetes By Example, con't
@@ -51,6 +54,7 @@
             id: workshopi
             description: 
         - track:
+            colspan: 2
             name: Workshop II
             speaker: 
             title: BDD in Practice, con't
@@ -70,6 +74,7 @@
       slottype: workshop
       tracks:
         - track:
+            colspan: 2
             name: Workshop I
             speaker: 
             title: Kubernetes By Example, con't
@@ -77,6 +82,7 @@
             id: workshopi
             description: 
         - track:
+            colspan: 2
             name: Workshop II
             speaker: 
             title: BDD in Practice, con't
@@ -95,6 +101,7 @@
       slottype: workshop
       tracks:
         - track:
+            colspan: 2
             name: Workshop I
             speaker: 
             title: Kubernetes By Example, con't
@@ -102,6 +109,7 @@
             id: workshopi
             description: 
         - track:
+            colspan: 2
             name: Workshop II
             speaker: 
             title: BDD in Practice, con't
@@ -121,18 +129,6 @@
   description: |
       <p>Thursday kicks off the main conference, where you will be able to attend a morning keynote followed by four talk slots throughout the day. During each talk slot you'll have the choice between four different tracks. There will be 3 cake &amp; coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The day will then close with another keynote, followed by our <a href="/socials">mid-conference social</a>.</p>
   slots:
-    - time: "08.00"
-      slottype: mc
-      tracks:
-        - track:
-            title: Main Stage MCs
-            speakers: 
-              - speaker: 
-                bio: 
-                photo: 
-              - speaker: 
-                bio: 
-                photo: 
     - time: "08.00"
       slottype: break
       tracks:
@@ -154,7 +150,7 @@
             company: Combell
             photo: https://secure.gravatar.com/avatar/ca901ddcea38854b9783781c91fc87c9?s=150
             bio:  <a href="https://twitter.com/ThijsFeryn">Thijs Feryn</a> is a "technical evangelist" at a Belgian webhosting company called <a href="https://www.combell.com/en/">Combell</a>. His goal is to bring technology to the people and people to technology. He focuses on bridging the gap between code and infrastructure. Thijs is a <a href="http://shop.oreilly.com/product/0636920056294.do">published author at O'Reilly</a>, he is also involved in many open source communities and leads the <a href="https://conference.phpbenelux.eu">PHPBenelux</a> community. He <a href="https://feryn.eu/speaking">speaks</a>, listens, <a href="https://feryn.eu/books">writes</a>, codes, teaches, <a href="https://feryn.eu/blog">blogs</a>, <a href="http://youtube.com/ThijsFeryn">vlogs</a>, organizes and is above all very excited to speak at PHPUK 2019.
-            description: As a kid you have ambitions for the future? "When I grow up I want to become a …". Maybe you wanted to become a fireman, an astronaut, a nurse, a teacher, a police officer? As you grow up these ideas evolve and get replaced with actual ambitions, actual hopes and dreams. These might be entirely different than your childhood dreams. But how do you reach these goals? How do you accomplish these dreams? By listening to your parents, friends, or teachers? By doing it yourself? Or maybe you have given up and settled for a watered down version of the career and life you envisioned? People often attribute success to luck, and lack of success to incompetence. But what if I told you it's all about controlling the variables? Luck is something that you can control in a way. The more you figure out the context, the key players, the relationships, the values, and the rules of the ecosystem in which you want to succeed, the easier it is to gain from it. The more variables you control, the easier it is to find potential opportunities and to bank on them. Maybe you didn't get lucky, maybe you just saw it coming, and prepared yourself for it. In this keynote talk, Thijs is going to share his experiences, his hopes, his dreams, and how he applies a positive mental attitude to level up in his career, and in life in general. This is not a growth hacking talk, but a simple set of tips and tricks to succeed, even if it seems like the odds are stacked against you.
+            description: As a kid, did you have ambitions for the future? "When I grow up I want to become a ...". Maybe you wanted to become a fireman, an astronaut, a nurse, a teacher, a police officer? As you grow up these ideas evolve and get replaced with actual ambitions, actual hopes and dreams. These might be entirely different than your childhood dreams. But how do you reach these goals? How do you accomplish these dreams? By listening to your parents, friends, or teachers? By doing it yourself? Or maybe you have given up and settled for a watered down version of the career and life you envisioned? People often attribute success to luck, and lack of success to incompetence. But what if I told you it's all about controlling the variables? Luck is something that you can control in a way. The more you figure out the context, the key players, the relationships, the values, and the rules of the ecosystem in which you want to succeed, the easier it is to gain from it. The more variables you control, the easier it is to find potential opportunities and to bank on them. Maybe you didn't get lucky, maybe you just saw it coming, and prepared yourself for it. In this keynote talk, Thijs is going to share his experiences, his hopes, his dreams, and how he applies a positive mental attitude to level up in his career, and in life in general. This is not a growth hacking talk, but a simple set of tips and tricks to succeed, even if it seems like the odds are stacked against you.
     - time: "09.45"
       slottype: break
       tracks:
@@ -179,7 +175,7 @@
             description: Over the years, software teams have questioned if PHP is a good choice for building web services. In this talk, I will share how we use PHP on the backend for Glu Mobile’s flagship mobile game Design Home, enabling it to regularly rank amongst the top free mobile games - both in downloads and grossing - since its launch in the Apple App Store and the Google Play Store in Q4 2016. Design Home reaches over 1 million daily active users, serving over 100,000 requests per minute while maintaining a user base of over 30 million players. To date, over 1 billion designs have been made by players. We will deep dive into the thought processes, development, testing and deployment strategy, showcasing what we have achieved with PHP and why we love it and rely on it. My goal is to share with the community that, when done the right way, PHP can be used to build and maintain reliable, massively-scalable and high-performance backends using web services.
         - track:
             location: Side Track
-            title: Encrypting your database
+            title: Database Encryption in a GDPR World
             slug: scottdutton
             speaker: Scott Dutton
             handle: exusssum
@@ -210,8 +206,8 @@
             company: Isset 
             photo: https://secure.gravatar.com/avatar/dbcc25b3092ad96604b82ed0f08256d7?s=500
             bio: Jeroen is co-founder of Isset, software architect, consultant, coach and occasional speaker. Often brought in at large companies to enable change and innovation projects. His company specializes in video streaming/transcoding and publishing platforms. Co-organizer of DDDNL and boardgames enthousiast. He also likes cats and penguins.
-            level: 
-            description: 
+            level: Beginner
+            description: Event Storming is a powerful interactive workshop format. Used for exploring ideas and discovering business requirements, but most importantly, it’s fun! Put business people in a room with developers and turn that stuffy boring meeting into a fun and radical new format, and see the magic happen!
     - time: "11.15"
       slottype: break
       tracks:
@@ -256,7 +252,8 @@
       tracks:
         - track:
             location: Main Track
-            title: Your App Lives on a Network - Networking for Web Developers
+            title: Your App Lives on a Network
+            subtitle: Networking for Web Developers
             slug: wimgodden
             speaker: Wim Godden
             handle: wimgtr
@@ -266,7 +263,7 @@
             level: All
             description: Our job might be to build web applications, but we can't build apps that rely on networking if we don't know how these networks and the big network that connects them all (this thing called the Internet) actually work. I'll walk through the basics of networking, then dive a lot deeper (from TCP/UDP to IPv4/6, source/destination ports, sockets, DNS, switching, firewalling and even OSPF, VRRP and BGP). Prepare for an eye-opener when you realize how much a typical app relies on all of these (and many more) working flawlessly... and how you can prepare your app for failure in the chain.
         - track:
-            location: Side Track 1
+            location: Side Track
             title: Storing Non-Scalar Data
             slug: derickrethans
             speaker: Derick Rethans
@@ -279,7 +276,7 @@
         - track:
             rowspan: 3
             location: Side Track 2
-            title: Deploying your first Micro-Service application to Kubernetes
+            title: Deploying your first Micro-Service Application to Kubernetes
             slug: bastianhofmann
             speaker: Bastian Hofmann
             handle: BastianHofmann
@@ -287,7 +284,7 @@
             photo: https://secure.gravatar.com/avatar/3a3f9c32c9e5a4c2970befd97d52285b?s=500
             bio: Bastian is a System Engineer at SysEleven, a full-service hosting company, where he focuses on bringing the power Kubernetes to its customers. Before that he was caring about performance, monitoring, web-security and developer productivity at ResearchGate, the social network for researchers and scientists. When he is not developing stuff or looking at graphs, he likes to cycle, do Yoga, go to beer gardens and frequently speaks at international conferences on software architecture, scaling web applications and open standards and protocols.
             level: All
-            description: Kubernetes is a very powerful container orchestration platform that is quickly gaining traction and gives you lots of benefits in deploying, running and scaling your microservice web application. But it has also a steep learning curve. In this workshop you will deploy and scale your first application which consists of multiple Micro-Services to Kubernetes and learn how you can use Persistent Storage. If you want to not just watch, but also program along yourself, have Git, Docker (https://www.docker.com/products/docker-desktop) and the Kubernetes CLI kubectl (https://kubernetes.io/docs/tasks/tools/install-kubectl/) as well as a IDE or Text Editor of your choice installed on your system.
+            description: Kubernetes is a very powerful container orchestration platform that is quickly gaining traction and gives you lots of benefits in deploying, running and scaling your microservice web application. But it has also a steep learning curve. In this workshop you will deploy and scale your first application which consists of multiple Micro-Services to Kubernetes and learn how you can use Persistent Storage. If you want to not just watch, but also program along yourself, have Git, <a href="https://www.docker.com/products/docker-desktop">Docker</a> and the <a href="https://kubernetes.io/docs/tasks/tools/install-kubectl/">Kubernetes CLI kubectl</a> as well as a IDE or Text Editor of your choice installed on your system.
         - track:
             rowspan: 3
             location: Design Track
@@ -298,7 +295,7 @@
             company: Roave
             photo: https://secure.gravatar.com/avatar/699b873ae9616b36770e53c246e77377?s=500
             bio: Gary Hockin pretends to write high-quality web applications as a senior developer at the BBC. He is a talented and evocative speaker, a cultivated author of impressively entertaining blog posts, and records elegant and informative screencasts and videos. Gary's also a contributor to the Zend Framework and is argumentative enough to be on the community review team. When Gary had a real job, he was a developer of at least competent standard with nearly 20 years experience. When not developing, speaking about developing, reading about developing or writing about developing, Gary enjoys playing computer games and arguing with his wife and two kids. Gary has recently discovered that conferences ask speakers to write their own biography text, and you can get away with writing pretty much anything you want.
-            level: 
+            level: Intermediate
             description: Automated testing is an incredibly useful tool for any developer. From emerging design with unit tests to preventing regression bugs with acceptance tests, getting a computer to run tests instead of testing manually is a huge step forward and saves vast amounts of time. Where do you start with automated testing? It's an intimidating topic and can be confusing to understand what all the techy speak means, let alone how you get going. But writing automated tests shouldn't be difficult, and can and should be part of your daily workflow once you understand exactly what to test, and how to test it. In this workshop, we'll introduce WHY and HOW you can get started with unit and acceptance tests, and touch on integration testing. By the end of the workshop, you'll understand how you can leverage automated testing in new and existing projects, and be ready to save time and energy when developing.
     - time: "14.30"
       slottype: break
@@ -311,7 +308,8 @@
       tracks:
         - track:
             location: Main Track
-            title: MySQL 8.0 - Not Only Good, it's GREAT
+            title: MySQL 8.0
+            subtitle: Not Only Good, it's GREAT
             slug: gabrieladavilaferrara
             speaker: Gabriela D'Ávila Ferrara
             handle: gabidavila
@@ -319,10 +317,10 @@
             photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/12044/180124-0676.01.MOMA.jpg
             bio: Gabi is a Developer Advocate for Google Cloud solving data problems across the diverse range of storage engines and technologies. She enjoys sharing her knowledge through her blog and conference speaking. Gabi also is an accomplished world traveler and has an intimidating Lego collection and writes at [gabriela.IO] (http://gabriela.io) and proudly maintains [Congress, who is?](https://www.congresswhois.com)
             level: Intermediate
-            description: Learn in this talk the new out of the box features of the most popular database in the world! It will blow your mind what you can do with just plain old SQL. Come on and watch the live demo!
+            description: Sick and tired of "X technology is only good for starting out; after you do, move to Y"? Good news - you don’t need to move away, you just need to get in further! In this talk, you'll learn about improvements in the newest version of the most used database in the world. What are Window Functions? How do you use CTEs? How can the new default encoding help me and what should I look for when upgrading versions?
         - track:
             location: Side Track 1
-            title: Learning The Hows and Whys of Machine Learning
+            title: Learning The How's and Why's of Machine Learning
             slug: liamwiltshire
             speaker: Liam Wiltshire 
             handle: l_wiltshire
@@ -346,7 +344,8 @@
         - track:
             colspan: 4
             location: Main Track
-            title: Everything is Awesome - the LEGOⓇ Approach to Being an Awesome Co-worker
+            title: Everything is Awesome
+            subtitle: The LEGOⓇ Approach to Being an Awesome Co-worker
             slug: paulverbeekmast
             speaker: Paul Verbeek-Mast
             handle: paul_v_m
@@ -383,7 +382,8 @@
         - track:
             colspan: 4
             location: Main Track
-            title: From Good to SOLID - Becoming a Better PHP Developer
+            title: From Good to SOLID
+            subtitle: Becoming a Better PHP Developer
             slug: katerinatrajchevska
             speaker: Katerina Trajchevska 
             handle: ktrajchevska
@@ -426,7 +426,8 @@
         - track:
             rowspan: 3
             location: Side Track 2
-            title: "LAMP <3 AWS - Moving your application to the cloud"
+            title: LAMP ❤️ AWS
+            subtitle: Moving your application to the cloud
             slug: mikelehan
             speaker: Mike Lehan
             handle: m1ke
@@ -438,7 +439,7 @@
         - track:
             rowspan: 3
             location: Main Track
-            title: A Practical Introduction to Strategical Domain Driven Design 
+            title: A Practical Introduction to Strategic Domain Driven Design 
             slug: pimelshoff
             speaker: Pim Elshoff
             handle: pelshoff
@@ -503,7 +504,7 @@
             description: Continuous Delivery Pipeline as code is key helping you to ensure long term maintainability. Treating your pipeline as code helps you to version it in your SCM of choice, makes changes easily traceable and lets anyone on your team make required changes. In this session I will show you how we build and maintain our Continuous Delivery pipeline using tools like GitLab CI, Docker, Nexus and Traefik. Together we will take a deep dive into the GitLab CI Build Pipelines to build and deploy docker containers to dev, stage and production environments.
         - track:
             location: Side Track 1
-            title: Get GOing With a New Language
+            title: Get GOing with a New Language
             slug: katzien
             speaker: Kat Zien
             handle: kasiazien
@@ -557,7 +558,8 @@
       tracks:
         - track:
             location: Main Track
-            title: Hybrid Databases or How De-normalizing Your Data with JSON Can Boost Query Performance
+            title: Hybrid Databases
+            subtitle: How De-normalizing Your Data with JSON Can Boost Query Performance
             slug: davidstokes
             speaker: David Stokes
             handle: stoker
