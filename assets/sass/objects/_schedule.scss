@@ -117,6 +117,12 @@
 
 	}
 
+	.tutorial{
+		cursor: help;
+		text-decoration: underline;
+		text-decoration-style: dashed;
+	}
+
 	.keynote{
 		text-align:center;
 		background:$color-green;

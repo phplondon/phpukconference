@@ -177,6 +177,7 @@
         - track:
             rowspan: 5
             location: Velocity Track
+            tooltip: The Velocity Track is all about servers, scalability and high availability. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
             title: "Web Developer's HTTP Toolbox"
             slug: lornajanemitchell
             speaker: Lorna Jane Mitchell
@@ -189,6 +190,7 @@
         - track:
             rowspan: 5
             location: Design Track
+            tooltip: The Design Track is all about software architecture, design patterns and best practices. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
             title: Event Storming for fun and profit!
             slug: jeroenvdgulik
             speaker: Jeroen v.d. Gulik
@@ -267,6 +269,7 @@
         - track:
             rowspan: 5
             location: Velocity Track
+            tooltip: The Velocity Track is all about servers, scalability and high availability. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
             title: Deploying your first Micro-Service Application to Kubernetes
             slug: bastianhofmann
             speaker: Bastian Hofmann
@@ -279,6 +282,7 @@
         - track:
             rowspan: 5
             location: Design Track
+            tooltip: The Design Track is all about software architecture, design patterns and best practices. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
             title: Getting Going with Automated Testing
             slug: garyhockin
             speaker: Gary Hockin
@@ -418,6 +422,7 @@
         - track:
             rowspan: 5
             location: Velocity Track
+            tooltip: The Velocity Track is all about servers, scalability and high availability. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
             title: LAMP ❤️ AWS
             subtitle: Moving your application to the cloud
             slug: mikelehan
@@ -431,6 +436,7 @@
         - track:
             rowspan: 5
             location: Design Track
+            tooltip: The Design Track is all about software architecture, design patterns and best practices. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
             title: A Practical Introduction to Strategic Domain Driven Design 
             slug: pimelshoff
             speaker: Pim Elshoff
@@ -509,6 +515,7 @@
         - track:
             rowspan: 5
             location: Velocity Track
+            tooltip: The Velocity Track is all about servers, scalability and high availability. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
             title: Transparent Docker
             slug: donaldtyler
             speaker: Donald Tyler
@@ -531,6 +538,7 @@
         - track:
             rowspan: 5
             location: Design Track
+            tooltip: The Design Track is all about software architecture, design patterns and best practices. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
             title: Best Practices for Crafting High Quality PHP Apps
             slug: jamestitcumb
             speaker: James Titcumb

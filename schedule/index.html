@@ -24,7 +24,7 @@ image: banners/schedule.png
                 <tr class="slot">
                     <td class="time"rowspan="{% if slot.slottype == "talk"%}3{% else %}2{% endif %}">{{slot.time}}</td>
                     {% for track in slot.tracks %}
-                    <td class="location" colspan="{{track.track.colspan}}">{{track.track.location}}</td>
+                    <td class="location{% if track.track.tooltip %} tutorial{% endif %}" colspan="{{track.track.colspan}}" title="{{track.track.tooltip}}">{{track.track.location}}</td>
                     {% endfor %}
                 </tr>
                 <tr class="slot">
@@ -70,17 +70,10 @@ image: banners/schedule.png
         </div>
     </div>
 </div>
-<style>
-    .schedule-container .hack{
-        list-style-type:none;
-        width:30% !important;
-        background:#00A27C !important;
-        border-top-color: #00A27C;
-        border-bottom-color: #00A27C;
-    }
-@media (min-width: 720px){
-    .schedule-container .short-break .track{
-        width:60%;
-    }
-}
-</style>
+<script src="/assets/js/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="/assets/js/jquery-ui.min.css">
+<script>
+    $( function() {
+        $( document ).tooltip();
+      } );
+</script>
