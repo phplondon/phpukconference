@@ -19,7 +19,7 @@
             speaker: David McKay
             bio: <a href="https://twitter.com/rawkode">David McKay</a> is a software and technology professional, born & bred in Glasgow, Scotland. As a serial user group organiser, organising Docker Glasgow, DevOps Glasgow and Pair Programming Glasgow, David is always searching for new and creative ways to share knowledge with others. Oh, and he quite likes domain-driven design, micro-services and clean code. Additional info- Organiser of Scotland PHP, Docker Glasgow, CloudNative Glasgow, DevOps Glasgow, Pair Programming Glasgow, and MongoDB Glasgow. 22 talks delivered to the PHP and Docker communities in 2016.
             title: Kubernetes By Example
-            photo: /2017/assets/images/speakers/davidmckay.jpg
+            photo: /2019/assets/images/speakers/davidmckay.jpg
             location: The Montcalm Hotel at the Brewery
             id: workshopi
             description: Kubernetes, the flagship project from the Cloud Native Foundation, has become the de facto standard for running our container workloads. Unfortunately, Kubernetes is a fast moving, ever evolving, sea of complexity. From Pods to Deployments, ConfigMaps to Secrets, and PersistantVolumeClaims to StatefulSets; this workshop will get you on-course. In this workshop, David will walk you through a series of labs that will teach you everything you need to know to take your container based application and deploy it as a self-healing, redundant and resilient application on top of Kubernetes. Let's set sail.
@@ -28,7 +28,7 @@
             speaker: Ciaran McNulty
             bio: <a href="https://twitter.com/ciaranmcnulty">Ciaran McNulty</a> helps teams at all levels of ability improve via training and coaching. He has been a PHP professional since the late 90s and is passionate about TDD, BDD and Agile methodologies. He is lead maintainer of PhpSpec.
             title: BDD in Practice
-            photo: /2018/assets/images/speakers/ciaranmcnulty.jpg
+            photo: /2019/assets/images/speakers/ciaranmcnulty.jpg
             location: The Montcalm Hotel at the Brewery
             id: workshopii
             description: A tour of BDD best practices, applied in the PHP world. Behaviour Driven Development techniques help us to ensure that the code we're writing is solving real-world problems, and is software that matters. In this hands-on workshop we will build some simple software that fulfils a user's requirement; validate its functionality using tools such as Behat, PHPUnit and PhpSpec; and learn how our test architecture can support our application's architecture.
@@ -119,7 +119,7 @@
 - schedule-thursday:
   name: Thursday 21st February 2019
   description: |
-      <p>Thursday kicks off the main conference, where you will be able to attend a morning keynote followed by four talk slots throughout the day. During each talk slot you'll have the choice between four different tracks. There will be 3 cake &amp; coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The day will then close with abother keynote, followed by our <a href="/socials">mid-conference social</a>.</p>
+      <p>Thursday kicks off the main conference, where you will be able to attend a morning keynote followed by four talk slots throughout the day. During each talk slot you'll have the choice between four different tracks. There will be 3 cake &amp; coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The day will then close with another keynote, followed by our <a href="/socials">mid-conference social</a>.</p>
   slots:
     - time: "08.00"
       slottype: mc
@@ -169,49 +169,49 @@
         - track:
             location: Main Track
             title: Massively Scaled High Performance Web Services with PHP
-            slug: 
+            slug: deminyim
             speaker: Demin Yin
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description:
+            handle: deminy
+            company: Glu Mobile
+            photo: https://secure.gravatar.com/avatar/bb217bb1e671161ab777151e3d6bce7f?s=500
+            bio: Demin is a staff engineer and technical lead on Glu Mobile’s Design Home team. He has been using PHP primarily since 2000, and has worked for a diverse group of companies throughout his career, from start-ups to some of the Bay Area’s largest international corporations, including eBay, Visa and Glu. For years, Demin has been focused on building high-performance, secure web applications and is always exploring ways to push the limit of PHP. Besides architecting and building backend services with PHP, he works with his teammates on open source projects at Glu to give back to the community.
+            level: Intermediate
+            description: Over the years, software teams have questioned if PHP is a good choice for building web services. In this talk, I will share how we use PHP on the backend for Glu Mobile’s flagship mobile game Design Home, enabling it to regularly rank amongst the top free mobile games - both in downloads and grossing - since its launch in the Apple App Store and the Google Play Store in Q4 2016. Design Home reaches over 1 million daily active users, serving over 100,000 requests per minute while maintaining a user base of over 30 million players. To date, over 1 billion designs have been made by players. We will deep dive into the thought processes, development, testing and deployment strategy, showcasing what we have achieved with PHP and why we love it and rely on it. My goal is to share with the community that, when done the right way, PHP can be used to build and maintain reliable, massively-scalable and high-performance backends using web services.
         - track:
             location: Side Track
             title: Encrypting your database
-            slug: 
+            slug: scottdutton
             speaker: Scott Dutton
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description: 
+            handle: exusssum
+            company: Sykes Cottages
+            photo: /2019/assets/images/speakers/sdutton.jpg 
+            bio: Scott is PHP Developer who loves all things security, quality and performance, currently working at Sykes Cottages (recently awarded Judges Leadership Choice at the Northern Tech Awards). Scott also enjoys contributing to Open Source projects such as Joind.in, when not coding Scott and his wife Emma are enjoying the challenges of being new parents.
+            level: Intermediate 
+            description: 15 years ago, plain text password storing was normal with some using MD5. We look back now and wonder what we were thinking! With GDPR and people thinking more about personal details, its about time we caught up and started storing them securely. There are many uses for personal data and is often sought after by criminals for targeting people. How can you prevent your customers data being used in these attacks ? Encrypting your database is a fantastic way! PHP is the first language to have modern encryption built in to the core, This talk will show you how to use these methods to allow your data to be secure and also not lose the speed which you can currently search for this data in your application. This talk will touch on architecture and will be focused on MySQL although the same techniques can be used for any storage engine.
         - track:
             rowspan: 3
             location: Velocity Track
             title: "Web Developer's HTTP Toolbox"
-            slug: 
+            slug: lornajanemitchell
             speaker: Lorna Jane Mitchell
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description: 
+            handle: lornajane
+            company: Nexmo 
+            photo: /2019/assets/images/speakers/lornajanemitchell.jpg
+            bio: Lorna is based "up- north" in Yorkshire; she is a Developer Advocate with Nexmo as well as a published author and experienced conference speaker.  She brings her technical expertise on a range of topics to audiences all over the world with her writing and speaking engagements, always delivered with a very practical slant.  In her spare time, Lorna blogs at http://lornajane.net.
+            level: Intermediate
+            description: You say "toolbox", I say "treasure chest". We work on the web building so much more than web pages but these rich, asynchronous applications can suffer from ailments that are difficult for us to see. This session is a tour through some of the best tools around for working with HTTP to observe interaction between components and diagnose problems. By knowing the tools at your disposal and the right job for each, you will be able to quickly and painlessly identify and fix HTTP-related problems - and then get to the pub on time! I mean, get the next thing done ;) Whether you're debugging a backend API, an asynchronous client request or an unexpected timeout, these are the tools you will want to have at hand.
         - track:
             rowspan: 3
             location: Design Track
             title: Event Storming for fun and profit!
-            slug: 
+            slug: jeroenvdgulik
             speaker: Jeroen v.d. Gulik
-            handle: 
-            company: 
-            photo: 
-            bio: 
+            handle: n0x13
+            company: Isset 
+            photo: https://secure.gravatar.com/avatar/dbcc25b3092ad96604b82ed0f08256d7?s=500
+            bio: Jeroen is co-founder of Isset, software architect, consultant, coach and occasional speaker. Often brought in at large companies to enable change and innovation projects. His company specializes in video streaming/transcoding and publishing platforms. Co-organizer of DDDNL and boardgames enthousiast. He also likes cats and penguins.
             level: 
-            description: 
+            description: WAITING FOR UPDATE ON TUTORIAL FORMAT
     - time: "11.15"
       slottype: break
       tracks:
@@ -224,29 +224,29 @@
         - track:
             location: Main Track
             title: Introduction to Serverless PHP
-            slug: 
+            slug: roballen
             speaker: Rob Allen
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description:
+            handle: akrabat
+            company: Nineteen Feet Limited
+            photo: https://secure.gravatar.com/avatar/79d9ba388d6b6cf4ec7310cad9fa8c8a?s=500
+            bio: Rob Allen is a software consultant and developer with many years experience and writes code in PHP, Swift and other interesting languages. He is part of Slim Framework's leadership team and contributes to Apache OpenWhisk and other open source projects. Rob is a published author and based in the UK where he runs [Nineteen Feet Limited](http://19ft.com), focussing on API development, training and consultancy. In his spare time, Rob blogs at [akrabat.com](https://akrabat.com) and can often be seen with a camera in his hand.
+            level: Beginner
+            description: APIs and microservices are how we build modern web applications and serverless technologies make this easy. This session will show you how serverless applications are built and how you can leverage your PHP skills to build APIs of all shapes and sizes. We will cover how to use your current knowledge to build applications in PHP within Apache OpenWhisk, leveraging the API Gateway to build robust APIs quickly and easily. By the end of the session, you’ll be well placed to design and build your own applications that take full advantage of the power of serverless technologies.
         - track:
             location: Side Track
-            title: Dive deep into blockchain
-            slug: 
+            title: Dive Deep into Blockchain
+            slug: tomaszkowalczyk
             speaker: Tomasz Kowalczyk
-            handle: 
-            company: 
+            handle: tmmx 
             photo: 
-            bio: 
-            level: 
-            description:
+            bio: Software architect with over 10 years of experience in writing web applications. Functional Programming enthusiast pursuing the ultimate goal of software quality and maintainability. An author of several open source libraries. Provides well-designed and open solutions to technical problems.
+            level: All
+            description: The blockchain is a hot new topic in the technology due to the rise of various cryptocurrencies, Bitcoin being a most prominent example. How does it work? What advantages does it give? What problems do they solve? What problems can be solved that way? I want you to dive with me into the immutable world of blocks where I will explain everything, from a simple hash, through Merkle trees, up to implementing your own blockchain.
     - time: "12.30"
       slottype: break
       tracks:
         - track:
+              colspan: 4
               location: King George
               title: Lunch
               description: |
@@ -256,82 +256,86 @@
       tracks:
         - track:
             location: Main Track
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description:
+            title: Your App Lives on a Network - Networking for Web Developers
+            slug: wimgodden
+            speaker: Wim Godden
+            handle: wimgtr
+            company: Cu.be Solutions
+            photo: https://secure.gravatar.com/avatar/81c47e5159d488dbac96059003b8ac39?s=500
+            bio: Wim Godden has been working with open source technologies since 1997 and has been involved in open source projects such as PHPCompatibility and OpenX. Next to PHP, he's worked with a wide range of technologies (from database clusters to Internet backbone design) and focuses a lot of his time on high-scalability projects and on coaching/training web engineers.
+            level: All
+            description: Our job might be to build web applications, but we can't build apps that rely on networking if we don't know how these networks and the big network that connects them all (this thing called the Internet) actually work. I'll walk through the basics of networking, then dive a lot deeper (from TCP/UDP to IPv4/6, source/destination ports, sockets, DNS, switching, firewalling and even OSPF, VRRP and BGP). Prepare for an eye-opener when you realize how much a typical app relies on all of these (and many more) working flawlessly... and how you can prepare your app for failure in the chain.
         - track:
             location: Side Track 1
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description: 
+            title: Storing Non-Scalar Data
+            slug: derickrethans
+            speaker: Derick Rethans
+            handle: derickr
+            company: MongoDB
+            photo: https://derickrethans.nl/images/derick/derick-new-square-900x900.jpg
+            bio: Derick Rethans is a PHP internals expert, author of Xdebug and an OpenStreetMap and mapping enthusiast. He has contributed in a number of ways to the PHP project, including the Xdebug debugging tool, and various extensions and additions. He's a frequent lecturer at conferences, the author of php|architect's Guide to Date and Time Programming, and the co-author of PHP 5 Power Programming. He is now working at MongoDB to work on the PHP driver for MongoDB.
+            level: Intermediate
+            description: In this presentation we will look at storing complex data in a single field. Many noSQL solutions are created around this (such as Redis’ lists, sets and hashes; MongoDB’s records), and many relational database now also support storing complex data in a single field through specific data types (such as PostGreSQL’s JSONB or hstore). Each of the different database engines support different things, and handle these data types in different ways. In this session we compare the different approaches to storage, indexing and interactions with these data types in different databases.
         - track:
+            rowspan: 3
             location: Side Track 2
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
+            title: Deploying your first Micro-Service application to Kubernetes
+            slug: bastianhofmann
+            speaker: Bastian Hofmann
+            handle: BastianHofmann
+            company: SysEleven
+            photo: https://secure.gravatar.com/avatar/3a3f9c32c9e5a4c2970befd97d52285b?s=500
+            bio: Bastian is a System Engineer at SysEleven, a full-service hosting company, where he focuses on bringing the power Kubernetes to its customers. Before that he was caring about performance, monitoring, web-security and developer productivity at ResearchGate, the social network for researchers and scientists. When he is not developing stuff or looking at graphs, he likes to cycle, do Yoga, go to beer gardens and frequently speaks at international conferences on software architecture, scaling web applications and open standards and protocols.
+            level: All
+            description: Kubernetes is a very powerful container orchestration platform that is quickly gaining traction and gives you lots of benefits in deploying, running and scaling your microservice web application. But it has also a steep learning curve. In this workshop you will deploy and scale your first application which consists of multiple Micro-Services to Kubernetes and learn how you can use Persistent Storage. If you want to not just watch, but also program along yourself, have Git, Docker (https://www.docker.com/products/docker-desktop) and the Kubernetes CLI kubectl (https://kubernetes.io/docs/tasks/tools/install-kubectl/) as well as a IDE or Text Editor of your choice installed on your system.
+        - track:
+            rowspan: 3
+            location: Design Track
+            title: Getting Going with Automated Testing
+            slug: garyhockin
+            speaker: Gary Hockin
+            handle: GeeH
+            company: Roave
+            photo: https://secure.gravatar.com/avatar/699b873ae9616b36770e53c246e77377?s=500
+            bio: Gary Hockin pretends to write high-quality web applications as a senior developer at the BBC. He is a talented and evocative speaker, a cultivated author of impressively entertaining blog posts, and records elegant and informative screencasts and videos. Gary's also a contributor to the Zend Framework and is argumentative enough to be on the community review team. When Gary had a real job, he was a developer of at least competent standard with nearly 20 years experience. When not developing, speaking about developing, reading about developing or writing about developing, Gary enjoys playing computer games and arguing with his wife and two kids. Gary has recently discovered that conferences ask speakers to write their own biography text, and you can get away with writing pretty much anything you want.
             level: 
-            description: 
+            description: Automated testing is an incredibly useful tool for any developer. From emerging design with unit tests to preventing regression bugs with acceptance tests, getting a computer to run tests instead of testing manually is a huge step forward and saves vast amounts of time. Where do you start with automated testing? It's an intimidating topic and can be confusing to understand what all the techy speak means, let alone how you get going. But writing automated tests shouldn't be difficult, and can and should be part of your daily workflow once you understand exactly what to test, and how to test it. In this workshop, we'll introduce WHY and HOW you can get started with unit and acceptance tests, and touch on integration testing. By the end of the workshop, you'll understand how you can leverage automated testing in new and existing projects, and be ready to save time and energy when developing.
     - time: "14.30"
       slottype: break
       tracks:
         - track:
+              colspan: 2
               title: Room change
     - time: "14.45"
       slottype: talks
       tracks:
         - track:
             location: Main Track
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description:
+            title: MySQL 8.0 - Not Only Good, it's GREAT
+            slug: gabrieladavilaferrara
+            speaker: Gabriela D'Ávila Ferrara
+            handle: gabidavila
+            company: Google
+            photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/12044/180124-0676.01.MOMA.jpg
+            bio: Gabi is a Developer Advocate for Google Cloud solving data problems across the diverse range of storage engines and technologies. She enjoys sharing her knowledge through her blog and conference speaking. Gabi also is an accomplished world traveler and has an intimidating Lego collection and writes at [gabriela.IO] (http://gabriela.io) and proudly maintains [Congress, who is?](https://www.congresswhois.com)
+            level: Intermediate
+            description: Learn in this talk the new out of the box features of the most popular database in the world! It will blow your mind what you can do with just plain old SQL. Come on and watch the live demo!
         - track:
             location: Side Track 1
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description: 
-        - track:
-            location: Side Track 2
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description: 
+            title: Learning The Hows and Whys of Machine Learning
+            slug: liamwiltshire
+            speaker: Liam Wiltshire 
+            handle: l_wiltshire
+            company: Tebex
+            photo: https://secure.gravatar.com/avatar/b177f91007daac88583676236a01cfed?s=500
+            bio: Liam is a UK based developer and the CTO at [Tebex](https://www.tebex.io), a gCommerce company and game server monetization platform. From humble beginnings breaking things in Perl, Liam has tackled projects large and small, from brochure sites in WordPress to eCommerce sites in Magento and SaaS products in Laravel. Outside of CTO-ing, Liam is a maintainer for joind.in, and is trying to learn the secret to actually having some spare time.
+            level: All
+            description: Since it's founding, Tebex has processed over 18 million payments for games servers around the world. This is a rich data source, and one that we've significantly under-used. We know there should be ways of using this data to improve our product and to make our merchant's lives easier - how and where to start, now that's a totally different question! Join Liam as he shares Tebex's initial experiences in experimenting with machine learning to use past data to prevent fraud in the future - different algorithms we've tried, (many) failed experiments, the situation today and plans for the future. 
     - time: "15.45"
       slottype: break
       tracks:
         - track:
+              colspan: 4
               location: King George
               title: Refreshment break
               description: |
@@ -340,20 +344,22 @@
       slottype: special keynote
       tracks:
         - track:
+            colspan: 4
             location: Main Track
-            title: Afternoon Keynote
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description: 
+            title: Everything is Awesome - the LEGOⓇ Approach to Being an Awesome Co-worker
+            slug: paulverbeekmast
+            speaker: Paul Verbeek-Mast
+            handle: paul_v_m
+            company: Confrere
+            photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/987/IMG_20180601_135027_218.jpg
+            bio: Paul is a Senior Software Engineer at Confrere, based in The Netherlands, and organiser of the NLHTML5 meetups. He’s passionate about welcoming everyone into tech and making the web work for everyone. He's also unreasonably proud of his personal website.
+            level: All
+            description: 🎵Everything is cool when you’re part of a team!🎵 The Lego Movie came out almost 4 years ago, and it taught children everywhere the importance of teamwork. And what teamwork, and working in harmony, actually is. Let’s just hope that those lessons really stick with these kids. Because let’s be honest, we’re making a mess of it. But it’s not too late for us. We can learn from the Lego Movie as well. I’ll show you how you can help to make sure everyone feels safe and respected in your team and your company. How you can feel better being the unique person you are within your team. And how you can make your, and everyone else’s, life more awesome!
     - time: "17.00"
       slottype: break
       tracks:
         - track:
+            colspan: 4
             location: King George
             title: Mid Conference Social
             description: |
@@ -367,6 +373,7 @@
       slottype: break
       tracks:
         - track:
+            colspan: 4
             location: Brewery Foyer & King George
             title: Registration and Refreshments
             description: Please bring a copy of your ticket either printed or on a mobile device.
@@ -374,6 +381,7 @@
       slottype: special keynote
       tracks:
         - track:
+            colspan: 4
             location: Main Track
             title: From Good to SOLID - Becoming a Better PHP Developer
             slug: katerinatrajchevska
@@ -387,6 +395,7 @@
       slottype: break
       tracks:
         - track:
+            colspan: 4
             location: King George
             title: Refreshment break
             description: Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
@@ -395,82 +404,85 @@
       tracks:
         - track:
             location: Main Track
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description:
+            title: Microservices Gone Wrong 
+            slug: anthonyferrara
+            speaker: Anthony Ferrara
+            handle: ircmaxell
+            company: Lingo Live
+            photo: https://secure.gravatar.com/avatar/06a61b14cb2db07126dace77d8c458b0?s=500
+            bio: Anthony Ferrara is the CTO for Lingo Live. He specializes in Object Oriented Design, Application Architecture, Web Application Security, and Team Building and Management. He is best known for his contributions to the PHP language, along with a broad history of collaborations to the PHP community as a whole. You can follow his blog at http://blog.ircmaxell.com or on Twitter at https://twitter.com/ircmaxell.
+            level: Intermediate
+            description: Microservices are the latest architectural trend to take the PHP community by storm. Is it a good pattern? How can you use it effectively? In this talk, we'll explore real world experience building out a large scale application based around microservices - what worked really well, what didn't work at all, and what we learned along the way. Spoiler alert - we got a lot wrong.
         - track:
             location: Side Track 1
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description: 
+            title: Test to Break Principles 
+            slug: robwaller
+            speaker: Rob Waller
+            handle: RobDWaller
+            photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/18165/rob1.jpg
+            bio: I have spent the last 13 years working in the software industry, I've written lots of different code including JavaScript, VB, C#, Bash, SQL and Python. I have spent the majority of my career writing PHP, I'm a massive fan of the community and attend many community events. I am currently a contractor and consultant specialising in PHP, Python and JavaScript. Prior to this I spent two and a half years at Breakthrough Media as Head of Technology where I managed a team of PHP developers working on WordPress and Laravel projects. Before Breakthrough I was a contractor and ran my own business. I had some success, I built an app that got my business mentioned in Mashable and on CNN, I then sold my business, and finally I nearly went bankrupt. It was a crazy, fun and depressing period. I learnt a lot though, for example, make sure you read and understand every line of a contract before you sign it. I'd advise everyone to try and run a business at some stage in their life. Overall I believe I have a great deal of insight and guidance to offer developers and aspiring technical managers. Not just based on my current role but also my previous business experience. I would love the opportunity to share my knowledge and experience with a wider audience. You can find out more about me via the following resources, you'll note I also have a degree in History which I hope shows I'm a well rounded individual.
+            level: Intermediate
+            description: "The talk aims to highlight the importance of testing, why developers must spend more of their time testing, how testing generates more robust applications and why testing makes developers' lives easier. The talk is based around a live coding demo. The talk will: Explain the difference between tests that prove an application works and tests which aim to break the application logic - Highlight how test to break principles force developers to introduce logic to handle unexpected behaviour - Show how test to break principles result in more robust applications as developers write code that can only be used in one way - Encourage developers to apply test to break principles to all types of tests, including manual tests."
         - track:
+            rowspan: 3
             location: Side Track 2
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description: 
+            title: "LAMP <3 AWS - Moving your application to the cloud"
+            slug: mikelehan
+            speaker: Mike Lehan
+            handle: m1ke
+            company: StuRents.com
+            photo: /2019/assets/images/speakers/mikelehan.jpg
+            bio: Mike has been working in web application development using PHP for 10 years, including 3 years managing a development team for a property tech startup and before that 4 years building a real time application for managing operations at skydiving centres, as well as some time freelancing. Through working on business critical systems with real time elements Mike has learned the value of comprehensive logging & monitoring, redundant checks on applications & infrastructure, and of course well written testable code!
+            level: Intermediate
+            description: "There are a great many reasons your application can benefit from moving to the cloud, but enough requirements for retraining, uncertainty around cost or complexity and just plain worry about what can go wrong to delay or prevent such a move. When my business moved to the cloud we learned that there are ways around many of these challenges, allowing you to move your application in a way which might not be best practice but which works and gives you a solid platform from which to advance and improve your cloud implementation. In this tutorial we'll look at key building blocks to put a LAMP application onto AWS, what might cause problems for your individual use cases and how to mitigate these. As well as basic plans to get you started we'll look at pathways to modify your application and train your team to take more advantage of cloud native features and adhere to infrastructure and security best practices in a way which allows you to keep running your team and your business."
+        - track:
+            rowspan: 3
+            location: Main Track
+            title: A Practical Introduction to Strategical Domain Driven Design 
+            slug: pimelshoff
+            speaker: Pim Elshoff
+            handle: pelshoff
+            company: Procurios
+            photo: https://secure.gravatar.com/avatar/81e857852d96ca45a3c1c4965854e6c5?s=500
+            bio: Like you, Pim is on a quest to do things a little bit better every time. As a scrum developer, he has extensive experience with solid coding, patient mentoring and tackling big projects using Domain Driven Design. Presentations by Pim are always fun, engaging and conversational. But don't fret; if you just want to listen and let others speak, it wíll be worth your time. Pim has worked at Procurios since 2012 and has seen a multitude of fundraising, political party and other clients that all share a common goal - getting the very most out of their software.
+            level: All
+            description: "Knowing how to do things right is half the battle. Knowing how to do the right thing is the underappreciated but essential other half. In this workshop we'll learn how to discover the language of our clients. We will gracefully evolve our understanding from nothing to something and use various modelling tools to grow our understanding of the problem. If you want to have better conversations, make more useful models, and have the optimal preparation for writing code, then this is the workshop for you. Topics include context mapping, event storming, and value mapping."
     - time: "11.15"
       slottype: break
       tracks:
         - track:
+            colspan: 2
             title: Room change
     - time: "11.30"
       slottype: talks
       tracks:
         - track:
             location: Main Track
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description:
+            title: Does Your Code Measure Up?
+            slug: adamculp
+            speaker: Adam Culp
+            handle: adamculp
+            company: Rogue Wave Software
+            photo: https://secure.gravatar.com/avatar/983cfd6fcfd42fc2417dbf131201bc3e?s=500
+            bio: Adam Culp (@AdamCulp) a Zend consultant at Rogue Wave Software, is passionate about developing with PHP and contributes to many open source projects. He organizes the SunshinePHP Developer Conference and the South Florida PHP Users Group (SoFloPHP) where he enjoys helping others write good code, implement standards, and refactor efficiently. He is a Zend Certified PHP engineer, is a voting member of the PHP-Fig, and holds a seat on the Zend Certification Advisory Board. You can also find him on his Run Geek Radio podcast and GeekyBoy technical blog. When he is not coding or contributing to various developer communities, he can be found hiking around the U.S. National Parks, teaching judo, or long distance (ultra) running.
+            level: All
+            description: After days, weeks, or months of coding many developers don’t know how to gauge the quality of their code. I’ll introduce tools to grade, benchmark, and analyze PHP code in an automated fashion allowing developers to write better quality software. Then I’ll explain key metrics to help understand what may need to be refactored, and use code smells to point out bugs before end-users discover them. Attendees will see how to use these tools, know where to find them, and be able to implement them in their own workflows.
         - track:
             location: Side Track 1
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description: 
-        - track:
-            location: Side Track 2
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description: 
+            title: More Secrets of Cryptography
+            slug: chrisriley
+            speaker: Chris Riley
+            handle: giveupalready 
+            company: Imhotek Consulting Ltd
+            photo: /2019/assets/images/speakers/chrisrileycopy.jpg
+            bio: Chris is a freelance consultant based in York, Uk with experience working in the public sector, small and large companies throughout North Yorkshire. Chris has over 10 years experience with PHP and has a keen focus on both software architecture and none functional requirements such as security, performance and maintainability. In his free time, Chris can often be found producing or playing with experimental libraries and contributing to Zend framework.
+            level: Advanced
+            description: "Alice and Bob have covered the basics of secure communication but cryptography can offer us more than this. After a brief refresher on the basics, we'll take a look at some of these other aspects of cryptography including hash functions, elliptic curves and quantum cryptography. Then we'll take a look at some practical applications answering questions such as: can I trust a web of trust? or should I use a block chain for this?"
     - time: "12.30"
       slottype: break
       tracks:
         - track:
+              colspan: 4
               location: King George
               title: Lunch
               description: |
@@ -480,82 +492,88 @@
       tracks:
         - track:
             location: Main Track
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description:
+            title: From Dev to Prod with GitLab CI
+            slug: stephanhochdörfer
+            speaker: Stephan Hochdörfer
+            handle: shochdoerfer
+            company: bitExpert AG
+            photo: /2019/assets/images/speakers/shochdoerfer.jpg
+            bio: Stephan Hochdörfer currently holds the position of Head of Technology at bitExpert AG, a company specializing in software and mobile development. His primary focus is everything related to web development as well as automation techniques ranging from code generation to deployment automation.
+            level: Intermediate
+            description: Continuous Delivery Pipeline as code is key helping you to ensure long term maintainability. Treating your pipeline as code helps you to version it in your SCM of choice, makes changes easily traceable and lets anyone on your team make required changes. In this session I will show you how we build and maintain our Continuous Delivery pipeline using tools like GitLab CI, Docker, Nexus and Traefik. Together we will take a deep dive into the GitLab CI Build Pipelines to build and deploy docker containers to dev, stage and production environments.
         - track:
             location: Side Track 1
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description: 
+            title: Get GOing With a New Language
+            slug: katzien
+            speaker: Kat Zien
+            handle: kasiazien
+            company: Monzo
+            photo: /2019/assets/images/speakers/katzien.jpg
+            bio: "Kat works at [Monzo](https://monzo.com/) as a backend engineer on the fincrime team. Her main interests include automating #allthethings, sorting out legacy code and making things simpler and faster. She's co-organising and giving talks at [PHPSW](https://www.meetup.com/php-sw/) and [London  Gophers](https://www.meetup.com/Go-London-User-Group/). Kat loves travelling and keeping active, appreciates good coffee and is a big Lego fan. She cycles across Europe with [TechBikers](https://techbikers.com) to [raise money for Room To Read](https://www.justgiving.com/fundraising/katzien)."
+            level: All
+            description: Learning more than one programming language is key to becoming a better developer. It is like adding a new tool to your toolbox. The more tools you have, the easier and quicker you’ll be able to tackle whatever job you need to do. You’ll also be able to use the right tool for the job, and who doesn’t like that?! I picked up Go (golang) a few years ago as it was becoming more popular among developers. Coming from a PHP background, I had no idea what channels or goroutines were or how is concurrency different from parallelism. I’ve got to say, it was a whole new world. Very different, but very cool. I was hooked! By happy coincidence, my company was looking to rewrite a legacy PHP app in Go. It was over 2000 lines of procedural and messy PHP4 with more downtime than I’m willing to admit to. I took on this project, and soon enough we had a much faster, more maintainable and much more reliable app for our customers. Go gave us options we would not have in PHP. The goal of this talk is to give you a good idea of what Go is and how it compares with PHP. We’ll look at the language itself as well as the tooling and communities around it. Even if you’re not sold on Go by the end of it, I hope you’ll leave inspired to go out there and learn whatever language you wanted to look into next. 
         - track:
+            rowspan: 3
             location: Side Track 2
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description: 
+            title: Transparent Docker
+            slug: donaldtyler
+            speaker: Donald Tyler
+            handle: TheFuzzyCoder
+            company: healthlabs.com
+            photo: /2019/assets/images/speakers/donaldtyler.jpg
+            bio: Passionate developer with over 15yrs of professional experience developing, deploying and maintaining enterprise web applications for the manufacturing and healthcare industries. I'm currently at healthlabs.com where I've been for 3 years, helping them grow from a small startup with little to no automation and/or QA to a fully Dockerized environment with a robust CI/CD pipeline and resilient QA process. I'm a fanatic when it comes to automation and quality code. I love sharing my knowledge and experience with my peers and helping other breaks into the industry.
+            level: Intermediate
+            description: |
+                Keeping your environments in sync has been a challenge for software development for a long time. Developers tend to install their own versions of languages, databases, services etc. Doing so manually results in not only inconsistencies between dev and prod, but also from developer to developer, resulting in the always wonderful ""It works on my machine"" syndrome.
+                Various tools have strived to solve this problem: MAMP, XAMP, VirtualBox, Vargrant, Puppet, Chef, homestead, etc. These are all steps in the right direction, but they're often heavy and require developers to learn new skills to work with them.
+                In this talk, I'll be showing you how to Dockerize a new or existing project in such a way that the developers that use the project barely even know they are using Docker. Getting a new dev up to speed on a new project with a factory fresh machine is literally just a matter of installing Docker and check out the source code. That's it!
+                Some of the benefits you'll see from using this approach:
+                <ul><li>Onboard new devs in minutes.</li>
+                <li>Have projects with unique (often incompatible) dependencies on a single machine.</li>
+                <li>Dockerized environment that acts like natively installed tools</li>
+                <li>Version locking of the tech stack</li>
+                <li>Updates to dependencies automatically distributed to other developers</li>
+                <li>Easily extended into CI/CD"</li></ul>
+        - track:
+            rowspan: 3
+            location: Side Track 2
+            title: Best Practices for Crafting High Quality PHP Apps
+            slug: jamestitcumb
+            speaker: James Titcumb
+            handle: asgrim 
+            company: Roave, LLC
+            photo: /2019/assets/images/speakers/jamestitcumb.jpg
+            bio: James is a consultant, trainer and developer at Roave. He is a prolific contributor to various open source projects and is a Zend Certified Engineer. He also founded the UK based PHP Hampshire user group and PHP South Coast conference.
+            level: Intermediate
+            description: "This prototype works, but it’s not pretty, and now it’s in production. That legacy application really needs some TLC. Where do we start? When creating long lived applications, it’s imperative to focus on good practices. The solution is to improve the whole development life cycle; from planning, better coding and testing, to automation, peer review and more. In this tutorial, we’ll take a deep dive into each of these areas, looking at how we can make positive, actionable change in our workflow. This workshop intends to improve your skills in planning, documenting, some aspects of development, testing and delivery of software for both legacy and greenfield projects. The workshop is made up of multiple exercises, allowing dynamic exploration into the various aspects of the software development life cycle. In each practical exercise, we'll brainstorm and investigate solutions, ensuring they are future-proofed, well tested and lead to the ultimate goal of confidence in delivering stable software."
     - time: "14.30"
       slottype: break
       tracks:
         - track:
+              colspan: 2
               title: Room change
     - time: "14.45"
       slottype: talks
       tracks:
         - track:
             location: Main Track
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description:
+            title: Hybrid Databases or How De-normalizing Your Data with JSON Can Boost Query Performance
+            slug: davidstokes
+            speaker: David Stokes
+            handle: stoker
+            company: Oracle
+            photo: https://secure.gravatar.com/avatar/c0fe36ac77bf9a0ebe01f0b7844c8e7f?s=500
+            bio: "Dave Stokes is a MySQL Community Manager for Oracle Corporation and started at MySQL as a PHP Developer in the MySQL Certification Group. He lives in Texas, is the author of MySQL and JSON: A Practical Programming Guide, and makes extensive use of the Open G tuning when playing guitars."
+            level: Intermediate 
+            description: Database joins can be expensive and you can reduce dives into the indexes/data by using JSON columns. By loading data kept in smaller 'stub' tables into main tables it is possible to minimize joins for simple data like address, phone numbers, and the like in schemaless JSON documents. Yes, third normal form or better has advantages at many levels but it is a design that is costly for many-to-many relations! It is very easy to refactor data is is often stagnant or infrequently updated to take advantage of hybrid SQL/NoSQL databases to greatly increase overall query performance plus increase code readability. This approach can completely change your ideas on data architecture and provide easy mutability for future changes.
         - track:
-            location: Side Track 1
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description: 
-        - track:
-            location: Side Track 2
-            title: 
-            slug: 
-            speaker: 
-            handle: 
-            company: 
-            photo: 
-            bio: 
-            level: 
-            description: 
+            location: Side Track
+            title: TBA
     - time: "15.45"
       slottype: break
       tracks:
         - track:
+              colspan: 4
               location: King George
               title: Refreshment break
               description: |
@@ -564,20 +582,22 @@
       slottype: special keynote
       tracks:
         - track:
+            colspan: 4
             location: Main Track
-            title: Afternoon Keynote
-            slug: 
-            speaker: 
-            handle: 
+            title: I deploy on Fridays (and maybe you should too)
+            slug: michielrook
+            speaker: Michiel Rook
+            handle: michieltcs
             company: 
-            photo: 
-            bio: 
-            level: 
-            description: 
+            photo: /2019/assets/images/speakers/michielrook.jpg
+            bio: Michiel Rook is an experienced, passionate & pragmatic freelance coach, developer & speaker from the Netherlands. He loves helping teams and companies to develop better software and significantly improve their delivery process. When he’s not thinking about continuous deployment, devops or event sourcing he enjoys music, cars, sports and movies.
+            level: Intermediate
+            description: Have you ever heard someone say “Don’t deploy on Friday”? I used to say that too! Learn about resilience and operability, deployments, pipelines and continuous testing. Discover trunk based development, pair programming and best practices, and gain the confidence to deploy any day of the week!
     - time: "17.00"
       slottype: break
       tracks:
         - track:
+            colspan: 4
             title: Post Conference Social
             description: |
                 The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href="/socials">More details &raquo;</a>
