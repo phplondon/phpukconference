@@ -54,7 +54,20 @@ image: banners/schedule.png
                             <span class="level">Level: {{track.track.level}}</span>
                             {% endif %}
                         </div>
-                        <p class="description">{{track.track.description}}</p>
+                        {% if slot.slottype == "talks" %}
+                        <p class="short-description">
+                            {{track.track.description | truncate: 150}}
+                            <a class="more">See More</a>
+                        </p>
+                        <p class="full-description">
+                            {{track.track.description}}
+                            <a class="less">See Less</a>
+                        </p>
+                        {% else %}
+                        <p class="description">
+                            {{track.track.description}}
+                        </p>
+                        {% endif %}
                         {% if track.track.menulink %}
                         <p><a href="/menu/#{{track.track.menulink}}">Tasty food menu &raquo;</a></p>
                         {% endif %}
@@ -75,5 +88,15 @@ image: banners/schedule.png
 <script>
     $( function() {
         $( document ).tooltip();
-      } );
+    } );
+
+    $('.more').click(function(e){
+        $(this).parent().hide();
+        $(this).parent().siblings(".full-description").show();
+    })
+
+    $('.less').click(function(e){
+        $(this).parent().hide();
+        $(this).parent().siblings(".short-description").show();
+    })
 </script>

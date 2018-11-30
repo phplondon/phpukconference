@@ -94,6 +94,10 @@
 			}
 		}
 
+		.full-description{
+			display: none;
+		}
+
 		.location{
 			display: none;
 
@@ -114,7 +118,9 @@
 	}
 
 	.talks{
-
+		.more, .less{
+			cursor: pointer;
+		}
 	}
 
 	.tutorial{
