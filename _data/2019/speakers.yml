@@ -18,6 +18,7 @@
             colspan: 2
             name: Workshop I
             speaker: David McKay
+            handle: rawkode
             bio: David is a Developer Advocate 🥑 for InfluxData, the company behind InfluxDB. As a serial user group organiser (Organising Cloud Native Glasgow, DevOps Glasgow, and Observability Glasgow), David is always searching for new and creative ways to share knowledge with others.
             title: Kubernetes By Example
             photo: /2019/assets/images/speakers/davidmckay.jpg
@@ -28,6 +29,8 @@
             colspan: 2
             name: Workshop II
             speaker: Ciaran McNulty
+            handle: ciaranmcnulty
+            company: Crania Ltd
             location: The Montcalm Hotel at the Brewery
             bio: <a href="https://twitter.com/ciaranmcnulty">Ciaran McNulty</a> helps teams at all levels of ability improve via training and coaching. He has been a PHP professional since the late 90s and is passionate about TDD, BDD and Agile methodologies. He is lead maintainer of PhpSpec.
             title: BDD in Practice
@@ -184,7 +187,7 @@
             handle: lornajane
             company: Nexmo 
             photo: /2019/assets/images/speakers/lornajanemitchell.jpg
-            bio: Lorna is based "up- north" in Yorkshire; she is a Developer Advocate with Nexmo as well as a published author and experienced conference speaker.  She brings her technical expertise on a range of topics to audiences all over the world with her writing and speaking engagements, always delivered with a very practical slant.  In her spare time, Lorna blogs at http://lornajane.net.
+            bio: Lorna is based "up- north" in Yorkshire; she is a Developer Advocate with Nexmo as well as a published author and experienced conference speaker.  She brings her technical expertise on a range of topics to audiences all over the world with her writing and speaking engagements, always delivered with a very practical slant.  In her spare time, Lorna blogs at <a href="http://lornajane.net">http://lornajane.net</a>.
             level: Intermediate
             description: You say "toolbox", I say "treasure chest". We work on the web building so much more than web pages but these rich, asynchronous applications can suffer from ailments that are difficult for us to see. This session is a tour through some of the best tools around for working with HTTP to observe interaction between components and diagnose problems. By knowing the tools at your disposal and the right job for each, you will be able to quickly and painlessly identify and fix HTTP-related problems - and then get to the pub on time! I mean, get the next thing done ;) Whether you're debugging a backend API, an asynchronous client request or an unexpected timeout, these are the tools you will want to have at hand.
         - track:
@@ -218,19 +221,19 @@
             handle: akrabat
             company: Nineteen Feet Limited
             photo: https://secure.gravatar.com/avatar/79d9ba388d6b6cf4ec7310cad9fa8c8a?s=500
-            bio: Rob Allen is a software consultant and developer with many years experience and writes code in PHP, Swift and other interesting languages. He is part of Slim Framework's leadership team and contributes to Apache OpenWhisk and other open source projects. Rob is a published author and based in the UK where he runs [Nineteen Feet Limited](http://19ft.com), focussing on API development, training and consultancy. In his spare time, Rob blogs at [akrabat.com](https://akrabat.com) and can often be seen with a camera in his hand.
+            bio: Rob Allen is a software consultant and developer with many years experience and writes code in PHP, Swift and other interesting languages. He is part of Slim Framework's leadership team and contributes to Apache OpenWhisk and other open source projects. Rob is a published author and based in the UK where he runs <a href="http://19ft.com">Nineteen Feet Limited</a>, focussing on API development, training and consultancy. In his spare time, Rob blogs at <a href="https://akrabat.com">akrabat.com</a> and can often be seen with a camera in his hand.
             level: Beginner
             description: APIs and microservices are how we build modern web applications and serverless technologies make this easy. This session will show you how serverless applications are built and how you can leverage your PHP skills to build APIs of all shapes and sizes. We will cover how to use your current knowledge to build applications in PHP within Apache OpenWhisk, leveraging the API Gateway to build robust APIs quickly and easily. By the end of the session, you’ll be well placed to design and build your own applications that take full advantage of the power of serverless technologies.
         - track:
-            location: Side Track
-            title: Dive Deep into Blockchain
-            slug: tomaszkowalczyk
-            speaker: Tomasz Kowalczyk
-            handle: tmmx 
+            location: 
+            title: TBA
+            slug: 
+            speaker: 
+            handle:  
             photo: 
-            bio: Software architect with over 10 years of experience in writing web applications. Functional Programming enthusiast pursuing the ultimate goal of software quality and maintainability. An author of several open source libraries. Provides well-designed and open solutions to technical problems.
-            level: All
-            description: The blockchain is a hot new topic in the technology due to the rise of various cryptocurrencies, Bitcoin being a most prominent example. How does it work? What advantages does it give? What problems do they solve? What problems can be solved that way? I want you to dive with me into the immutable world of blocks where I will explain everything, from a simple hash, through Merkle trees, up to implementing your own blockchain.
+            bio: 
+            level: 
+            description: 
     - time: "12.30"
       slottype: break
       tracks:
@@ -311,7 +314,7 @@
             handle: gabidavila
             company: Google
             photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/12044/180124-0676.01.MOMA.jpg
-            bio: Gabi is a Developer Advocate for Google Cloud solving data problems across the diverse range of storage engines and technologies. She enjoys sharing her knowledge through her blog and conference speaking. Gabi also is an accomplished world traveler and has an intimidating Lego collection and writes at [gabriela.IO] (http://gabriela.io) and proudly maintains [Congress, who is?](https://www.congresswhois.com)
+            bio: Gabi is a Developer Advocate for Google Cloud solving data problems across the diverse range of storage engines and technologies. She enjoys sharing her knowledge through her blog and conference speaking. Gabi also is an accomplished world traveler and has an intimidating Lego collection and writes at <a href="http://gabriela.io">gabriela.IO</a> and proudly maintains <a href="https://www.congresswhois.com">Congress, who is?</a>
             level: Intermediate
             description: Sick and tired of "X technology is only good for starting out; after you do, move to Y"? Good news - you don’t need to move away, you just need to get in further! In this talk, you'll learn about improvements in the newest version of the most used database in the world. What are Window Functions? How do you use CTEs? How can the new default encoding help me and what should I look for when upgrading versions?
         - track:
@@ -322,7 +325,7 @@
             handle: l_wiltshire
             company: Tebex
             photo: https://secure.gravatar.com/avatar/b177f91007daac88583676236a01cfed?s=500
-            bio: Liam is a UK based developer and the CTO at [Tebex](https://www.tebex.io), a gCommerce company and game server monetization platform. From humble beginnings breaking things in Perl, Liam has tackled projects large and small, from brochure sites in WordPress to eCommerce sites in Magento and SaaS products in Laravel. Outside of CTO-ing, Liam is a maintainer for joind.in, and is trying to learn the secret to actually having some spare time.
+            bio: Liam is a UK based developer and the CTO at <a href="https://www.tebex.io">Tebex</a>, a gCommerce company and game server monetization platform. From humble beginnings breaking things in Perl, Liam has tackled projects large and small, from brochure sites in WordPress to eCommerce sites in Magento and SaaS products in Laravel. Outside of CTO-ing, Liam is a maintainer for joind.in, and is trying to learn the secret to actually having some spare time.
             level: All
             description: Since it's founding, Tebex has processed over 18 million payments for games servers around the world. This is a rich data source, and one that we've significantly under-used. We know there should be ways of using this data to improve our product and to make our merchant's lives easier - how and where to start, now that's a totally different question! Join Liam as he shares Tebex's initial experiences in experimenting with machine learning to use past data to prevent fraud in the future - different algorithms we've tried, (many) failed experiments, the situation today and plans for the future. 
     - time: "15.45"
@@ -406,7 +409,7 @@
             handle: ircmaxell
             company: Lingo Live
             photo: https://secure.gravatar.com/avatar/06a61b14cb2db07126dace77d8c458b0?s=500
-            bio: Anthony Ferrara is the CTO for Lingo Live. He specializes in Object Oriented Design, Application Architecture, Web Application Security, and Team Building and Management. He is best known for his contributions to the PHP language, along with a broad history of collaborations to the PHP community as a whole. You can follow his blog at http://blog.ircmaxell.com or on Twitter at https://twitter.com/ircmaxell.
+            bio: Anthony Ferrara is the CTO for Lingo Live. He specializes in Object Oriented Design, Application Architecture, Web Application Security, and Team Building and Management. He is best known for his contributions to the PHP language, along with a broad history of collaborations to the PHP community as a whole. You can follow his blog at <a href="http://blog.ircmaxell.com">http://blog.ircmaxell.com</a> or on Twitter at <a href="https://twitter.com/ircmaxell">https://twitter.com/ircmaxell</a>.
             level: Intermediate
             description: Microservices are the latest architectural trend to take the PHP community by storm. Is it a good pattern? How can you use it effectively? In this talk, we'll explore real world experience building out a large scale application based around microservices - what worked really well, what didn't work at all, and what we learned along the way. Spoiler alert - we got a lot wrong.
         - track:
@@ -464,7 +467,7 @@
             handle: adamculp
             company: Rogue Wave Software
             photo: https://secure.gravatar.com/avatar/983cfd6fcfd42fc2417dbf131201bc3e?s=500
-            bio: Adam Culp (@AdamCulp) a Zend consultant at Rogue Wave Software, is passionate about developing with PHP and contributes to many open source projects. He organizes the SunshinePHP Developer Conference and the South Florida PHP Users Group (SoFloPHP) where he enjoys helping others write good code, implement standards, and refactor efficiently. He is a Zend Certified PHP engineer, is a voting member of the PHP-Fig, and holds a seat on the Zend Certification Advisory Board. You can also find him on his Run Geek Radio podcast and GeekyBoy technical blog. When he is not coding or contributing to various developer communities, he can be found hiking around the U.S. National Parks, teaching judo, or long distance (ultra) running.
+            bio: Adam Culp (<a href="https://twitter.com/adamculp<">@adamculp</a>) a Zend consultant at Rogue Wave Software, is passionate about developing with PHP and contributes to many open source projects. He organizes the SunshinePHP Developer Conference and the South Florida PHP Users Group (SoFloPHP) where he enjoys helping others write good code, implement standards, and refactor efficiently. He is a Zend Certified PHP engineer, is a voting member of the PHP-Fig, and holds a seat on the Zend Certification Advisory Board. You can also find him on his Run Geek Radio podcast and GeekyBoy technical blog. When he is not coding or contributing to various developer communities, he can be found hiking around the U.S. National Parks, teaching judo, or long distance (ultra) running.
             level: All
             description: After days, weeks, or months of coding many developers don’t know how to gauge the quality of their code. I’ll introduce tools to grade, benchmark, and analyze PHP code in an automated fashion allowing developers to write better quality software. Then I’ll explain key metrics to help understand what may need to be refactored, and use code smells to point out bugs before end-users discover them. Attendees will see how to use these tools, know where to find them, and be able to implement them in their own workflows.
         - track:
@@ -509,7 +512,7 @@
             handle: kasiazien
             company: Monzo
             photo: /2019/assets/images/speakers/katzien.jpg
-            bio: "Kat works at [Monzo](https://monzo.com/) as a backend engineer on the fincrime team. Her main interests include automating #allthethings, sorting out legacy code and making things simpler and faster. She's co-organising and giving talks at [PHPSW](https://www.meetup.com/php-sw/) and [London  Gophers](https://www.meetup.com/Go-London-User-Group/). Kat loves travelling and keeping active, appreciates good coffee and is a big Lego fan. She cycles across Europe with [TechBikers](https://techbikers.com) to [raise money for Room To Read](https://www.justgiving.com/fundraising/katzien)."
+            bio: Kat works at <a href="https://monzo.com/">Monzo</a> as a backend engineer on the fincrime team. Her main interests include automating &#35;allthethings, sorting out legacy code and making things simpler and faster. She's co-organising and giving talks at <a href="https://www.meetup.com/php-sw/">PHPSW</a> and <a href="https://www.meetup.com/Go-London-User-Group/">London Gophers</a>. Kat loves travelling and keeping active, appreciates good coffee and is a big Lego fan. She cycles across Europe with <a href="https://techbikers.com">TechBikers</a> to <a href="https://www.justgiving.com/fundraising/katzien">raise money for Room To Read</a>.
             level: All
             description: Learning more than one programming language is key to becoming a better developer. It is like adding a new tool to your toolbox. The more tools you have, the easier and quicker you’ll be able to tackle whatever job you need to do. You’ll also be able to use the right tool for the job, and who doesn’t like that?! I picked up Go (golang) a few years ago as it was becoming more popular among developers. Coming from a PHP background, I had no idea what channels or goroutines were or how is concurrency different from parallelism. I’ve got to say, it was a whole new world. Very different, but very cool. I was hooked! By happy coincidence, my company was looking to rewrite a legacy PHP app in Go. It was over 2000 lines of procedural and messy PHP4 with more downtime than I’m willing to admit to. I took on this project, and soon enough we had a much faster, more maintainable and much more reliable app for our customers. Go gave us options we would not have in PHP. The goal of this talk is to give you a good idea of what Go is and how it compares with PHP. We’ll look at the language itself as well as the tooling and communities around it. Even if you’re not sold on Go by the end of it, I hope you’ll leave inspired to go out there and learn whatever language you wanted to look into next. 
         - track:
