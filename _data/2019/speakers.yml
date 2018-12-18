@@ -225,15 +225,15 @@
             level: Beginner
             description: APIs and microservices are how we build modern web applications and serverless technologies make this easy. This session will show you how serverless applications are built and how you can leverage your PHP skills to build APIs of all shapes and sizes. We will cover how to use your current knowledge to build applications in PHP within Apache OpenWhisk, leveraging the API Gateway to build robust APIs quickly and easily. By the end of the session, you’ll be well placed to design and build your own applications that take full advantage of the power of serverless technologies.
         - track:
-            location: 
-            title: TBA
-            slug: 
-            speaker: 
-            handle:  
-            photo: 
-            bio: 
-            level: 
-            description: 
+            location: Side Track
+            title: Dive Deep into Blockchain
+            slug: tomaszkowalczyk
+            speaker: Tomasz Kowalczyk
+            handle: tmmx 
+            photo: /2019/assets/images/speakers/tomasz.png
+            bio: Software architect with over 10 years of experience in writing web applications. Functional Programming enthusiast pursuing the ultimate goal of software quality and maintainability. An author of several open source libraries. Provides well-designed and open solutions to technical problems.
+            level: All
+            description: The blockchain is a hot new topic in the technology due to the rise of various cryptocurrencies, Bitcoin being a most prominent example. How does it work? What advantages does it give? What problems do they solve? What problems can be solved that way? I want you to dive with me into the immutable world of blocks where I will explain everything, from a simple hash, through Merkle trees, up to implementing your own blockchain.
     - time: "12.30"
       slottype: break
       tracks:
