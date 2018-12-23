@@ -113,9 +113,17 @@
       tracks:
         - track:
             colspan: 4
-            title: Pre-Conference Social
+            name: Pre-Conference Social
             location: Finch's Pub on Finsbury Square
+            title: Machine Learning and Trend Analysis in PHP
+            speaker: Michael Cullum
+            slug: michaelcullum
+            handle: michaelcullumuk
+            company: SamKnows
+            photo: /2019/assets/images/speakers/michaelcullum.jpg
+            bio: Michael Cullum is a backend software engineer, working particularly with PHP, and has been for about a decade. He currently works at SamKnows as a senior software engineer & architect doing data intelligence, storage and processing of internet measurement data at huge scale. He is also a manager & core developer at phpBB where he has been a contributor for over half a decade and he recently joined the Symfony Core Team as Security Lead. He is actively involved in the PHP FIG previously running the administration of it as the PHP FIG Secretary for 2 years and editor of PSR-12; he now sits on the Core Committee, the steering group of the FIG and is the editor of two security PSRs (PSR-9 and PSR-10).
             description: |
+                The world we live in is one where data is one of the most valuable assets. There are many different pieces of data we can analyse on all kind of data from analytics of user behaviour of your platform, user generated content, monitoring of exception rates, or when your core business model is to provide some kind of analytics platform. This talk will talk about how you can, in your Symfony applications, perform some simple trend analysis techniques to build models, analyse data to get useful information and spot anomalies.
                 The pre-conference social is a traditional style pubcon, open to anyone, where conference attendees and locals can meet up before the conference to network and socialise. <br><a href="/socials">More details &raquo;</a>
 - schedule-thursday:
   name: Thursday 21st February 2019
@@ -338,7 +346,7 @@
               description: |
                 Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
     - time: "16:15"
-      slottype: special keynote
+      slottype: keynote
       tracks:
         - track:
             colspan: 4
@@ -586,7 +594,7 @@
               description: |
                 Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
     - time: "16.15"
-      slottype: special keynote
+      slottype: keynote
       tracks:
         - track:
             colspan: 4
