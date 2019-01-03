@@ -19,76 +19,84 @@ image: banners/schedule.png
             {% for day in site.data.2019.speakers %}
             <h2 class="text-center">{{day.name}}</h2>
             {{day.description}}
-            <ul class="schedule-container">
-                {% for slot in day.slots %}
-                {% if slot.slottype != 'mc' %}
-                {% if slot.tracks.size > 2 %}
-                <li class="slot title-row">
-                    <ul class="tracks-wrapper">
-                        <li class="spacer"></li>
-                        {% for track in slot.tracks %}
-                        <li class="slot track-title">
-                            <span class="name">{{track.location}}</span>
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </li>
-                {% endif %}
-                <li class="slot {{slot.slottype}}">
-                    <ul class="tracks-wrapper">
-                        <li class="time">{{slot.time}}</li>
-                        {% for track in slot.tracks %}
-                        <li class="track" id="{{track.track.id}}">
-                            <div class="track-slot-meta">
-                                <span class="track-name">{{track.track.name}}</span>
-                                <span class="title">{{track.track.title}}</span>
+            <table class="schedule-wrapper">
+            {% for slot in day.slots %}
+                <tr class="slot">
+                    <td class="time"rowspan="{% if slot.slottype == "talk"%}3{% else %}2{% endif %}">{{slot.time}}</td>
+                    {% for track in slot.tracks %}
+                    <td class="location{% if track.track.tooltip %} tutorial{% endif %}" colspan="{{track.track.colspan}}" title="{{track.track.tooltip}}">{{track.track.location}}</td>
+                    {% endfor %}
+                </tr>
+                <tr class="slot">
+                    {% for track in slot.tracks %}
+                    <td class="track {{slot.slottype}}" id="{{track.track.id}}" colspan="{{track.track.colspan}}" rowspan="{{track.track.rowspan}}">
+                        <div class="track-slot-meta">
+                            <span class="location">{{track.track.location}}</span>
+                            <span class="track-name">{{track.track.name}}</span>
+                            <span class="title">
+                                <span class="main-title">{{track.track.title}}</span>
                                 <span class="subtitle">{{track.track.subtitle}}</span>
-                                {% if track.track.speaker %}
-                                <span class="speaker">
-                                    Speaker:
-                                    <a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a>
-                                </span>
-                                {% else if track.track.speakers %}
-                                <span class="speaker">
-                                {% for speaker in track.track.speakers %}
-                                <a href="/speakers/#{{speaker.slug}}">{{speaker.speaker}}</a>
-                                {% if speaker != track.track.speakers.last %}&amp; {% endif %}
-                                {% endfor %}
-                                </span>
-                                {% endif %}
-                                {% if track.track.level %}
-                                <span class="level">Level: {{track.track.level}}</span>
-                                {% endif %}
-                            </div>
-                            <p class="description">{{track.track.description}}</p>
-                            {% if track.track.menulink %}
-                            <p><a href="/menu/#{{track.track.menulink}}">Tasty food menu &raquo;</a></p>
+                            </span>
+                            {% if track.track.speaker %}
+                            <span class="speaker">
+                                Speaker:
+                                <a href="/speakers/#{{track.track.slug}}">{{track.track.speaker}}</a>
+                            </span>
+                            {% else if track.track.speakers %}
+                            <span class="speaker">
+                            {% for speaker in track.track.speakers %}
+                            <a href="/speakers/#{{speaker.slug}}">{{speaker.speaker}}</a>
+                            {% if speaker != track.track.speakers.last %}&amp; {% endif %}
+                            {% endfor %}
+                            </span>
                             {% endif %}
-                            {% if track.track.video %}
-                            <span class="video"><a href="https://www.youtube.com/watch?v={{track.track.video}}&list={{site.data.2018.playlist}}">Video &raquo;</a></span>
+                            {% if track.track.level %}
+                            <span class="level">Level: {{track.track.level}}</span>
                             {% endif %}
-                        </li>
-                        {% endfor %}
-                    </ul>
-                </li>
-                {% endif %}
-                {% endfor %}
-            </ul>
+                        </div>
+                        {% if slot.slottype == "talks" %}
+                        <p class="short-description">
+                            {{track.track.description | truncate: 150}}
+                            <a class="more">See More</a>
+                        </p>
+                        <p class="full-description">
+                            {{track.track.description}}
+                            <a class="less">See Less</a>
+                        </p>
+                        {% else %}
+                        <p class="description">
+                            {{track.track.description}}
+                        </p>
+                        {% endif %}
+                        {% if track.track.menulink %}
+                        <p><a href="/menu/#{{track.track.menulink}}">Tasty food menu &raquo;</a></p>
+                        {% endif %}
+                        {% if track.track.video %}
+                        <span class="video"><a href="https://www.youtube.com/watch?v={{track.track.video}}&list={{site.data.2018.playlist}}">Video &raquo;</a></span>
+                        {% endif %}
+                    </td>
+                    {% endfor %}
+                </tr>
+            {% endfor %}
+            </table>
             {% endfor %}
         </div>
     </div>
 </div>
-<style>
-    .schedule-container .hack{
-        list-style-type:none;
-        width:30% !important;
-        background:#00A27C !important;
-        border-top-color: #00A27C;
-        border-bottom-color: #00A27C;
-    }
-@media (min-width: 720px){
-    .schedule-container .short-break .track{
-        width:60%;
-    }
-}
-</style>
+<script src="/assets/js/jquery-ui.min.js"></script>
+<link rel="stylesheet" href="/assets/js/jquery-ui.min.css">
+<script>
+    $( function() {
+        $( document ).tooltip();
+    } );
+
+    $('.more').click(function(e){
+        $(this).parent().hide();
+        $(this).parent().siblings(".full-description").show();
+    })
+
+    $('.less').click(function(e){
+        $(this).parent().hide();
+        $(this).parent().siblings(".short-description").show();
+    })
+</script>

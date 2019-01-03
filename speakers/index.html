@@ -36,7 +36,7 @@ image: banners/speakers.png
                     <h2>Keynote Speakers<h2>
                     {% for day in site.data.2019.speakers %}
                         {% for slot in day.slots %}
-                            {% if slot.slottype == 'special keynote' %}
+                            {% if slot.slottype == 'keynote' %}
                                 {% for speaker in slot.tracks %}
                                 {% if speaker.track.speakers %}
                                     {% for sp in speaker.track.speakers %}
@@ -49,10 +49,10 @@ image: banners/speakers.png
                             {% endif %}
                         {% endfor %}
                     {% endfor %}
-                    <!-- <h2>Breakout Session Speakers<h2>
+                    <h2>Breakout Session Speakers<h2>
                     {% for day in site.data.2019.speakers %}
                         {% for slot in day.slots %}
-                            {% if slot.slottype != 'mc' and slot.slottype != 'special keynote' %}
+                            {% if slot.slottype != 'mc' and slot.slottype != 'keynote' %}
                                 {% for speaker in slot.tracks %}
                                     {% if speaker.track.speakers %}
                                         {% for sp in speaker.track.speakers %}
@@ -64,7 +64,7 @@ image: banners/speakers.png
                                 {% endfor %}
                             {% endif %}
                         {% endfor %}
-                    {% endfor %} -->
+                    {% endfor %} 
                 </ul>
             </div>
         </div>
