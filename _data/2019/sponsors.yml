@@ -27,7 +27,7 @@
       url: https://www.ripstech.com
       about:
         "RIPS Technologies GmbH is a high-tech company based in Bochum, Germany, and delivers automated security analysis for web applications as platform independent software or highly scalable cloud service. With innovative and language-specific code analysis algorithms even complex security vulnerabilities are detected that no other solution is able to find. Detailed patch instructions allow developers and consultants to remediate security risks in a time and cost efficient way, before these are exposed to attackers."
-    - name: Platform.sh
+    - name: "Platform.sh"
       slug: platformsh
       image type: png
       url: https://platform.sh/
