@@ -1,30 +1,35 @@
-
-- name: Shopware AG
-  id: shopwareag
-  type: Delegate Lounge Sponsor
-  url: https://www.shopware.com
-  description: 
-    "Shopware is a leading open source enterprise-level eCommerce platform and trusted by over 80,000 businesses including some of the biggest European brands, retailers and branded manufacturers across B2C and B2B industries. Shopware has a global network of more than 1,200 solution and technology partners and a very active developer community that gives customers access to robust third-party extensions and certified professional support. Shopware has the lowest total costs of ownership of any platform on the market. Meaning, the cost to implement and maintain Shopware is the lowest of any other enterprise solution on the market. Shopware’s extensibility, flexibility and access to the source code allows retailers and brands to control its functionality and adapt the platform to meet their requirements. Due to the platform’s short time to market, merchants can go live comparatively quickly and save valuable resources for other aspects of their core business. Shopware offers brands complete control over the functionality of their online channel. Shopware’s SEO, catalogue management and powerful marketing tools give retailers and brands the ability to create sites that provide an unrivaled shopping experience for their customers. Shopware’s intuitive administration interface allows merchants to tailor their site to their unique business needs. It is completely scalable to each business size, and it is also possible to connect other enterprise solutions with Shopware by means of a REST API."
--name: NEXMO
-  id: nexmo
-  type: Hackathon Sponsor
-  url: https://www.nexmo.com
-  description: 
-- name: JetBrains
-  id: jetbrains
-  type: gold
-  url: https://www.jetbrains.com
-  description: |
-    "PhpStorm is a PHP IDE that actually ‘gets’ your code: It understands PHP 5.3-7.2 and features on-the-fly error prevention, best code completion & refactorings, and zero-configuration debugging. PhpStorm is fully equipped for Symfony 3&4 development, with support for Dependency Injections, Doctrine and Twig templates. Furthermore, PhpStorm facilitates effective Front-End and databases development."
-- name: RIPS Technologies
-  id: ripstechnologies
-  type: gold
-  url: https://www.ripstech.com
-  description: |
-    "RIPS Technologies GmbH is a high-tech company based in Bochum, Germany, and delivers automated security analysis for web applications as platform independent software or highly scalable cloud service. With innovative and language-specific code analysis algorithms even complex security vulnerabilities are detected that no other solution is able to find. Detailed patch instructions allow developers and consultants to remediate security risks in a time and cost efficient way, before these are exposed to attackers."
-- name: Platform.sh
-  id: platformsh
-  type: gold
-  url: https://platform.sh/
-  description: |
-    "Platform.sh is the Idea-to-Cloud Application Platform that enables agile organizations to focus on building and scaling their applications, instead of worrying about infrastructure. For every change Platform.sh creates an instant copy, data and all, of production to test, share, break, and improve. New features, new technologies, and new designs can be developed and delivered at the speed of thought instead of the speed of Ops, then launched and scaled flawlessly."
+- type: Delegate Lounge Sponsor
+  sponsors:
+    - name: "Shopware AG"
+      slug: shopware
+      image type: png
+      url: https://www.shopware.com
+      about:
+        "Shopware is a leading open source enterprise-level eCommerce platform and trusted by over 80,000 businesses including some of the biggest European brands, retailers and branded manufacturers across B2C and B2B industries. Shopware has a global network of more than 1,200 solution and technology partners and a very active developer community that gives customers access to robust third-party extensions and certified professional support. Shopware has the lowest total costs of ownership of any platform on the market. Meaning, the cost to implement and maintain Shopware is the lowest of any other enterprise solution on the market. Shopware’s extensibility, flexibility and access to the source code allows retailers and brands to control its functionality and adapt the platform to meet their requirements. Due to the platform’s short time to market, merchants can go live comparatively quickly and save valuable resources for other aspects of their core business. Shopware offers brands complete control over the functionality of their online channel. Shopware’s SEO, catalogue management and powerful marketing tools give retailers and brands the ability to create sites that provide an unrivaled shopping experience for their customers. Shopware’s intuitive administration interface allows merchants to tailor their site to their unique business needs. It is completely scalable to each business size, and it is also possible to connect other enterprise solutions with Shopware by means of a REST API."
+- type: Hackathon Sponsor
+  sponsors:
+    - name: "NEXMO"
+      slug: nexmo
+      image type: png
+      url: https://www.nexmo.com
+      about:
+- type: Gold Sponsors
+  sponsors:
+    - name: "JetBrains"
+      slug: jetbrains
+      image type: png
+      url: https://www.jetbrains.com
+      about:
+        "PhpStorm is a PHP IDE that actually ‘gets’ your code: It understands PHP 5.3-7.2 and features on-the-fly error prevention, best code completion & refactorings, and zero-configuration debugging. PhpStorm is fully equipped for Symfony 3&4 development, with support for Dependency Injections, Doctrine and Twig templates. Furthermore, PhpStorm facilitates effective Front-End and databases development."
+    - name: "RIPS Technologies"
+      slug: ripstechnologies
+      image type: png
+      url: https://www.ripstech.com
+      about:
+        "RIPS Technologies GmbH is a high-tech company based in Bochum, Germany, and delivers automated security analysis for web applications as platform independent software or highly scalable cloud service. With innovative and language-specific code analysis algorithms even complex security vulnerabilities are detected that no other solution is able to find. Detailed patch instructions allow developers and consultants to remediate security risks in a time and cost efficient way, before these are exposed to attackers."
+    - name: Platform.sh
+      slug: platformsh
+      image type: png
+      url: https://platform.sh/
+      about: 
+        "Platform.sh is the Idea-to-Cloud Application Platform that enables agile organizations to focus on building and scaling their applications, instead of worrying about infrastructure. For every change Platform.sh creates an instant copy, data and all, of production to test, share, break, and improve. New features, new technologies, and new designs can be developed and delivered at the speed of thought instead of the speed of Ops, then launched and scaled flawlessly."
