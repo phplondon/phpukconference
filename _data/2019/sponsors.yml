@@ -28,7 +28,7 @@
     "PhpStorm is a PHP IDE that actually ‘gets’ your code: It understands PHP 5.3-7.2 and features on-the-fly error prevention, best code completion & refactorings, and zero-configuration debugging. PhpStorm is fully equipped for Symfony 3&4 development, with support for Dependency Injections, Doctrine and Twig templates. Furthermore, PhpStorm facilitates effective Front-End and databases development."
 
 - name: RIPS Technologies
-  id: ripstechnologies
+  id: ripstech
   type: gold
   url: https://www.ripstech.com
   description:
