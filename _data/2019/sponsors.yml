@@ -1,35 +1,92 @@
-- type: Delegate Lounge Sponsor
-  sponsors:
-    - name: "Shopware AG"
-      slug: shopware
-      image type: png
-      url: https://www.shopware.com
-      about:
-        "Shopware is a leading open source enterprise-level eCommerce platform and trusted by over 80,000 businesses including some of the biggest European brands, retailers and branded manufacturers across B2C and B2B industries. Shopware has a global network of more than 1,200 solution and technology partners and a very active developer community that gives customers access to robust third-party extensions and certified professional support. Shopware has the lowest total costs of ownership of any platform on the market. Meaning, the cost to implement and maintain Shopware is the lowest of any other enterprise solution on the market. Shopware’s extensibility, flexibility and access to the source code allows retailers and brands to control its functionality and adapt the platform to meet their requirements. Due to the platform’s short time to market, merchants can go live comparatively quickly and save valuable resources for other aspects of their core business. Shopware offers brands complete control over the functionality of their online channel. Shopware’s SEO, catalogue management and powerful marketing tools give retailers and brands the ability to create sites that provide an unrivaled shopping experience for their customers. Shopware’s intuitive administration interface allows merchants to tailor their site to their unique business needs. It is completely scalable to each business size, and it is also possible to connect other enterprise solutions with Shopware by means of a REST API."
-- type: Hackathon Sponsor
-  sponsors:
-    - name: "NEXMO"
-      slug: nexmo
-      image type: png
-      url: https://www.nexmo.com
-      about:
-- type: Gold Sponsors
-  sponsors:
-    - name: "JetBrains"
-      slug: jetbrains
-      image type: png
-      url: https://www.jetbrains.com
-      about:
-        "PhpStorm is a PHP IDE that actually ‘gets’ your code: It understands PHP 5.3-7.2 and features on-the-fly error prevention, best code completion & refactorings, and zero-configuration debugging. PhpStorm is fully equipped for Symfony 3&4 development, with support for Dependency Injections, Doctrine and Twig templates. Furthermore, PhpStorm facilitates effective Front-End and databases development."
-    - name: "RIPS Technologies"
-      slug: ripstechnologies
-      image type: png
-      url: https://www.ripstech.com
-      about:
-        "RIPS Technologies GmbH is a high-tech company based in Bochum, Germany, and delivers automated security analysis for web applications as platform independent software or highly scalable cloud service. With innovative and language-specific code analysis algorithms even complex security vulnerabilities are detected that no other solution is able to find. Detailed patch instructions allow developers and consultants to remediate security risks in a time and cost efficient way, before these are exposed to attackers."
-    - name: "Platform.sh"
-      slug: platformsh
-      image type: png
-      url: https://platform.sh/
-      about: 
-        "Platform.sh is the Idea-to-Cloud Application Platform that enables agile organizations to focus on building and scaling their applications, instead of worrying about infrastructure. For every change Platform.sh creates an instant copy, data and all, of production to test, share, break, and improve. New features, new technologies, and new designs can be developed and delivered at the speed of thought instead of the speed of Ops, then launched and scaled flawlessly."
+- name: RedHat OpenShift
+  id: openshift
+  type: platinum
+  url: https://www.openshift.com
+  description: 
+    "Red Hat® OpenShift is a container application platform that brings docker and Kubernetes to the enterprise. OpenShift lets you easily and quickly build, develop, and deploy in nearly any infrastructure, public or private. Whether it’s on-premise, in a public cloud, or hosted, you have an award-winning platform to get your next big idea to market ahead of your competition."
+
+- name: Mercari
+  id: mercari
+  type: track
+  url: https://www.mercari.com
+  description: 
+    "Mercari is the marketplace app that makes it easy for anyone to buy and sell goods.
+    Originally launched in Japan in 2013, Mercari rapidly achieved success in its home market
+    before expanding to the US in 2014 and to the UK in early 2017. In 2016, Mercari raised $75
+    million in funding and now has a valuation of $1 billion. Today the app has been
+    downloaded over 70 million times worldwide.<br><br>
+    The London office is a fast-growing, fun environment that’s home to international talent
+    from all over the globe.<br><br>
+    -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- - <br>
+    About Mercari<br>
+    HASSLE-FREE &amp; SECURE<br>
+    – Start buying and selling instantly with easy sign-up<br>
+    – Buy in two clicks with secure in-app payments<br>
+    LIST YOUR ITEMS IN 40 SECONDS<br>
+    – Quickly take and upload photos directly from your phone<br>
+    – Add a description, set your price and start selling<br>
+    FIND ITEMS YOU LOVE FOR LESS<br>
+    – Discover items and brands you love at bargain prices"
+
+- name: Bytemark
+  id: bytemark
+  type: track
+  url: https://www.bytemark.co.uk
+  description: |
+    Bytemark was founded with a simple mission: reliable, UK hosting. Co-founders Matthew Bloch & Peter Taphouse, both engineers by nature built the business from the ground up. Today, they lead a team of 30+ staff who operate Bytemark’s own data centre in York, monitor its 10Gbps national network and deliver 24/7 support to clients of all sizes. Brands hosted on Bytemark’s network include the Royal College of Art, data.gov.uk and DVLA Auctions.
+
+- name: JetBrains
+  id: jetbrains
+  type: gold
+  url: https://jetbrains.com
+  description: |
+    Here at JetBrains, we develop the tools relied on by developers to create some of the world's most advanced software. With over 15 years of cutting-edge innovation, we have strived to implement the features top performing development demands. Our IDE packages help you to work faster by automating common, repetitive tasks, enabling you to stay focused on code design and the big picture. We provide tools to explore and familiarize yourself with code bases faster and make it easy for you to take care of the code quality through all the stages of development so you can spend less time on maintenance tasks in the future.
+
+- name: RIPS Technologies
+  id: ripstechnologies
+  type: gold
+  url: https://www.ripstech.com
+  description: |
+    RIPS Technologies GmbH is a high-tech company based in Bochum, Germany, and delivers automated security analysis for PHP applications as platform independent software or highly scalable cloud service. With innovative code analysis algorithms that are specifically dedicated to the PHP language, even complex security vulnerabilities are detected that no other tool is able to find. Detailed patch instructions allow developers and consultants to remediate security risks in a time- and cost-efficient way, before these are exposed to attackers.
+
+- name: Platform.sh
+  id: platformsh
+  type: gold
+  url: https://platform.sh
+  description: |
+    Platform.sh is a continuous deployment cloud hosting service that can scale web applications from the smallest project to ones handling millions of visitors. It is ideal for agile software teams because of its unique feature: it can replicate a live production cluster in seconds and create unlimited byte-level clones of ephemeral dev and staging environments. Users see up to 90% less DevOps efforts, 15x faster UAT, and 40% better developer productivity with Platform.sh.
+
+- name: Nexmo
+  id: nexmo
+  type: gold
+  url: https://www.nexmo.com
+  description: |
+    Nexmo is a global cloud communications platform, providing APIs and SDKs for SMS, voice, phone verification, messaging and advanced multi-channel conversations. We have officially supported open source libraries for PHP, Python, Ruby, Node.JS, Java and C# .NET enabling you to build scalable communications features such as two-factor authentication, notifications, two-way and group messaging, one to one or multi person calls, all with the technologies that you are already using.
+
+- name: SensioLabs
+  id: sensiolabs
+  type: gold
+  url: https://www.sensiolabs.com
+  description: |
+    As a key player in the Open Source community, SensioLabs strives to promote free software innovations and quality, affordable solutions to support them. SensioLabs is the creator of Symfony and, for as long as Symfony has existed, the company has been the caring parent nurturing it towards its success. With over 1 billion downloads of Symfony2 in the last 6 years alone, Symfony has become the most used professional framework to code on PHP and forms the basis of global Open Source solutions like Drupal or Magento. SensioLabs is known for pushing the limits of PHP products that not only satisfy the needs of today’s worldwide web market, but pave the way for future innovations.
+
+- name: Inviqa
+  id: inviqa
+  type: gold
+  url: https://www.inviqa.com
+  description: |
+    Inviqa is a technology partner and consultant trusted by leading brands to meet strategic goals through digital solutions. A specialist in ecommerce, content solutions, and custom software development, we help pioneering businesses engage, convert, and retain their audiences.
+
+- name: Shopware
+  id: shopware
+  type: silver
+  url: https://en.shopware.com
+  description: |
+    Shopware is a manufacturer of open source eCommerce software and the market leader in Germany. Founded in 2000, the company has more than 150 employees and focuses on the development and support of its core product, Shopware 5; an innovative online shop software for businesses of all sizes. With over 60,000 customers, 3,000 plugins and 1,200 partners, Shopware's modular basis and range of features provide businesses with the ultimate platform for growth. The company is 100% owner-operated and equity-financed, thus guaranteeing the highest degree of flexibility. "Emotional shopping on any device", the slogan of Shopware 5, offers new technology for storytelling in online shops, and comes with a customizable and fully responsive template.
+
+- name: MySQL
+  id: MySQL
+  type: silver
+  url: https://www.mysql.com
+  description: |
+    MySQL is the world's most popular OS database. With its proven performance, reliability and ease-of-use, MySQL has become the leading database choice for web-based applications, used by high profile web properties including Facebook, Twitter, YouTube, Yahoo! and more. Additionally, it is an extremely popular choice as embedded database, distributed by over 3,000 ISVs & OEMs. To organizations in need of an open source, ACID-compliant transactional database delivering real-time in-memory performance and 99.999 percent availability, Oracle offers MySQL Cluster. Oracle drives MySQL innovation, constantly improving MySQL solutions and delivering new capabilities to power next generation web, cloud, mobile and embedded applications. 
