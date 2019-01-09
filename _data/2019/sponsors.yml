@@ -1,13 +1,13 @@
 - name: Shopware
   id: shopware
-  type: Delegate Lounge Sponsor
+  type: lounge
   url: https://wwww.shopware.com
   description: 
     "Shopware is a leading open source enterprise-level eCommerce platform and trusted by over 80,000 businesses including some of the biggest European brands, retailers and branded manufacturers across B2C and B2B industries. Shopware has a global network of more than 1,200 solution and technology partners and a very active developer community that gives customers access to robust third-party extensions and certified professional support. Shopware has the lowest total costs of ownership of any platform on the market. Meaning, the cost to implement and maintain Shopware is the lowest of any other enterprise solution on the market. Shopware’s extensibility, flexibility and access to the source code allows retailers and brands to control its functionality and adapt the platform to meet their requirements. Due to the platform’s short time to market, merchants can go live comparatively quickly and save valuable resources for other aspects of their core business. Shopware offers brands complete control over the functionality of their online channel. Shopware’s SEO, catalogue management and powerful marketing tools give retailers and brands the ability to create sites that provide an unrivaled shopping experience for their customers. Shopware’s intuitive administration interface allows merchants to tailor their site to their unique business needs. It is completely scalable to each business size, and it is also possible to connect other enterprise solutions with Shopware by means of a REST API."
 
 - name: Nexmo
   id: nexmo
-  type: Hackathon Sponsor
+  type: hackathon
   url: https://www.nexmo.com
   description: 
     
