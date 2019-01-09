@@ -4,30 +4,36 @@
   url: https://wwww.shopware.com
   description: 
     "Shopware is a leading open source enterprise-level eCommerce platform and trusted by over 80,000 businesses including some of the biggest European brands, retailers and branded manufacturers across B2C and B2B industries. Shopware has a global network of more than 1,200 solution and technology partners and a very active developer community that gives customers access to robust third-party extensions and certified professional support. Shopware has the lowest total costs of ownership of any platform on the market. Meaning, the cost to implement and maintain Shopware is the lowest of any other enterprise solution on the market. Shopware’s extensibility, flexibility and access to the source code allows retailers and brands to control its functionality and adapt the platform to meet their requirements. Due to the platform’s short time to market, merchants can go live comparatively quickly and save valuable resources for other aspects of their core business. Shopware offers brands complete control over the functionality of their online channel. Shopware’s SEO, catalogue management and powerful marketing tools give retailers and brands the ability to create sites that provide an unrivaled shopping experience for their customers. Shopware’s intuitive administration interface allows merchants to tailor their site to their unique business needs. It is completely scalable to each business size, and it is also possible to connect other enterprise solutions with Shopware by means of a REST API."
+
 - name: Nexmo
   id: nexmo
   type: Hackathon Sponsor
   url: https://www.nexmo.com
   description: 
-    "
+    
 - name: GetYourGuide
   id: getyourguide
   type: gold
   url: https://www.getyourguide.com
   description: 
-    "GetYourGuide is the place to book the best experiences in destinations across the globe. Since 2009, we’ve made it easy for millions of travelers to find unique and unmissable things to do wherever their travels take them. By connecting people to activities and attractions they love, we create trips full of meaningful memories. All of this is brought together in one easy-to-use website and app that makes planning and booking simple so travelers can focus on what counts, having an incredible time. Backed by leading venture capital investors, GetYourGuide has raised $170 million in funding to date and has over 400 employees spread across 14 offices worldwide. See our open positions on www.careers.getyourguide.com or get a behind-the-scenes look of life at GetYourGuide on our blog www.inside.getyourguide.com."    
+    "GetYourGuide is the place to book the best experiences in destinations across the globe. Since 2009, we’ve made it easy for millions of travelers to find unique and unmissable things to do wherever their travels take them. By connecting people to activities and attractions they love, we create trips full of meaningful memories. All of this is brought together in one easy-to-use website and app that makes planning and booking simple so travelers can focus on what counts, having an incredible time. 
+    <br><br>
+    Backed by leading venture capital investors, GetYourGuide has raised $170 million in funding to date and has over 400 employees spread across 14 offices worldwide. See our open positions on www.careers.getyourguide.com or get a behind-the-scenes look of life at GetYourGuide on our blog www.inside.getyourguide.com."    
+
 - name: JetBrains
   id: jetbrains
   type: gold
   url: https://jetbrains.com
   description:
     "PhpStorm is a PHP IDE that actually ‘gets’ your code: It understands PHP 5.3-7.2 and features on-the-fly error prevention, best code completion & refactorings, and zero-configuration debugging. PhpStorm is fully equipped for Symfony 3&4 development, with support for Dependency Injections, Doctrine and Twig templates. Furthermore, PhpStorm facilitates effective Front-End and databases development."
+
 - name: RIPS Technologies
   id: ripstechnologies
   type: gold
   url: https://www.ripstech.com
   description:
     "RIPS Technologies GmbH is a high-tech company based in Bochum, Germany, and delivers automated security analysis for PHP applications as platform independent software or highly scalable cloud service. With innovative code analysis algorithms that are specifically dedicated to the PHP language, even complex security vulnerabilities are detected that no other tool is able to find. Detailed patch instructions allow developers and consultants to remediate security risks in a time- and cost-efficient way, before these are exposed to attackers."
+
 - name: Platform.sh
   id: platformsh
   type: gold
