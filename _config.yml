@@ -5,7 +5,7 @@ keep_files: [assets/css]
 title: PHP UK Conference
 name: PHP UK Conference
 url: https://www.phpconference.co.uk
-description: We are pleased to announce the 13th Annual PHP UK Conference. An optional workshop day followed by two days of amazing talks, plentiful networking opportunities and great socials. PHP UK offers the most up-to-date PHP information and training.
+description: We are pleased to present the 14th Annual PHP UK Conference. An optional workshop day followed by two days of amazing talks, plentiful networking opportunities and great socials. PHP UK offers the most up-to-date PHP information and training.
 collections:
   videos:
     output: true
@@ -26,3 +26,11 @@ defaults:
       path: _videos/2015
     values:
       year: "2015"
+  - scope:
+      path: _videos/2017
+    values:
+      year: "2017"
+  - scope:
+      path: _videos/2018
+    values:
+      year: "2018"
