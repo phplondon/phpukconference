@@ -14,7 +14,7 @@
 
 - name: Pearson Frank
   id: pearsonfrank
-  type: social sponsor
+  type: social
   url: https://www.pearsonfrank.com/
   description:
     "Pearson Frank is an expert in placing PHP, Java, web, and mobile professionals across the development lifecycle—from testers and developers to technical leads and support analysts in markets such as financial services, manufacturing, retail, pharma and professional services."
