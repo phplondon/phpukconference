@@ -1,7 +1,7 @@
-name: Mention me
+- name: Mention me
   id: mentionme
   type: track
-  url: https://wwww.mention-me.com
+  url: https://mention-me.com/
   description:
 
 - name: Shopware
