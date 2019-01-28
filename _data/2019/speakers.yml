@@ -272,9 +272,9 @@
             slug: derickrethans
             speaker: Derick Rethans
             handle: derickr
-            company: MongoDB
+            company: 
             photo: https://derickrethans.nl/images/derick/derick-new-square-900x900.jpg
-            bio: Derick Rethans is a PHP internals expert, author of Xdebug and an OpenStreetMap and mapping enthusiast. He has contributed in a number of ways to the PHP project, including the Xdebug debugging tool, and various extensions and additions. He's a frequent lecturer at conferences, the author of php|architect's Guide to Date and Time Programming, and the co-author of PHP 5 Power Programming. He is now working at MongoDB to work on the PHP driver for MongoDB.
+            bio: Derick Rethans is a PHP internals expert, author of Xdebug and an OpenStreetMap and mapping enthusiast. He has contributed in a number of ways to the PHP project, including the Xdebug debugging tool, and various extensions and additions. He's a frequent lecturer at conferences, the author of PHP Architect's Guide to Date and Time Programming, and the co-author of PHP 5 Power Programming. He works as an independent contractor and consultant on PHP extensions and related projects, including Xdebug.
             level: Intermediate
             description: In this presentation we will look at storing complex data in a single field. Many noSQL solutions are created around this (such as Redis’ lists, sets and hashes; MongoDB’s records), and many relational database now also support storing complex data in a single field through specific data types (such as PostGreSQL’s JSONB or hstore). Each of the different database engines support different things, and handle these data types in different ways. In this session we compare the different approaches to storage, indexing and interactions with these data types in different databases.
         - track:
