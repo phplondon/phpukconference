@@ -175,7 +175,7 @@
             level: Intermediate
             description: Over the years, software teams have questioned if PHP is a good choice for building web services. In this talk, I will share how we use PHP on the backend for Glu Mobile’s flagship mobile game Design Home, enabling it to regularly rank amongst the top free mobile games - both in downloads and grossing - since its launch in the Apple App Store and the Google Play Store in Q4 2016. Design Home reaches over 1 million daily active users, serving over 100,000 requests per minute while maintaining a user base of over 30 million players. To date, over 1 billion designs have been made by players. We will deep dive into the thought processes, development, testing and deployment strategy, showcasing what we have achieved with PHP and why we love it and rely on it. My goal is to share with the community that, when done the right way, PHP can be used to build and maintain reliable, massively-scalable and high-performance backends using web services.
         - track:
-            location: Side Track
+            location: Mention Me Track
             title: Database Encryption in a GDPR World
             slug: scottdutton
             speaker: Scott Dutton
@@ -216,7 +216,7 @@
       tracks:
         - track:
             colspan: 2
-            location: Main Track and Side Track
+            location: Main Track and Mention Me Track
             title: Room change
     - time: "11.30"
       slottype: talks
@@ -233,7 +233,7 @@
             level: Beginner
             description: APIs and microservices are how we build modern web applications and serverless technologies make this easy. This session will show you how serverless applications are built and how you can leverage your PHP skills to build APIs of all shapes and sizes. We will cover how to use your current knowledge to build applications in PHP within Apache OpenWhisk, leveraging the API Gateway to build robust APIs quickly and easily. By the end of the session, you’ll be well placed to design and build your own applications that take full advantage of the power of serverless technologies.
         - track:
-            location: Side Track
+            location: Mention Me Track
             title: Dive Deep into Blockchain
             slug: tomaszkowalczyk
             speaker: Tomasz Kowalczyk
@@ -267,7 +267,7 @@
             level: All
             description: Our job might be to build web applications, but we can't build apps that rely on networking if we don't know how these networks and the big network that connects them all (this thing called the Internet) actually work. I'll walk through the basics of networking, then dive a lot deeper (from TCP/UDP to IPv4/6, source/destination ports, sockets, DNS, switching, firewalling and even OSPF, VRRP and BGP). Prepare for an eye-opener when you realize how much a typical app relies on all of these (and many more) working flawlessly... and how you can prepare your app for failure in the chain.
         - track:
-            location: Side Track
+            location: Mention Me Track
             title: Storing Non-Scalar Data
             slug: derickrethans
             speaker: Derick Rethans
@@ -308,7 +308,7 @@
       tracks:
         - track:
               colspan: 2
-              location: Main Track and Side Track
+              location: Main Track and Mention Me Track
               title: Room change
     - time: "14.45"
       slottype: talks
@@ -326,7 +326,7 @@
             level: Intermediate
             description: Sick and tired of "X technology is only good for starting out; after you do, move to Y"? Good news - you don’t need to move away, you just need to get in further! In this talk, you'll learn about improvements in the newest version of the most used database in the world. What are Window Functions? How do you use CTEs? How can the new default encoding help me and what should I look for when upgrading versions?
         - track:
-            location: Side Track
+            location: Mention Me Track
             title: Learning The How's and Why's of Machine Learning
             slug: liamwiltshire
             speaker: Liam Wiltshire 
@@ -421,7 +421,7 @@
             level: Intermediate
             description: Microservices are the latest architectural trend to take the PHP community by storm. Is it a good pattern? How can you use it effectively? In this talk, we'll explore real world experience building out a large scale application based around microservices - what worked really well, what didn't work at all, and what we learned along the way. Spoiler alert - we got a lot wrong.
         - track:
-            location: Side Track
+            location: Mention Me Track
             title: Test to Break Principles 
             slug: robwaller
             speaker: Rob Waller
@@ -462,7 +462,7 @@
       tracks:
         - track:
             colspan: 2
-            location: Main Track and Side Track
+            location: Main Track and Mention Me Track
             title: Room change
     - time: "11.30"
       slottype: talks
@@ -479,7 +479,7 @@
             level: All
             description: After days, weeks, or months of coding many developers don’t know how to gauge the quality of their code. I’ll introduce tools to grade, benchmark, and analyze PHP code in an automated fashion allowing developers to write better quality software. Then I’ll explain key metrics to help understand what may need to be refactored, and use code smells to point out bugs before end-users discover them. Attendees will see how to use these tools, know where to find them, and be able to implement them in their own workflows.
         - track:
-            location: Side Track
+            location: Mention Me Track
             title: More Secrets of Cryptography
             slug: chrisriley
             speaker: Chris Riley
@@ -513,7 +513,7 @@
             level: Intermediate
             description: Continuous Delivery Pipeline as code is key helping you to ensure long term maintainability. Treating your pipeline as code helps you to version it in your SCM of choice, makes changes easily traceable and lets anyone on your team make required changes. In this session I will show you how we build and maintain our Continuous Delivery pipeline using tools like GitLab CI, Docker, Nexus and Traefik. Together we will take a deep dive into the GitLab CI Build Pipelines to build and deploy docker containers to dev, stage and production environments.
         - track:
-            location: Side Track
+            location: Mention Me Track
             title: Get GOing with a New Language
             slug: katzien
             speaker: Kat Zien
@@ -564,7 +564,7 @@
       tracks:
         - track:
               colspan: 2
-              location: Main Track and Side Track
+              location: Main Track and Mention Me Track
               title: Room change
     - time: "14.45"
       slottype: talks
@@ -582,7 +582,7 @@
             level: Intermediate 
             description: Database joins can be expensive and you can reduce dives into the indexes/data by using JSON columns. By loading data kept in smaller 'stub' tables into main tables it is possible to minimize joins for simple data like address, phone numbers, and the like in schemaless JSON documents. Yes, third normal form or better has advantages at many levels but it is a design that is costly for many-to-many relations! It is very easy to refactor data is is often stagnant or infrequently updated to take advantage of hybrid SQL/NoSQL databases to greatly increase overall query performance plus increase code readability. This approach can completely change your ideas on data architecture and provide easy mutability for future changes.
         - track:
-            location: Side Track
+            location: Mention Me Track
             title: TBA
     - time: "15.45"
       slottype: break
