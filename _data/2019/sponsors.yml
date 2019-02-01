@@ -3,6 +3,15 @@
   type: track
   url: https://mention-me.com/
   description:
+    "Mention Me are shaking up the way the world’s best and brightest retailers and ecommerce businesses think about customer advocacy.
+    <br><br>
+    In the era of fake news never has trust been so important in marketing. As a business, Mention Me’s ethos is to challenge the status quo. By encouraging and supporting this movement towards trust marketing, we want to help marketers harness word of mouth. 
+    <br><br>
+    Mention Me's SaaS platform lets marketers create fully branded, flexible refer-a-friend programmes and our unique technology for AB testing and word of mouth tracking enables optimisation. Built using PHP, we handle millions of requests a day and serve content in over 15 different languages globally. Since launch 5 years ago, Mention Me has delivered over £500 Million in revenue to clients as diverse as Farfetch.com, Glasses Direct, Zipcar, Ovo Energy and Brewdog. 
+    <br><br>
+    Mention Me raised $7 million in late 2018 and is rapidly expanding - we've grown from a team of 15 to over 70 in the last three years.
+    <br><br>
+    We love wrestling big technical challenges, and we have big aspirations. PHP is a huge part of our technology stack, and we're always on the hunt for great engineers to join us on our journey. Come visit us at the conference (we'll all be wearing pink!) or visit mention-me.com/phpconf to see our open positions."
 
 - name: Shopware
   id: shopware
