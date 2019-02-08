@@ -19,8 +19,8 @@
             name: Workshop I
             speaker: David McKay
             handle: rawkode
-            bio: David is a Developer Advocate 🥑 for InfluxData, the company behind InfluxDB. As a serial user group organiser (Organising Cloud Native Glasgow, DevOps Glasgow, and Observability Glasgow), David is always searching for new and creative ways to share knowledge with others.
-            title: Kubernetes By Example
+            bio: David is a Developer Advocate for InfluxData, the company behind InfluxDB. As a serial user group organiser (Organising Cloud Native Glasgow, DevOps Glasgow, and Observability Glasgow), David is always searching for new and creative ways to share knowledge with others.
+            title: Kubernetes By Example - SOLD OUT!
             photo: /2019/assets/images/speakers/davidmckay.jpg
             location: The Samuel Room in The Montcalm Hotel at the Brewery
             id: workshopi
@@ -52,7 +52,7 @@
         - track:
             colspan: 2
             name: Workshop I
-            title: Kubernetes By Example, con't
+            title: Kubernetes By Example, con't - SOLD OUT!
             location: The Samuel Room in The Montcalm Hotel at the Brewery
             id: workshopi
         - track:
@@ -76,7 +76,7 @@
         - track:
             colspan: 2
             name: Workshop I
-            title: Kubernetes By Example, con't
+            title: Kubernetes By Example, con't - SOLD OUT!
             location: The Samuel Room in The Montcalm Hotel at the Brewery
             id: workshopi
         - track:
@@ -99,7 +99,7 @@
         - track:
             colspan: 2
             name: Workshop I
-            title: Kubernetes By Example, con't
+            title: Kubernetes By Example, con't - SOLD OUT!
             location: The Samuel Room in The Montcalm Hotel at the Brewery
             id: workshopi
         - track:
