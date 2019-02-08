@@ -69,10 +69,7 @@
   type: gold
   url: https://thisisbud.com/careers
   description:
-    "The financial network combining API's and data to create a new species of connected experiences.
-    <br><br>
-    The Bud platform allows banks to create a new generation of finance app that integrates products from third parties, generates insights and simplifies customer experiences."
-
+    "Bud builds the products, tools and services that transform personal finances into something toengage with, rather than avoid. Our mission is to make money simpler for everyone, and we’re doing this by placing the powerof data back into the hands of normal people. We use it to find ways to improve people’s finances – from savings, to investments, to utilityswitching and beyond. It’s a layer of thoughtful financial confidence, built into the every day."
 - name: Oracle
   id: oracle
   type: silver
