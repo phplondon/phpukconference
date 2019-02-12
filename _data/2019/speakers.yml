@@ -1,7 +1,7 @@
 - schedule-wednesday:
   name: Wednesday 20th February 2019
   description: |
-      <p>PHP UK Conference is pleased to bring to you <b>two</b> options for a full day of training on Wednesday, 20th February 2019, a day before the conference.</p><p>All  course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>**Please Note - an additional ticket is required to attend the workshop day.</p>
+      <p>PHP UK Conference is pleased to bring to you <b>two</b> options for a full day of training on Wednesday, 20th February 2019, a day before the conference.</p><p>All  course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>**Please Note - an additional ticket is required to attend the workshop day.</p><h2>All Workshops are now SOLD OUT.</h2>
   slots:
     - time: "08.30"
       slottype: break
@@ -33,7 +33,7 @@
             company: Crania Ltd
             location: The Montcalm Hotel at the Brewery
             bio: <a href="https://twitter.com/ciaranmcnulty">Ciaran McNulty</a> helps teams at all levels of ability improve via training and coaching. He has been a PHP professional since the late 90s and is passionate about TDD, BDD and Agile methodologies. He is lead maintainer of PhpSpec.
-            title: BDD in Practice
+            title: BDD in Practice - SOLD OUT!
             photo: /2019/assets/images/speakers/ciaranmcnulty.jpg
             location: The Cornwallis Room in the Montcalm Hotel at the Brewery
             id: workshopii
@@ -58,7 +58,7 @@
         - track:
             colspan: 2
             name: Workshop II
-            title: BDD in Practice, con't
+            title: BDD in Practice, con't - SOLD OUT!
             location: The Cornwallis Room in The Montcalm Hotel at the Brewery
             id: workshopii
     - time: "12.30"
@@ -82,7 +82,7 @@
         - track:
             colspan: 2
             name: Workshop II
-            title: BDD in Practice, con't
+            title: BDD in Practice, con't - SOLD OUT!
             location: The Cornwallis Room in The Montcalm Hotel at the Brewery
             id: workshopii
     - time: "15.00"
@@ -105,7 +105,7 @@
         - track:
             colspan: 2
             name: Workshop II
-            title: BDD in Practice, con't
+            title: BDD in Practice, con't - SOLD OUT!
             location: The Cornwallis Room in The Montcalm Hotel at the Brewery
             id: workshopii
     - time: "18.00"
