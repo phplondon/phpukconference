@@ -189,15 +189,15 @@
             rowspan: 5
             location: Design Track
             tooltip: The Design Track is all about software architecture, design patterns and best practices. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
-            title: TBA
-            slug: 
-            speaker: 
-            handle: 
-            company:
-            photo: 
-            bio: 
-            level: 
-            description: 
+            title: Best Practices for Crafting High Quality PHP Apps
+            slug: jamestitcumb
+            speaker: James Titcumb
+            handle: asgrim 
+            company: Roave, LLC
+            photo: /2019/assets/images/speakers/jamestitcumb.jpg
+            bio: James is a consultant, trainer and developer at Roave. He is a prolific contributor to various open source projects and is a Zend Certified Engineer. He also founded the UK based PHP Hampshire user group and PHP South Coast conference.
+            level: Intermediate
+            description: "This prototype works, but it’s not pretty, and now it’s in production. That legacy application really needs some TLC. Where do we start? When creating long lived applications, it’s imperative to focus on good practices. The solution is to improve the whole development life cycle; from planning, better coding and testing, to automation, peer review and more. In this tutorial, we’ll take a deep dive into each of these areas, looking at how we can make positive, actionable change in our workflow. This workshop intends to improve your skills in planning, documenting, some aspects of development, testing and delivery of software for both legacy and greenfield projects. The workshop is made up of multiple exercises, allowing dynamic exploration into the various aspects of the software development life cycle. In each practical exercise, we'll brainstorm and investigate solutions, ensuring they are future-proofed, well tested and lead to the ultimate goal of confidence in delivering stable software."
         - track:
             rowspan: 5
             location: Velocity Track
@@ -524,18 +524,17 @@
             level: All
             description: Learning more than one programming language is key to becoming a better developer. It is like adding a new tool to your toolbox. The more tools you have, the easier and quicker you’ll be able to tackle whatever job you need to do. You’ll also be able to use the right tool for the job, and who doesn’t like that?! I picked up Go (golang) a few years ago as it was becoming more popular among developers. Coming from a PHP background, I had no idea what channels or goroutines were or how is concurrency different from parallelism. I’ve got to say, it was a whole new world. Very different, but very cool. I was hooked! By happy coincidence, my company was looking to rewrite a legacy PHP app in Go. It was over 2000 lines of procedural and messy PHP4 with more downtime than I’m willing to admit to. I took on this project, and soon enough we had a much faster, more maintainable and much more reliable app for our customers. Go gave us options we would not have in PHP. The goal of this talk is to give you a good idea of what Go is and how it compares with PHP. We’ll look at the language itself as well as the tooling and communities around it. Even if you’re not sold on Go by the end of it, I hope you’ll leave inspired to go out there and learn whatever language you wanted to look into next. 
         - track:
-            rowspan: 5
             location: Design Track
             tooltip: The Design Track is all about software architecture, design patterns and best practices. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
-            title: Best Practices for Crafting High Quality PHP Apps
-            slug: jamestitcumb
-            speaker: James Titcumb
-            handle: asgrim 
-            company: Roave, LLC
-            photo: /2019/assets/images/speakers/jamestitcumb.jpg
-            bio: James is a consultant, trainer and developer at Roave. He is a prolific contributor to various open source projects and is a Zend Certified Engineer. He also founded the UK based PHP Hampshire user group and PHP South Coast conference.
-            level: Intermediate
-            description: "This prototype works, but it’s not pretty, and now it’s in production. That legacy application really needs some TLC. Where do we start? When creating long lived applications, it’s imperative to focus on good practices. The solution is to improve the whole development life cycle; from planning, better coding and testing, to automation, peer review and more. In this tutorial, we’ll take a deep dive into each of these areas, looking at how we can make positive, actionable change in our workflow. This workshop intends to improve your skills in planning, documenting, some aspects of development, testing and delivery of software for both legacy and greenfield projects. The workshop is made up of multiple exercises, allowing dynamic exploration into the various aspects of the software development life cycle. In each practical exercise, we'll brainstorm and investigate solutions, ensuring they are future-proofed, well tested and lead to the ultimate goal of confidence in delivering stable software."
+            title: API Standards 2.0
+            slug: michaelheap
+            speaker: Michael Heap
+            handle: mheap
+            company: Nexmo
+            photo: /assets/images/speakers/michaelheap.jpg
+            bio: Michael is a developer advocate at Nexmo, where he spends most of his time working with product and engineering designing and documenting APIs. Previously, he’s worked as a developer (PHP, Node and Go), on an operations team (Ansible, Chef and Terraform) and even briefly lead groups of young people on expeditions.
+            level: All
+            description: "We're all familiar with things like HTTP codes and content types, but there's so much more we can do when developing an API to make life easier for consumers. How many times have you used an API only to find out that every endpoint is slightly different – some use `snake_case`, others `camelCase`, sometimes the field is called `id`, sometimes it’s `user_id`. How about pagination? Error responses? What about API documentation? Trying to standardise on all these things can kill an engineering team. There are so many options out there it’s difficult to know where to start. Come along and learn what works for our team! We’ll cover contentious topics (should the version be in the URL or a header?), lesser-known standards that are great (RFC 7807 springs to mind) and a couple of things that aren't an issue right up until they’re a really big issue (like pagination). <br><br>*** Please note this tutorial session is only 60 minutes long will not have hands on exercises, in order to accommodate the hackathon presentations following. "
         - track:
             rowspan: 5
             location: Velocity Track
@@ -554,8 +553,8 @@
       slottype: break
       tracks:
         - track:
-              colspan: 2
-              location: Main Track and Mention Me Track
+              colspan: 3
+              location: Main Track, Mention Me Track, and Design Track
               title: Room change
     - time: "14.45"
       slottype: talks
@@ -575,6 +574,13 @@
             bio: "Dave Stokes is a MySQL Community Manager for Oracle Corporation and started at MySQL as a PHP Developer in the MySQL Certification Group. He lives in Texas, is the author of MySQL and JSON: A Practical Programming Guide, and makes extensive use of the Open G tuning when playing guitars."
             level: Intermediate 
             description: Database joins can be expensive and you can reduce dives into the indexes/data by using JSON columns. By loading data kept in smaller 'stub' tables into main tables it is possible to minimize joins for simple data like address, phone numbers, and the like in schemaless JSON documents. Yes, third normal form or better has advantages at many levels but it is a design that is costly for many-to-many relations! It is very easy to refactor data is is often stagnant or infrequently updated to take advantage of hybrid SQL/NoSQL databases to greatly increase overall query performance plus increase code readability. This approach can completely change your ideas on data architecture and provide easy mutability for future changes.
+        - track:
+            location: Design Track
+            tooltip: The Design Track is all about software architecture, design patterns and best practices. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
+            title: Hackathon Presentations and Judging
+            speaker: Nexmo
+            level: All
+            description: "The Nexmo Hackathon participants will present and demo their apps built over the past two days using the Nexmo APIs. The hackathon judges will determine and announce the winners. The winners will be announced and presented with their prizes on the main stage after the closing keynote."
     - time: "15.45"
       slottype: break
       tracks:
