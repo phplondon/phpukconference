@@ -562,6 +562,9 @@
       tracks:
         - track:
             location: Main Track
+            title: TBA
+        - track:
+            location: Mention Me Track
             title: Hybrid Databases
             subtitle: How De-normalizing Your Data with JSON Can Boost Query Performance
             slug: davidstokes
@@ -572,9 +575,6 @@
             bio: "Dave Stokes is a MySQL Community Manager for Oracle Corporation and started at MySQL as a PHP Developer in the MySQL Certification Group. He lives in Texas, is the author of MySQL and JSON: A Practical Programming Guide, and makes extensive use of the Open G tuning when playing guitars."
             level: Intermediate 
             description: Database joins can be expensive and you can reduce dives into the indexes/data by using JSON columns. By loading data kept in smaller 'stub' tables into main tables it is possible to minimize joins for simple data like address, phone numbers, and the like in schemaless JSON documents. Yes, third normal form or better has advantages at many levels but it is a design that is costly for many-to-many relations! It is very easy to refactor data is is often stagnant or infrequently updated to take advantage of hybrid SQL/NoSQL databases to greatly increase overall query performance plus increase code readability. This approach can completely change your ideas on data architecture and provide easy mutability for future changes.
-        - track:
-            location: Mention Me Track
-            title: TBA
     - time: "15.45"
       slottype: break
       tracks:
@@ -599,7 +599,7 @@
             photo: /2019/assets/images/speakers/michielrook.jpg
             bio: Michiel Rook is an experienced, passionate & pragmatic freelance coach, developer & speaker from the Netherlands. He loves helping teams and companies to develop better software and significantly improve their delivery process. When he’s not thinking about continuous deployment, devops or event sourcing he enjoys music, cars, sports and movies.
             level: Intermediate
-            description: Have you ever heard someone say “Don’t deploy on Friday”? I used to say that too! Learn about resilience and operability, deployments, pipelines and continuous testing. Discover trunk based development, pair programming and best practices, and gain the confidence to deploy any day of the week!
+            description: Have you ever heard someone say "Don’t deploy on Friday"? I used to say that too! Learn about resilience and operability, deployments, pipelines and continuous testing. Discover trunk based development, pair programming and best practices, and gain the confidence to deploy any day of the week!
     - time: "17.00"
       slottype: break
       tracks:
