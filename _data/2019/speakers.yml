@@ -1,7 +1,7 @@
 - schedule-wednesday:
   name: Wednesday 20th February 2019
   description: |
-      <p>PHP UK Conference is pleased to bring to you <b>two</b> options for a full day of training on Wednesday, 20th February 2019, a day before the conference.</p><p>All  course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>**Please Note - an additional ticket is required to attend the workshop day.</p>
+      <p>PHP UK Conference is pleased to bring to you <b>two</b> options for a full day of training on Wednesday, 20th February 2019, a day before the conference.</p><p>All  course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>**Please Note - an additional ticket is required to attend the workshop day.</p><h2>All Workshops are now SOLD OUT.</h2>
   slots:
     - time: 
       slottype: MC
@@ -33,8 +33,8 @@
             name: Workshop I
             speaker: David McKay
             handle: rawkode
-            bio: David is a Developer Advocate 🥑 for InfluxData, the company behind InfluxDB. As a serial user group organiser (Organising Cloud Native Glasgow, DevOps Glasgow, and Observability Glasgow), David is always searching for new and creative ways to share knowledge with others.
-            title: Kubernetes By Example
+            bio: David is a Developer Advocate for InfluxData, the company behind InfluxDB. As a serial user group organiser (Organising Cloud Native Glasgow, DevOps Glasgow, and Observability Glasgow), David is always searching for new and creative ways to share knowledge with others.
+            title: Kubernetes By Example - SOLD OUT!
             photo: /2019/assets/images/speakers/davidmckay.jpg
             location: The Samuel Room in The Montcalm Hotel at the Brewery
             id: workshopi
@@ -47,7 +47,7 @@
             company: Crania Ltd
             location: The Montcalm Hotel at the Brewery
             bio: <a href="https://twitter.com/ciaranmcnulty">Ciaran McNulty</a> helps teams at all levels of ability improve via training and coaching. He has been a PHP professional since the late 90s and is passionate about TDD, BDD and Agile methodologies. He is lead maintainer of PhpSpec.
-            title: BDD in Practice
+            title: BDD in Practice - SOLD OUT!
             photo: /2019/assets/images/speakers/ciaranmcnulty.jpg
             location: The Cornwallis Room in the Montcalm Hotel at the Brewery
             id: workshopii
@@ -66,13 +66,13 @@
         - track:
             colspan: 2
             name: Workshop I
-            title: Kubernetes By Example, con't
+            title: Kubernetes By Example, con't - SOLD OUT!
             location: The Samuel Room in The Montcalm Hotel at the Brewery
             id: workshopi
         - track:
             colspan: 2
             name: Workshop II
-            title: BDD in Practice, con't
+            title: BDD in Practice, con't - SOLD OUT!
             location: The Cornwallis Room in The Montcalm Hotel at the Brewery
             id: workshopii
     - time: "12.30"
@@ -90,13 +90,13 @@
         - track:
             colspan: 2
             name: Workshop I
-            title: Kubernetes By Example, con't
+            title: Kubernetes By Example, con't - SOLD OUT!
             location: The Samuel Room in The Montcalm Hotel at the Brewery
             id: workshopi
         - track:
             colspan: 2
             name: Workshop II
-            title: BDD in Practice, con't
+            title: BDD in Practice, con't - SOLD OUT!
             location: The Cornwallis Room in The Montcalm Hotel at the Brewery
             id: workshopii
     - time: "15.00"
@@ -113,13 +113,13 @@
         - track:
             colspan: 2
             name: Workshop I
-            title: Kubernetes By Example, con't
+            title: Kubernetes By Example, con't - SOLD OUT!
             location: The Samuel Room in The Montcalm Hotel at the Brewery
             id: workshopi
         - track:
             colspan: 2
             name: Workshop II
-            title: BDD in Practice, con't
+            title: BDD in Practice, con't - SOLD OUT!
             location: The Cornwallis Room in The Montcalm Hotel at the Brewery
             id: workshopii
     - time: "18.00"
@@ -201,6 +201,19 @@
             description: 15 years ago, plain text password storing was normal with some using MD5. We look back now and wonder what we were thinking! With GDPR and people thinking more about personal details, its about time we caught up and started storing them securely. There are many uses for personal data and is often sought after by criminals for targeting people. How can you prevent your customers data being used in these attacks ? Encrypting your database is a fantastic way! PHP is the first language to have modern encryption built in to the core, This talk will show you how to use these methods to allow your data to be secure and also not lose the speed which you can currently search for this data in your application. This talk will touch on architecture and will be focused on MySQL although the same techniques can be used for any storage engine.
         - track:
             rowspan: 5
+            location: Design Track
+            tooltip: The Design Track is all about software architecture, design patterns and best practices. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
+            title: Best Practices for Crafting High Quality PHP Apps
+            slug: jamestitcumb
+            speaker: James Titcumb
+            handle: asgrim 
+            company: Roave, LLC
+            photo: /2019/assets/images/speakers/jamestitcumb.jpg
+            bio: James is a consultant, trainer and developer at Roave. He is a prolific contributor to various open source projects and is a Zend Certified Engineer. He also founded the UK based PHP Hampshire user group and PHP South Coast conference.
+            level: Intermediate
+            description: "This prototype works, but it’s not pretty, and now it’s in production. That legacy application really needs some TLC. Where do we start? When creating long lived applications, it’s imperative to focus on good practices. The solution is to improve the whole development life cycle; from planning, better coding and testing, to automation, peer review and more. In this tutorial, we’ll take a deep dive into each of these areas, looking at how we can make positive, actionable change in our workflow. This workshop intends to improve your skills in planning, documenting, some aspects of development, testing and delivery of software for both legacy and greenfield projects. The workshop is made up of multiple exercises, allowing dynamic exploration into the various aspects of the software development life cycle. In each practical exercise, we'll brainstorm and investigate solutions, ensuring they are future-proofed, well tested and lead to the ultimate goal of confidence in delivering stable software."
+        - track:
+            rowspan: 5
             location: Velocity Track
             tooltip: The Velocity Track is all about servers, scalability and high availability. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
             title: "Web Developer's HTTP Toolbox"
@@ -212,19 +225,6 @@
             bio: Lorna is based "up- north" in Yorkshire; she is a Developer Advocate with Nexmo as well as a published author and experienced conference speaker.  She brings her technical expertise on a range of topics to audiences all over the world with her writing and speaking engagements, always delivered with a very practical slant.  In her spare time, Lorna blogs at <a href="http://lornajane.net">http://lornajane.net</a>.
             level: Intermediate
             description: You say "toolbox", I say "treasure chest". We work on the web building so much more than web pages but these rich, asynchronous applications can suffer from ailments that are difficult for us to see. This session is a tour through some of the best tools around for working with HTTP to observe interaction between components and diagnose problems. By knowing the tools at your disposal and the right job for each, you will be able to quickly and painlessly identify and fix HTTP-related problems - and then get to the pub on time! I mean, get the next thing done ;) Whether you're debugging a backend API, an asynchronous client request or an unexpected timeout, these are the tools you will want to have at hand.
-        - track:
-            rowspan: 5
-            location: Design Track
-            tooltip: The Design Track is all about software architecture, design patterns and best practices. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
-            title: TBA
-            slug: 
-            speaker: 
-            handle: 
-            company:
-            photo: 
-            bio: 
-            level: 
-            description: 
     - time: "11.15"
       slottype: break
       tracks:
@@ -293,19 +293,6 @@
             description: In this presentation we will look at storing complex data in a single field. Many noSQL solutions are created around this (such as Redis’ lists, sets and hashes; MongoDB’s records), and many relational database now also support storing complex data in a single field through specific data types (such as PostGreSQL’s JSONB or hstore). Each of the different database engines support different things, and handle these data types in different ways. In this session we compare the different approaches to storage, indexing and interactions with these data types in different databases.
         - track:
             rowspan: 5
-            location: Velocity Track
-            tooltip: The Velocity Track is all about servers, scalability and high availability. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
-            title: Deploying your first Micro-Service Application to Kubernetes
-            slug: bastianhofmann
-            speaker: Bastian Hofmann
-            handle: BastianHofmann
-            company: SysEleven
-            photo: https://secure.gravatar.com/avatar/3a3f9c32c9e5a4c2970befd97d52285b?s=500
-            bio: Bastian is a System Engineer at SysEleven, a full-service hosting company, where he focuses on bringing the power Kubernetes to its customers. Before that he was caring about performance, monitoring, web-security and developer productivity at ResearchGate, the social network for researchers and scientists. When he is not developing stuff or looking at graphs, he likes to cycle, do Yoga, go to beer gardens and frequently speaks at international conferences on software architecture, scaling web applications and open standards and protocols.
-            level: All
-            description: Kubernetes is a very powerful container orchestration platform that is quickly gaining traction and gives you lots of benefits in deploying, running and scaling your microservice web application. But it has also a steep learning curve. In this workshop you will deploy and scale your first application which consists of multiple Micro-Services to Kubernetes and learn how you can use Persistent Storage. If you want to not just watch, but also program along yourself, have Git, <a href="https://www.docker.com/products/docker-desktop">Docker</a> and the <a href="https://kubernetes.io/docs/tasks/tools/install-kubectl/">Kubernetes CLI kubectl</a> as well as a IDE or Text Editor of your choice installed on your system.
-        - track:
-            rowspan: 5
             location: Design Track
             tooltip: The Design Track is all about software architecture, design patterns and best practices. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
             title: Getting Going with Automated Testing
@@ -317,6 +304,19 @@
             bio: Gary Hockin pretends to write high-quality web applications as a senior developer at the BBC. He is a talented and evocative speaker, a cultivated author of impressively entertaining blog posts, and records elegant and informative screencasts and videos. Gary's also a contributor to the Zend Framework and is argumentative enough to be on the community review team. When Gary had a real job, he was a developer of at least competent standard with nearly 20 years experience. When not developing, speaking about developing, reading about developing or writing about developing, Gary enjoys playing computer games and arguing with his wife and two kids. Gary has recently discovered that conferences ask speakers to write their own biography text, and you can get away with writing pretty much anything you want.
             level: Intermediate
             description: Automated testing is an incredibly useful tool for any developer. From emerging design with unit tests to preventing regression bugs with acceptance tests, getting a computer to run tests instead of testing manually is a huge step forward and saves vast amounts of time. Where do you start with automated testing? It's an intimidating topic and can be confusing to understand what all the techy speak means, let alone how you get going. But writing automated tests shouldn't be difficult, and can and should be part of your daily workflow once you understand exactly what to test, and how to test it. In this workshop, we'll introduce WHY and HOW you can get started with unit and acceptance tests, and touch on integration testing. By the end of the workshop, you'll understand how you can leverage automated testing in new and existing projects, and be ready to save time and energy when developing.
+        - track:
+            rowspan: 5
+            location: Velocity Track
+            tooltip: The Velocity Track is all about servers, scalability and high availability. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
+            title: Deploying your first Micro-Service Application to Kubernetes
+            slug: bastianhofmann
+            speaker: Bastian Hofmann
+            handle: BastianHofmann
+            company: SysEleven
+            photo: https://secure.gravatar.com/avatar/3a3f9c32c9e5a4c2970befd97d52285b?s=500
+            bio: Bastian is a System Engineer at SysEleven, a full-service hosting company, where he focuses on bringing the power Kubernetes to its customers. Before that he was caring about performance, monitoring, web-security and developer productivity at ResearchGate, the social network for researchers and scientists. When he is not developing stuff or looking at graphs, he likes to cycle, do Yoga, go to beer gardens and frequently speaks at international conferences on software architecture, scaling web applications and open standards and protocols.
+            level: All
+            description: Kubernetes is a very powerful container orchestration platform that is quickly gaining traction and gives you lots of benefits in deploying, running and scaling your microservice web application. But it has also a steep learning curve. In this workshop you will deploy and scale your first application which consists of multiple Micro-Services to Kubernetes and learn how you can use Persistent Storage. If you want to not just watch, but also program along yourself, have Git, <a href="https://www.docker.com/products/docker-desktop">Docker</a> and the <a href="https://kubernetes.io/docs/tasks/tools/install-kubectl/">Kubernetes CLI kubectl</a> as well as a IDE or Text Editor of your choice installed on your system.
     - time: "14.30"
       slottype: break
       tracks:
@@ -446,6 +446,19 @@
             description: "The talk aims to highlight the importance of testing, why developers must spend more of their time testing, how testing generates more robust applications and why testing makes developers' lives easier. The talk is based around a live coding demo. The talk will: Explain the difference between tests that prove an application works and tests which aim to break the application logic - Highlight how test to break principles force developers to introduce logic to handle unexpected behaviour - Show how test to break principles result in more robust applications as developers write code that can only be used in one way - Encourage developers to apply test to break principles to all types of tests, including manual tests."
         - track:
             rowspan: 5
+            location: Design Track
+            tooltip: The Design Track is all about software architecture, design patterns and best practices. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
+            title: A Practical Introduction to Strategic Domain Driven Design 
+            slug: pimelshoff
+            speaker: Pim Elshoff
+            handle: pelshoff
+            company: Procurios
+            photo: https://secure.gravatar.com/avatar/81e857852d96ca45a3c1c4965854e6c5?s=500
+            bio: Like you, Pim is on a quest to do things a little bit better every time. As a scrum developer, he has extensive experience with solid coding, patient mentoring and tackling big projects using Domain Driven Design. Presentations by Pim are always fun, engaging and conversational. But don't fret; if you just want to listen and let others speak, it wíll be worth your time. Pim has worked at Procurios since 2012 and has seen a multitude of fundraising, political party and other clients that all share a common goal - getting the very most out of their software.
+            level: All
+            description: "Knowing how to do things right is half the battle. Knowing how to do the right thing is the under appreciated but essential other half. In this workshop we'll learn how to discover the language of our clients. We will gracefully evolve our understanding from nothing to something and use various modelling tools to grow our understanding of the problem. If you want to have better conversations, make more useful models, and have the optimal preparation for writing code, then this is the workshop for you. Topics include context mapping, event storming, and value mapping."
+        - track:
+            rowspan: 5
             location: Velocity Track
             tooltip: The Velocity Track is all about servers, scalability and high availability. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
             title: LAMP ❤️ AWS
@@ -458,19 +471,6 @@
             bio: Mike has been working in web application development using PHP for 10 years, including 3 years managing a development team for a property tech startup and before that 4 years building a real time application for managing operations at skydiving centres, as well as some time freelancing. Through working on business critical systems with real time elements Mike has learned the value of comprehensive logging & monitoring, redundant checks on applications & infrastructure, and of course well written testable code!
             level: Intermediate
             description: "There are a great many reasons your application can benefit from moving to the cloud, but enough requirements for retraining, uncertainty around cost or complexity and just plain worry about what can go wrong to delay or prevent such a move. When my business moved to the cloud we learned that there are ways around many of these challenges, allowing you to move your application in a way which might not be best practice but which works and gives you a solid platform from which to advance and improve your cloud implementation. In this tutorial we'll look at key building blocks to put a LAMP application onto AWS, what might cause problems for your individual use cases and how to mitigate these. As well as basic plans to get you started we'll look at pathways to modify your application and train your team to take more advantage of cloud native features and adhere to infrastructure and security best practices in a way which allows you to keep running your team and your business."
-        - track:
-            rowspan: 5
-            location: Design Track
-            tooltip: The Design Track is all about software architecture, design patterns and best practices. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
-            title: A Practical Introduction to Strategic Domain Driven Design 
-            slug: pimelshoff
-            speaker: Pim Elshoff
-            handle: pelshoff
-            company: Procurios
-            photo: https://secure.gravatar.com/avatar/81e857852d96ca45a3c1c4965854e6c5?s=500
-            bio: Like you, Pim is on a quest to do things a little bit better every time. As a scrum developer, he has extensive experience with solid coding, patient mentoring and tackling big projects using Domain Driven Design. Presentations by Pim are always fun, engaging and conversational. But don't fret; if you just want to listen and let others speak, it wíll be worth your time. Pim has worked at Procurios since 2012 and has seen a multitude of fundraising, political party and other clients that all share a common goal - getting the very most out of their software.
-            level: All
-            description: "Knowing how to do things right is half the battle. Knowing how to do the right thing is the under appreciated but essential other half. In this workshop we'll learn how to discover the language of our clients. We will gracefully evolve our understanding from nothing to something and use various modelling tools to grow our understanding of the problem. If you want to have better conversations, make more useful models, and have the optimal preparation for writing code, then this is the workshop for you. Topics include context mapping, event storming, and value mapping."
     - time: "11.15"
       slottype: break
       tracks:
@@ -538,6 +538,18 @@
             level: All
             description: Learning more than one programming language is key to becoming a better developer. It is like adding a new tool to your toolbox. The more tools you have, the easier and quicker you’ll be able to tackle whatever job you need to do. You’ll also be able to use the right tool for the job, and who doesn’t like that?! I picked up Go (golang) a few years ago as it was becoming more popular among developers. Coming from a PHP background, I had no idea what channels or goroutines were or how is concurrency different from parallelism. I’ve got to say, it was a whole new world. Very different, but very cool. I was hooked! By happy coincidence, my company was looking to rewrite a legacy PHP app in Go. It was over 2000 lines of procedural and messy PHP4 with more downtime than I’m willing to admit to. I took on this project, and soon enough we had a much faster, more maintainable and much more reliable app for our customers. Go gave us options we would not have in PHP. The goal of this talk is to give you a good idea of what Go is and how it compares with PHP. We’ll look at the language itself as well as the tooling and communities around it. Even if you’re not sold on Go by the end of it, I hope you’ll leave inspired to go out there and learn whatever language you wanted to look into next. 
         - track:
+            location: Design Track
+            tooltip: The Design Track is all about software architecture, design patterns and best practices. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
+            title: API Standards 2.0
+            slug: michaelheap
+            speaker: Michael Heap
+            handle: mheap
+            company: Nexmo
+            photo: /assets/images/speakers/michaelheap.jpg
+            bio: Michael is a developer advocate at Nexmo, where he spends most of his time working with product and engineering designing and documenting APIs. Previously, he’s worked as a developer (PHP, Node and Go), on an operations team (Ansible, Chef and Terraform) and even briefly lead groups of young people on expeditions.
+            level: All
+            description: "We're all familiar with things like HTTP codes and content types, but there's so much more we can do when developing an API to make life easier for consumers. How many times have you used an API only to find out that every endpoint is slightly different – some use `snake_case`, others `camelCase`, sometimes the field is called `id`, sometimes it’s `user_id`. How about pagination? Error responses? What about API documentation? Trying to standardise on all these things can kill an engineering team. There are so many options out there it’s difficult to know where to start. Come along and learn what works for our team! We’ll cover contentious topics (should the version be in the URL or a header?), lesser-known standards that are great (RFC 7807 springs to mind) and a couple of things that aren't an issue right up until they’re a really big issue (like pagination). <br><br>*** Please note this tutorial session is only 60 minutes long will not have hands on exercises, in order to accommodate the hackathon presentations following. "
+        - track:
             rowspan: 5
             location: Velocity Track
             tooltip: The Velocity Track is all about servers, scalability and high availability. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
@@ -550,41 +562,22 @@
             bio: Passionate developer with over 15yrs of professional experience developing, deploying and maintaining enterprise web applications for the manufacturing and healthcare industries. I'm currently at healthlabs.com where I've been for 3 years, helping them grow from a small startup with little to no automation and/or QA to a fully Dockerized environment with a robust CI/CD pipeline and resilient QA process. I'm a fanatic when it comes to automation and quality code. I love sharing my knowledge and experience with my peers and helping other breaks into the industry.
             level: Intermediate
             description: |
-                Keeping your environments in sync has been a challenge for software development for a long time. Developers tend to install their own versions of languages, databases, services etc. Doing so manually results in not only inconsistencies between dev and prod, but also from developer to developer, resulting in the always wonderful ""It works on my machine"" syndrome.
-                Various tools have strived to solve this problem: MAMP, XAMP, VirtualBox, Vargrant, Puppet, Chef, homestead, etc. These are all steps in the right direction, but they're often heavy and require developers to learn new skills to work with them.
-                In this talk, I'll be showing you how to Dockerize a new or existing project in such a way that the developers that use the project barely even know they are using Docker. Getting a new dev up to speed on a new project with a factory fresh machine is literally just a matter of installing Docker and check out the source code. That's it!
-                Some of the benefits you'll see from using this approach:
-                <ul><li>Onboard new devs in minutes.</li>
-                <li>Have projects with unique (often incompatible) dependencies on a single machine.</li>
-                <li>Dockerized environment that acts like natively installed tools</li>
-                <li>Version locking of the tech stack</li>
-                <li>Updates to dependencies automatically distributed to other developers</li>
-                <li>Easily extended into CI/CD"</li></ul>
-        - track:
-            rowspan: 5
-            location: Design Track
-            tooltip: The Design Track is all about software architecture, design patterns and best practices. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
-            title: Best Practices for Crafting High Quality PHP Apps
-            slug: jamestitcumb
-            speaker: James Titcumb
-            handle: asgrim 
-            company: Roave, LLC
-            photo: /2019/assets/images/speakers/jamestitcumb.jpg
-            bio: James is a consultant, trainer and developer at Roave. He is a prolific contributor to various open source projects and is a Zend Certified Engineer. He also founded the UK based PHP Hampshire user group and PHP South Coast conference.
-            level: Intermediate
-            description: "This prototype works, but it’s not pretty, and now it’s in production. That legacy application really needs some TLC. Where do we start? When creating long lived applications, it’s imperative to focus on good practices. The solution is to improve the whole development life cycle; from planning, better coding and testing, to automation, peer review and more. In this tutorial, we’ll take a deep dive into each of these areas, looking at how we can make positive, actionable change in our workflow. This workshop intends to improve your skills in planning, documenting, some aspects of development, testing and delivery of software for both legacy and greenfield projects. The workshop is made up of multiple exercises, allowing dynamic exploration into the various aspects of the software development life cycle. In each practical exercise, we'll brainstorm and investigate solutions, ensuring they are future-proofed, well tested and lead to the ultimate goal of confidence in delivering stable software."
+                Keeping your environments in sync has been a challenge for software development for a long time. Developers tend to install their own versions of languages, databases, services etc. Doing so manually results in not only inconsistencies between dev and prod, but also from developer to developer, resulting in the always wonderful "It works on my machine" syndrome. Various tools have strived to solve this problem - MAMP, XAMP, VirtualBox, Vargrant, Puppet, Chef, homestead, etc. These are all steps in the right direction, but they're often heavy and require developers to learn new skills to work with them. In this talk, I'll be showing you how to Dockerize a new or existing project in such a way that the developers that use the project barely even know they are using Docker. Getting a new dev up to speed on a new project with a factory fresh machine is literally just a matter of installing Docker and check out the source code. That's it! Some of the benefits you'll see from using this approach<ul><li>Onboard new devs in minutes.</li><li>Have projects with unique (often incompatible) dependencies on a single machine.</li><li>Dockerized environment that acts like natively installed tools</li><li>Version locking of the tech stack</li><li>Updates to dependencies automatically distributed to other developers</li><li>Easily extended into CI/CD</li></ul>
     - time: "14.30"
       slottype: break
       tracks:
         - track:
-              colspan: 2
-              location: Main Track and Mention Me Track
+              colspan: 3
+              location: Main Track, Mention Me Track, and Design Track
               title: Room change
     - time: "14.45"
       slottype: talks
       tracks:
         - track:
             location: Main Track
+            title: TBA
+        - track:
+            location: Mention Me Track
             title: Hybrid Databases
             subtitle: How De-normalizing Your Data with JSON Can Boost Query Performance
             slug: davidstokes
@@ -596,8 +589,12 @@
             level: Intermediate 
             description: Database joins can be expensive and you can reduce dives into the indexes/data by using JSON columns. By loading data kept in smaller 'stub' tables into main tables it is possible to minimize joins for simple data like address, phone numbers, and the like in schemaless JSON documents. Yes, third normal form or better has advantages at many levels but it is a design that is costly for many-to-many relations! It is very easy to refactor data is is often stagnant or infrequently updated to take advantage of hybrid SQL/NoSQL databases to greatly increase overall query performance plus increase code readability. This approach can completely change your ideas on data architecture and provide easy mutability for future changes.
         - track:
-            location: Mention Me Track
-            title: TBA
+            location: Design Track
+            tooltip: The Design Track is all about software architecture, design patterns and best practices. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
+            title: Hackathon Presentations and Judging
+            speaker: Nexmo
+            level: All
+            description: "The Nexmo Hackathon participants will present and demo their apps built over the past two days using the Nexmo APIs. The hackathon judges will determine and announce the winners. The winners will be announced and presented with their prizes on the main stage after the closing keynote."
     - time: "15.45"
       slottype: break
       tracks:
@@ -622,7 +619,7 @@
             photo: /2019/assets/images/speakers/michielrook.jpg
             bio: Michiel Rook is an experienced, passionate & pragmatic freelance coach, developer & speaker from the Netherlands. He loves helping teams and companies to develop better software and significantly improve their delivery process. When he’s not thinking about continuous deployment, devops or event sourcing he enjoys music, cars, sports and movies.
             level: Intermediate
-            description: Have you ever heard someone say “Don’t deploy on Friday”? I used to say that too! Learn about resilience and operability, deployments, pipelines and continuous testing. Discover trunk based development, pair programming and best practices, and gain the confidence to deploy any day of the week!
+            description: Have you ever heard someone say "Don’t deploy on Friday"? I used to say that too! Learn about resilience and operability, deployments, pipelines and continuous testing. Discover trunk based development, pair programming and best practices, and gain the confidence to deploy any day of the week!
     - time: "17.00"
       slottype: break
       tracks:
