@@ -3,6 +3,20 @@
   description: |
       <p>PHP UK Conference is pleased to bring to you <b>two</b> options for a full day of training on Wednesday, 20th February 2019, a day before the conference.</p><p>All  course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>**Please Note - an additional ticket is required to attend the workshop day.</p>
   slots:
+    - time: 
+      slottype: MC
+      tracks:
+        - track:
+            colspan: 4
+            location: 
+            title: 
+            slug: bethtuckerlong
+            speaker: Beth Tucker Long
+            handle:  e3BethT
+            company: Treeline Design
+            photo: /assets/images/speakers/bethtuckerlong.jpg
+            bio: Beth Tucker Long is a PHP developer and an organizer of the Madison PHP and Madison Web Design & Development groups. You can find her on Twitter <a href="https://twitter.com/e3betht">(@e3BethT)</a> or on her blog <a href="http://www.alittleofboth.com">http://www.alittleofboth.com</a>. Beth is a firm believer in promoting community and mentoring. She runs Treeline Design, a web development company, and Exploricon, a gaming convention, along with her husband, Chris.
+            description:
     - time: "08.30"
       slottype: break
       tracks:
