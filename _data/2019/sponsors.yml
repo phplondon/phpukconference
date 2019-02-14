@@ -1,3 +1,20 @@
+- name: Chip
+  id: chip
+  type: track
+  url: https://www.getchip.uk
+  description:
+    "Chip is automating finances. We make it happen, whether ‘it’ is a wedding, a holiday, or a house deposit, whatever it is, we help people achieve their financial goals.
+    <br><br>
+    We’re not exactly a bank. We’re not exactly a savings account. We’re not exactly a lender. There's not a word for what we do, yet... We think we can find smarter ways to do a bit of all of the above. We work with your banking data to make you save smarter and borrow better.
+    <br><br>
+    Our face is a UX-led app with an active community supporting us as we grow. Behind the scenes, we plug into your bank account via OpenBanking APIs to automatically make tailored savings (and hopefully more things in the future), based on your spending habits and income.
+    <br><br>
+    We want everyone to be able to make the things they want happen and feel good about their money. We think the key to this is data and automation.
+    <br><br>
+    We’ve just broken the UK crowdfund record and are primed and ready to shake up the financial world. PHP is at the heart of what we do. Our core APIs are written in Phalcon and our new microservices take full advantage of Symfony components and awesome, modern, object oriented PHP.
+    <br><br>
+    Come chat to us if you like the sound of what we’re doing. We’ve got free stickers."
+
 - name: Mention me
   id: mentionme
   type: track
