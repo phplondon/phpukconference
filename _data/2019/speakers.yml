@@ -587,7 +587,16 @@
       tracks:
         - track:
             location: Main Track
-            title: TBA
+            title: RBD (Readme Based Design) 
+            subtitle: Designing PHP Packages by Using them Before we Code them 
+            slug: alancole
+            speaker: Alan Cole 
+            handle: 
+            company: Chip
+            photo: /assets/images/speakers/alan1.jpg
+            bio: "Alan is Head of Engineering at <a href=\"https://twitter.com/get_chip\">@get_chip</a> where he’s working to build the world best savings account with help of his fast expanding and talented engineering team and the wider chip family. Alan has 15 years experience as a PHP developer and leader and he’s passionate about clean, structured and scalable code and building high functioning teams."
+            level: Beginner
+            description: Focusing on the importance of understanding who will use our packages and libraries and how they’ll use them. We'll be looking at tools and ideas we can use to make sure our APIs are as intuitive as possible as well as the benefits that has on the portability and maintenance of our codebases. 
         - track:
             location: Mention Me Track
             title: Hybrid Databases
