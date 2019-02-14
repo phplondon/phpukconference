@@ -157,7 +157,7 @@
       tracks:
         - track:
             colspan: 4
-            location: Main Track
+            location: Chip Track
             title: "Controlling the Variables"
             slug: thijsferyn
             speaker: Thijs Feryn
@@ -184,7 +184,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Main Track
+            location: Chip Track
             title: Massively Scaled High Performance Web Services with PHP
             slug: deminyim
             speaker: Demin Yin
@@ -236,13 +236,13 @@
       tracks:
         - track:
             colspan: 2
-            location: Main Track and Mention Me Track
+            location: Chip Track and Mention Me Track
             title: Room change
     - time: "11.30"
       slottype: talks
       tracks:
         - track:
-            location: Main Track
+            location: Chip Track
             title: Introduction to Serverless PHP
             slug: roballen
             speaker: Rob Allen
@@ -275,7 +275,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Main Track
+            location: Chip Track
             title: Your App Lives on a Network
             subtitle: Networking for Web Developers
             slug: wimgodden
@@ -328,13 +328,13 @@
       tracks:
         - track:
               colspan: 2
-              location: Main Track and Mention Me Track
+              location: Chip Track and Mention Me Track
               title: Room change
     - time: "14.45"
       slottype: talks
       tracks:
         - track:
-            location: Main Track
+            location: Chip Track
             title: MySQL 8.0
             subtitle: Not Only Good, it's GREAT
             slug: gabrieladavilaferrara
@@ -370,7 +370,7 @@
       tracks:
         - track:
             colspan: 4
-            location: Main Track
+            location: Chip Track
             title: Everything is Awesome
             subtitle: The LEGOⓇ Approach to Being an Awesome Co-worker
             slug: paulverbeekmast
@@ -408,7 +408,7 @@
       tracks:
         - track:
             colspan: 4
-            location: Main Track
+            location: Chip Track
             title: From Good to SOLID
             subtitle: Becoming a Better PHP Developer
             slug: katerinatrajchevska
@@ -430,7 +430,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Main Track
+            location: Chip Track
             title: Microservices Gone Wrong 
             slug: anthonyferrara
             speaker: Anthony Ferrara
@@ -482,13 +482,13 @@
       tracks:
         - track:
             colspan: 2
-            location: Main Track and Mention Me Track
+            location: Chip Track and Mention Me Track
             title: Room change
     - time: "11.30"
       slottype: talks
       tracks:
         - track:
-            location: Main Track
+            location: Chip Track
             title: Does Your Code Measure Up?
             slug: adamculp
             speaker: Adam Culp
@@ -528,7 +528,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Main Track
+            location: Chip Track
             title: From Dev to Prod with GitLab CI
             slug: stephanhochdörfer
             speaker: Stephan Hochdörfer
@@ -580,13 +580,13 @@
       tracks:
         - track:
               colspan: 3
-              location: Main Track, Mention Me Track, and Design Track
+              location: Chip Track, Mention Me Track, and Design Track
               title: Room change
     - time: "14.45"
       slottype: talks
       tracks:
         - track:
-            location: Main Track
+            location: Chip Track
             title: RBD (Readme Based Design) 
             subtitle: Designing PHP Packages by Using them Before we Code them 
             slug: alancole
@@ -630,7 +630,7 @@
       tracks:
         - track:
             colspan: 4
-            location: Main Track
+            location: Chip Track
             title: I deploy on Fridays
             subtitle: (and maybe you should too)
             slug: michielrook
