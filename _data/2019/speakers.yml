@@ -133,7 +133,7 @@
             speaker: Michael Cullum
             slug: michaelcullum
             handle: michaelcullumuk
-            company: SamKnows
+            company: Bud
             photo: /2019/assets/images/speakers/michaelcullum.jpg
             bio: Michael Cullum is a backend software engineer, working particularly with PHP, and has been for about a decade. He currently works at SamKnows as a senior software engineer & architect doing data intelligence, storage and processing of internet measurement data at huge scale. He is also a manager & core developer at phpBB where he has been a contributor for over half a decade and he recently joined the Symfony Core Team as Security Lead. He is actively involved in the PHP FIG previously running the administration of it as the PHP FIG Secretary for 2 years and editor of PSR-12; he now sits on the Core Committee, the steering group of the FIG and is the editor of two security PSRs (PSR-9 and PSR-10).
             description: |
@@ -157,7 +157,7 @@
       tracks:
         - track:
             colspan: 4
-            location: Chip Track
+            location: Main Track
             title: "Controlling the Variables"
             slug: thijsferyn
             speaker: Thijs Feryn
@@ -184,7 +184,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Chip Track
+            location: Main Track
             title: Massively Scaled High Performance Web Services with PHP
             slug: deminyim
             speaker: Demin Yin
@@ -236,13 +236,13 @@
       tracks:
         - track:
             colspan: 2
-            location: Chip Track and Mention Me Track
+            location: Main Track and Mention Me Track
             title: Room change
     - time: "11.30"
       slottype: talks
       tracks:
         - track:
-            location: Chip Track
+            location: Main Track
             title: Introduction to Serverless PHP
             slug: roballen
             speaker: Rob Allen
@@ -275,7 +275,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Chip Track
+            location: Main Track
             title: Your App Lives on a Network
             subtitle: Networking for Web Developers
             slug: wimgodden
@@ -328,13 +328,13 @@
       tracks:
         - track:
               colspan: 2
-              location: Chip Track and Mention Me Track
+              location: Main Track and Mention Me Track
               title: Room change
     - time: "14.45"
       slottype: talks
       tracks:
         - track:
-            location: Chip Track
+            location: Main Track
             title: MySQL 8.0
             subtitle: Not Only Good, it's GREAT
             slug: gabrieladavilaferrara
@@ -370,7 +370,7 @@
       tracks:
         - track:
             colspan: 4
-            location: Chip Track
+            location: Main Track
             title: Everything is Awesome
             subtitle: The LEGOⓇ Approach to Being an Awesome Co-worker
             slug: paulverbeekmast
@@ -408,7 +408,7 @@
       tracks:
         - track:
             colspan: 4
-            location: Chip Track
+            location: Main Track
             title: From Good to SOLID
             subtitle: Becoming a Better PHP Developer
             slug: katerinatrajchevska
@@ -430,7 +430,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Chip Track
+            location: Main Track
             title: Microservices Gone Wrong 
             slug: anthonyferrara
             speaker: Anthony Ferrara
@@ -482,13 +482,13 @@
       tracks:
         - track:
             colspan: 2
-            location: Chip Track and Mention Me Track
+            location: Main Track and Mention Me Track
             title: Room change
     - time: "11.30"
       slottype: talks
       tracks:
         - track:
-            location: Chip Track
+            location: Main Track
             title: Does Your Code Measure Up?
             slug: adamculp
             speaker: Adam Culp
@@ -528,7 +528,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Chip Track
+            location: Main Track
             title: From Dev to Prod with GitLab CI
             slug: stephanhochdörfer
             speaker: Stephan Hochdörfer
@@ -580,13 +580,13 @@
       tracks:
         - track:
               colspan: 3
-              location: Chip Track, Mention Me Track, and Design Track
+              location: Main Track, Mention Me Track, and Design Track
               title: Room change
     - time: "14.45"
       slottype: talks
       tracks:
         - track:
-            location: Chip Track
+            location: Main Track
             title: RBD (Readme Based Design) 
             subtitle: Designing PHP Packages by Using them Before we Code them 
             slug: alancole
@@ -630,7 +630,7 @@
       tracks:
         - track:
             colspan: 4
-            location: Chip Track
+            location: Main Track
             title: I deploy on Fridays
             subtitle: (and maybe you should too)
             slug: michielrook
