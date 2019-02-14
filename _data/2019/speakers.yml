@@ -170,10 +170,16 @@
       slottype: break
       tracks:
         - track:
-            colspan: 4
+            colspan: 3
             location: King George
             title: Refreshment break
             description: Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+        - track:
+            location: Nexmo Hackathon Lounge
+            title: Hackathon Kick Off
+            speaker: Nexmo
+            level: All
+            description: "The Nexmo Hackathon begins! Join us in the Nexmo Hackathon Lounge during this break (there'll be cake and coffee!) to hear all about the hackathon and what the challenge is. Sign up yourself or your team to participate and win prizes. <br><a href=\"/hackathon\">More Info &raquo;</a>"
     - time: "10.15"
       slottype: talks
       tracks:
@@ -507,11 +513,17 @@
       slottype: break
       tracks:
         - track:
-              colspan: 4
+              colspan: 3
               location: King George
               title: Lunch
               description: |
                 A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+        - track:
+            location: Nexmo Hackathon Lounge
+            title: Hackathon Presentations and Judging
+            speaker: Nexmo
+            level: All
+            description: "The Nexmo Hackathon participants will present and demo their apps built over the past two days using the Nexmo APIs. The hackathon judges will determine and announce the winners. The winners will be announced and presented with their prizes on the main stage after the closing keynote.<br><a href=\"/hackathon\">More Info &raquo;</a>"
     - time: "13.30"
       slottype: talks
       tracks:
@@ -548,7 +560,7 @@
             photo: /assets/images/speakers/michaelheap.jpg
             bio: Michael is a developer advocate at Nexmo, where he spends most of his time working with product and engineering designing and documenting APIs. Previously, he’s worked as a developer (PHP, Node and Go), on an operations team (Ansible, Chef and Terraform) and even briefly lead groups of young people on expeditions.
             level: All
-            description: "We're all familiar with things like HTTP codes and content types, but there's so much more we can do when developing an API to make life easier for consumers. How many times have you used an API only to find out that every endpoint is slightly different – some use `snake_case`, others `camelCase`, sometimes the field is called `id`, sometimes it’s `user_id`. How about pagination? Error responses? What about API documentation? Trying to standardise on all these things can kill an engineering team. There are so many options out there it’s difficult to know where to start. Come along and learn what works for our team! We’ll cover contentious topics (should the version be in the URL or a header?), lesser-known standards that are great (RFC 7807 springs to mind) and a couple of things that aren't an issue right up until they’re a really big issue (like pagination). <br><br>*** Please note this tutorial session is only 60 minutes long will not have hands on exercises, in order to accommodate the hackathon presentations following. "
+            description: "We're all familiar with things like HTTP codes and content types, but there's so much more we can do when developing an API to make life easier for consumers. How many times have you used an API only to find out that every endpoint is slightly different – some use `snake_case`, others `camelCase`, sometimes the field is called `id`, sometimes it’s `user_id`. How about pagination? Error responses? What about API documentation? Trying to standardise on all these things can kill an engineering team. There are so many options out there it’s difficult to know where to start. Come along and learn what works for our team! We’ll cover contentious topics (should the version be in the URL or a header?), lesser-known standards that are great (RFC 7807 springs to mind) and a couple of things that aren't an issue right up until they’re a really big issue (like pagination). <br><br>*** Please note this tutorial session is only 60 minutes long will not have hands on exercises."
         - track:
             rowspan: 5
             location: Velocity Track
@@ -591,10 +603,10 @@
         - track:
             location: Design Track
             tooltip: The Design Track is all about software architecture, design patterns and best practices. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
-            title: Hackathon Presentations and Judging
-            speaker: Nexmo
-            level: All
-            description: "The Nexmo Hackathon participants will present and demo their apps built over the past two days using the Nexmo APIs. The hackathon judges will determine and announce the winners. The winners will be announced and presented with their prizes on the main stage after the closing keynote."
+            title: 
+            speaker: 
+            level: 
+            description: 
     - time: "15.45"
       slottype: break
       tracks:
