@@ -4,7 +4,7 @@
       <p>PHP UK Conference is pleased to bring to you <b>two</b> options for a full day of training on Wednesday, 20th February 2019, a day before the conference.</p><p>All  course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>**Please Note - an additional ticket is required to attend the workshop day.</p><h2>All Workshops are now SOLD OUT.</h2>
   slots:
     - time: 
-      slottype: MC
+      slottype: mc
       tracks:
         - track:
             colspan: 4
