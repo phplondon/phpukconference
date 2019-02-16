@@ -612,10 +612,11 @@
         - track:
             location: Design Track
             tooltip: The Design Track is all about software architecture, design patterns and best practices. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
-            title: 
-            speaker: 
-            level: 
-            description: 
+            title: Unconference
+            subtitle: "a loosely structured session emphasising the informal exchange of information and ideas between participants"
+            speaker: YOU!
+            level: All
+            description: "The unconference is an opportunity for anyone attending the conference to present a short lightning talk about any subject related to PHP. There will be a sign up sheet outside the Design Track room from the start of the conference where you can put your name down to do a talk of either 5 minutes or 10 minutes. There will be a mic, projector and screen for you to hook your laptop up to if you'd like to use slides."
     - time: "15.45"
       slottype: break
       tracks:
