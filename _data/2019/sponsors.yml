@@ -1,4 +1,21 @@
-- name: Mention me
+- name: Chip
+  id: chip
+  type: track
+  url: https://www.getchip.uk
+  description:
+    "Chip is automating finances. We make it happen, whether ‘it’ is a wedding, a holiday, or a house deposit, whatever it is, we help people achieve their financial goals.
+    <br><br>
+    We’re not exactly a bank. We’re not exactly a savings account. We’re not exactly a lender. There's not a word for what we do, yet... We think we can find smarter ways to do a bit of all of the above. We work with your banking data to make you save smarter and borrow better.
+    <br><br>
+    Our face is a UX-led app with an active community supporting us as we grow. Behind the scenes, we plug into your bank account via OpenBanking APIs to automatically make tailored savings (and hopefully more things in the future), based on your spending habits and income.
+    <br><br>
+    We want everyone to be able to make the things they want happen and feel good about their money. We think the key to this is data and automation.
+    <br><br>
+    We’ve just broken the UK crowdfund record and are primed and ready to shake up the financial world. PHP is at the heart of what we do. Our core APIs are written in Phalcon and our new microservices take full advantage of Symfony components and awesome, modern, object oriented PHP.
+    <br><br>
+    Come chat to us if you like the sound of what we’re doing. We’ve got free stickers."
+
+- name: Mention Me
   id: mentionme
   type: track
   url: https://mention-me.com/
@@ -16,7 +33,7 @@
 - name: Shopware
   id: shopware
   type: lounge
-  url: https://wwww.shopware.com
+  url: https://en.shopware.com
   description: 
     "Shopware is a leading open source enterprise-level eCommerce platform and trusted by over 80,000 businesses including some of the biggest European brands, retailers and branded manufacturers across B2C and B2B industries. Shopware has a global network of more than 1,200 solution and technology partners and a very active developer community that gives customers access to robust third-party extensions and certified professional support. Shopware has the lowest total costs of ownership of any platform on the market. Meaning, the cost to implement and maintain Shopware is the lowest of any other enterprise solution on the market. Shopware’s extensibility, flexibility and access to the source code allows retailers and brands to control its functionality and adapt the platform to meet their requirements. Due to the platform’s short time to market, merchants can go live comparatively quickly and save valuable resources for other aspects of their core business. Shopware offers brands complete control over the functionality of their online channel. Shopware’s SEO, catalogue management and powerful marketing tools give retailers and brands the ability to create sites that provide an unrivaled shopping experience for their customers. Shopware’s intuitive administration interface allows merchants to tailor their site to their unique business needs. It is completely scalable to each business size, and it is also possible to connect other enterprise solutions with Shopware by means of a REST API."
 
@@ -68,13 +85,25 @@
   type: gold
   url: https://thisisbud.com/careers
   description:
-    "Bud builds the products, tools and services that transform personal finances into something toengage with, rather than avoid. Our mission is to make money simpler for everyone, and we’re doing this by placing the powerof data back into the hands of normal people. We use it to find ways to improve people’s finances – from savings, to investments, to utilityswitching and beyond. It’s a layer of thoughtful financial confidence, built into the every day."
+    "Bud builds the products, tools and services that transform personal finances into something to engage with, rather than avoid. Our mission is to make money simpler for everyone, and we’re doing this by placing the powerof data back into the hands of normal people. We use it to find ways to improve people’s finances – from savings, to investments, to utilityswitching and beyond. It’s a layer of thoughtful financial confidence, built into the every day."
 - name: ProdPad
   id: prodpad
   type: gold
   url: https://www.prodpad.com
   description:
-    "ProdPad is end-to-end product management software that supports the complete product journey. A smart, dynamic toolkit integrates with product development processes at every stage and supports collaboration from the entire business. In continual development since 2010, this SaaS has been designed by a team of experts to make best practice product management actionable for fellow PMs. ProdPad empowers product managers to turn great ideas into great products that customers love."
+    "Everyone likes to say they’re agile and iterate on their product quickly, but too often don’t allow for enough time and space to actually put anything like that in practice. We like to actually live that!
+     <br><br>
+     At ProdPad, we’re building a product that’s used by thousands of product managers, and we’re a company full of product people ourselves. As such, we’re surrounded by smart people who challenge the way that amazing products are built - we’re constantly striving for the best product management practices ourselves, and aren’t afraid of trying crazy things to improve the product for our customers.
+     <br><br>
+     We understand that nurturing our open and team-oriented culture will be key to our success as we continue to grow. As such, we ensure opportunities to give opinions and feedback are plentiful, and time and space away from our desks as a team is regularly on the agenda.
+     <br><br>
+     We actively encourage learning and development for all our team members, and are open to supporting attendance at conferences and training days - or whatever else is needed for us to gain new skills and improve how we work.
+     <br><br>
+     All this, AND we are by the sea! Based in the UK, on the south coast, our office is an easy journey from both Brighton and Hove train stations.
+     <br><br>
+     We are always on the lookout for great new additions to our team. If you think you should be our next hire, get in touch and tell us why!
+     <br><br>
+     Find out more about being a Developer at ProdPad - directly from the team: https://www.prodpad.com/blog/developer-at-prodpad/"
 - name: Oracle
   id: oracle
   type: silver

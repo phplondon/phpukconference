@@ -17,7 +17,7 @@ image: banners/speakers.png
         <div class="container">
             <div class="col span12">
                 <ul class="speakers">
-                    <!-- <h2>Masters of Ceremonies<h2>
+                    <h2>Master of Ceremonies<h2>
                     {% for day in site.data.2019.speakers %}
                         {% for slot in day.slots %}
                             {% if slot.slottype == 'mc' %}
@@ -32,7 +32,7 @@ image: banners/speakers.png
                                 {% endfor %}
                             {% endif %}
                         {% endfor %}
-                    {% endfor %} -->
+                    {% endfor %}
                     <h2>Keynote Speakers<h2>
                     {% for day in site.data.2019.speakers %}
                         {% for slot in day.slots %}
@@ -49,10 +49,27 @@ image: banners/speakers.png
                             {% endif %}
                         {% endfor %}
                     {% endfor %}
+                    <h2>Workshop Speakers<h2>
+                    {% for day in site.data.2019.speakers %}
+                        {% for slot in day.slots %}
+                            {% if slot.slottype == 'workshop' %}
+                                {% for speaker in slot.tracks %}
+                                {% if speaker.track.speakers %}
+                                    {% for sp in speaker.track.speakers %}
+                                        {% include speaker.html speaker=sp %}
+                                    {% endfor %}
+                                {% else %}
+                                    {% include speaker.html speaker=speaker.track %}
+                                {% endif %}
+                                {% endfor %}
+                            {% endif %}
+                        {% endfor %}
+                    {% endfor %}
+                    <br>
                     <h2>Breakout Session Speakers<h2>
                     {% for day in site.data.2019.speakers %}
                         {% for slot in day.slots %}
-                            {% if slot.slottype != 'mc' and slot.slottype != 'keynote' %}
+                            {% if slot.slottype != 'mc' and slot.slottype != 'keynote' and slot.slottype != 'workshop' %}
                                 {% for speaker in slot.tracks %}
                                     {% if speaker.track.speakers %}
                                         {% for sp in speaker.track.speakers %}
