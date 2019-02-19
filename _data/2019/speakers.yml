@@ -22,7 +22,7 @@
       tracks:
         - track:
             colspan: 4
-            location: The Montcalm Hotel at the Brewery
+            location: The Montcalm Hotel and The Grubstreet Author, at the Brewery
             title: Registration and Refreshments
             description: Please bring a copy of your ticket either printed or on a mobile device.
     - time: "09.00"
@@ -36,7 +36,7 @@
             bio: David is a Developer Advocate for InfluxData, the company behind InfluxDB. As a serial user group organiser (Organising Cloud Native Glasgow, DevOps Glasgow, and Observability Glasgow), David is always searching for new and creative ways to share knowledge with others.
             title: Kubernetes By Example - SOLD OUT!
             photo: /2019/assets/images/speakers/davidmckay.jpg
-            location: The Samuel Room in The Montcalm Hotel at the Brewery
+            location: The Cornwallis Room in The Montcalm Hotel at the Brewery
             id: workshopi
             description: Kubernetes, the flagship project from the Cloud Native Foundation, has become the de facto standard for running our container workloads. Unfortunately, Kubernetes is a fast moving, ever evolving, sea of complexity. From Pods to Deployments, ConfigMaps to Secrets, and PersistantVolumeClaims to StatefulSets; this workshop will get you on-course. In this workshop, David will walk you through a series of labs that will teach you everything you need to know to take your container based application and deploy it as a self-healing, redundant and resilient application on top of Kubernetes. Let's set sail.
         - track:
@@ -45,11 +45,10 @@
             speaker: Ciaran McNulty
             handle: ciaranmcnulty
             company: Crania Ltd
-            location: The Montcalm Hotel at the Brewery
             bio: <a href="https://twitter.com/ciaranmcnulty">Ciaran McNulty</a> helps teams at all levels of ability improve via training and coaching. He has been a PHP professional since the late 90s and is passionate about TDD, BDD and Agile methodologies. He is lead maintainer of PhpSpec.
             title: BDD in Practice - SOLD OUT!
             photo: /2019/assets/images/speakers/ciaranmcnulty.jpg
-            location: The Cornwallis Room in the Montcalm Hotel at the Brewery
+            location: The Pasteur Room in The Grubstreet Author at the Brewery
             id: workshopii
             description: A tour of BDD best practices, applied in the PHP world. Behaviour Driven Development techniques help us to ensure that the code we're writing is solving real-world problems, and is software that matters. In this hands-on workshop we will build some simple software that fulfils a user's requirement; validate its functionality using tools such as Behat, PHPUnit and PhpSpec; and learn how our test architecture can support our application's architecture.
     - time: "10.30"
@@ -57,7 +56,7 @@
       tracks:
         - track:
             colspan: 4
-            location: The Montcalm Hotel at the Brewery
+            location: The Montcalm Hotel and The Grubstreet Author, at the Brewery
             title: Refreshment break
             description: Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates.
     - time: "11.00"
@@ -67,20 +66,20 @@
             colspan: 2
             name: Workshop I
             title: Kubernetes By Example, con't - SOLD OUT!
-            location: The Samuel Room in The Montcalm Hotel at the Brewery
+            location: The Cornwallis Room in The Montcalm Hotel at the Brewery
             id: workshopi
         - track:
             colspan: 2
             name: Workshop II
             title: BDD in Practice, con't - SOLD OUT!
-            location: The Cornwallis Room in The Montcalm Hotel at the Brewery
+            location: The Pasteur Room in The Grubstreet Author at the Brewery
             id: workshopii
     - time: "12.30"
       slottype: break
       tracks:
         - track:
               colspan: 4
-              location: The Montcalm Hotel at the Brewery
+              location: The Montcalm Hotel and The Grubstreet Author, at the Brewery
               title: Lunch
               description: |
                 A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates.
@@ -91,20 +90,20 @@
             colspan: 2
             name: Workshop I
             title: Kubernetes By Example, con't - SOLD OUT!
-            location: The Samuel Room in The Montcalm Hotel at the Brewery
+            location: The Cornwallis Room in The Montcalm Hotel at the Brewery
             id: workshopi
         - track:
             colspan: 2
             name: Workshop II
             title: BDD in Practice, con't - SOLD OUT!
-            location: The Cornwallis Room in The Montcalm Hotel at the Brewery
+            location: The Pasteur Room in The Grubstreet Author at the Brewery
             id: workshopii
     - time: "15.00"
       slottype: break
       tracks:
         - track:
             colspan: 4
-            location: The Montcalm Hotel at the Brewery
+            location: The Montcalm Hotel and The Grubstreet Author, at the Brewery
             title: Refreshment break
             description: Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates.
     - time: "15.30"
@@ -114,13 +113,13 @@
             colspan: 2
             name: Workshop I
             title: Kubernetes By Example, con't - SOLD OUT!
-            location: The Samuel Room in The Montcalm Hotel at the Brewery
+            location: The Cornwallis Room in The Montcalm Hotel at the Brewery
             id: workshopi
         - track:
             colspan: 2
             name: Workshop II
             title: BDD in Practice, con't - SOLD OUT!
-            location: The Cornwallis Room in The Montcalm Hotel at the Brewery
+            location: The Pasteur Room in The Grubstreet Author at the Brewery
             id: workshopii
     - time: "18.00"
       slottype: break
