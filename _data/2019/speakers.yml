@@ -1,7 +1,24 @@
 - schedule-wednesday:
   name: Wednesday 20th February 2019
   description: |
-      <p>PHP UK Conference is pleased to bring to you <b>two</b> options for a full day of training on Wednesday, 20th February 2019, a day before the conference.</p><p>All  course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>**Please Note - an additional ticket is required to attend the workshop day.</p><h2>All Workshops are now SOLD OUT.</h2>
+      <p>PHP UK Conference is pleased to bring to you <b>two</b> options for a full day of training on Wednesday, 20th February 2019, a day before the conference.</p><p>All  course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>**Please Note - an additional ticket is required to attend the workshop day.</p><h2>All Workshops are now SOLD OUT.</h2><p>Workshop locations:</p>
+      <table class="schedule-wrapper"><tr class="slot"><td class="track"><p>
+                    <strong>Kubernetes by Example with David McKay</strong><br>
+                    Cornwallis Room<br>
+                    <a href="https://www.themontcalmlondoncity.co.uk/">Montcalm Hotel</a><br>
+                    52 Chiswell Street<br>
+                    London EC1Y 4SD
+                </p></td><td>
+                <p>
+                    <strong>BDD in Practice with Ciaran McNulty</strong><br>
+                    Pasteur Room<br>
+                    <a href="https://grubstreetauthor.co.uk/contact/">The Grubstreet Author</a><br>
+                    Milton Street<br>
+                    London EC2Y 9BH
+                </p></td><td><div class="map">
+                    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/d/embed?mid=1JZN0vV3MlcCkfcNEW3b2KDoCfMCikP-G&hl=en"></iframe>
+                </div></td>
+            </div>
   slots:
     - time: 
       slottype: mc
