@@ -34,6 +34,9 @@ image: banners/schedule.png
                         <div class="track-slot-meta">
                             <span class="location">{{track.track.location}}</span>
                             <span class="track-name">{{track.track.name}}</span>
+                            {% if track.track.prereqs %}
+                                <a href="prereqs/">Prerequisites</a><br>
+                            {% endif %}
                             <span class="title">
                                 <span class="main-title">{{track.track.title}}</span>
                                 <span class="subtitle">{{track.track.subtitle}}</span>
