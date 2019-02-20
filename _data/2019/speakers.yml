@@ -149,7 +149,7 @@
             speaker: Michael Cullum
             slug: michaelcullum
             handle: michaelcullumuk
-            company: SamKnows
+            company: Bud
             photo: /2019/assets/images/speakers/michaelcullum.jpg
             bio: Michael Cullum is a backend software engineer, working particularly with PHP, and has been for about a decade. He currently works at SamKnows as a senior software engineer & architect doing data intelligence, storage and processing of internet measurement data at huge scale. He is also a manager & core developer at phpBB where he has been a contributor for over half a decade and he recently joined the Symfony Core Team as Security Lead. He is actively involved in the PHP FIG previously running the administration of it as the PHP FIG Secretary for 2 years and editor of PSR-12; he now sits on the Core Committee, the steering group of the FIG and is the editor of two security PSRs (PSR-9 and PSR-10).
             description: |
@@ -173,7 +173,7 @@
       tracks:
         - track:
             colspan: 4
-            location: Chip Track
+            location: Main Track
             title: "Controlling the Variables"
             slug: thijsferyn
             speaker: Thijs Feryn
@@ -200,7 +200,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Chip Track
+            location: Main Track
             title: Massively Scaled High Performance Web Services with PHP
             slug: deminyim
             speaker: Demin Yin
@@ -252,22 +252,22 @@
       tracks:
         - track:
             colspan: 2
-            location: Chip Track and Mention Me Track
+            location: Main Track and Mention Me Track
             title: Room change
     - time: "11.30"
       slottype: talks
       tracks:
         - track:
-            location: Chip Track
-            title: Introduction to Serverless PHP
-            slug: roballen
-            speaker: Rob Allen
-            handle: akrabat
-            company: Nineteen Feet Limited
-            photo: https://secure.gravatar.com/avatar/79d9ba388d6b6cf4ec7310cad9fa8c8a?s=500
-            bio: Rob Allen is a software consultant and developer with many years experience and writes code in PHP, Swift and other interesting languages. He is part of Slim Framework's leadership team and contributes to Apache OpenWhisk and other open source projects. Rob is a published author and based in the UK where he runs <a href="http://19ft.com">Nineteen Feet Limited</a>, focussing on API development, training and consultancy. In his spare time, Rob blogs at <a href="https://akrabat.com">akrabat.com</a> and can often be seen with a camera in his hand.
-            level: Beginner
-            description: APIs and microservices are how we build modern web applications and serverless technologies make this easy. This session will show you how serverless applications are built and how you can leverage your PHP skills to build APIs of all shapes and sizes. We will cover how to use your current knowledge to build applications in PHP within Apache OpenWhisk, leveraging the API Gateway to build robust APIs quickly and easily. By the end of the session, you’ll be well placed to design and build your own applications that take full advantage of the power of serverless technologies.
+            location: Main Track
+            title: Running Your PHP Site on AWS Lambda
+            slug: nealbrooks
+            speaker: Neal Brooks
+            handle: nealio82
+            company: MyBuilder
+            photo: /2019/assets/images/speakers/neal.jpg
+            bio: Neal is a software engineer at <a href="https://www.mybuilder.com">MyBuilder.com</a> by day, and a physics student by night. He loves learning and sharing, and spends most of his free time trying to figure out which hiking trail he should visit next.
+            level: All
+            description: Want to have immediate & easy website scaling, but also get rid of costly servers as they’re sitting idle 80% of the time waiting for visitors? Heard something about PHP and layers on AWS Lambda but have no idea what it means? You're not the only one! In this session we’ll get ourselves up-and-running with a PHP website on Lambda.
         - track:
             location: Mention Me Track
             title: Dive Deep into Blockchain
@@ -291,7 +291,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Chip Track
+            location: Main Track
             title: Your App Lives on a Network
             subtitle: Networking for Web Developers
             slug: wimgodden
@@ -344,13 +344,13 @@
       tracks:
         - track:
               colspan: 2
-              location: Chip Track and Mention Me Track
+              location: Main Track and Mention Me Track
               title: Room change
     - time: "14.45"
       slottype: talks
       tracks:
         - track:
-            location: Chip Track
+            location: Main Track
             title: MySQL 8.0
             subtitle: Not Only Good, it's GREAT
             slug: gabrieladavilaferrara
@@ -386,7 +386,7 @@
       tracks:
         - track:
             colspan: 4
-            location: Chip Track
+            location: Main Track
             title: Everything is Awesome
             subtitle: The LEGOⓇ Approach to Being an Awesome Co-worker
             slug: paulverbeekmast
@@ -424,7 +424,7 @@
       tracks:
         - track:
             colspan: 4
-            location: Chip Track
+            location: Main Track
             title: From Good to SOLID
             subtitle: Becoming a Better PHP Developer
             slug: katerinatrajchevska
@@ -446,7 +446,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Chip Track
+            location: Main Track
             title: Microservices Gone Wrong 
             slug: anthonyferrara
             speaker: Anthony Ferrara
@@ -498,13 +498,13 @@
       tracks:
         - track:
             colspan: 2
-            location: Chip Track and Mention Me Track
+            location: Main Track and Mention Me Track
             title: Room change
     - time: "11.30"
       slottype: talks
       tracks:
         - track:
-            location: Chip Track
+            location: Main Track
             title: Does Your Code Measure Up?
             slug: adamculp
             speaker: Adam Culp
@@ -544,7 +544,7 @@
       slottype: talks
       tracks:
         - track:
-            location: Chip Track
+            location: Main Track
             title: From Dev to Prod with GitLab CI
             slug: stephanhochdörfer
             speaker: Stephan Hochdörfer
@@ -596,13 +596,13 @@
       tracks:
         - track:
               colspan: 3
-              location: Chip Track, Mention Me Track, and Design Track
+              location: Main Track, Mention Me Track, and Design Track
               title: Room change
     - time: "14.45"
       slottype: talks
       tracks:
         - track:
-            location: Chip Track
+            location: Main Track
             title: RBD (Readme Based Design) 
             subtitle: Designing PHP Packages by Using them Before we Code them 
             slug: alancole
@@ -647,7 +647,7 @@
       tracks:
         - track:
             colspan: 4
-            location: Chip Track
+            location: Main Track
             title: I deploy on Fridays
             subtitle: (and maybe you should too)
             slug: michielrook
