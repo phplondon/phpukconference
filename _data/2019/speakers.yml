@@ -612,7 +612,7 @@
         - track:
             location: Chip Track
             title: Building first-class REST APIs with Symfony
-            speaker: Michiel Cullum
+            speaker: Michael Cullum
             slug: michaelcullum
             handle: michaelcullumuk
             company: Bud
