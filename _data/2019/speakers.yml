@@ -611,16 +611,15 @@
       tracks:
         - track:
             location: Chip Track
-            title: RBD (Readme Based Design) 
-            subtitle: Designing PHP Packages by Using them Before we Code them 
-            slug: alancole
-            speaker: Alan Cole 
-            handle: 
-            company: Chip
-            photo: /assets/images/speakers/alan1.jpg
-            bio: "Alan is Head of Engineering at <a href=\"https://twitter.com/get_chip\">@get_chip</a> where he’s working to build the world best savings account with help of his fast expanding and talented engineering team and the wider chip family. Alan has 15 years experience as a PHP developer and leader and he’s passionate about clean, structured and scalable code and building high functioning teams."
-            level: Beginner
-            description: Focusing on the importance of understanding who will use our packages and libraries and how they’ll use them. We'll be looking at tools and ideas we can use to make sure our APIs are as intuitive as possible as well as the benefits that has on the portability and maintenance of our codebases. 
+            title: Building first-class REST APIs with Symfony
+            speaker: Michiel Cullum
+            slug: michaelcullum
+            handle: michaelcullumuk
+            company: Bud
+            photo: /2019/assets/images/speakers/michaelcullum.jpg
+            bio: Michael Cullum is a backend software engineer, working particularly with PHP, and has been for about a decade. He currently works at SamKnows as a senior software engineer & architect doing data intelligence, storage and processing of internet measurement data at huge scale. He is also a manager & core developer at phpBB where he has been a contributor for over half a decade and he recently joined the Symfony Core Team as Security Lead. He is actively involved in the PHP FIG previously running the administration of it as the PHP FIG Secretary for 2 years and editor of PSR-12; he now sits on the Core Committee, the steering group of the FIG and is the editor of two security PSRs (PSR-9 and PSR-10).
+            level: All
+            description: Building REST APIs is becoming an ever more common task for PHP developers to do and whilst the task may often sound simple in that it involves reading some input, and getting (or persisting) to a data source and returning some JSON, there are a lot of common pitfalls and complications that you might encounter along the way. In this talk we'll look at how we can build a simple maintainable REST API using the Symfony components that can perform some simple operations in ways that are clean and simple.
         - track:
             location: Mention Me Track
             title: Hybrid Databases
