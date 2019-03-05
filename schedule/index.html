@@ -16,7 +16,7 @@ image: banners/schedule.png
 <div class="row">
     <div class="wrapper relative">
         <div class="col span12">
-            {% for day in site.data.2019.speakers %}
+            {% for day in site.data.2020.speakers %}
             <h2 class="text-center">{{day.name}}</h2>
             {{day.description}}
             <table class="schedule-wrapper">
@@ -76,7 +76,7 @@ image: banners/schedule.png
                         <p><a href="/menu/#{{track.track.menulink}}">Tasty food menu &raquo;</a></p>
                         {% endif %}
                         {% if track.track.video %}
-                        <span class="video"><a href="https://www.youtube.com/watch?v={{track.track.video}}&list={{site.data.2018.playlist}}">Video &raquo;</a></span>
+                        <span class="video"><a href="https://www.youtube.com/watch?v={{track.track.video}}&list={{site.data.2020.playlist}}">Video &raquo;</a></span>
                         {% endif %}
                     </td>
                     {% endfor %}
