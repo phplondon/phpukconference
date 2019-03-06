@@ -2,7 +2,7 @@
   name: Wednesday 19th February 2020
   description: |
       <p>PHP UK Conference is pleased to bring to you <b>two</b> options for a full day of training on Wednesday, 19th February 2020, a day before the conference.</p><p>All  course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>**Please Note - an additional ticket is required to attend the workshop day.</p> 
-      <p>Workshop locations:</p>
+#      <p>Workshop locations:</p>
 #       <table class="schedule-wrapper"><tr class="slot"><td class="track"><p>
 #                     <strong>Kubernetes by Example with David McKay</strong><br>
 #                     Cornwallis Room<br>
@@ -27,14 +27,14 @@
         - track:
             colspan: 4
             location: 
-            title: 
+            title: Registration and Refreshments
             slug: 
             speaker:
             handle: 
             company: 
             photo: 
             bio: 
-            description:
+            description: Please bring a copy of your ticket either printed or on a mobile device.
     - time: "08.30"
       slottype: 
       tracks:
@@ -163,8 +163,8 @@
         - track:
             colspan: 4
             location: 
-            title: 
-            description: 
+            title: Registration and Refreshments
+            description: Please bring a copy of your ticket either printed or on a mobile device.
     - time: "09.00"
       slottype: keynote
       tracks:
