@@ -48,6 +48,6 @@
     "material-prism-theme": "^0.1.0",
     "npm": "^6.5.0",
     "videojs-youtube": "^2.4.1",
-    "vitis-frontend": "git+https://github.com:vitisevents/vitis-frontend.git"
+    "vitis-frontend": "git+https://github.com/vitisevents/vitis-frontend.git"
   }
 }
