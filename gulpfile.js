@@ -44,7 +44,7 @@ var paths = {
         base: './',
         css:  'assets/css',
         html: '*.html',
-        yml: '*.yml',
+        yml: '_data/*/*.yml',
         img:  'assets/img/**/*.+(png|jpg|gif|svg)',
         js:   'assets/js/**/*.js',
         scss: 'assets/scss/**/*.scss'
@@ -105,6 +105,7 @@ gulp.task('watch', ['browserSync', 'scss', 'jekyll'], function() {
     gulp.watch(paths.src.scss, ['scss']);
     gulp.watch(paths.src.js, browserSync.reload);
     gulp.watch(paths.src.html, browserSync.reload);
+    gulp.watch(paths.src.yml, browserSync.reload);
     gulp.watch(paths.dist.base, browserSync.reload);
 });
 

@@ -18,7 +18,7 @@ image: banners/speakers.png
             <div class="col span12">
                 <ul class="speakers">
                     <h2>Master of Ceremonies<h2>
-                    {% for day in site.data.2019.speakers %}
+                    {% for day in site.data.2020.speakers %}
                         {% for slot in day.slots %}
                             {% if slot.slottype == 'mc' %}
                                 {% for speaker in slot.tracks %}
@@ -34,7 +34,7 @@ image: banners/speakers.png
                         {% endfor %}
                     {% endfor %}
                     <h2>Keynote Speakers<h2>
-                    {% for day in site.data.2019.speakers %}
+                    {% for day in site.data.2020.speakers %}
                         {% for slot in day.slots %}
                             {% if slot.slottype == 'keynote' %}
                                 {% for speaker in slot.tracks %}
@@ -50,7 +50,7 @@ image: banners/speakers.png
                         {% endfor %}
                     {% endfor %}
                     <h2>Workshop Speakers<h2>
-                    {% for day in site.data.2019.speakers %}
+                    {% for day in site.data.2020.speakers %}
                         {% for slot in day.slots %}
                             {% if slot.slottype == 'workshop' %}
                                 {% for speaker in slot.tracks %}
@@ -67,7 +67,7 @@ image: banners/speakers.png
                     {% endfor %}
                     <br>
                     <h2>Breakout Session Speakers<h2>
-                    {% for day in site.data.2019.speakers %}
+                    {% for day in site.data.2020.speakers %}
                         {% for slot in day.slots %}
                             {% if slot.slottype != 'mc' and slot.slottype != 'keynote' and slot.slottype != 'workshop' %}
                                 {% for speaker in slot.tracks %}
