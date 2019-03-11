@@ -1,106 +1,136 @@
+/**
+ * Gulp file to automate the various tasks
+ */
+var autoprefixer = require('gulp-autoprefixer');
+var browserSync = require('browser-sync').create();
+var csscomb = require('gulp-csscomb');
+var cleanCss = require('gulp-clean-css');
+var cache = require('gulp-cache');
+var exec = require('child_process').exec;
+var cssnano = require('gulp-cssnano');
+var del = require('del');
+var htmlPrettify = require('gulp-html-prettify');
+var imagemin = require('gulp-imagemin');
 var gulp = require('gulp');
-var gutil = require('gulp-util');
-var watch = require('gulp-watch');
-
+var gulpIf = require('gulp-if');
+var gulpRun = require('gulp-run');
+var gulpUtil = require('gulp-util');
+var npmDist = require('gulp-npm-dist');
+var postcss = require('gulp-postcss');
+var plumber = require('gulp-plumber');
+var runSequence = require('run-sequence');
 var sass = require('gulp-sass');
-var notify = require('gulp-notify');
-var cleanCSS = require('gulp-clean-css');
+var sourcemaps = require('gulp-sourcemaps');
+var uglify = require('gulp-uglify');
+var rename = require('gulp-rename');
+var replace = require('gulp-replace');
+var saveLicense = require('uglify-save-license');
+var useref = require('gulp-useref-plus');
+var wait = require('gulp-wait');
 
-var imageop = require('gulp-image-optimization');
+// Define paths
 
-var browserSync = require('browser-sync');
+var paths = {
+    dist: {
+        base: '_site',
+        img:  '_site/assets/img',
+        libs: '_site/assets/vendor'
+    },
+    base: {
+        base: './',
+        node: 'node_modules'
+    },
+    src: {
+        base: './',
+        css:  'assets/css',
+        html: '*.html',
+        yml: '_data/*/*.yml',
+        img:  'assets/img/**/*.+(png|jpg|gif|svg)',
+        js:   'assets/js/**/*.js',
+        scss: 'assets/scss/**/*.scss'
+    }
+}
 
-var cp = require('child_process');
-
-/**
- * Build the Jekyll Site
- */
-gulp.task('jekyll-build', function (done) {
-    browserSync.notify('Building Jekyll');
-    return cp.spawn('jekyll', ['build', '--config', '_config.dev.yml'], {stdio: 'inherit'})
-    .on('close', done);
+// Compile SCSS
+gulp.task('scss', function() {
+  return gulp.src(paths.src.scss)
+    .pipe(wait(500))
+    .pipe(sass().on('error', sass.logError))
+    .pipe(postcss([require('postcss-flexbugs-fixes')]))
+    .pipe(autoprefixer({
+        browsers: ['> 1%']
+    }))
+    .pipe(csscomb())
+    .pipe(gulp.dest(paths.src.css))
+    .pipe(browserSync.reload({
+        stream: true
+    }));
 });
 
-/**
- * Rebuild Jekyll & do page reload
- */
- gulp.task('jekyll-rebuild', ['jekyll-build'], function () {
-    browserSync.reload();
+// Minify CSS
+gulp.task('minify:css', function() {
+  return gulp.src(paths.src.css + '/theme.css')
+    .pipe(cleanCss())
+    .pipe(rename({ suffix: '.min' }))
+    .pipe(gulp.dest(paths.src.css))
 });
 
-/**
- * Wait for jekyll-build, then launch the Server
- */
- gulp.task('browser-sync', ['jekyll-build'], function() {
-    browserSync({
-        server: {
-            baseDir: '_site'
-        },
-        host: "localhost"
+// Minify JS
+gulp.task('minify:js', function(cb) {
+    return gulp.src(paths.src.base + '/assets/js/theme.js')
+    .pipe(plumber())
+    .pipe(uglify())
+    .pipe(rename({ suffix: '.min' }))
+    .pipe(gulp.dest(paths.dist.base + '/js'))
+});
+
+// Jekyll build
+gulp.task('jekyll', function (){
+    exec('bundle exec jekyll build --watch --config _config.dev.yml', function(err, stdout, stderr) {
+        console.log(stdout);
     });
 });
 
-// Sass build
-var sassBuild = function () {
-    gulp.src('assets/sass/**/*.scss').pipe(sass({
-        errLogToConsole: false,
-        outputStyle: 'compressed'
-    }))
-    .on('error', reportError)
-    // .pipe(cleanCSS())
-    .pipe(gulp.dest('assets/css'))
-};
-
-// Compile sass
-gulp.task('sass', sassBuild);
-
-// Image optimization
-gulp.task('images', function(cb) {
-    gulp.src('assets/images/**/*.+(png|jpg|gif|jpeg)').pipe(imageop({
-        optimizationLevel: 5,
-        progressive: true,
-        interlaced: true
-    })).pipe(gulp.dest('assets/images')).on('end', cb).on('error', cb);
+// Live reload
+gulp.task('browserSync', function() {
+    browserSync.init({
+        server: {
+            baseDir: [paths.dist.base]
+        },
+    })
 });
 
-// Error report sass
-var reportError = function (error) {
-    var lineNumber = (error.lineNumber) ? 'LINE ' + error.lineNumber + ' -- ' : '';
-
-    notify({
-        title: 'Task Failed [' + error.plugin + ']',
-        message: lineNumber + 'See console.',
-        sound: 'Sosumi' // See: https://github.com/mikaelbr/node-notifier#all-notification-options-with-their-defaults
-    }).write(error);
-
-    gutil.beep(); // Beep 'sosumi' again
-
-    // Pretty error reporting
-    var report = '';
-    var chalk = gutil.colors.white.bgRed;
-
-    report += chalk('TASK:') + ' [' + error.plugin + ']\n';
-    report += chalk('PROB:') + ' ' + error.message + '\n';
-    if (error.lineNumber) { report += chalk('LINE:') + ' ' + error.lineNumber + '\n'; }
-    if (error.fileName)   { report += chalk('FILE:') + ' ' + error.fileName + '\n'; }
-    console.error(report);
-
-    // Prevent the 'watch' task from stopping
-    this.emit('end');
-}
-
-gulp.task('watch', function() {
-  // Watch .scss files
-  gulp.watch('assets/sass/**/*.scss', ['sass']);
-  // Watch .css files
-  gulp.watch('assets/css/**/*.css', ['jekyll-rebuild']);
-  // Watch image files
-  gulp.watch(['assets/images/**/*.png', 'assets/images/**/*.jpg', 'assets/images/**/*.gif', 'assets/images/**/*.jpeg'], ['images'], ['jekyll-rebuild']);
-  // Watch .html files and posts
-  gulp.watch(['index.html', '*/*.html', '_data/*/*.yml', '*.md', '_posts/*'], ['jekyll-rebuild']);
+// Watch for changes
+gulp.task('watch', ['browserSync', 'scss', 'jekyll'], function() {
+    gulp.watch(paths.src.scss, ['scss']);
+    gulp.watch(paths.src.js, browserSync.reload);
+    gulp.watch(paths.src.html, browserSync.reload);
+    gulp.watch(paths.src.yml, browserSync.reload);
+    gulp.watch(paths.dist.base, browserSync.reload);
 });
 
-// run 'scripts' task first, then watch for future changes
-gulp.task('default', function () {
-    gulp.start('sass', 'browser-sync', 'watch');
+// Clean
+gulp.task('clean:dist', function() {
+    return del.sync(paths.dist.base);
+});
+
+// Copy CSS
+//gulp.task('copy:css', function() {
+//    return gulp.src([
+//        paths.src.css + '/theme.css'
+//    ])
+//    .pipe(gulp.dest(paths.dist.base + '/assets/css'))
+//});
+
+// Build
+gulp.task('build', function(callback) {
+    runSequence('clean:dist', 'scss', 'minify:js', 'minify:css',
+        callback);
+});
+
+// Default
+gulp.task('default', function(callback) {
+    runSequence(['scss', 'minify:js', 'minify:css', 'browserSync', 'watch'],
+        callback
+    )
 });

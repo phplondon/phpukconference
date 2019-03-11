@@ -1,0 +1,672 @@
+- schedule-wednesday:
+  name: Wednesday 19th February 2020
+  description: |
+      <p>PHP UK Conference is pleased to bring to you <b>two</b> options for a full day of training on Wednesday, 19th February 2020, a day before the conference.</p><p>All  course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>**Please Note - an additional ticket is required to attend the workshop day.</p> 
+      <p>Workshop locations:</p>
+#       <table class="schedule-wrapper"><tr class="slot"><td class="track"><p>
+#                     <strong>Kubernetes by Example with David McKay</strong><br>
+#                     Cornwallis Room<br>
+#                     <a href="https://www.themontcalmlondoncity.co.uk/">Montcalm Hotel</a><br>
+#                     52 Chiswell Street<br>
+#                     London EC1Y 4SD
+#                 </p></td><td>
+#                 <p>
+#                     <strong>BDD in Practice with Ciaran McNulty</strong><br>
+#                     Pasteur Room<br>
+#                     <a href="https://grubstreetauthor.co.uk/contact/">The Grubstreet Author</a><br>
+#                     Milton Street<br>
+#                     London EC2Y 9BH
+#                 </p></td><td><div class="map">
+#                     <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/d/embed?mid=1JZN0vV3MlcCkfcNEW3b2KDoCfMCikP-G&hl=en"></iframe>
+#                 </div></td>
+#             </div>
+  slots:
+    - time: "8.00"
+      slottype: break
+      tracks:
+        - track:
+            colspan: 4
+            location: 
+            title: 
+            slug: 
+            speaker:
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            description:
+    - time: "08.30"
+      slottype: 
+      tracks:
+        - track:
+            colspan: 4
+            location: 
+            title: 
+            description: 
+    - time: "09.00"
+      slottype: workshop
+      tracks:
+        - track:
+            colspan: 2
+            name: Workshop I
+            speaker: 
+            handle: 
+            bio: 
+            title: 
+            photo: 
+            location: 
+            id: workshopi
+            description: 
+        - track:
+            colspan: 2
+            name: Workshop II
+            speaker: 
+            handle: 
+            company: 
+            bio:
+            title: 
+            photo: 
+            location: 
+            id: workshopii
+            description: 
+    - time: "10.30"
+      slottype: break
+      tracks:
+        - track:
+            colspan: 4
+            location: 
+            title: 
+            description: 
+    - time: "11.00"
+      slottype: workshop
+      tracks:
+        - track:
+            colspan: 2
+            name: Workshop I
+            title: 
+            location:
+            id: workshopi
+        - track:
+            colspan: 2
+            name: Workshop II
+            title: 
+            location: 
+            id: workshopii
+    - time: "12.30"
+      slottype: 
+      tracks:
+        - track:
+              colspan: 4
+              location: 
+              title: Lunch
+              description: 
+    - time: "13.30"
+      slottype: 
+      tracks:
+        - track:
+            colspan: 2
+            name: Workshop I
+            title:
+            location: 
+            id: workshopi
+        - track:
+            colspan: 2
+            name: Workshop II
+            title: 
+            location: 
+            id: workshopii
+    - time: "15.00"
+      slottype: break
+      tracks:
+        - track:
+            colspan: 4
+            location: 
+            title: 
+            description: 
+    - time: "15.30"
+      slottype: workshop
+      tracks:
+        - track:
+            colspan: 2
+            name: Workshop I
+            title: 
+            location: 
+            id: workshopi
+        - track:
+            colspan: 2
+            name: Workshop II
+            title: 
+            location: 
+            id: workshopii
+    - time: "18.00"
+      slottype: break
+      tracks:
+        - track:
+            colspan: 4
+            name: Pre-Conference Social
+            location: 
+            title: 
+            speaker: 
+            slug: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            description: 
+- schedule-thursday:
+  name: Thursday 20th February 2020
+  description: |
+  slots:
+    - time: "08.00"
+      slottype: break
+      tracks:
+        - track:
+            colspan: 4
+            location: 
+            title: 
+            description: 
+    - time: "09.00"
+      slottype: keynote
+      tracks:
+        - track:
+            colspan: 4
+            location:
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio:  
+            description: 
+    - time: "09.45"
+      slottype: break
+      tracks:
+        - track:
+            colspan: 3
+            location: King George
+            title: Refreshment break
+            description: 
+        - track:
+            location: 
+            title: 
+            speaker: 
+            level: 
+            description: 
+    - time: "10.15"
+      slottype: talks
+      tracks:
+        - track:
+            location: 
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            description: 
+        - track:
+            location: 
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+        - track:
+            prereqs: 1
+            rowspan: 5
+            location: 
+            tooltip: 
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+        - track:
+            prereqs: 1
+            rowspan: 5
+            location: 
+            tooltip: 
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+    - time: "11.15"
+      slottype: break
+      tracks:
+        - track:
+            colspan: 2
+            location: 
+            title: 
+    - time: "11.30"
+      slottype: talks
+      tracks:
+        - track:
+            location: 
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+        - track:
+            location: 
+            title: 
+            slug: 
+            speaker: 
+            handle:  
+            photo: 
+            bio: 
+            level: 
+            description: 
+    - time: "12.30"
+      slottype: break
+      tracks:
+        - track:
+              colspan: 4
+              location: King George
+              title: Lunch
+              description: |
+                A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    - time: "13.30"
+      slottype: talks
+      tracks:
+        - track:
+            location: 
+            title: 
+            subtitle: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+        - track:
+            location: 
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+        - track:
+            prereqs: 1
+            rowspan: 5
+            location: 
+            tooltip: 
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+        - track:
+            prereqs: 1
+            rowspan: 5
+            location: 
+            tooltip: 
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+    - time: "14.30"
+      slottype: break
+      tracks:
+        - track:
+              colspan: 2
+              location: 
+              title: Room change
+    - time: "14.45"
+      slottype: talks
+      tracks:
+        - track:
+            location: 
+            title: 
+            subtitle: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+        - track:
+            location: 
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+    - time: "15.45"
+      slottype: break
+      tracks:
+        - track:
+              colspan: 4
+              location: King George
+              title: Refreshment break
+              description: |
+                Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    - time: "16:15"
+      slottype: keynote
+      tracks:
+        - track:
+            colspan: 4
+            location: 
+            title: 
+            subtitle: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+    - time: "17.00"
+      slottype: break
+      tracks:
+        - track:
+            colspan: 4
+            location: King George
+            title: Mid Conference Social
+            description: |
+                The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. 
+- schedule-friday:
+  name: Friday 22nd February 2019
+  description: |
+      <p>Friday continues with the second day of the main conference. Again, you will be able to attend a morning keynote followed by four talk slots throughout the day. During each talk slot you'll have the choice between four different tracks. There will be 3 cake &amp; coffee breaks, a 3 course lunch, and rolling tea, coffee and soft drinks included. The conference will close on Friday with a final featured keynote, a prize raffle from our sponsors, and then on to the evening <a href="/socials">post-conference social</a>.</p>
+  slots:
+    - time: "08.00"
+      slottype: break
+      tracks:
+        - track:
+            colspan: 4
+            location: Brewery Foyer & King George
+            title: Registration and Refreshments
+            description: Please bring a copy of your ticket either printed or on a mobile device.
+    - time: "09.00"
+      slottype: keynote
+      tracks:
+        - track:
+            colspan: 4
+            location: 
+            title: 
+            subtitle: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            description: 
+    - time: "09.45"
+      slottype: break
+      tracks:
+        - track:
+            colspan: 4
+            location: King George
+            title: Refreshment break
+            description: Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    - time: "10.15"
+      slottype: talks
+      tracks:
+        - track:
+            location: 
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+        - track:
+            location: 
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+        - track:
+            prereqs: 1
+            rowspan: 5
+            location: 
+            tooltip: 
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+        - track:
+            prereqs: 1
+            rowspan: 5
+            location: 
+            tooltip: 
+            title: 
+            subtitle: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+    - time: "11.15"
+      slottype: break
+      tracks:
+        - track:
+            colspan: 2
+            location: 
+            title: Room change
+    - time: "11.30"
+      slottype: talks
+      tracks:
+        - track:
+            location: 
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+        - track:
+            location: 
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+    - time: "12.30"
+      slottype: break
+      tracks:
+        - track:
+              colspan: 3
+              location: King George
+              title: Lunch
+              description: |
+                A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+        - track:
+            location: 
+            title: 
+            speaker: 
+            level: 
+            description:
+    - time: "13.30"
+      slottype: talks
+      tracks:
+        - track:
+            location: 
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+        - track:
+            location: 
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: All
+            description: 
+        - track:
+            prereqs: 1
+            location: 
+            tooltip: 
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: All
+            description: 
+        - track:
+            prereqs: 1
+            rowspan: 5
+            location: 
+            tooltip: 
+            title: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: |
+                
+    - time: "14.30"
+      slottype: break
+      tracks:
+        - track:
+              colspan: 3
+              location: 
+              title: Room change
+    - time: "14.45"
+      slottype: talks
+      tracks:
+        - track:
+            location: 
+            title: 
+            speaker: 
+            slug: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: All
+            description: 
+        - track:
+            location: 
+            title: 
+            subtitle: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: Intermediate 
+            description: 
+        - track:
+            location: 
+            tooltip: 
+            title: 
+            subtitle: 
+            speaker: 
+            level: 
+            description: 
+    - time: "15.45"
+      slottype: break
+      tracks:
+        - track:
+              colspan: 4
+              location: King George
+              title: Refreshment break
+              description: |
+                Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates and our sponsors.
+    - time: "16.15"
+      slottype: keynote
+      tracks:
+        - track:
+            colspan: 4
+            location: 
+            title: 
+            subtitle: 
+            slug: 
+            speaker: 
+            handle: 
+            company: 
+            photo: 
+            bio: 
+            level: 
+            description: 
+    - time: "17.00"
+      slottype: break
+      tracks:
+        - track:
+            colspan: 4
+            title: Post Conference Social
+            location: The Pasteur Rooms at The Brewery
+            description: |
+                The conference social is open to all conference attendees and gives you a chance to relax and meet other delegates after a big day of learning. <a href="/socials">More details &raquo;</a>

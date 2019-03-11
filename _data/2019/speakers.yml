@@ -1,7 +1,24 @@
 - schedule-wednesday:
   name: Wednesday 20th February 2019
   description: |
-      <p>PHP UK Conference is pleased to bring to you <b>two</b> options for a full day of training on Wednesday, 20th February 2019, a day before the conference.</p><p>All  course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>**Please Note - an additional ticket is required to attend the workshop day.</p><h2>All Workshops are now SOLD OUT.</h2>
+      <p>PHP UK Conference is pleased to bring to you <b>two</b> options for a full day of training on Wednesday, 20th February 2019, a day before the conference.</p><p>All  course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>**Please Note - an additional ticket is required to attend the workshop day.</p><h2>All Workshops are now SOLD OUT.</h2><p>Workshop locations:</p>
+      <table class="schedule-wrapper"><tr class="slot"><td class="track"><p>
+                    <strong>Kubernetes by Example with David McKay</strong><br>
+                    Cornwallis Room<br>
+                    <a href="https://www.themontcalmlondoncity.co.uk/">Montcalm Hotel</a><br>
+                    52 Chiswell Street<br>
+                    London EC1Y 4SD
+                </p></td><td>
+                <p>
+                    <strong>BDD in Practice with Ciaran McNulty</strong><br>
+                    Pasteur Room<br>
+                    <a href="https://grubstreetauthor.co.uk/contact/">The Grubstreet Author</a><br>
+                    Milton Street<br>
+                    London EC2Y 9BH
+                </p></td><td><div class="map">
+                    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://www.google.com/maps/d/embed?mid=1JZN0vV3MlcCkfcNEW3b2KDoCfMCikP-G&hl=en"></iframe>
+                </div></td>
+            </div>
   slots:
     - time: 
       slottype: mc
@@ -22,7 +39,7 @@
       tracks:
         - track:
             colspan: 4
-            location: The Montcalm Hotel at the Brewery
+            location: The Montcalm Hotel and The Grubstreet Author, at the Brewery
             title: Registration and Refreshments
             description: Please bring a copy of your ticket either printed or on a mobile device.
     - time: "09.00"
@@ -36,7 +53,7 @@
             bio: David is a Developer Advocate for InfluxData, the company behind InfluxDB. As a serial user group organiser (Organising Cloud Native Glasgow, DevOps Glasgow, and Observability Glasgow), David is always searching for new and creative ways to share knowledge with others.
             title: Kubernetes By Example - SOLD OUT!
             photo: /2019/assets/images/speakers/davidmckay.jpg
-            location: The Samuel Room in The Montcalm Hotel at the Brewery
+            location: The Cornwallis Room in The Montcalm Hotel at the Brewery
             id: workshopi
             description: Kubernetes, the flagship project from the Cloud Native Foundation, has become the de facto standard for running our container workloads. Unfortunately, Kubernetes is a fast moving, ever evolving, sea of complexity. From Pods to Deployments, ConfigMaps to Secrets, and PersistantVolumeClaims to StatefulSets; this workshop will get you on-course. In this workshop, David will walk you through a series of labs that will teach you everything you need to know to take your container based application and deploy it as a self-healing, redundant and resilient application on top of Kubernetes. Let's set sail.
         - track:
@@ -45,11 +62,10 @@
             speaker: Ciaran McNulty
             handle: ciaranmcnulty
             company: Crania Ltd
-            location: The Montcalm Hotel at the Brewery
             bio: <a href="https://twitter.com/ciaranmcnulty">Ciaran McNulty</a> helps teams at all levels of ability improve via training and coaching. He has been a PHP professional since the late 90s and is passionate about TDD, BDD and Agile methodologies. He is lead maintainer of PhpSpec.
             title: BDD in Practice - SOLD OUT!
             photo: /2019/assets/images/speakers/ciaranmcnulty.jpg
-            location: The Cornwallis Room in the Montcalm Hotel at the Brewery
+            location: The Pasteur Room in The Grubstreet Author at the Brewery
             id: workshopii
             description: A tour of BDD best practices, applied in the PHP world. Behaviour Driven Development techniques help us to ensure that the code we're writing is solving real-world problems, and is software that matters. In this hands-on workshop we will build some simple software that fulfils a user's requirement; validate its functionality using tools such as Behat, PHPUnit and PhpSpec; and learn how our test architecture can support our application's architecture.
     - time: "10.30"
@@ -57,7 +73,7 @@
       tracks:
         - track:
             colspan: 4
-            location: The Montcalm Hotel at the Brewery
+            location: The Montcalm Hotel and The Grubstreet Author, at the Brewery
             title: Refreshment break
             description: Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates.
     - time: "11.00"
@@ -67,20 +83,20 @@
             colspan: 2
             name: Workshop I
             title: Kubernetes By Example, con't - SOLD OUT!
-            location: The Samuel Room in The Montcalm Hotel at the Brewery
+            location: The Cornwallis Room in The Montcalm Hotel at the Brewery
             id: workshopi
         - track:
             colspan: 2
             name: Workshop II
             title: BDD in Practice, con't - SOLD OUT!
-            location: The Cornwallis Room in The Montcalm Hotel at the Brewery
+            location: The Pasteur Room in The Grubstreet Author at the Brewery
             id: workshopii
     - time: "12.30"
       slottype: break
       tracks:
         - track:
               colspan: 4
-              location: The Montcalm Hotel at the Brewery
+              location: The Montcalm Hotel and The Grubstreet Author, at the Brewery
               title: Lunch
               description: |
                 A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates.
@@ -91,20 +107,20 @@
             colspan: 2
             name: Workshop I
             title: Kubernetes By Example, con't - SOLD OUT!
-            location: The Samuel Room in The Montcalm Hotel at the Brewery
+            location: The Cornwallis Room in The Montcalm Hotel at the Brewery
             id: workshopi
         - track:
             colspan: 2
             name: Workshop II
             title: BDD in Practice, con't - SOLD OUT!
-            location: The Cornwallis Room in The Montcalm Hotel at the Brewery
+            location: The Pasteur Room in The Grubstreet Author at the Brewery
             id: workshopii
     - time: "15.00"
       slottype: break
       tracks:
         - track:
             colspan: 4
-            location: The Montcalm Hotel at the Brewery
+            location: The Montcalm Hotel and The Grubstreet Author, at the Brewery
             title: Refreshment break
             description: Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates.
     - time: "15.30"
@@ -114,13 +130,13 @@
             colspan: 2
             name: Workshop I
             title: Kubernetes By Example, con't - SOLD OUT!
-            location: The Samuel Room in The Montcalm Hotel at the Brewery
+            location: The Cornwallis Room in The Montcalm Hotel at the Brewery
             id: workshopi
         - track:
             colspan: 2
             name: Workshop II
             title: BDD in Practice, con't - SOLD OUT!
-            location: The Cornwallis Room in The Montcalm Hotel at the Brewery
+            location: The Pasteur Room in The Grubstreet Author at the Brewery
             id: workshopii
     - time: "18.00"
       slottype: break
@@ -133,7 +149,7 @@
             speaker: Michael Cullum
             slug: michaelcullum
             handle: michaelcullumuk
-            company: SamKnows
+            company: Bud
             photo: /2019/assets/images/speakers/michaelcullum.jpg
             bio: Michael Cullum is a backend software engineer, working particularly with PHP, and has been for about a decade. He currently works at SamKnows as a senior software engineer & architect doing data intelligence, storage and processing of internet measurement data at huge scale. He is also a manager & core developer at phpBB where he has been a contributor for over half a decade and he recently joined the Symfony Core Team as Security Lead. He is actively involved in the PHP FIG previously running the administration of it as the PHP FIG Secretary for 2 years and editor of PSR-12; he now sits on the Core Committee, the steering group of the FIG and is the editor of two security PSRs (PSR-9 and PSR-10).
             description: |
@@ -206,6 +222,7 @@
             level: Intermediate 
             description: 15 years ago, plain text password storing was normal with some using MD5. We look back now and wonder what we were thinking! With GDPR and people thinking more about personal details, its about time we caught up and started storing them securely. There are many uses for personal data and is often sought after by criminals for targeting people. How can you prevent your customers data being used in these attacks ? Encrypting your database is a fantastic way! PHP is the first language to have modern encryption built in to the core, This talk will show you how to use these methods to allow your data to be secure and also not lose the speed which you can currently search for this data in your application. This talk will touch on architecture and will be focused on MySQL although the same techniques can be used for any storage engine.
         - track:
+            prereqs: 1
             rowspan: 5
             location: Design Track
             tooltip: The Design Track is all about software architecture, design patterns and best practices. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
@@ -219,6 +236,7 @@
             level: Intermediate
             description: "This prototype works, but it’s not pretty, and now it’s in production. That legacy application really needs some TLC. Where do we start? When creating long lived applications, it’s imperative to focus on good practices. The solution is to improve the whole development life cycle; from planning, better coding and testing, to automation, peer review and more. In this tutorial, we’ll take a deep dive into each of these areas, looking at how we can make positive, actionable change in our workflow. This workshop intends to improve your skills in planning, documenting, some aspects of development, testing and delivery of software for both legacy and greenfield projects. The workshop is made up of multiple exercises, allowing dynamic exploration into the various aspects of the software development life cycle. In each practical exercise, we'll brainstorm and investigate solutions, ensuring they are future-proofed, well tested and lead to the ultimate goal of confidence in delivering stable software."
         - track:
+            prereqs: 1
             rowspan: 5
             location: Velocity Track
             tooltip: The Velocity Track is all about servers, scalability and high availability. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
@@ -243,15 +261,15 @@
       tracks:
         - track:
             location: Chip Track
-            title: Introduction to Serverless PHP
-            slug: roballen
-            speaker: Rob Allen
-            handle: akrabat
-            company: Nineteen Feet Limited
-            photo: https://secure.gravatar.com/avatar/79d9ba388d6b6cf4ec7310cad9fa8c8a?s=500
-            bio: Rob Allen is a software consultant and developer with many years experience and writes code in PHP, Swift and other interesting languages. He is part of Slim Framework's leadership team and contributes to Apache OpenWhisk and other open source projects. Rob is a published author and based in the UK where he runs <a href="http://19ft.com">Nineteen Feet Limited</a>, focussing on API development, training and consultancy. In his spare time, Rob blogs at <a href="https://akrabat.com">akrabat.com</a> and can often be seen with a camera in his hand.
-            level: Beginner
-            description: APIs and microservices are how we build modern web applications and serverless technologies make this easy. This session will show you how serverless applications are built and how you can leverage your PHP skills to build APIs of all shapes and sizes. We will cover how to use your current knowledge to build applications in PHP within Apache OpenWhisk, leveraging the API Gateway to build robust APIs quickly and easily. By the end of the session, you’ll be well placed to design and build your own applications that take full advantage of the power of serverless technologies.
+            title: Running Your PHP Site on AWS Lambda
+            slug: nealbrooks
+            speaker: Neal Brooks
+            handle: nealio82
+            company: MyBuilder
+            photo: /2019/assets/images/speakers/neal.jpg
+            bio: Neal is a software engineer at <a href="https://www.mybuilder.com">MyBuilder.com</a> by day, and a physics student by night. He loves learning and sharing, and spends most of his free time trying to figure out which hiking trail he should visit next.
+            level: All
+            description: Want to have immediate & easy website scaling, but also get rid of costly servers as they’re sitting idle 80% of the time waiting for visitors? Heard something about PHP and layers on AWS Lambda but have no idea what it means? You're not the only one! In this session we’ll get ourselves up-and-running with a PHP website on Lambda.
         - track:
             location: Mention Me Track
             title: Dive Deep into Blockchain
@@ -298,6 +316,7 @@
             level: Intermediate
             description: In this presentation we will look at storing complex data in a single field. Many noSQL solutions are created around this (such as Redis’ lists, sets and hashes; MongoDB’s records), and many relational database now also support storing complex data in a single field through specific data types (such as PostGreSQL’s JSONB or hstore). Each of the different database engines support different things, and handle these data types in different ways. In this session we compare the different approaches to storage, indexing and interactions with these data types in different databases.
         - track:
+            prereqs: 1
             rowspan: 5
             location: Design Track
             tooltip: The Design Track is all about software architecture, design patterns and best practices. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
@@ -311,6 +330,7 @@
             level: Intermediate
             description: Automated testing is an incredibly useful tool for any developer. From emerging design with unit tests to preventing regression bugs with acceptance tests, getting a computer to run tests instead of testing manually is a huge step forward and saves vast amounts of time. Where do you start with automated testing? It's an intimidating topic and can be confusing to understand what all the techy speak means, let alone how you get going. But writing automated tests shouldn't be difficult, and can and should be part of your daily workflow once you understand exactly what to test, and how to test it. In this workshop, we'll introduce WHY and HOW you can get started with unit and acceptance tests, and touch on integration testing. By the end of the workshop, you'll understand how you can leverage automated testing in new and existing projects, and be ready to save time and energy when developing.
         - track:
+            prereqs: 1
             rowspan: 5
             location: Velocity Track
             tooltip: The Velocity Track is all about servers, scalability and high availability. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
@@ -451,6 +471,7 @@
             level: Intermediate
             description: "The talk aims to highlight the importance of testing, why developers must spend more of their time testing, how testing generates more robust applications and why testing makes developers' lives easier. The talk is based around a live coding demo. The talk will: Explain the difference between tests that prove an application works and tests which aim to break the application logic - Highlight how test to break principles force developers to introduce logic to handle unexpected behaviour - Show how test to break principles result in more robust applications as developers write code that can only be used in one way - Encourage developers to apply test to break principles to all types of tests, including manual tests."
         - track:
+            prereqs: 1
             rowspan: 5
             location: Design Track
             tooltip: The Design Track is all about software architecture, design patterns and best practices. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
@@ -464,6 +485,7 @@
             level: All
             description: "Knowing how to do things right is half the battle. Knowing how to do the right thing is the under appreciated but essential other half. In this workshop we'll learn how to discover the language of our clients. We will gracefully evolve our understanding from nothing to something and use various modelling tools to grow our understanding of the problem. If you want to have better conversations, make more useful models, and have the optimal preparation for writing code, then this is the workshop for you. Topics include context mapping, event storming, and value mapping."
         - track:
+            prereqs: 1
             rowspan: 5
             location: Velocity Track
             tooltip: The Velocity Track is all about servers, scalability and high availability. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
@@ -550,6 +572,7 @@
             level: All
             description: Learning more than one programming language is key to becoming a better developer. It is like adding a new tool to your toolbox. The more tools you have, the easier and quicker you’ll be able to tackle whatever job you need to do. You’ll also be able to use the right tool for the job, and who doesn’t like that?! I picked up Go (golang) a few years ago as it was becoming more popular among developers. Coming from a PHP background, I had no idea what channels or goroutines were or how is concurrency different from parallelism. I’ve got to say, it was a whole new world. Very different, but very cool. I was hooked! By happy coincidence, my company was looking to rewrite a legacy PHP app in Go. It was over 2000 lines of procedural and messy PHP4 with more downtime than I’m willing to admit to. I took on this project, and soon enough we had a much faster, more maintainable and much more reliable app for our customers. Go gave us options we would not have in PHP. The goal of this talk is to give you a good idea of what Go is and how it compares with PHP. We’ll look at the language itself as well as the tooling and communities around it. Even if you’re not sold on Go by the end of it, I hope you’ll leave inspired to go out there and learn whatever language you wanted to look into next. 
         - track:
+            prereqs: 1
             location: Design Track
             tooltip: The Design Track is all about software architecture, design patterns and best practices. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
             title: API Standards 2.0
@@ -562,6 +585,7 @@
             level: All
             description: "We're all familiar with things like HTTP codes and content types, but there's so much more we can do when developing an API to make life easier for consumers. How many times have you used an API only to find out that every endpoint is slightly different – some use `snake_case`, others `camelCase`, sometimes the field is called `id`, sometimes it’s `user_id`. How about pagination? Error responses? What about API documentation? Trying to standardise on all these things can kill an engineering team. There are so many options out there it’s difficult to know where to start. Come along and learn what works for our team! We’ll cover contentious topics (should the version be in the URL or a header?), lesser-known standards that are great (RFC 7807 springs to mind) and a couple of things that aren't an issue right up until they’re a really big issue (like pagination). <br><br>*** Please note this tutorial session is only 60 minutes long will not have hands on exercises."
         - track:
+            prereqs: 1
             rowspan: 5
             location: Velocity Track
             tooltip: The Velocity Track is all about servers, scalability and high availability. This is a Tutorial session - the sessions are 2 hours long and provide a more in-depth look at the topic, including hands-on exercises. Pre-registration is required to attend.
@@ -587,16 +611,15 @@
       tracks:
         - track:
             location: Chip Track
-            title: RBD (Readme Based Design) 
-            subtitle: Designing PHP Packages by Using them Before we Code them 
-            slug: alancole
-            speaker: Alan Cole 
-            handle: 
-            company: Chip
-            photo: /assets/images/speakers/alan1.jpg
-            bio: "Alan is Head of Engineering at <a href=\"https://twitter.com/get_chip\">@get_chip</a> where he’s working to build the world best savings account with help of his fast expanding and talented engineering team and the wider chip family. Alan has 15 years experience as a PHP developer and leader and he’s passionate about clean, structured and scalable code and building high functioning teams."
-            level: Beginner
-            description: Focusing on the importance of understanding who will use our packages and libraries and how they’ll use them. We'll be looking at tools and ideas we can use to make sure our APIs are as intuitive as possible as well as the benefits that has on the portability and maintenance of our codebases. 
+            title: Building first-class REST APIs with Symfony
+            speaker: Michael Cullum
+            slug: michaelcullum
+            handle: michaelcullumuk
+            company: Bud
+            photo: /2019/assets/images/speakers/michaelcullum.jpg
+            bio: Michael Cullum is a backend software engineer, working particularly with PHP, and has been for about a decade. He currently works at SamKnows as a senior software engineer & architect doing data intelligence, storage and processing of internet measurement data at huge scale. He is also a manager & core developer at phpBB where he has been a contributor for over half a decade and he recently joined the Symfony Core Team as Security Lead. He is actively involved in the PHP FIG previously running the administration of it as the PHP FIG Secretary for 2 years and editor of PSR-12; he now sits on the Core Committee, the steering group of the FIG and is the editor of two security PSRs (PSR-9 and PSR-10).
+            level: All
+            description: Building REST APIs is becoming an ever more common task for PHP developers to do and whilst the task may often sound simple in that it involves reading some input, and getting (or persisting) to a data source and returning some JSON, there are a lot of common pitfalls and complications that you might encounter along the way. In this talk we'll look at how we can build a simple maintainable REST API using the Symfony components that can perform some simple operations in ways that are clean and simple.
         - track:
             location: Mention Me Track
             title: Hybrid Databases
