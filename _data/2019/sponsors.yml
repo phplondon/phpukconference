@@ -115,7 +115,7 @@
 - name: Fasthosts
   id: fasthosts
   type: silver
-  url: https://fasthosts.co.uk
+  url: https://www.fasthosts.co.uk
   description:
     "Fasthosts has been a leading UK web hosting provider since 1999. From domain names and email to dedicated servers and next-generation cloud services, Fasthosts delivers everything required for a high-quality presence on the internet. State-of-the-art UK data centres guarantee superb levels of connectivity, uptime and security, and with 24/7 technical support, expert help is always available. By combining the latest technology with outstanding service, Fasthosts ensures flawless performance and rock-solid reliability for a huge range of online projects."
 - name: Resume Library
