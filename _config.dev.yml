@@ -1,7 +1,6 @@
 permalink: pretty
 exclude: 
   - node_modules
-  - _videos
   - 2006
   - 2007
   - 2008
