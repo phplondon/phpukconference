@@ -1,0 +1,6 @@
+- name: WebsiteSetup.org
+  id: websitesetup
+  type: silver
+  url: https://www.websitesetup.org/
+  description:
+    "Free resources for beginners to create and maintain websites."
