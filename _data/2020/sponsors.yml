@@ -1,4 +1,11 @@
-
+- name: Shopware
+  id: shopware
+  type: Platinum
+  url: https://www.shopware.co.uk/community/developers
+  description:
+    "Shopware is a leading ecommerce system and used by some of the largest European brands, retailers and manufacturers across B2C and B2B industries. As a trendsetting open source solution, Shopware gives retailers the freedom to quickly and easily realise their growth potential - with more flexibility and less complexity. Today, more than 100,000 companies rely on a Shopware solution, with all retailers - from start-ups to enterprise - generating a combined turnover of 5.8 billion euros in 2018.
+    <br><br>
+    From its headquarters in Schöppingen, Germany, Shopware employs 200 people and relies on a global network of 1,200 sales, technology and solution partners. A community with hundreds of thousands of members gives customers access to over 3,500 extensions and certified professional support. 100% equity-financed, Shopware is completely independent; and through high investments in research and development, is the leading driver of innovation in European ecommerce."
 - name: WebsiteSetup.org
   id: websitesetup
   type: silver
