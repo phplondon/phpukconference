@@ -1,7 +1,7 @@
 - name: Shopware
   id: shopware
-  type: Platinum
-  url: https://www.shopware.co.uk/community/developers
+  type: platinum
+  url: https://www.shopware.co.uk/community/developers/
   description:
     "Shopware is a leading ecommerce system and used by some of the largest European brands, retailers and manufacturers across B2C and B2B industries. As a trendsetting open source solution, Shopware gives retailers the freedom to quickly and easily realise their growth potential - with more flexibility and less complexity. Today, more than 100,000 companies rely on a Shopware solution, with all retailers - from start-ups to enterprise - generating a combined turnover of 5.8 billion euros in 2018.
     <br><br>
