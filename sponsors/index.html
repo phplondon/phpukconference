@@ -22,6 +22,7 @@ image: banners/sponsors.png
 	</div>
 </div>
 
+{% assign platinum_sponsors = site.data.2020.sponsors | where:'type', 'platinum' %}
 {% assign silver_sponsors = site.data.2020.sponsors | where:'type', 'silver' %}
 
 <div class="row">
