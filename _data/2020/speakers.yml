@@ -1,8 +1,8 @@
 - schedule-wednesday:
   name: Wednesday 19th February 2020
   description: |
-      <p>PHP UK Conference is pleased to bring to you <b>two</b> options for a full day of training on Wednesday, 19th February 2020, a day before the conference.</p><p>All  course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>**Please Note - an additional ticket is required to attend the workshop day.</p><p>We'll have more information on our speakers and talks coming soon.</p> 
-#      <p>Workshop locations:</p>
+      <p>PHP UK Conference is pleased to bring to you <b>four</b> options for a full day of training on Wednesday, 19th February 2020, a day before the conference.</p><p>All  course options are a full day (9am-5pm) of hands on immersive training with top professional trainers. Tickets include breakfast, lunch and coffee breaks. Please bring your laptop; power and wifi will be available.</p><p>*Please Note - an additional ticket is required to attend the workshop day.</p> 
+# <p>Workshop locations:</p>
 #       <table class="schedule-wrapper"><tr class="slot"><td class="track"><p>
 #                     <strong>Kubernetes by Example with David McKay</strong><br>
 #                     Cornwallis Room<br>
@@ -21,100 +21,149 @@
 #                 </div></td>
 #             </div>
   slots:
-    - time: "8.00"
+    - time: "08.30"
       slottype: break
       tracks:
         - track:
-            colspan: 4
-            location: 
+            colspan: 8
+            location: The Montcalm Hotel and The Grubstreet Author, at the Brewery
             title: Registration and Refreshments
-            slug: 
-            speaker:
-            handle: 
-            company: 
-            photo: 
-            bio: 
             description: Please bring a copy of your ticket either printed or on a mobile device.
-    - time: "08.30"
-      slottype: 
-      tracks:
-        - track:
-            colspan: 4
-            location: 
-            title: 
-            description: 
     - time: "09.00"
       slottype: workshop
       tracks:
         - track:
             colspan: 2
             name: Workshop I
-            speaker: 
-            handle: 
-            bio: 
-            title: 
-            photo: 
-            location: 
+            speaker: Tim Huijzers
+            handle: Dragem
+            bio: Professional Developer for more than 8 years now, Worked at Drukwerkdeal.nl for more than 5 of them. Does a lot with financial systems and advocate for good architecture. Like to be called a Developer and not a Programmer! Also Founder of DeventerPHP user group. Next to developing for money Tim likes to develop for his other 2 hobbies, Beer and Board games. No wonder some of his talks are about one or the other.
+            title: Getting Started with Event-sourcing
+            photo: https://papercallio-production.s3.amazonaws.com/uploads/user/avatar/30990/profile300.jpg
+            location: TBA
             id: workshopi
-            description: 
+            description: Over the last couple of years, I have heard of Event sourcing but didn’t really know where to start until I did a tutorial at DPC ‘17. After having some basic information it was time to start a Hackathon and after that something production worthy . In this talk I will try to give the best information to get started and to know some of the problems you can face if you begin event-sourcing.
         - track:
             colspan: 2
             name: Workshop II
-            speaker: 
-            handle: 
-            company: 
-            bio:
-            title: 
-            photo: 
-            location: 
+            speaker: Antonio Peric-Mazar
+            handle: antonioperic
+            bio: Antonio Perić-Mažar is CEO at Locastic digital agency, based in beautiful Croatian city called Split. Their main focus is to build complex mobile and web platforms for different clients that range from startups to enterprise companies from all over the globe.
+            title: REST easy with Api Platform
+            photo: https://secure.gravatar.com/avatar/29db221e8a59b06c9180725ec8ac1e75?s=500
+            location: TBA
             id: workshopii
-            description: 
+            description: We’ll start by creating a fully-featured API in just a few minutes with API Platform, Symfony and Doctrine. The API will support pagination, data validation, access control, relation embedding, filters, and error handling. It will be documented with OpenAPI and will have a nice UI done in React.
+        - track:
+            colspan: 2
+            name: Workshop III
+            speaker: Mark Bradley
+            handle: braddle
+            bio: |
+              Mark Bradley is a Principal Software Engineer from London, currently working for Sainsbury’s. Working in the industry for over 10 years Mark has developed a passion for supporting and mentoring his peers and has more recently been working with the apprentice programme at Sainsbury’s alongside his day job.
+
+              A keen protagonist of Test Driven Development, he launched his own screen cast, ‘Testing All the Things’ in the Spring, to teach the wider community how to practice Test Driven Development and Automated Testing.
+
+              Mark is a keen cyclist, who enjoys quiet evenings in the pub playing board games and spending time with his wife and three children.
+            title: Introduction to Test Driven Development Workshop
+            photo: /2020/assets/images/speakers/braddle1.jpeg
+            location: TBA
+            id: workshopiii
+            description: |
+              Want to ship code faster? Want to work on features over bugs? Want more confidence in your code?
+
+              You need to TEST ALL THE THINGS.
+
+              Writing tests before you write code can be an intimidating concept. During this hands on workshop you will learn how to start using Test Driven Development.
+        - track:
+            colspan: 2
+            name: Workshop IV
+            speaker: Bastian Hofmann
+            handle: BastianHofmann
+            bio: Bastian is a System Engineer at SysEleven, a full-service hosting company, where he focuses on bringing the power of Kubernetes to its customers. Before that he was caring about performance, monitoring, web-security and developer productivity at ResearchGate, the leading social network for researchers and scientists. When he is not developing stuff or looking at graphs, he likes to cycle, do Yoga, go to beer gardens and frequently speaks at international conferences on Kubernetes, software architecture and scaling web applications.
+            title: Deploying your first Micro-Service application to Kubernetes
+            photo: https://secure.gravatar.com/avatar/3a3f9c32c9e5a4c2970befd97d52285b?s=500
+            location: TBA 
+            id: workshopiv
+            description: |
+              Kubernetes is a very powerful container orchestration platform that is quickly gaining traction and gives you lots of benefits in deploying, running and scaling your microservice web application. But it has also a steep learning curve.
+
+              In this workshop you will deploy your first application which consists of multiple Micro-Services to Kubernetes and learn how you can use persistent storage and service meshes and set up sensible monitoring and logging tooling.
     - time: "10.30"
       slottype: break
       tracks:
         - track:
-            colspan: 4
-            location: 
-            title: 
-            description: 
+            colspan: 8
+            location: The Montcalm Hotel and The Grubstreet Author, at the Brewery
+            title: Refreshment break
+            description: Light refreshments will be served in the exhibition hall where you will also be able to network with fellow delegates.
     - time: "11.00"
       slottype: workshop
       tracks:
         - track:
             colspan: 2
             name: Workshop I
-            title: 
-            location:
+            title: Getting Started with Event-sourcing, con't
+            location: TBA
             id: workshopi
         - track:
             colspan: 2
             name: Workshop II
-            title: 
-            location: 
+            title: REST easy with Api Platform, con't
+            location: TBA
             id: workshopii
+            slottype: workshop
+            tracks:
+        - track:
+            colspan: 2
+            name: Workshop III
+            title: Introduction to Test Driven Development Workshop, con't
+            location: TBA
+            id: workshopiii
+        - track:
+            colspan: 2
+            name: Workshop IV
+            title: Deploying your first Micro-Service application to Kubernetes, con't
+            location: TBA
+            id: workshopiv
     - time: "12.30"
-      slottype: 
+      slottype: break
       tracks:
         - track:
-              colspan: 4
-              location: 
+              colspan: 8
+              location: The Montcalm Hotel and The Grubstreet Author, at the Brewery
               title: Lunch
-              description: 
+              description: |
+                A 3 course buffet lunch will be served in the exhibition hall where you will also be able to network with fellow delegates.
     - time: "13.30"
-      slottype: 
+      slottype: workshop
       tracks:
         - track:
             colspan: 2
             name: Workshop I
-            title:
-            location: 
+            title: Getting Started with Event-sourcing, con't
+            location: TBA
             id: workshopi
         - track:
             colspan: 2
             name: Workshop II
-            title: 
-            location: 
+            title: REST easy with Api Platform, con't
+            location: TBA
             id: workshopii
+            slottype: workshop
+            tracks:
+        - track:
+            colspan: 2
+            name: Workshop III
+            title: Introduction to Test Driven Development Workshop, con't
+            location: TBA
+            id: workshopiii
+        - track:
+            colspan: 2
+            name: Workshop IV
+            title: Deploying your first Micro-Service application to Kubernetes, con't
+            location: TBA
+            id: workshopiv
     - time: "15.00"
       slottype: break
       tracks:
@@ -129,20 +178,34 @@
         - track:
             colspan: 2
             name: Workshop I
-            title: 
-            location: 
+            title: Getting Started with Event-sourcing, con't
+            location: TBA
             id: workshopi
         - track:
             colspan: 2
             name: Workshop II
-            title: 
-            location: 
+            title: REST easy with Api Platform, con't
+            location: TBA
             id: workshopii
+            slottype: workshop
+            tracks:
+        - track:
+            colspan: 2
+            name: Workshop III
+            title: Introduction to Test Driven Development Workshop, con't
+            location: TBA
+            id: workshopiii
+        - track:
+            colspan: 2
+            name: Workshop IV
+            title: Deploying your first Micro-Service application to Kubernetes, con't
+            location: TBA
+            id: workshopiv
     - time: "18.00"
       slottype: break
       tracks:
         - track:
-            colspan: 4
+            colspan: 8
             name: Pre-Conference Social
             location: 
             title: 
@@ -152,10 +215,10 @@
             company: 
             photo: 
             bio: 
-            description: 
+            description: TBA
 - schedule-thursday:
   name: Thursday 20th February 2020
-  description: |
+  description:
   slots:
     - time: "08.00"
       slottype: break
