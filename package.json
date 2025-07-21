@@ -18,7 +18,7 @@
     "gulp-postcss": "^7.0.1",
     "gulp-rename": "^1.2.2",
     "gulp-run": "^1.7.1",
-    "gulp-sass": "^4.0.1",
+    "gulp-sass": "^6.0.1",
     "gulp-shell": "^0.6.5",
     "gulp-uglify": "^3.0.0",
     "gulp-useref-plus": "0.0.8",
@@ -46,7 +46,7 @@
     "inuit-normalize": "^4.1.1",
     "inuit-reset": "^0.1.1",
     "material-prism-theme": "^0.1.0",
-    "npm": "^6.5.0",
+    "npm": "^11.4.2",
     "videojs-youtube": "^2.4.1",
     "vitis-frontend": "git+https://github.com/vitisevents/vitis-frontend.git"
   }
